@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="root" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="DefaultWindow" name="Demo8" >
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{2,0}}" />
+            <Property name="MaxSize" value="{{1,0},{2,0}}" />
+            <Window type="TaharezLook/LargeVerticalScrollbar" name="ViewScroll" >
+                <Property name="Area" value="{{0,0},{0,0},{0.03,0},{0.75,0}}" />
+                <Property name="PageSize" value="1" />
+                <Property name="StepSize" value="0.01" />
+                <Property name="OverlapSize" value="0.5" />
+                <Property name="TooltipText" value="This scrollbar will scroll the window layout." />
+                <Property name="DocumentSize" value="2" />
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="TooltipText" value="This scrollbar will scroll the window layout." />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="TooltipText" value="This scrollbar will scroll the window layout." />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_thumb__" >
+                    <Property name="TooltipText" value="This scrollbar will scroll the window layout." />
+                </AutoWindow>
+            </Window>
+            <Window type="TaharezLook/FrameWindow" name="Window1" >
+                <Property name="Area" value="{{0.05,0},{0.1,0},{0.45,0},{0.4,0}}" />
+                <Property name="Text" value="Demo 8 - Listbox Demo" />
+                <Property name="MaxSize" value="{{0.5,0},{1,0}}" />
+                <Property name="MinSize" value="{{0,128},{0,128}}" />
+                <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                <AutoWindow namePath="__auto_titlebar__" >
+                    <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_closebutton__" >
+                    <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                </AutoWindow>
+                <Window type="TaharezLook/Listbox" name="Listbox" >
+                    <Property name="Area" value="{{0.05,0},{0.05,0},{0.95,0},{0.43,0}}" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="Listbox containing the items you have added." />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Listbox containing the items you have added." />
+                        </AutoWindow>
+                    </AutoWindow>
+                </Window>
+                <Window type="TaharezLook/StaticText" name="Controls" >
+                    <Property name="Area" value="{{0.05,0},{0.45,0},{0.95,0},{0.95,0}}" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                    <Property name="HorzScrollPageSize" value="668" />
+                    <Property name="VertScrollPageSize" value="299" />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Window shows a simple Listbox demo." />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <Window type="TaharezLook/HorizontalScrollbar" name="Red" >
+                        <Property name="Area" value="{{0.05,0},{0.05,0},{0.95,0},{0.11,0}}" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="PageSize" value="0.0625" />
+                        <Property name="StepSize" value="0.00392" />
+                        <Property name="OverlapSize" value="0.00392" />
+                        <Property name="TooltipText" value="Slider to adjust the red colour component." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Slider to adjust the red colour component." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Slider to adjust the red colour component." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Slider to adjust the red colour component." />
+                        </AutoWindow>
+                    </Window>
+                    <Window type="TaharezLook/HorizontalScrollbar" name="Green" >
+                        <Property name="Area" value="{{0.05,0},{0.12,0},{0.95,0},{0.18,0}}" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="PageSize" value="0.0625" />
+                        <Property name="StepSize" value="0.00392" />
+                        <Property name="OverlapSize" value="0.00392" />
+                        <Property name="TooltipText" value="Slider to adjust the green colour component." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Slider to adjust the green colour component." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Slider to adjust the green colour component." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Slider to adjust the green colour component." />
+                        </AutoWindow>
+                    </Window>
+                    <Window type="TaharezLook/HorizontalScrollbar" name="Blue" >
+                        <Property name="Area" value="{{0.05,0},{0.19,0},{0.95,0},{0.25,0}}" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="PageSize" value="0.0625" />
+                        <Property name="StepSize" value="0.00392" />
+                        <Property name="OverlapSize" value="0.00392" />
+                        <Property name="TooltipText" value="Slider to adjust the blue colour component." />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Slider to adjust the blue colour component." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Slider to adjust the blue colour component." />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Slider to adjust the blue colour component." />
+                        </AutoWindow>
+                    </Window>
+                    <Window type="TaharezLook/StaticImage" name="ColourSample" >
+                        <Property name="Area" value="{{0.05,0},{0.26,0},{0.95,0},{0.36,0}}" />
+                        <Property name="Image" value="TaharezLook/MultiListSelectionBrush" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="TooltipText" value="Shows a sample of the selected colour." />
+                        <Property name="ImageColours" value="tl:00000000 tr:00000000 bl:00000000 br:00000000" />
+                    </Window>
+                    <Window type="TaharezLook/Editbox" name="Editbox" >
+                        <Property name="Area" value="{{0.05,0},{0.38,0},{0.65,0},{0.53,0}}" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="TooltipText" value="Enter the text for a new Listbox item here." />
+                    </Window>
+                    <Window type="TaharezLook/Button" name="Add" >
+                        <Property name="Area" value="{{0.68,0},{0.38,0},{0.98,0},{0.53,0}}" />
+                        <Property name="Text" value="Add" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="TooltipText" value="Adds a new item to the Listbox." />
+                    </Window>
+                    <Window type="TaharezLook/StaticText" name="ins1" >
+                        <Property name="Area" value="{{0.05,0},{0.55,0},{0.95,0},{0.95,0}}" />
+                        <Property name="Text" value="Use this panel to add items.  The scrollbars change the selection colour." />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="TooltipText" value="Information panel." />
+                        <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                        <AutoWindow namePath="__auto_hscrollbar__" >
+                            <Property name="TooltipText" value="Information panel." />
+                            <AutoWindow namePath="__auto_incbtn__" >
+                                <Property name="TooltipText" value="Information panel." />
+                            </AutoWindow>
+                            <AutoWindow namePath="__auto_decbtn__" >
+                                <Property name="TooltipText" value="Information panel." />
+                            </AutoWindow>
+                            <AutoWindow namePath="__auto_thumb__" >
+                                <Property name="TooltipText" value="Information panel." />
+                            </AutoWindow>
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_vscrollbar__" >
+                            <Property name="TooltipText" value="Information panel." />
+                            <AutoWindow namePath="__auto_incbtn__" >
+                                <Property name="TooltipText" value="Information panel." />
+                            </AutoWindow>
+                            <AutoWindow namePath="__auto_decbtn__" >
+                                <Property name="TooltipText" value="Information panel." />
+                            </AutoWindow>
+                            <AutoWindow namePath="__auto_thumb__" >
+                                <Property name="TooltipText" value="Information panel." />
+                            </AutoWindow>
+                        </AutoWindow>
+                    </Window>
+                </Window>
+            </Window>
+            <Window type="TaharezLook/FrameWindow" name="Window2" >
+                <Property name="Area" value="{{0.55,0},{0.1,0},{0.95,0},{0.4,0}}" />
+                <Property name="Text" value="Demo 8 - Information Window" />
+                <Property name="MaxSize" value="{{0.5,0},{1,0}}" />
+                <Property name="MinSize" value="{{0,128},{0,128}}" />
+                <Property name="TooltipText" value="Contains some StaticText information panels" />
+                <AutoWindow namePath="__auto_titlebar__" >
+                    <Property name="TooltipText" value="Contains some StaticText information panels" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_closebutton__" >
+                    <Property name="TooltipText" value="Contains some StaticText information panels" />
+                </AutoWindow>
+                <Window type="TaharezLook/StaticText" name="Info" >
+                    <Property name="Area" value="{{0.05,0},{0.05,0},{0.95,0},{0.35,0}}" />
+                    <Property name="Text" value="The panel below gives some information about the item under the mouse." />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="Contains some StaticText information panels" />
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                    <Property name="HorzScrollPageSize" value="668" />
+                    <Property name="VertScrollPageSize" value="175" />
+                    <Property name="HorzScrollDocumentSize" value="636" />
+                    <Property name="VertScrollDocumentSize" value="41.0547" />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                    </AutoWindow>
+                </Window>
+                <Window type="TaharezLook/StaticText" name="Tips" >
+                    <Property name="Area" value="{{0.05,0},{0.4,0},{0.95,0},{0.95,0}}" />
+                    <Property name="Text" value="We removed this, and now use proper tool tips instead!" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="Contains some StaticText information panels" />
+                    <Property name="HorzFormatting" value="WordWrapCentreAligned" />
+                    <Property name="HorzScrollPageSize" value="668" />
+                    <Property name="VertScrollPageSize" value="330" />
+                    <Property name="HorzScrollDocumentSize" value="532" />
+                    <Property name="VertScrollDocumentSize" value="20.5273" />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_thumb__" >
+                            <Property name="TooltipText" value="Contains some StaticText information panels" />
+                        </AutoWindow>
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

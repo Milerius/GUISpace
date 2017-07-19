@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="DefaultWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{0.999998,0},{0.999999,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AlfiskoSkin/FrameWindow" name="ConsoleFrame" >
+            <Property name="Area" value="{{-0.0125,1033},{0,669},{0.2875,1087},{0.3,753}}" />
+            <Property name="Text" value="Joueur1" />
+            <Property name="Visible" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="AlwaysOnTop" value="false" />
+            </AutoWindow>
+            <Window type="AlfiskoSkin/MultiLineEditbox" name="EditBoxFrom" >
+                <Property name="Area" value="{{0,9},{0,11},{0,598},{0,297}}" />
+                <Property name="Text" >
+</Property>
+                <Property name="ReadOnly" value="true" />
+            </Window>
+            <Window type="AlfiskoSkin/Editbox" name="EditBoxTo" >
+                <Property name="Area" value="{{0,7},{0,312},{0,476},{0,344}}" />
+            </Window>
+            <Window type="AlfiskoSkin/Button" name="Submit" >
+                <Property name="Area" value="{{0,504},{0,311},{0,600},{0,343}}" />
+                <Property name="Text" value="Submit" />
+            </Window>
+        </Window>
+        <Window type="AlfiskoSkin/FrameWindow" name="ChatFrame" >
+            <Property name="Area" value="{{0.854688,0},{0.105556,0},{0.999479,0},{1.00185,0}}" />
+            <Property name="Text" value="Chat" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="AlfiskoSkin/MultiLineEditbox" name="Friend" >
+                <Property name="Area" value="{{0,0},{0,0},{0,256},{0.71011,256}}" />
+                <Property name="Text" >
+</Property>
+                <Property name="ReadOnly" value="true" />
+            </Window>
+        </Window>
+        <Window type="AlfiskoSkin/FrameWindow" name="PlayFrame" >
+            <Property name="Area" value="{{0,-2},{0,456},{0.3,-362},{0.3,319}}" />
+            <Property name="Text" value="   Play" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="AlfiskoSkin/Button" name="Mode1" >
+                <Property name="Area" value="{{0,7},{0,7},{0,190},{0,36}}" />
+                <Property name="Text" value="1 VS 1" />
+            </Window>
+            <Window type="AlfiskoSkin/Button" name="Mode2" >
+                <Property name="Area" value="{{0,6},{0,52},{0,189},{0,81}}" />
+                <Property name="Text" value="2 VS 2" />
+            </Window>
+            <Window type="AlfiskoSkin/Button" name="Mode3" >
+                <Property name="Area" value="{{0,7},{0,96},{0,190},{0,125}}" />
+                <Property name="Text" value="3 vs 3" />
+            </Window>
+        </Window>
+        <Window type="AlfiskoSkin/FrameWindow" name="PresFrame" >
+            <Property name="Area" value="{{0,675},{0,230},{0.3,509},{0.3,311}}" />
+            <Property name="Text" value="Présentation Mode de Jeu" />
+            <Property name="Visible" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="AlfiskoSkin/MultiLineEditbox" name="BoxPres" >
+                <Property name="Area" value="{{0,10},{0,10},{0,381},{0,345}}" />
+                <Property name="Text" >
+</Property>
+                <Property name="ReadOnly" value="true" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

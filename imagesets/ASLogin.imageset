@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="AS/Login_Background.png" name="ASLogin" nativeHorzRes="1920" nativeVertRes="1080" version="2">
+    <Image height="930" name="LoginBackground" width="1443" xPos="0" yPos="0" />
+</Imageset>

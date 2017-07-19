@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="Root" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="OD/StaticImage" name="BackGround" >
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="Image" value="Unknown/IndieLogo" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="true" />
+            <Property name="BackgroundEnabled" value="true" />
+            <Window type="OD/FrameWindow" name="Login Window" >
+                <Property name="Area" value="{{0,602},{0,310},{0,1393},{0,857}}" />
+                <Property name="Text" value="Login Window" />
+                <Property name="Alpha" value="0.7" />
+                <Property name="DragMovingEnabled" value="false" />
+                <AutoWindow namePath="__auto_titlebar__" >
+                    <Property name="AlwaysOnTop" value="false" />
+                    <Property name="DraggingEnabled" value="false" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_closebutton__" >
+                    <Property name="AlwaysOnTop" value="true" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <Window type="OD/MainMenuButton" name="MainMenuButton" >
+                    <Property name="Area" value="{{-0.00379267,453},{0.00731261,396},{0,701},{0,502}}" />
+                    <Property name="Text" value="Quit" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+                <Window type="OD/MainMenuButton" name="MainMenuButton2" >
+                    <Property name="Area" value="{{0,52},{0,398},{0,309},{0,498}}" />
+                    <Property name="Text" value="Connect" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+                <Window type="OD/Editbox" name="Editbox" >
+                    <Property name="Area" value="{{0,253},{0,181},{0,559},{0,231}}" />
+                </Window>
+                <Window type="OD/Editbox" name="Editbox2" >
+                    <Property name="Area" value="{{0,256},{0,280},{0,562},{0,330}}" />
+                </Window>
+                <Window type="OD/Checkbox" name="Checkbox" >
+                    <Property name="Area" value="{{0,592},{0,182},{0.0353982,643},{0,224}}" />
+                    <Property name="Text" value=" Save" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+                <Window type="OD/StaticText" name="StaticText" >
+                    <Property name="Area" value="{{0,142},{0,183},{1,-555},{1,-321}}" />
+                    <Property name="Text" value="Login" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="FrameEnabled" value="true" />
+                    <Property name="BackgroundEnabled" value="true" />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="VerticalScrollbar" value="true" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                    </AutoWindow>
+                </Window>
+                <Window type="OD/StaticText" name="StaticText2" >
+                    <Property name="Area" value="{{0,137},{0,281},{1,-553},{1,-222}}" />
+                    <Property name="Text" value="Password" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="FrameEnabled" value="true" />
+                    <Property name="BackgroundEnabled" value="true" />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="VerticalScrollbar" value="true" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

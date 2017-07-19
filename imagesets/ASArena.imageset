@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="AS/arena.png" name="ASArena" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="682" name="Arena" width="1092" xPos="51" yPos="360" />
+</Imageset>

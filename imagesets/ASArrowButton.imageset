@@ -1,0 +1,8 @@
+<Imageset autoScaled="" imagefile="AS/ArrowButton.png" name="ASArrow" nativeHorzRes="1600" nativeVertRes="1200" version="2">
+    <Image height="207" name="RightArrowPress" width="140" xPos="139" yPos="60" />
+    <Image height="207" name="RightArrowHover" width="140" xPos="311" yPos="56" />
+    <Image height="207" name="RightArrowBackground" width="140" xPos="476" yPos="51" />
+    <Image height="207" name="LeftArrowPress" width="140" xPos="122" yPos="280" />
+    <Image height="207" name="LeftArrowHover" width="140" xPos="306" yPos="277" />
+    <Image height="207" name="LeftArrowBackground" width="140" xPos="484" yPos="287" />
+</Imageset>

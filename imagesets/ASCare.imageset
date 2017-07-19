@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="AS/carefull.png" name="ASCare" nativeHorzRes="1600" nativeVertRes="1200" version="2">
+    <Image height="50" name="Care" width="27" xPos="787" yPos="576" />
+</Imageset>

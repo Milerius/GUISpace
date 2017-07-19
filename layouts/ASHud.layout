@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Hud" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="ASHudFinal/Hud" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/InvisibleButton" name="SpellButton" >
+            <Property name="Area" value="{{0,1154},{0,1015},{0,1205},{0,1067}}" />
+            <Property name="HoverImage" value="ASHudButtons/SpellHover" />
+            <Property name="NormalImage" value="ASHudButtons/SpellNormal" />
+            <Property name="PushedImage" value="ASHudButtons/SpellPressed" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="ProfilButton" >
+            <Property name="Area" value="{{0,751},{0,984},{0,802},{0,1036}}" />
+            <Property name="HoverImage" value="ASHudButtons/ProfilHover" />
+            <Property name="NormalImage" value="ASHudButtons/ProfilNormal" />
+            <Property name="PushedImage" value="ASHudButtons/ProfilPressed" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="PlusButton" >
+            <Property name="Area" value="{{0,930},{0,791},{0,957},{0,813}}" />
+            <Property name="HoverImage" value="ASHudButtons/PlusHover" />
+            <Property name="NormalImage" value="ASHudButtons/PlusNormal" />
+            <Property name="PushedImage" value="ASHudButtons/PlusPressed" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="ParamButton" >
+            <Property name="Area" value="{{0,1119},{0,985},{0,1170},{0,1037}}" />
+            <Property name="HoverImage" value="ASHudButtons/ParamHover" />
+            <Property name="NormalImage" value="ASHudButtons/ParamNormal" />
+            <Property name="PushedImage" value="ASHudButtons/ParamPressed" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="MinusButton" >
+            <Property name="Area" value="{{0,964},{0,792},{0,991},{0,815}}" />
+            <Property name="HoverImage" value="ASHudButtons/MinusHover" />
+            <Property name="NormalImage" value="ASHudButtons/MinusNormal" />
+            <Property name="PushedImage" value="ASHudButtons/MinusP" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="InvisibleButton" >
+            <Property name="Area" value="{{0,1239},{0,863},{0,1332},{0,957}}" />
+            <Property name="HoverImage" value="ASHudButtons/FireSpellHover" />
+            <Property name="NormalImage" value="ASHudButtons/FireSpellNormal" />
+            <Property name="PushedImage" value="ASHudButtons/FireSpellPressed" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/Editbox" name="ChatSend" >
+            <Property name="Area" value="{{0,203},{0,1030},{0,704},{0,1080}}" />
+            <Property name="Font" value="arialbold" />
+        </Window>
+        <Window type="AS/MultiLineEditbox" name="ChatReceive" >
+            <Property name="Area" value="{{0,203},{0,831},{0,704},{0,1028}}" />
+            <Property name="Font" value="arialbold" />
+            <Property name="Text" >
+</Property>
+            <AutoWindow namePath="__auto_hscrollbar__" >
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+            </AutoWindow>
+            <AutoWindow namePath="__auto_vscrollbar__" >
+                <Property name="VerticalScrollbar" value="true" />
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="Generic/Image" name="PlayerInfo" >
+            <Property name="Area" value="{{0,-13},{0,4},{0,591},{0,296}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="Personnage" >
+                <Property name="Area" value="{{0,126},{0,37},{0,552},{0,161}}" />
+                <Property name="Image" value="ASUI/PlayerInfo" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="RiseOnClickEnabled" value="false" />
+                <Window type="AS/LifeBar" name="LifeBar" >
+                    <Property name="Area" value="{{0,30},{0,25},{0,410},{0,66}}" />
+                    <Property name="StepSize" value="0.01" />
+                    <Property name="CurrentProgress" value="1" />
+                    <Window type="Generic/Label" name="Label" >
+                        <Property name="Area" value="{{0,16},{0,6},{0,144},{0,38}}" />
+                        <Property name="Font" value="arialbold" />
+                        <Property name="Text" value="100/100" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="NormalTextColour" value="FFA98B79" />
+                    </Window>
+                </Window>
+                <Window type="AS/ManaBar" name="ManaBar" >
+                    <Property name="Area" value="{{0,25},{0,65},{0,398},{0,99}}" />
+                    <Property name="StepSize" value="0.01" />
+                    <Property name="CurrentProgress" value="1" />
+                    <Window type="Generic/Label" name="Label" >
+                        <Property name="Area" value="{{0,17},{0,3},{0,145},{0,35}}" />
+                        <Property name="Font" value="arialbold" />
+                        <Property name="Text" value="100/100" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="NormalTextColour" value="FFA98B79" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window type="Generic/Image" name="Bar" >
+                <Property name="Area" value="{{0,18},{0,0},{0,176},{0,167}}" />
+                <Property name="Image" value="ASUI/Circle" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="RiseOnClickEnabled" value="false" />
+            </Window>
+            <Window type="Generic/Image" name="Level" >
+                <Property name="Area" value="{{0,114},{0,116},{0,189},{0,189}}" />
+                <Property name="Image" value="ASUI/Level" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="Generic/Label" name="LevelLabel" >
+                    <Property name="Area" value="{{0,14},{0,22},{0,59},{0,54}}" />
+                    <Property name="Font" value="KhmerUIb-18" />
+                    <Property name="Text" value="1" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FF877263" />
+                </Window>
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="Timer" >
+            <Property name="Area" value="{{0,521},{0,1},{0,1399},{0,179}}" />
+            <Property name="Alpha" value="0.9" />
+            <Property name="Image" value="ASUI/Timer" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Countdown" >
+                <Property name="Area" value="{{0,351},{0,83},{0,528},{0,139}}" />
+                <Property name="Font" value="Thailandesa-28" />
+                <Property name="Text" value="03 : 00" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="InheritsAlpha" value="false" />
+                <Property name="NormalTextColour" value="FFC79E60" />
+            </Window>
+            <Window type="Generic/Label" name="TeamA" >
+                <Property name="Area" value="{{0,99},{0,92},{0,259},{0,124}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Equipe A : 0" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="HorzFormatting" value="LeftAligned" />
+                <Property name="NormalTextColour" value="FF917A67" />
+            </Window>
+            <Window type="Generic/Label" name="TeamB" >
+                <Property name="Area" value="{{0,622},{0,93},{0,784},{0,125}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Equipe B : 0" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF917A67" />
+            </Window>
+        </Window>
+        <Window type="AS/FrameWindow" name="optionWindow" >
+            <Property name="Area" value="{{0,700},{0,175},{0.3,666},{0.3,483}}" />
+            <Property name="Text" value="OPTION" />
+            <Property name="Visible" value="false" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF707070 tr:FF707070 bl:FF707070 br:FF707070" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="AS/Checkbox" name="SkyCheckBox" >
+                <Property name="Area" value="{{0,147},{0,20},{0,372},{0,70}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="  Sky" />
+                <Property name="HoverTextColour" value="FFC79E60" />
+                <Property name="NormalTextColour" value="FF917A71" />
+                <Property name="PushedTextColour" value="FFC79E60" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/Checkbox" name="WaterCheckBox" >
+                <Property name="Area" value="{{0,149},{0,90},{0,374},{0,140}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="  Water" />
+                <Property name="HoverTextColour" value="FFC79E60" />
+                <Property name="NormalTextColour" value="FF917A71" />
+                <Property name="PushedTextColour" value="FFC79E60" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/Checkbox" name="RainCheckBox" >
+                <Property name="Area" value="{{0,147},{0,160},{0,372},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="  Rain" />
+                <Property name="HoverTextColour" value="FFC79E60" />
+                <Property name="NormalTextColour" value="FF917A71" />
+                <Property name="PushedTextColour" value="FFC79E60" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/Checkbox" name="HudCheckBox" >
+                <Property name="Area" value="{{0,148},{0,230},{0,373},{0,280}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="  HUD" />
+                <Property name="HoverTextColour" value="FFC79E60" />
+                <Property name="NormalTextColour" value="FF917A71" />
+                <Property name="PushedTextColour" value="FFC79E60" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/InvisibleButton" name="MusicPlusButton" >
+                <Property name="Area" value="{{0,374},{0,307},{0,409},{0,342}}" />
+                <Property name="HoverImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="NormalImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="PushedImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="DisabledImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="WantsMultiClickEvents" value="false" />
+                <Window type="AS/InvisibleButton" name="InvisibleButton" >
+                    <Property name="Area" value="{{0,3},{0,1},{0,33},{0,31}}" />
+                    <Property name="HoverImage" value="ASHudButtons/PlusHover" />
+                    <Property name="NormalImage" value="ASHudButtons/PlusNormal" />
+                    <Property name="PushedImage" value="ASHudButtons/PlusPressed" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+            </Window>
+            <Window type="AS/InvisibleButton" name="MusicMinusButton" >
+                <Property name="Area" value="{{0,280},{0,307},{0,315},{0,342}}" />
+                <Property name="HoverImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="NormalImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="PushedImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="DisabledImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="WantsMultiClickEvents" value="false" />
+                <Window type="AS/InvisibleButton" name="InvisibleButton" >
+                    <Property name="Area" value="{{0,3},{0,3},{0,32},{0,33}}" />
+                    <Property name="HoverImage" value="ASHudButtons/MinusHover" />
+                    <Property name="NormalImage" value="ASHudButtons/MinusNormal" />
+                    <Property name="PushedImage" value="ASHudButtons/MinusPressed" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+            </Window>
+            <Window type="Generic/Label" name="MusicOption" >
+                <Property name="Area" value="{{0,67},{0,300},{0,195},{0,350}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Music" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF917A71" />
+            </Window>
+            <Window type="Generic/Label" name="MusicLevel" >
+                <Property name="Area" value="{{0,313},{0,300},{0,372},{0,350}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="100" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF917A71" />
+            </Window>
+            <Window type="Generic/Label" name="SfxOption" >
+                <Property name="Area" value="{{0,40},{0,370},{0,239},{0,420}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Sound Effect" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF917A71" />
+            </Window>
+            <Window type="AS/InvisibleButton" name="SfxPlusButton" >
+                <Property name="Area" value="{{0,374},{0,377},{0,409},{0,412}}" />
+                <Property name="HoverImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="NormalImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="PushedImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="DisabledImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="WantsMultiClickEvents" value="false" />
+                <Window type="AS/InvisibleButton" name="InvisibleButton" >
+                    <Property name="Area" value="{{0,3},{0,1},{0,33},{0,31}}" />
+                    <Property name="HoverImage" value="ASHudButtons/PlusHover" />
+                    <Property name="NormalImage" value="ASHudButtons/PlusNormal" />
+                    <Property name="PushedImage" value="ASHudButtons/PlusPressed" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+            </Window>
+            <Window type="AS/InvisibleButton" name="SfxMinusButton" >
+                <Property name="Area" value="{{0,280},{0,377},{0,315},{0,412}}" />
+                <Property name="HoverImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="NormalImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="PushedImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="DisabledImage" value="ASToggle/RadioButtonNormal" />
+                <Property name="WantsMultiClickEvents" value="false" />
+                <Window type="AS/InvisibleButton" name="InvisibleButton" >
+                    <Property name="Area" value="{{0,3},{0,3},{0,32},{0,33}}" />
+                    <Property name="HoverImage" value="ASHudButtons/MinusHover" />
+                    <Property name="NormalImage" value="ASHudButtons/MinusNormal" />
+                    <Property name="PushedImage" value="ASHudButtons/MinusPressed" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+            </Window>
+            <Window type="Generic/Label" name="SfxLevel" >
+                <Property name="Area" value="{{0,313},{0,370},{0,372},{0,420}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="100" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF917A71" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

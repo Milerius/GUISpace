@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="ASBackgroundLoading/Background" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/ProgressBar" name="ProgressBar" >
+            <Property name="Area" value="{{0,0},{0,1026},{0,1920},{0,1074}}" />
+            <Property name="StepSize" value="0.01" />
+            <Property name="CurrentProgress" value="0.01" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,6 @@
+<Imageset autoScaled="" imagefile="AS/ASSlider.png" name="ASSlider" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="30" name="SliderPressed" width="22" xPos="99" yPos="101" />
+    <Image height="30" name="SliderNormal" width="22" xPos="134" yPos="100" />
+    <Image height="30" name="SliderHovered" width="22" xPos="172" yPos="100" />
+    <Image height="11" name="SliderBackground" width="248" xPos="230" yPos="65" />
+</Imageset>

@@ -1,0 +1,24 @@
+<Imageset autoScaled="" imagefile="AS/chat.png" name="ASChat" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="30" name="EditBoxMiddle" width="48" xPos="145" yPos="30" />
+    <Image height="13" name="EditBoxTopEdge" width="48" xPos="145" yPos="17" />
+    <Image height="13" name="EditBoxBottomEdge" width="48" xPos="145" yPos="60" />
+    <Image height="30" name="EditBoxLeftEdge" width="8" xPos="137" yPos="30" />
+    <Image height="30" name="EditBoxRightEdge" width="8" xPos="193" yPos="30" />
+    <Image height="13" name="EditBoxBottomRight" width="8" xPos="193" yPos="60" />
+    <Image height="13" name="EditBoxBottomLeft" width="8" xPos="137" yPos="60" />
+    <Image height="13" name="EditBoxTopLeft" width="8" xPos="137" yPos="17" />
+    <Image height="13" name="EditBoxTopRight" width="8" xPos="193" yPos="17" />
+    <Image height="44" name="MultiLineEditBoxMiddle" width="48" xPos="325" yPos="45" />
+    <Image height="44" name="MultiLineEditBoxLeft" width="31" xPos="294" yPos="45" />
+    <Image height="44" name="MultiLineEditBoxRight" width="31" xPos="373" yPos="45" />
+    <Image height="33" name="MultiLineEditBoxTop" width="48" xPos="325" yPos="12" />
+    <Image height="33" name="MultiLineEditBoxBottom" width="48" xPos="325" yPos="89" />
+    <Image height="33" name="MultiLineEditBoxBottomLeft" width="31" xPos="294" yPos="89" />
+    <Image height="33" name="MultiLineEditBoxBottomRight" width="31" xPos="373" yPos="89" />
+    <Image height="33" name="MultiLineEditBoxTopRight" width="31" xPos="373" yPos="12" />
+    <Image height="33" name="MultiLineEditBoxTopLeft" width="31" xPos="294" yPos="12" />
+    <Image height="44" name="SendNormal" width="104" xPos="287" yPos="211" />
+    <Image height="64" name="Arrow" width="20" xPos="240" yPos="21" />
+    <Image height="25" name="Cross" width="6" xPos="102" yPos="38" />
+    <Image height="44" name="SendHover" width="104" xPos="288" yPos="271" />
+</Imageset>

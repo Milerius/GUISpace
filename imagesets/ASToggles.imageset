@@ -1,0 +1,10 @@
+<Imageset autoScaled="" imagefile="AS/Toggles.png" name="ASToggle" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="22" name="CheckboxHover" width="22" xPos="196" yPos="7" />
+    <Image height="21" name="CheckboxNormal" width="22" xPos="196" yPos="50" />
+    <Image height="16" name="CheckboxMark" width="17" xPos="76" yPos="52" />
+    <Image height="32" name="RadioButtonHover" width="36" xPos="134" yPos="4" />
+    <Image height="32" name="RadioButtonNormal" width="35" xPos="135" yPos="44" />
+    <Image height="19" name="RadioButtonMark" width="19" xPos="75" yPos="8" />
+    <Image height="28" name="BigCheckboxNormal" width="30" xPos="3" yPos="44" />
+    <Image height="28" name="BigCheckboxHover" width="30" xPos="3" yPos="4" />
+</Imageset>

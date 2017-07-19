@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GUIScheme name="ASSkin" version="5">
+	<Imageset filename="ASLogin.imageset" name="ASLogin" />
+	<Imageset filename="ASFoot.imageset" name="ASFoot" />
+	<Imageset filename="ASOpenWorld.imageset" name="ASOpenWorld" />
+	<Imageset filename="ASLargeButtons.imageset" name="ASLargeButtons" />
+	<Imageset filename="ASEditBox.imageset" name="ASEditBox" />
+	<Imageset filename="ASToggles.imageset" name="ASToggle" />
+	<Imageset filename="ASIconsMain.imageset" name="ASIconsMain" /> 
+	<Imageset filename="ASMouse.imageset" name="ASMouse" />
+	<Imageset filename="ASWindow.imageset" name="ASWindow" />
+	<Imageset filename="ASHeaderWindow.imageset" name="ASHeader" />
+	<Imageset filename="ASSlider.imageset" name="ASSlider" />
+	<Imageset filename="ASChat.imageset" name="ASChat" />
+	<Imageset filename="ASMainMenu.imageset" name="ASMainMenu" />
+	<Imageset filename="ASOrangeButtons.imageset" name="ASOrange" />
+	<Imageset filename="ASProgressBar.imageset" name="ASBackgroundLoading" />
+	<Imageset filename="ASLoadingBar.imageset" name="ASLoadingBar" />
+	<Imageset filename="ASCare.imageset" name="ASCare" />
+	<Imageset filename="ASArena.imageset" name="ASArena" />
+	<Imageset filename="ASCopy.imageset" name="ASCopy" />
+	<Imageset filename="ASArrowButton.imageset" name="ASArrow" />
+	<Imageset filename="ASSlot.imageset" name="ASHud" />
+	<Imageset filename="ASHud.imageset" name="ASHudFinal" />
+	<Imageset filename="ASHudButtons.imageset" name="ASHudButtons" />
+	<Imageset filename="ASUI.imageset" name="ASUI" />
+	<Imageset filename="AlfiskoSkin.imageset" />
+	<Font filename="fonts/LiberationSans-10.font" name="LiberationSans-10" />
+    <Font filename="fonts/MedievalSharp-10.font" name="MedievalSharp-10" />
+    <Font filename="fonts/MedievalSharp-12.font" name="MedievalSharp-12" />
+	<Font filename="KhmeirUIb.font" name="KhmerUIb" />
+	<Font filename="KhmeirUIb-18.font" name="KhmerUIb-18" />
+	<Font filename="KhmeirUI.font" name="KhmerUI" />
+	<Font filename="THAILAND.font" name="Thailandesa" />
+	<Font filename="arialbold.font" name="arialbold" />
+	<Font filename="THAILAND-28.font" name="Thailandesa-28" />
+	<LookNFeel filename="AS.looknfeel" />
+	<FalagardMapping lookNFeel="AS/LargeButton" renderer="Core/Button" targetType="CEGUI/PushButton" windowType="AS/LargeButton" />
+	<FalagardMapping lookNFeel="AS/OrangeButton" renderer="Core/Button" targetType="CEGUI/PushButton" windowType="AS/OrangeButton" />
+	<FalagardMapping lookNFeel="AS/Editbox" renderer="Core/Editbox" targetType="CEGUI/Editbox" windowType="AS/Editbox" />
+	<FalagardMapping lookNFeel="AS/ChatEditbox" renderer="Core/Editbox" targetType="CEGUI/Editbox" windowType="AS/ChatEditbox" />
+	<FalagardMapping lookNFeel="AS/Checkbox" renderer="Core/ToggleButton" targetType="CEGUI/ToggleButton" windowType="AS/Checkbox" />
+    <FalagardMapping lookNFeel="AS/Titlebar" renderer="Core/Titlebar" targetType="CEGUI/Titlebar" windowType="AS/Titlebar" />
+	<FalagardMapping lookNFeel="AS/FrameWindow" renderer="Core/FrameWindow" targetType="CEGUI/FrameWindow" windowType="AS/FrameWindow"/>
+	<FalagardMapping lookNFeel="AS/HorizontalSliderThumb" renderer="Core/Button" targetType="CEGUI/Thumb" windowType="AS/HorizontalSliderThumb" />
+	<FalagardMapping lookNFeel="AS/MultiLineEditbox" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="AS/MultiLineEditbox" />
+	<FalagardMapping lookNFeel="AS/InvisibleButton" renderer="Core/Button" targetType="CEGUI/PushButton" windowType="AS/InvisibleButton" />
+	<FalagardMapping lookNFeel="AS/VerticalScrollbar" renderer="Core/Scrollbar" targetType="CEGUI/Scrollbar" windowType="AS/VerticalScrollbar" />
+    <FalagardMapping lookNFeel="AS/HorizontalScrollbar" renderer="Core/Scrollbar" targetType="CEGUI/Scrollbar" windowType="AS/HorizontalScrollbar" />
+    <FalagardMapping lookNFeel="AS/VerticalScrollbarThumb" renderer="Core/Button" targetType="CEGUI/Thumb" windowType="AS/VerticalScrollbarThumb" />
+    <FalagardMapping lookNFeel="AS/HorizontalScrollbarThumb" renderer="Core/Button" targetType="CEGUI/Thumb" windowType="AS/HorizontalScrollbarThumb" />
+	<FalagardMapping lookNFeel="AS/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="AS/ProgressBar" />
+	<FalagardMapping lookNFeel="AS/LifeBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="AS/LifeBar" />
+	<FalagardMapping lookNFeel="AS/ManaBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="AS/ManaBar" />
+</GUIScheme>

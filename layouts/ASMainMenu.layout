@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Root" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="ASMainMenu/MenuBG" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/OrangeButton" name="PlayButton" >
+            <Property name="Area" value="{{0,783},{0,168},{0,1138},{0,282}}" />
+            <Property name="Font" value="Thailandesa-28" />
+            <Property name="Text" value="PLAY" />
+            <Property name="HoverTextColour" value="FF271A1A" />
+            <Property name="NormalTextColour" value="FF271A1A" />
+            <Property name="PushedTextColour" value="FF271A1A" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="Generic/Image" name="Separator1" >
+            <Property name="Area" value="{{0,1526},{0,5},{0,1572},{0,66}}" />
+            <Property name="Image" value="ASIconsMain/Separator" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="Separator2" >
+            <Property name="Area" value="{{0,1777},{0,8},{0,1823},{0,69}}" />
+            <Property name="Image" value="ASIconsMain/Separator" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="UserNameButton" >
+            <Property name="Area" value="{{0,1551},{0,12},{0,1799},{0,64}}" />
+            <Property name="Font" value="KhmerUIb-18" />
+            <Property name="Text" value="PlayerName" />
+            <Property name="HoverImage" value="ASIconsMain/Hover" />
+            <Property name="HoverTextColour" value="FFBD9E89" />
+            <Property name="NormalTextColour" value="FF5D5045" />
+            <Property name="PushedTextColour" value="FF5D5045" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/FrameWindow" name="QuitMenu" >
+            <Property name="Area" value="{{0,727},{0,314},{0.3,641},{0.3,328}}" />
+            <Property name="Text" value="Disconnect " />
+            <Property name="Visible" value="false" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF53463C tr:FF53463C bl:FF53463C br:FF53463C" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,37},{0,25},{0,415},{0,92}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Back to the login menu ?" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFCBA262" />
+            </Window>
+            <Window type="AS/LargeButton" name="No" >
+                <Property name="Area" value="{{0,260},{0,178},{0,380},{0,228}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="NO" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/LargeButton" name="Yes" >
+                <Property name="Area" value="{{0,65},{0,177},{0,185},{0,227}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="YES" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

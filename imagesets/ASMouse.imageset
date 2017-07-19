@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="../RPG and MMO UI 3/PNG Files/Cursors/Cursor_Normal.png" name="ASMouse" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="32" name="MouseCursor" width="32" xPos="0" yPos="0" />
+</Imageset>

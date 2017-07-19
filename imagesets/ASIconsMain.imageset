@@ -1,0 +1,9 @@
+<Imageset autoScaled="" imagefile="AS/iconsmenu.png" name="ASIconsMain" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="30" name="QuitHover" width="33" xPos="40" yPos="73" />
+    <Image height="26" name="QuitNormal" width="27" xPos="79" yPos="74" />
+    <Image height="32" name="RowHover" width="28" xPos="120" yPos="73" />
+    <Image height="24" name="RowNormal" width="27" xPos="171" yPos="73" />
+    <Image height="47" name="Separator" width="58" xPos="400" yPos="62" />
+    <Image height="36" name="Hover" width="45" xPos="569" yPos="74" />
+    <Image height="42" name="Hover2" width="58" xPos="483" yPos="66" />
+</Imageset>

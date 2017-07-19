@@ -1,0 +1,20 @@
+<Imageset autoScaled="" imagefile="AS/ASLoadingBarCore.png" name="ASLoadingBar" nativeHorzRes="1920" nativeVertRes="1080" version="2">
+    <Image height="18" name="ProgressFullFill" width="1718" xPos="101" yPos="53" />
+    <Image height="18" name="ProgressFullL" width="101" xPos="0" yPos="53" />
+    <Image height="18" name="ProgressFullR" width="101" xPos="1819" yPos="53" />
+    <Image height="17" name="ProgressFullT" width="1718" xPos="101" yPos="36" />
+    <Image height="17" name="ProgressFullB" width="1718" xPos="101" yPos="71" />
+    <Image height="17" name="ProgressFullBL" width="101" xPos="0" yPos="71" />
+    <Image height="17" name="ProgressFullTL" width="101" xPos="0" yPos="36" />
+    <Image height="17" name="ProgressFullBR" width="101" xPos="1819" yPos="71" />
+    <Image height="17" name="ProgressFullTR" width="101" xPos="1819" yPos="36" />
+    <Image height="17" name="ProgressEmptyB" width="1718" xPos="101" yPos="146" />
+    <Image height="17" name="ProgressEmptyTL" width="101" xPos="0" yPos="111" />
+    <Image height="18" name="ProgressEmptyR" width="101" xPos="1819" yPos="128" />
+    <Image height="18" name="ProgressEmptyL" width="101" xPos="0" yPos="128" />
+    <Image height="17" name="ProgressEmptyT" width="1718" xPos="101" yPos="111" />
+    <Image height="18" name="ProgressEmptyFill" width="1718" xPos="101" yPos="128" />
+    <Image height="17" name="ProgressEmptyBR" width="101" xPos="1819" yPos="146" />
+    <Image height="17" name="ProgressEmptyBL" width="101" xPos="0" yPos="146" />
+    <Image height="17" name="ProgressEmptyTR" width="101" xPos="1819" yPos="111" />
+</Imageset>

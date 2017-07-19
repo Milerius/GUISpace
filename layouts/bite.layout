@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="DefaultWindow" >
+        <Property name="Area" value="{{-0.00989583,30},{-0.0231481,6},{0.990104,30},{0.976852,6}}" />
+        <Property name="Font" value="Thailandesa" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/FrameWindow" name="FrameWindow" >
+            <Property name="Area" value="{{0,140},{0,133},{0.3,5},{0.3,321}}" />
+            <Property name="Text" value="Window Title" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF594A40 tr:FF594A40 bl:FF594A40 br:FF594A40" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="AS/LargeButton" name="LargeButton" >
+                <Property name="Area" value="{{0,12},{0,156},{0,163},{0,221}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Accept" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/LargeButton" name="LargeButton2" >
+                <Property name="Area" value="{{0,217},{0,156},{0,353},{0,226}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Decline" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AlfiskoSkin/HorizontalSlider" name="HorizontalSlider" >
+                <Property name="Area" value="{{0,60},{0,48},{0,316},{0,80}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

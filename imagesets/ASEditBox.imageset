@@ -1,0 +1,11 @@
+<Imageset autoScaled="" imagefile="../RPG and MMO UI 3/PNG Files/Text Field/TextField_Focused.png" name="ASEditBox" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="20" name="EditBoxMiddle" width="34" xPos="15" yPos="15" />
+    <Image height="20" name="EditBoxLeftEdge" width="10" xPos="5" yPos="15" />
+    <Image height="20" name="EditBoxRightEdge" width="10" xPos="49" yPos="15" />
+    <Image height="10" name="EditBoxTopEdge" width="34" xPos="15" yPos="5" />
+    <Image height="10" name="EditBoxBottomEdge" width="34" xPos="15" yPos="35" />
+    <Image height="10" name="EditBoxBottomLeft" width="10" xPos="5" yPos="35" />
+    <Image height="10" name="EditBoxBottomRight" width="10" xPos="49" yPos="35" />
+    <Image height="10" name="EditBoxTopLeft" width="10" xPos="5" yPos="5" />
+    <Image height="10" name="EditBoxTopRight" width="10" xPos="49" yPos="5" />
+</Imageset>

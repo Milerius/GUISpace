@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,-1},{0,1920},{0,1079}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/MultiLineEditbox" name="MultiLineEditbox" >
+            <Property name="Area" value="{{0,73},{0,706},{0,587},{0,981}}" />
+            <Property name="Text" >
+</Property>
+            <Property name="Alpha" value="0.8" />
+            <AutoWindow namePath="__auto_hscrollbar__" >
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+            </AutoWindow>
+            <AutoWindow namePath="__auto_vscrollbar__" >
+                <Property name="VerticalScrollbar" value="true" />
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="AS/Editbox" name="Editbox" >
+            <Property name="Area" value="{{0,74},{0,993},{0,589},{0,1043}}" />
+        </Window>
+    </Window>
+</GUILayout>

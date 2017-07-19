@@ -1,0 +1,7 @@
+MedievalSharp
+{
+    type        truetype
+    source      MedievalSharp-Bold.ttf
+    size        16
+    resolution  72
+}

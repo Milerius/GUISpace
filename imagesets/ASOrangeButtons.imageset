@@ -1,0 +1,29 @@
+<Imageset autoScaled="" imagefile="AS/ASButtonsOrange.png" name="ASOrange" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="56" name="ButtonCenterPressed" width="290" xPos="105" yPos="103" />
+    <Image height="41" name="ButtonPressedUp" width="290" xPos="105" yPos="62" />
+    <Image height="41" name="ButtonPressedDown" width="290" xPos="105" yPos="159" />
+    <Image height="41" name="ButtonPressedUpLeft" width="77" xPos="28" yPos="62" />
+    <Image height="41" name="ButtonPressedDownLeft" width="77" xPos="28" yPos="159" />
+    <Image height="41" name="ButtonPressedDownRight" width="77" xPos="395" yPos="159" />
+    <Image height="41" name="ButtonPressedUpRight" width="77" xPos="395" yPos="62" />
+    <Image height="56" name="ButtonPressedRight" width="77" xPos="395" yPos="103" />
+    <Image height="56" name="ButtonPressedLeft" width="77" xPos="28" yPos="103" />
+    <Image height="41" name="ButtonNormalUpRight" width="77" xPos="395" yPos="223" />
+    <Image height="41" name="ButtonNormalDown" width="290" xPos="105" yPos="320" />
+    <Image height="56" name="ButtonNormalRight" width="77" xPos="395" yPos="264" />
+    <Image height="56" name="ButtonCenterNormal" width="290" xPos="105" yPos="264" />
+    <Image height="41" name="ButtonNormalUpLeft" width="77" xPos="28" yPos="223" />
+    <Image height="56" name="ButtonNormalLeft" width="77" xPos="28" yPos="264" />
+    <Image height="41" name="ButtonNormalUp" width="290" xPos="105" yPos="223" />
+    <Image height="41" name="ButtonNormalDownRight" width="77" xPos="395" yPos="320" />
+    <Image height="41" name="ButtonNormalDownLeft" width="77" xPos="28" yPos="320" />
+    <Image height="41" name="ButtonHoverUpRight" width="77" xPos="396" yPos="400" />
+    <Image height="41" name="ButtonHoverDown" width="290" xPos="106" yPos="497" />
+    <Image height="56" name="ButtonHoverRight" width="77" xPos="396" yPos="441" />
+    <Image height="56" name="ButtonCenterHover" width="290" xPos="106" yPos="441" />
+    <Image height="41" name="ButtonHoverUpLeft" width="77" xPos="29" yPos="400" />
+    <Image height="56" name="ButtonHoverLeft" width="77" xPos="29" yPos="441" />
+    <Image height="41" name="ButtonHoverUp" width="290" xPos="106" yPos="400" />
+    <Image height="41" name="ButtonHoverDownRight" width="77" xPos="396" yPos="497" />
+    <Image height="41" name="ButtonHoverDownLeft" width="77" xPos="29" yPos="497" />
+</Imageset>

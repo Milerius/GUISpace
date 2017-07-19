@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,-1},{0,0},{0,1919},{0,1080}}" />
+        <Property name="Image" value="ASMainMenu/MenuBG" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/FrameWindow" name="frame result" >
+            <Property name="Area" value="{{0,617},{0,172},{0.3,730},{0.3,46}}" />
+            <Property name="TitlebarEnabled" value="false" />
+            <Property name="CloseButtonEnabled" value="false" />
+            <Window type="Generic/Label" name="loose" >
+                <Property name="Area" value="{{0,-13},{0,-18},{0,639},{0,119}}" />
+                <Property name="Font" value="Thailandesa-28" />
+                <Property name="Text" value="LOOSE" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FF992C1F" />
+            </Window>
+            <Window type="Generic/Label" name="win" >
+                <Property name="Area" value="{{0,-13},{0,-19},{0,639},{0,118}}" />
+                <Property name="Font" value="Thailandesa-28" />
+                <Property name="Text" value="WIN" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+        </Window>
+        <Window type="AS/LargeButton" name="rematch button" >
+            <Property name="Area" value="{{0,80},{0,163},{0,478},{0,281}}" />
+            <Property name="Font" value="Thailandesa-28" />
+            <Property name="Text" value="REMATCH" />
+            <Property name="HoverTextColour" value="FFC9A061" />
+            <Property name="NormalTextColour" value="FFC9A061" />
+            <Property name="PushedTextColour" value="FFC9A061" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/LargeButton" name="quit button" >
+            <Property name="Area" value="{{0,1455},{0,159},{0,1853},{0,277}}" />
+            <Property name="Font" value="Thailandesa-28" />
+            <Property name="Text" value="QUITTER" />
+            <Property name="HoverTextColour" value="FFC9A061" />
+            <Property name="NormalTextColour" value="FFC9A061" />
+            <Property name="PushedTextColour" value="FFC9A061" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/FrameWindow" name="teamAresultWindow" >
+            <Property name="Area" value="{{0,170},{0,485},{0.3,252},{0.3,688}}" />
+            <Property name="Text" value="PLAYER : A" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FFC9A061 tr:FFC9A061 bl:FFC9A061 br:FFC9A061" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="Generic/Label" name="firstPlayerName" >
+                <Property name="Area" value="{{0,10},{0,20},{0,282},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="a16CharatersName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="firstPlayerKill" >
+                <Property name="Area" value="{{0,310},{0,20},{0,369},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFDB3E33" />
+            </Window>
+            <Window type="Generic/Label" name="firstPlayerDeath" >
+                <Property name="Area" value="{{0,360},{0,20},{0,419},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+            <Window type="Generic/Label" name="firstPlayerAssist" >
+                <Property name="Area" value="{{0,410},{0,20},{0,469},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFF6D09F" />
+            </Window>
+            <Window type="Generic/Label" name="kiil" >
+                <Property name="Area" value="{{0,310},{0,-30},{0,369},{0,50}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="K" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="death" >
+                <Property name="Area" value="{{0,360},{0,-30},{0,419},{0,50}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="D" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="assist" >
+                <Property name="Area" value="{{0,410},{0,-30},{0,469},{0,50}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="A" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerName" >
+                <Property name="Area" value="{{0,10},{0,130},{0,282},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="a16CharatersName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerName" >
+                <Property name="Area" value="{{0,10},{0,240},{0,282},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="a16CharatersName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerKill" >
+                <Property name="Area" value="{{0,310},{0,130},{0,369},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFDB3E33" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerKill" >
+                <Property name="Area" value="{{0,310},{0,240},{0,369},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFDB3E33" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerDeath" >
+                <Property name="Area" value="{{0,360},{0,130},{0,419},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerDeath" >
+                <Property name="Area" value="{{0,360},{0,240},{0,419},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerAssist" >
+                <Property name="Area" value="{{0,410},{0,130},{0,469},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFF6D09F" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerAssist" >
+                <Property name="Area" value="{{0,410},{0,240},{0,469},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFF6D09F" />
+            </Window>
+            <Window type="Generic/Image" name="firstSep" >
+                <Property name="Area" value="{{0,345},{0,57},{0,384},{0,61}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="firstSep2" >
+                <Property name="Area" value="{{0,395},{0,57},{0,434},{0,61}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="secondSep" >
+                <Property name="Area" value="{{0,345},{0,167},{0,384},{0,171}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="thirdSep" >
+                <Property name="Area" value="{{0,345},{0,277},{0,384},{0,281}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="secondSep2" >
+                <Property name="Area" value="{{0,395},{0,167},{0,434},{0,171}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="thirdSep2" >
+                <Property name="Area" value="{{0,395},{0,277},{0,434},{0,281}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="firstPlayerIcon" >
+                <Property name="Area" value="{{0,495},{0,20},{0,575},{0,100}}" />
+                <Property name="Image" value="ASHudButtons/FireSpellNormal" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="SecondPlayerIcon" >
+                <Property name="Area" value="{{0,495},{0,130},{0,575},{0,210}}" />
+                <Property name="Image" value="ASHudButtons/FireSpellNormal" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+            </Window>
+            <Window type="Generic/Image" name="thirdPlayerIcon" >
+                <Property name="Area" value="{{0,495},{0,240},{0,575},{0,320}}" />
+                <Property name="Image" value="ASHudButtons/FireSpellNormal" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+            </Window>
+        </Window>
+        <Window type="AS/FrameWindow" name="teamAresultWindow2" >
+            <Property name="Area" value="{{0,1080},{0,485},{0.3,1162},{0.3,688}}" />
+            <Property name="Text" value="PLAYER : B" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FFC9A061 tr:FFC9A061 bl:FFC9A061 br:FFC9A061" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="Generic/Label" name="firstPlayerName" >
+                <Property name="Area" value="{{0,320},{0,20},{0,592},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="a16CharatersName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="firstPlayerKill" >
+                <Property name="Area" value="{{0,125},{0,20},{0,184},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFDB3E33" />
+            </Window>
+            <Window type="Generic/Label" name="firstPlayerDeath" >
+                <Property name="Area" value="{{0,175},{0,20},{0,234},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+            <Window type="Generic/Label" name="firstPlayerAssist" >
+                <Property name="Area" value="{{0,225},{0,20},{0,284},{0,100}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFF6D09F" />
+            </Window>
+            <Window type="Generic/Label" name="kiil" >
+                <Property name="Area" value="{{0,125},{0,-30},{0,184},{0,50}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="K" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="death" >
+                <Property name="Area" value="{{0,175},{0,-30},{0,234},{0,50}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="D" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="assist" >
+                <Property name="Area" value="{{0,225},{0,-30},{0,284},{0,50}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="A" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerName" >
+                <Property name="Area" value="{{0,320},{0,130},{0,592},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="a16CharatersName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerName" >
+                <Property name="Area" value="{{0,320},{0,240},{0,592},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="a16CharatersName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFC9A061" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerKill" >
+                <Property name="Area" value="{{0,125},{0,130},{0,184},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFDB3E33" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerKill" >
+                <Property name="Area" value="{{0,125},{0,240},{0,184},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFDB3E33" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerDeath" >
+                <Property name="Area" value="{{0,175},{0,130},{0,234},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerDeath" >
+                <Property name="Area" value="{{0,175},{0,240},{0,234},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFD16107" />
+            </Window>
+            <Window type="Generic/Label" name="secondPlayerAssist" >
+                <Property name="Area" value="{{0,225},{0,130},{0,284},{0,210}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFF6D09F" />
+            </Window>
+            <Window type="Generic/Label" name="thirdPlayerAssist" >
+                <Property name="Area" value="{{0,225},{0,240},{0,284},{0,320}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="99" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="NormalTextColour" value="FFF6D09F" />
+            </Window>
+            <Window type="Generic/Image" name="firstSep" >
+                <Property name="Area" value="{{0,159},{0,57},{0,198},{0,61}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="firstSep2" >
+                <Property name="Area" value="{{0,209},{0,57},{0,248},{0,61}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="secondSep" >
+                <Property name="Area" value="{{0,159},{0,167},{0,198},{0,171}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="thirdSep" >
+                <Property name="Area" value="{{0,159},{0,277},{0,198},{0,281}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="secondSep2" >
+                <Property name="Area" value="{{0,209},{0,167},{0,248},{0,171}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="thirdSep2" >
+                <Property name="Area" value="{{0,209},{0,277},{0,248},{0,281}}" />
+                <Property name="Image" value="ASWindow/Separator" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+                <Property name="Rotation" value="w:0.707107 x:0 y:0 z:0.707107" />
+                <Property name="AutoRenderingSurface" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="firstPlayerIcon" >
+                <Property name="Area" value="{{0,20},{0,20},{0,100},{0,100}}" />
+                <Property name="Image" value="ASHudButtons/FireSpellNormal" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="SecondPlayerIcon" >
+                <Property name="Area" value="{{0,20},{0,130},{0,100},{0,210}}" />
+                <Property name="Image" value="ASHudButtons/FireSpellNormal" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+            </Window>
+            <Window type="Generic/Image" name="thirdPlayerIcon" >
+                <Property name="Area" value="{{0,20},{0,240},{0,100},{0,320}}" />
+                <Property name="Image" value="ASHudButtons/FireSpellNormal" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="Visible" value="false" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

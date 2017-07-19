@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/FrameWindow" name="FrameWindow" >
+            <Property name="Area" value="{{0,2},{0,594},{0.3,-37},{0.3,778}}" />
+            <Property name="Text" value="Chat" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="AS/ChatEditbox" name="ChatEditbox" >
+                <Property name="Area" value="{{0,5},{0,277},{0,471},{0,327}}" />
+                <Property name="Font" value="KhmerUI" />
+                <Property name="Text" value="Enter your message here ..." />
+                <Window type="AS/LargeButton" name="LargeButton" >
+                    <Property name="Area" value="{{0,333},{0,0},{0,455},{0,50}}" />
+                    <Property name="Font" value="Thailandesa" />
+                    <Property name="Text" value="Send" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+            </Window>
+            <Window type="AS/MultiLineEditbox" name="MultiLineEditbox" >
+                <Property name="Area" value="{{0,-4},{0,-31},{0,477},{0,253}}" />
+                <Property name="Font" value="KhmerUI" />
+                <Property name="Text" >Joueur 1 said : lol
+</Property>
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window type="AS/FrameWindow" name="FrameWindow2" >
+            <Property name="Area" value="{{0,587},{0,589},{0.3,516},{0.3,681}}" />
+            <Property name="Font" value="Thailandesa" />
+            <Property name="Text" value="Trade" />
+            <Window type="AS/LargeButton" name="LargeButton" >
+                <Property name="Area" value="{{0,40},{0,248},{0,180},{0,298}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Accept" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/LargeButton" name="LargeButton2" >
+                <Property name="Area" value="{{0,267},{0,247},{0,397},{0,297}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Decline" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+        </Window>
+        <Window type="AS/ProgressBar" name="ProgressBar" >
+            <Property name="Area" value="{{0,0},{0,176},{0,1920},{0,208}}" />
+            <Property name="StepSize" value="0.01" />
+            <Property name="CurrentProgress" value="0.6" />
+        </Window>
+    </Window>
+</GUILayout>

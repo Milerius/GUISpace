@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="ASLogin/LoginBackground" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/FrameWindow" name="QuitWindow" >
+            <Property name="Area" value="{{0,730},{0,263},{0.3,644},{0.3,277}}" />
+            <Property name="Text" value="Quit Game" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF53463C tr:FF53463C bl:FF53463C br:FF53463C" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,37},{0,25},{0,415},{0,92}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Do you want to quit the game ?" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFCBA262" />
+            </Window>
+            <Window type="AS/LargeButton" name="No" >
+                <Property name="Area" value="{{0,260},{0,178},{0,380},{0,228}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="NO" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/LargeButton" name="Yes" >
+                <Property name="Area" value="{{0,65},{0,177},{0,185},{0,227}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="YES" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+        </Window>
+        <Window type="OD/InvisibleButton" name="Quit" >
+            <Property name="Area" value="{{0,108},{0,15},{0,138},{0,50}}" />
+            <Property name="Disabled" value="true" />
+            <Property name="HoverImage" value="ASIconsMain/QuitHover" />
+            <Property name="NormalImage" value="ASIconsMain/QuitNormal" />
+            <Property name="PushedImage" value="ASIconsMain/QuitNormal" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,133},{0,8},{0,179},{0,58}}" />
+            <Property name="Image" value="ASIconsMain/Separator" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="OD/InvisibleButton" name="InvisibleButton2" >
+            <Property name="Area" value="{{0,167},{0,16},{0,199},{0,49}}" />
+            <Property name="Disabled" value="true" />
+            <Property name="HoverImage" value="ASIconsMain/RowHover" />
+            <Property name="NormalImage" value="ASIconsMain/RowNormal" />
+            <Property name="PushedImage" value="ASIconsMain/RowNormal" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+    </Window>
+</GUILayout>

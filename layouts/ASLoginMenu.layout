@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="ASLogin/LoginBackground" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/Editbox" name="AccountName" >
+            <Property name="Area" value="{{0,825},{0,210},{0,1105},{0,260}}" />
+            <Property name="Font" value="arialbold" />
+            <Property name="Text" value="  Account Name" />
+            <Property name="BlinkCaret" value="true" />
+            <Property name="NormalTextColour" value="FF614F45" />
+        </Window>
+        <Window type="AS/Editbox" name="Password" >
+            <Property name="Area" value="{{0,824},{0,280},{0,1104},{0,330}}" />
+            <Property name="Font" value="arialbold" />
+            <Property name="Text" value="  Password" />
+            <Property name="NormalTextColour" value="FF614F45" />
+        </Window>
+        <Window type="OD/InvisibleButton" name="ForgotButton" >
+            <Property name="Area" value="{{0,829},{0,477},{0,1108},{0,527}}" />
+            <Property name="Font" value="arialbold" />
+            <Property name="Text" value="Forgot your password ?" />
+            <Property name="NormalTextColour" value="FF563E34" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/Checkbox" name="Checkbox" >
+            <Property name="Area" value="{{0,890},{0,345},{0,1058},{0,383}}" />
+            <Property name="Font" value="arialbold" />
+            <Property name="Text" value="  Remember me" />
+            <Property name="NormalTextColour" value="FF563E34" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/LargeButton" name="LogButton" >
+            <Property name="Area" value="{{0,855},{0,406},{0,1083},{0,458}}" />
+            <Property name="Font" value="Thailandesa" />
+            <Property name="Text" value="LOGIN" />
+            <Property name="HoverTextColour" value="FFBD9E89" />
+            <Property name="NormalTextColour" value="FF766151" />
+            <Property name="PushedTextColour" value="FF766151" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="OD/InvisibleButton" name="Quit" >
+            <Property name="Area" value="{{0,108},{0,15},{0,138},{0,50}}" />
+            <Property name="HoverImage" value="ASIconsMain/QuitHover" />
+            <Property name="NormalImage" value="ASIconsMain/QuitNormal" />
+            <Property name="PushedImage" value="ASIconsMain/QuitNormal" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,133},{0,8},{0,179},{0,58}}" />
+            <Property name="Image" value="ASIconsMain/Separator" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="OD/InvisibleButton" name="InvisibleButton2" >
+            <Property name="Area" value="{{0,167},{0,16},{0,199},{0,49}}" />
+            <Property name="HoverImage" value="ASIconsMain/RowHover" />
+            <Property name="NormalImage" value="ASIconsMain/RowNormal" />
+            <Property name="PushedImage" value="ASIconsMain/RowNormal" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="InvisibleButton" >
+            <Property name="Area" value="{{0,70},{0,5},{0,154},{0,55}}" />
+            <Property name="HoverImage" value="ASIconsMain/Hover2" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/FrameWindow" name="QuitWindow" >
+            <Property name="Area" value="{{0,724},{0,203},{0.3,638},{0.3,217}}" />
+            <Property name="Text" value="Quit Game" />
+            <Property name="Visible" value="false" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF53463C tr:FF53463C bl:FF53463C br:FF53463C" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,37},{0,25},{0,415},{0,92}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Do you want to quit the game ?" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFCBA262" />
+            </Window>
+            <Window type="AS/LargeButton" name="No" >
+                <Property name="Area" value="{{0,260},{0,178},{0,380},{0,228}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="NO" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/LargeButton" name="Yes" >
+                <Property name="Area" value="{{0,65},{0,177},{0,185},{0,227}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="YES" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+        </Window>
+        <Window type="AS/FrameWindow" name="ErrorWindow" >
+            <Property name="Area" value="{{0,724},{0,203},{0.3,638},{0.3,217}}" />
+            <Property name="Text" value="Error Connect" />
+            <Property name="Visible" value="false" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF53463C tr:FF53463C bl:FF53463C br:FF53463C" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="Generic/Label" name="TextConnect" >
+                <Property name="Area" value="{{0,28},{0,55},{0,406},{0,122}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Message" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFCBA262" />
+            </Window>
+            <Window type="AS/LargeButton" name="Ok" >
+                <Property name="Area" value="{{0,153},{0,178},{0,273},{0,228}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="OK" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="Generic/Image" name="Care" >
+                <Property name="Area" value="{{0,193},{0,10},{0,233},{0,82}}" />
+                <Property name="Image" value="ASCare/Care" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ClippedByParent" value="false" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

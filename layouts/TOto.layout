@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="TaharezLook/Menubar" name="Menubar" >
+        <Property name="Area" value="{{0,27},{0,161},{1,27},{0,335}}" />
+        <Window type="TaharezLook/MenuItem" name="MenuItem" >
+            <Property name="Area" value="{{0,8},{0,0},{0,62},{0,28}}" />
+            <Property name="Text" value="TOTO" />
+            <Property name="VerticalAlignment" value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

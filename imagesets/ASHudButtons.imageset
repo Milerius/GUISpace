@@ -1,0 +1,22 @@
+<Imageset autoScaled="" imagefile="AS/ButtonsHud.png" name="ASHudButtons" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="52" name="ParamHover" width="51" xPos="81" yPos="128" />
+    <Image height="52" name="ParamNormal" width="51" xPos="12" yPos="128" />
+    <Image height="52" name="ParamPressed" width="51" xPos="156" yPos="128" />
+    <Image height="52" name="ProfilNormal" width="51" xPos="10" yPos="211" />
+    <Image height="52" name="ProfilHover" width="51" xPos="81" yPos="212" />
+    <Image height="52" name="ProfilPressed" width="51" xPos="154" yPos="212" />
+    <Image height="52" name="SpellPressed" width="51" xPos="155" yPos="291" />
+    <Image height="22" name="PlusPressed" width="28" xPos="101" yPos="14" />
+    <Image height="22" name="PlusHover" width="27" xPos="63" yPos="14" />
+    <Image height="22" name="PlusNormal" width="27" xPos="22" yPos="14" />
+    <Image height="52" name="SpellHover" width="51" xPos="82" yPos="291" />
+    <Image height="52" name="SpellNormal" width="51" xPos="10" yPos="290" />
+    <Image height="23" name="MinusNormal" width="27" xPos="22" yPos="75" />
+    <Image height="23" name="MinusHover" width="27" xPos="62" yPos="75" />
+    <Image height="23" name="MinusP" width="27" xPos="102" yPos="76" />
+    <Image height="64" name="FireSpellNormal" width="64" xPos="580" yPos="10" />
+    <Image height="64" name="FireSpellHover" width="64" xPos="580" yPos="110" />
+    <Image height="64" name="FireSpellPressed" width="64" xPos="580" yPos="210" />
+    <Image height="64" name="FireSpell2Pressed" width="64" xPos="690" yPos="210" />
+    <Image height="64" name="FireSpell2Hover" width="64" xPos="690" yPos="110" />
+</Imageset>

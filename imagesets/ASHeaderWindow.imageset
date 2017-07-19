@@ -1,0 +1,7 @@
+<Imageset autoScaled="" imagefile="AS/headerWindow.png" name="ASHeader" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="58" name="CaptionL" width="75" xPos="30" yPos="24" />
+    <Image height="58" name="CaptionR" width="75" xPos="467" yPos="24" />
+    <Image height="58" name="CaptionM" width="359" xPos="106" yPos="24" />
+    <Image height="31" name="CloseNormal" width="32" xPos="49" yPos="207" />
+    <Image height="31" name="CloseHover" width="32" xPos="111" yPos="208" />
+</Imageset>

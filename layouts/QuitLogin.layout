@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="ASLogin/LoginBackground" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/FrameWindow" name="FrameWindow" >
+            <Property name="Area" value="{{0,732},{0,269},{0.3,646},{0.3,283}}" />
+            <Property name="Text" value="Quit Game" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF53463C tr:FF53463C bl:FF53463C br:FF53463C" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="AS/LargeButton" name="LargeButton" >
+                <Property name="Area" value="{{0,62},{0,178},{0,182},{0,228}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="YES" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/LargeButton" name="LargeButton2" >
+                <Property name="Area" value="{{0,260},{0,178},{0,380},{0,228}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="NO" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,37},{0,25},{0,415},{0,92}}" />
+                <Property name="Font" value="KhmerUIb-18" />
+                <Property name="Text" value="Do you want to quit the game ?" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFCBA262" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

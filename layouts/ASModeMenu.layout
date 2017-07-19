@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Font" value="Thailandesa-28" />
+        <Property name="Text" value="PLAY" />
+        <Property name="Image" value="ASMainMenu/MenuBG" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/FrameWindow" name="PVP" >
+            <Property name="Area" value="{{0,684},{0,361},{0.3,689},{0.3,430}}" />
+            <Property name="Text" value="PVP" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF57493F tr:FF57493F bl:FF57493F br:FF57493F" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="Generic/Image" name="Image" >
+                <Property name="Area" value="{{0,113},{0,-6},{0,404},{0,188}}" />
+                <Property name="Image" value="ASArena/Arena" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="AS/LargeButton" name="PvpButton" >
+                <Property name="Area" value="{{0,194},{0,232},{0,342},{0,282}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="Select" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+        </Window>
+        <Window type="AS/FrameWindow" name="OPEN WORLD" >
+            <Property name="Area" value="{{0,48},{0,361},{0.3,53},{0.3,430}}" />
+            <Property name="Text" value="OPEN WORLD" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF57493F tr:FF57493F bl:FF57493F br:FF57493F" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="AS/LargeButton" name="OpenWorldButton" >
+                <Property name="Area" value="{{0,198},{0,233},{0,318},{0,283}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="SELECT" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="Generic/Image" name="Image" >
+                <Property name="Area" value="{{0,119},{0,-27},{0,404},{0,222}}" />
+                <Property name="Image" value="OpenWorld/OpenWorld" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="AS/FrameWindow" name="FOOTBALL" >
+            <Property name="Area" value="{{0,1312},{0,362},{0.3,1317},{0.3,431}}" />
+            <Property name="Text" value="FOOTBALL" />
+            <Property name="CaptionFont" value="Thailandesa" />
+            <Property name="CaptionColour" value="tl:FF57493F tr:FF57493F bl:FF57493F br:FF57493F" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="Font" value="Thailandesa" />
+            </AutoWindow>
+            <Window type="AS/LargeButton" name="FootButton" >
+                <Property name="Area" value="{{0,202},{0,231},{0,322},{0,281}}" />
+                <Property name="Font" value="Thailandesa" />
+                <Property name="Text" value="SELECT" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="AutoRenderingSurface" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="Generic/Image" name="Image" >
+                <Property name="Area" value="{{0,168},{0,-2},{0,363},{0,189}}" />
+                <Property name="Image" value="Foot/Foot" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,15 @@
+<Imageset autoScaled="" imagefile="AS/windowPlanche.png" name="ASWindow" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="93" name="TrayM" width="117" xPos="350" yPos="157" />
+    <Image height="93" name="TrayL" width="63" xPos="287" yPos="157" />
+    <Image height="93" name="TrayR" width="63" xPos="467" yPos="157" />
+    <Image height="75" name="TrayT" width="117" xPos="350" yPos="82" />
+    <Image height="100" name="TrayB" width="117" xPos="350" yPos="250" />
+    <Image height="100" name="TrayBR" width="63" xPos="467" yPos="250" />
+    <Image height="100" name="TrayBL" width="63" xPos="287" yPos="250" />
+    <Image height="75" name="TrayTL" width="63" xPos="287" yPos="82" />
+    <Image height="75" name="TrayTR" width="63" xPos="467" yPos="82" />
+    <Image height="93" name="TrayP" width="31" xPos="287" yPos="157" />
+    <Image height="590" name="Background" width="241" xPos="545" yPos="10" />
+    <Image height="93" name="TrayMBS" width="117" xPos="600" yPos="154" />
+    <Image height="4" name="Separator" width="134" xPos="35" yPos="57" />
+</Imageset>

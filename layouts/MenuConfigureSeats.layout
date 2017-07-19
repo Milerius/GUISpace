@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="Root" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="OD/StaticText" name="LoadingText" >
+            <Property name="Area" value="{{0.5,-301},{0.5,240},{0.5,299},{0.5,260}}" />
+            <Property name="Text" value="Loading..." />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="HorzFormatting" value="CentreAligned" />
+            <Property name="BackgroundEnabled" value="false" />
+            <AutoWindow namePath="__auto_hscrollbar__" >
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+            </AutoWindow>
+            <AutoWindow namePath="__auto_vscrollbar__" >
+                <Property name="VerticalScrollbar" value="true" />
+                <AutoWindow namePath="__auto_incbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+                <AutoWindow namePath="__auto_decbtn__" >
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="OD/StaticImage" name="WelcomeBanner" >
+            <Property name="Area" value="{{0.5,-320},{0,52},{0.5,320},{0,191}}" />
+            <Property name="Image" value="ODLogo/Logo" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="BackgroundEnabled" value="false" />
+        </Window>
+        <Window type="OD/FrameWindow" name="ListPlayers" >
+            <Property name="Area" value="{{0.5,-500},{0.5,-180},{0.5,500},{0.5,240}}" />
+            <Property name="Text" value="Please configure players..." />
+            <Property name="MinSize" value="{{0,630},{0,420}}" />
+            <Property name="AlwaysOnTop" value="true" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_closebutton__" >
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </AutoWindow>
+            <Window type="OD/StaticText" name="GameChatText" >
+                <Property name="Area" value="{{0,20},{0,40},{0.3,0},{1,-145}}" />
+                <Property name="Font" value="LiberationSans-10" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="VertScrollbar" value="true" />
+                <Property name="HorzFormatting" value="WordWrapLeftAligned" />
+                <Property name="VertFormatting" value="TopAligned" />
+                <Property name="BackgroundEnabled" value="true" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+            <Window type="OD/Editbox" name="GameChatEditBox" >
+                <Property name="Area" value="{{0,20},{1,-135},{0.3,0},{1,-110}}" />
+                <Property name="Font" value="LiberationSans-10" />
+            </Window>
+            <Window type="OD/StaticText" name="TextSeatTitle" >
+                <Property name="Area" value="{{0.3,10},{0,40},{0.3,70},{0,70}}" />
+                <Property name="Text" value="Seat" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="false" />
+                <Property name="BackgroundEnabled" value="false" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+            <Window type="OD/StaticText" name="ComboPlayerTypeSeatTitle" >
+                <Property name="Area" value="{{0.3,80},{0,40},{0.5,80},{0,70}}" />
+                <Property name="Text" value="Player faction" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="false" />
+                <Property name="BackgroundEnabled" value="false" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+            <Window type="OD/StaticText" name="ComboPlayerSeatTitle" >
+                <Property name="Area" value="{{0.5,90},{0,40},{1,-90},{0,70}}" />
+                <Property name="Text" value="Player" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="false" />
+                <Property name="BackgroundEnabled" value="false" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+            <Window type="OD/StaticText" name="TextTeamIdTitle" >
+                <Property name="Area" value="{{1,-80},{0,40},{1,-20},{0,70}}" />
+                <Property name="Text" value="Team" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="false" />
+                <Property name="BackgroundEnabled" value="false" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+            <Window type="OD/MainMenuButton" name="BackButton" >
+                <Property name="Area" value="{{0.5,-170},{1,-100},{0.5,-10},{1,-20}}" />
+                <Property name="Text" value="Back" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="OD/MainMenuButton" name="LaunchGameButton" >
+                <Property name="Area" value="{{0.5,10},{1,-100},{0.5,170},{1,-20}}" />
+                <Property name="Text" value="Start Game" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

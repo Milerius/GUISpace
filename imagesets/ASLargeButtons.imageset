@@ -1,0 +1,29 @@
+<Imageset autoScaled="" imagefile="AS/LargeButtonsCover.png" name="ASLargeButton" nativeHorzRes="360" nativeVertRes="180" version="2">
+    <Image height="19" name="ButtonHoverDown" width="176" xPos="21" yPos="38" />
+    <Image height="12" name="ButtonHoverUpLeft" width="17" xPos="4" yPos="4" />
+    <Image height="17" name="ButtonCenterHover" width="176" xPos="21" yPos="21" />
+    <Image height="14" name="ButtonHoverDownLeft" width="17" xPos="4" yPos="43" />
+    <Image height="27" name="ButtonHoverRight" width="16" xPos="197" yPos="16" />
+    <Image height="17" name="ButtonHoverUp" width="176" xPos="21" yPos="4" />
+    <Image height="14" name="ButtonHoverDownRight" width="16" xPos="197" yPos="43" />
+    <Image height="12" name="ButtonHoverUpRight" width="16" xPos="197" yPos="4" />
+    <Image height="27" name="ButtonHoverLeft" width="17" xPos="4" yPos="16" />
+    <Image height="14" name="ButtonPressedDownRight" width="16" xPos="198" yPos="172" />
+    <Image height="17" name="ButtonPressedUp" width="176" xPos="22" yPos="133" />
+    <Image height="17" name="ButtonCenterPressed" width="176" xPos="22" yPos="150" />
+    <Image height="27" name="ButtonPressedRight" width="16" xPos="198" yPos="145" />
+    <Image height="12" name="ButtonPressedUpRight" width="16" xPos="198" yPos="133" />
+    <Image height="12" name="ButtonPressedUpLeft" width="17" xPos="5" yPos="133" />
+    <Image height="19" name="ButtonPressedDown" width="176" xPos="22" yPos="167" />
+    <Image height="14" name="ButtonPressedDownLeft" width="17" xPos="5" yPos="172" />
+    <Image height="27" name="ButtonPressedLeft" width="17" xPos="5" yPos="145" />
+    <Image height="14" name="ButtonNormalDownLeft" width="17" xPos="4" yPos="104" />
+    <Image height="17" name="ButtonNormalUp" width="176" xPos="21" yPos="65" />
+    <Image height="17" name="ButtonCenterNormal" width="176" xPos="21" yPos="82" />
+    <Image height="12" name="ButtonNormalUpRight" width="16" xPos="197" yPos="65" />
+    <Image height="19" name="ButtonNormalDown" width="176" xPos="21" yPos="99" />
+    <Image height="14" name="ButtonNormalDownRight" width="16" xPos="197" yPos="104" />
+    <Image height="27" name="ButtonNormalRight" width="16" xPos="197" yPos="77" />
+    <Image height="12" name="ButtonNormalUpLeft" width="17" xPos="4" yPos="65" />
+    <Image height="27" name="ButtonNormalLeft" width="17" xPos="4" yPos="77" />
+</Imageset>
