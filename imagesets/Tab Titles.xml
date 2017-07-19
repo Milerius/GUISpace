@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:cd1a13c052009bc10704e1fb3240dffa:9d7849aa769219ceb9209d36dbcb9cc2:9b3ad6d137df25f31d4af4c92b1a6a95$ -->
+<Imageset Name="Tab Titles" Imagefile="Tab Titles.png" NativeHorzRes="315" NativeVertRes="528" AutoScaled="false">
+    <Image Name="max_a" XPos="56" YPos="11" Width="248" Height="28"/>
+    <Image Name="max_h" XPos="56" YPos="61" Width="248" Height="28"/>
+    <Image Name="max_n" XPos="56" YPos="111" Width="248" Height="28"/>
+    <Image Name="min_a" XPos="56" YPos="161" Width="248" Height="28"/>
+    <Image Name="min_h" XPos="56" YPos="211" Width="248" Height="28"/>
+    <Image Name="min_n" XPos="56" YPos="261" Width="248" Height="28"/>
+    <Image Name="Scroll/down_a" XPos="56" YPos="483" Width="25" Height="27"/>
+    <Image Name="Scroll/down_h" XPos="103" YPos="481" Width="25" Height="27"/>
+    <Image Name="Scroll/down_n" XPos="191" YPos="403" Width="23" Height="25"/>
+    <Image Name="Scroll/scroll_mp_a" XPos="56" YPos="403" Width="23" Height="58"/>
+    <Image Name="Scroll/scroll_mp_n" XPos="101" YPos="403" Width="21" Height="56"/>
+    <Image Name="Scroll/scroll_rail" XPos="11" YPos="11" Width="23" Height="506"/>
+    <Image Name="Scroll/up_a" XPos="144" YPos="403" Width="25" Height="27"/>
+    <Image Name="Scroll/up_h" XPos="150" YPos="452" Width="25" Height="27"/>
+    <Image Name="Scroll/up_n" XPos="197" YPos="450" Width="23" Height="25"/>
+    <Image Name="title_bg" XPos="56" YPos="357" Width="227" Height="24"/>
+    <Image Name="title_selected_bg" XPos="56" YPos="311" Width="231" Height="24"/>
+</Imageset>

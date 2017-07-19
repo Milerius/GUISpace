@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:066ae5c0dc8e699cc52d58cd5d2d94cf:08aeb2e09fd1ba72c856de1e0cb05afa:d6b1f1615ce2277f3c694b729271ee4e$ -->
+<Imageset Name="rightBox" Imagefile="rightBox.png" NativeHorzRes="229" NativeVertRes="252" AutoScaled="false">
+    <Image Name="bl_corner" XPos="153" YPos="199" Width="15" Height="15"/>
+    <Image Name="bot" XPos="166" YPos="11" Width="15" Height="15"/>
+    <Image Name="br_corner" XPos="166" YPos="48" Width="15" Height="15"/>
+    <Image Name="center" XPos="166" YPos="85" Width="15" Height="15"/>
+    <Image Name="highlight" XPos="11" YPos="199" Width="120" Height="19"/>
+    <Image Name="left" XPos="166" YPos="122" Width="15" Height="15"/>
+    <Image Name="right" XPos="166" YPos="159" Width="15" Height="15"/>
+    <Image Name="segment_border" XPos="11" YPos="240" Width="120" Height="1"/>
+    <Image Name="tl_corner" XPos="190" YPos="196" Width="15" Height="15"/>
+    <Image Name="top" XPos="203" YPos="11" Width="15" Height="15"/>
+    <Image Name="tr_corner" XPos="203" YPos="48" Width="15" Height="15"/>
+    <Image Name="whole_box" XPos="11" YPos="11" Width="133" Height="166"/>
+</Imageset>

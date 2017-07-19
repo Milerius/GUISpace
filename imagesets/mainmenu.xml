@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f9281c38a4583b898b666ace0428787c:3e9d1ee3b0dbf66f6ed5a7ed83c163be:b8cc08027d937d3d925125c78453561d$ -->
+<Imageset Name="mainmenu" Imagefile="mainmenu.png" NativeHorzRes="394" NativeVertRes="884" AutoScaled="false">
+    <Image Name="mm_label" XPos="11" YPos="558" Width="273" Height="67"/>
+    <Image Name="mm_texture" XPos="11" YPos="11" Width="372" Height="525"/>
+    <Image Name="wide_b_a" XPos="11" YPos="718" Width="244" Height="37"/>
+    <Image Name="wide_b_h" XPos="11" YPos="777" Width="244" Height="37"/>
+    <Image Name="wide_b_n" XPos="11" YPos="647" Width="256" Height="49"/>
+    <Image Name="wide_b_un" XPos="11" YPos="836" Width="244" Height="37"/>
+</Imageset>

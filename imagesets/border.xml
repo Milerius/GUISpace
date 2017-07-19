@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:8dab41666b80aac3eefff9636e300ba7:d9464f81502c76d78133613bf26043e7:8c63d36b979e85a327b268412c49ddee$ -->
+<Imageset Name="border" Imagefile="border.png" NativeHorzRes="873" NativeVertRes="714" AutoScaled="false">
+    <Image Name="border_merged" XPos="11" YPos="11" Width="744" Height="596"/>
+    <Image Name="bottom_border" XPos="11" YPos="629" Width="583" Height="10"/>
+    <Image Name="corner_bl" XPos="616" YPos="629" Width="37" Height="37"/>
+    <Image Name="corner_br" XPos="675" YPos="629" Width="37" Height="37"/>
+    <Image Name="corner_tl" XPos="734" YPos="629" Width="37" Height="37"/>
+    <Image Name="corner_tr" XPos="793" YPos="627" Width="37" Height="37"/>
+    <Image Name="horizontal_bot_border_repeat_small" XPos="11" YPos="693" Width="32" Height="10"/>
+    <Image Name="horizontal_top_border_small_repeat" XPos="65" YPos="693" Width="32" Height="10"/>
+    <Image Name="top_border" XPos="11" YPos="661" Width="583" Height="10"/>
+    <Image Name="vectical_separator" XPos="777" YPos="11" Width="20" Height="594"/>
+    <Image Name="vertical_left_border" XPos="819" YPos="11" Width="10" Height="583"/>
+    <Image Name="vertical_left_small_repeat" XPos="852" YPos="671" Width="10" Height="32"/>
+    <Image Name="vertical_right_border" XPos="851" YPos="11" Width="10" Height="583"/>
+    <Image Name="vertical_right_small_repeat" XPos="852" YPos="616" Width="10" Height="33"/>
+</Imageset>

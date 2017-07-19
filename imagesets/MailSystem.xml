@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:944b29e34069e15968afeb9a1cc8329f:7dc1190e80493ba301ece72209c3b87e:3085d036cf8aba5434bf28d55f415a98$ -->
+<Imageset Name="MailSystem" Imagefile="MailSystem.png" NativeHorzRes="2035" NativeVertRes="1475" AutoScaled="false">
+    <Image Name="caving_bg" XPos="650" YPos="11" Width="570" Height="535"/>
+    <Image Name="Heading/close_a" XPos="1978" YPos="168" Width="27" Height="27"/>
+    <Image Name="Heading/close_h" XPos="1916" YPos="354" Width="27" Height="27"/>
+    <Image Name="Heading/close_n" XPos="1916" YPos="403" Width="27" Height="27"/>
+    <Image Name="Heading/head_lef_side" XPos="1496" YPos="1320" Width="232" Height="66"/>
+    <Image Name="Heading/head_right_side" XPos="1766" YPos="698" Width="211" Height="66"/>
+    <Image Name="Heading/heading_mail_merged" XPos="11" YPos="1371" Width="610" Height="66"/>
+    <Image Name="Heading/label_holder" XPos="1178" YPos="1278" Width="273" Height="67"/>
+    <Image Name="Heading/repeat_mid" XPos="1740" YPos="1408" Width="41" Height="56"/>
+    <Image Name="Inbox/already_viewd_background" XPos="1809" YPos="1238" Width="214" Height="46"/>
+    <Image Name="Inbox/cash" XPos="1965" YPos="337" Width="22" Height="24"/>
+    <Image Name="Inbox/cash_carving" XPos="1871" YPos="508" Width="153" Height="28"/>
+    <Image Name="Inbox/ebg" XPos="1916" YPos="230" Width="38" Height="38"/>
+    <Image Name="Inbox/envelope" XPos="1944" YPos="1166" Width="40" Height="40"/>
+    <Image Name="Inbox/gray_mail_frame" XPos="1912" YPos="786" Width="48" Height="48"/>
+    <Image Name="Inbox/green_square" XPos="1491" YPos="1205" Width="6" Height="6"/>
+    <Image Name="Inbox/hovered_background" XPos="1793" YPos="1306" Width="214" Height="46"/>
+    <Image Name="Inbox/item_hovered_event" XPos="1947" YPos="94" Width="52" Height="52"/>
+    <Image Name="Inbox/label_form" XPos="1171" YPos="1205" Width="298" Height="51"/>
+    <Image Name="Inbox/mail_frame" XPos="1874" YPos="1166" Width="48" Height="48"/>
+    <Image Name="Inbox/pack" XPos="1916" YPos="168" Width="40" Height="40"/>
+    <Image Name="Inbox/passive_background" XPos="1803" YPos="1374" Width="214" Height="46"/>
+    <Image Name="Inbox/scroll_moving_part" XPos="2009" YPos="1115" Width="10" Height="23"/>
+    <Image Name="Inbox/scroll_rail" XPos="1916" YPos="11" Width="9" Height="124"/>
+    <Image Name="Inbox/set_slots" XPos="1555" YPos="838" Width="289" Height="118"/>
+    <Image Name="Inbox/slected_background" XPos="1496" YPos="1408" Width="222" Height="54"/>
+    <Image Name="Inbox/slot" XPos="1947" YPos="11" Width="61" Height="61"/>
+    <Image Name="Inbox/slot_cont_bottom" XPos="1164" YPos="1434" Width="297" Height="30"/>
+    <Image Name="Inbox/slot_cont_mid_repeat_vertical" XPos="1178" YPos="1367" Width="296" Height="40"/>
+    <Image Name="Inbox/slot_cont_top" XPos="1491" YPos="1238" Width="296" Height="23"/>
+    <Image Name="Inbox/slot_container" XPos="1236" YPos="838" Width="297" Height="171"/>
+    <Image Name="Inbox/smallb_a" XPos="1866" YPos="1068" Width="113" Height="27"/>
+    <Image Name="Inbox/smallb_h" XPos="1874" YPos="1117" Width="113" Height="27"/>
+    <Image Name="Inbox/smallb_n" XPos="1866" YPos="1015" Width="117" Height="31"/>
+    <Image Name="Inbox/smallb_un" XPos="1866" YPos="856" Width="119" Height="33"/>
+    <Image Name="Inbox/special_texture" XPos="650" YPos="568" Width="564" Height="526"/>
+    <Image Name="Inbox/text_are_repeat_vertical" XPos="1555" YPos="1118" Width="297" Height="58"/>
+    <Image Name="Inbox/text_area" XPos="1236" YPos="1031" Width="297" Height="152"/>
+    <Image Name="Inbox/text_area_bot" XPos="1555" YPos="1198" Width="297" Height="18"/>
+    <Image Name="Inbox/text_area_top" XPos="1473" YPos="1283" Width="297" Height="15"/>
+    <Image Name="mail_texture_bg" XPos="11" YPos="11" Width="617" Height="658"/>
+    <Image Name="mailbu_a" XPos="1757" YPos="786" Width="133" Height="30"/>
+    <Image Name="mailbu_h" XPos="1866" YPos="911" Width="133" Height="30"/>
+    <Image Name="mailbu_n" XPos="1866" YPos="963" Width="133" Height="30"/>
+    <Image Name="Scroll/down_a" XPos="1999" YPos="608" Width="25" Height="27"/>
+    <Image Name="Scroll/down_h" XPos="1999" YPos="657" Width="25" Height="27"/>
+    <Image Name="Scroll/down_n" XPos="2001" YPos="1068" Width="23" Height="25"/>
+    <Image Name="Scroll/mail_rail" XPos="1871" YPos="11" Width="23" Height="475"/>
+    <Image Name="Scroll/scroll_mp_a" XPos="1171" YPos="1116" Width="23" Height="58"/>
+    <Image Name="Scroll/scroll_mp_n" XPos="1750" YPos="1320" Width="21" Height="56"/>
+    <Image Name="Scroll/up_a" XPos="1999" YPos="706" Width="25" Height="27"/>
+    <Image Name="Scroll/up_h" XPos="1999" YPos="755" Width="25" Height="27"/>
+    <Image Name="Scroll/up_n" XPos="1951" YPos="290" Width="23" Height="25"/>
+    <Image Name="Send Mail/big_form" XPos="1236" YPos="625" Width="501" Height="51"/>
+    <Image Name="Send Mail/cash" XPos="1965" YPos="337" Width="22" Height="24"/>
+    <Image Name="Send Mail/check" XPos="1916" YPos="452" Width="27" Height="25"/>
+    <Image Name="Send Mail/error" XPos="1982" YPos="804" Width="25" Height="25"/>
+    <Image Name="Send Mail/heading_element" XPos="1236" YPos="698" Width="508" Height="40"/>
+    <Image Name="Send Mail/holo_big_scroll" XPos="1916" YPos="290" Width="13" Height="42"/>
+    <Image Name="Send Mail/items_and_money_texture" XPos="650" YPos="1289" Width="506" Height="123"/>
+    <Image Name="Send Mail/money" XPos="1965" YPos="383" Width="21" Height="23"/>
+    <Image Name="Send Mail/money_carving" XPos="1835" YPos="558" Width="187" Height="28"/>
+    <Image Name="Send Mail/send_mail_special_bg" XPos="1242" YPos="11" Width="564" Height="526"/>
+    <Image Name="Send Mail/slot" XPos="1947" YPos="11" Width="61" Height="61"/>
+    <Image Name="Send Mail/slot_set" XPos="1555" YPos="978" Width="289" Height="118"/>
+    <Image Name="Send Mail/small_form" XPos="1759" YPos="625" Width="211" Height="51"/>
+    <Image Name="Send Mail/small_rail" XPos="1916" YPos="11" Width="9" Height="124"/>
+    <Image Name="Send Mail/small_scroll" XPos="2007" YPos="851" Width="10" Height="23"/>
+    <Image Name="Send Mail/smallb_a" XPos="1866" YPos="1068" Width="113" Height="27"/>
+    <Image Name="Send Mail/smallb_h" XPos="1874" YPos="1117" Width="113" Height="27"/>
+    <Image Name="Send Mail/smallb_n" XPos="1866" YPos="1015" Width="117" Height="31"/>
+    <Image Name="Send Mail/smallb_un" XPos="1866" YPos="856" Width="119" Height="33"/>
+    <Image Name="Send Mail/special_rail" XPos="1828" YPos="11" Width="21" Height="507"/>
+    <Image Name="Send Mail/t_area_bot" XPos="1236" YPos="760" Width="499" Height="17"/>
+    <Image Name="Send Mail/t_area_repeat_vertical" XPos="643" YPos="1434" Width="499" Height="30"/>
+    <Image Name="Send Mail/t_area_top" XPos="1236" YPos="799" Width="499" Height="17"/>
+    <Image Name="Send Mail/text_area_big" XPos="650" YPos="1116" Width="499" Height="151"/>
+    <Image Name="tabs_texture" XPos="1242" YPos="559" Width="571" Height="44"/>
+    <Image Name="whole_merge" XPos="11" YPos="691" Width="617" Height="658"/>
+</Imageset>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f0ca1d3aceb3a2d3baae14d8d894c284:f1de7f7128adb68d97677da226dd62bf:f096af8f9f4ee2cbcef9bc317ff91bd8$ -->
+<Imageset Name="animation" Imagefile="animation.png" NativeHorzRes="774" NativeVertRes="1548" AutoScaled="false">
+    <Image Name="1_0" XPos="1" YPos="1" Width="256" Height="256"/>
+    <Image Name="1_1" XPos="259" YPos="1" Width="256" Height="256"/>
+    <Image Name="1_2" XPos="517" YPos="1" Width="256" Height="256"/>
+    <Image Name="1_3" XPos="1" YPos="259" Width="256" Height="256"/>
+    <Image Name="1_4" XPos="259" YPos="259" Width="256" Height="256"/>
+    <Image Name="1_5" XPos="517" YPos="259" Width="256" Height="256"/>
+    <Image Name="1_6" XPos="1" YPos="517" Width="256" Height="256"/>
+    <Image Name="1_7" XPos="259" YPos="517" Width="256" Height="256"/>
+    <Image Name="1_8" XPos="517" YPos="517" Width="256" Height="256"/>
+    <Image Name="1_9" XPos="1" YPos="775" Width="256" Height="256"/>
+    <Image Name="1_10" XPos="259" YPos="775" Width="256" Height="256"/>
+    <Image Name="1_11" XPos="517" YPos="775" Width="256" Height="256"/>
+    <Image Name="1_12" XPos="1" YPos="1033" Width="256" Height="256"/>
+    <Image Name="1_13" XPos="259" YPos="1033" Width="256" Height="256"/>
+    <Image Name="1_14" XPos="517" YPos="1033" Width="256" Height="256"/>
+    <Image Name="1_15" XPos="1" YPos="1291" Width="256" Height="256"/>
+    <Image Name="1_16" XPos="259" YPos="1291" Width="256" Height="256"/>
+</Imageset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3886e7bf713dc18a1e13f8b7f64d265c:041c63ec0e043c615e1ad5de598fc050:dc2e1870db2eb7f8ce6a293fee49e44e$ -->
+<Imageset Name="Dialog" Imagefile="Dialog.png" NativeHorzRes="1922" NativeVertRes="165" AutoScaled="false">
+    <Image Name="flat_scroll_hd" XPos="55" YPos="11" Width="10" Height="33"/>
+    <Image Name="flat_scroll_n" XPos="87" YPos="11" Width="10" Height="33"/>
+    <Image Name="flat_scroll_rail" XPos="1899" YPos="11" Width="12" Height="143"/>
+    <Image Name="notification" XPos="11" YPos="11" Width="22" Height="22"/>
+    <Image Name="subtittles_bg" XPos="11" YPos="80" Width="1866" Height="61"/>
+    <Image Name="text_opt_h" XPos="119" YPos="11" Width="666" Height="47"/>
+    <Image Name="text_opt_n" XPos="807" YPos="11" Width="663" Height="47"/>
+</Imageset>

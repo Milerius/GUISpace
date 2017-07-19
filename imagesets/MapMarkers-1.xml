@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:fae7e0378fe05fbc70da728e735612f7:7853aaa451e515997f2a9fabf2b104e2:b07ec2a7099eae00342969301ebbbcce$ -->
+<Imageset Name="MapMarkers-1" Imagefile="MapMarkers-1.png" NativeHorzRes="1566" NativeVertRes="1566" AutoScaled="false">
+    <Image Name="neutral_npc" XPos="11" YPos="11" Width="500" Height="500"/>
+    <Image Name="neutral_player" XPos="11" YPos="533" Width="500" Height="500"/>
+    <Image Name="objective_marker" XPos="11" YPos="1055" Width="500" Height="500"/>
+    <Image Name="party_member" XPos="533" YPos="11" Width="500" Height="500"/>
+    <Image Name="player" XPos="1055" YPos="11" Width="500" Height="500"/>
+    <Image Name="professions_trainer" XPos="533" YPos="533" Width="500" Height="500"/>
+    <Image Name="q_complete" XPos="533" YPos="1055" Width="500" Height="500"/>
+    <Image Name="q_pending" XPos="1055" YPos="533" Width="500" Height="500"/>
+    <Image Name="quest_available" XPos="1055" YPos="1055" Width="500" Height="500"/>
+</Imageset>

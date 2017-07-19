@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:274ea1ad72c1e92ed415a94294d910c7:aea7881eb4b0ed877c46b3f7b2d9fb73:1872132dde3e6c515e6eefa2a8badf9b$ -->
+<Imageset Name="Vehicles" Imagefile="Vehicles.png" NativeHorzRes="1065" NativeVertRes="1023" AutoScaled="false">
+    <Image Name="apc_example" XPos="11" YPos="618" Width="374" Height="217"/>
+    <Image Name="deploy_button_a" XPos="695" YPos="976" Width="146" Height="36"/>
+    <Image Name="deploy_button_h" XPos="863" YPos="976" Width="146" Height="36"/>
+    <Image Name="deploy_button_n" XPos="784" YPos="514" Width="150" Height="40"/>
+    <Image Name="deploy_button_un" XPos="824" YPos="576" Width="146" Height="36"/>
+    <Image Name="entry_select_hl" XPos="695" YPos="930" Width="231" Height="24"/>
+    <Image Name="max_a" XPos="425" YPos="830" Width="248" Height="28"/>
+    <Image Name="max_h" XPos="425" YPos="880" Width="248" Height="28"/>
+    <Image Name="max_n" XPos="425" YPos="930" Width="248" Height="28"/>
+    <Image Name="merged_content_box" XPos="784" YPos="11" Width="264" Height="481"/>
+    <Image Name="min_a" XPos="425" YPos="980" Width="248" Height="28"/>
+    <Image Name="min_h" XPos="695" YPos="830" Width="248" Height="28"/>
+    <Image Name="min_n" XPos="695" YPos="880" Width="248" Height="28"/>
+    <Image Name="Scroll Vehicles/down_a" XPos="956" YPos="514" Width="25" Height="27"/>
+    <Image Name="Scroll Vehicles/down_h" XPos="867" YPos="714" Width="25" Height="27"/>
+    <Image Name="Scroll Vehicles/down_n" XPos="914" YPos="683" Width="23" Height="25"/>
+    <Image Name="Scroll Vehicles/scroll_mp_a" XPos="824" YPos="634" Width="23" Height="58"/>
+    <Image Name="Scroll Vehicles/scroll_mp_n" XPos="824" YPos="714" Width="21" Height="56"/>
+    <Image Name="Scroll Vehicles/up_a" XPos="867" YPos="763" Width="25" Height="27"/>
+    <Image Name="Scroll Vehicles/up_h" XPos="869" YPos="634" Width="25" Height="27"/>
+    <Image Name="Scroll Vehicles/up_n" XPos="916" YPos="634" Width="23" Height="25"/>
+    <Image Name="Scroll Vehicles/veh_scroll_rail" XPos="1031" YPos="514" Width="23" Height="449"/>
+    <Image Name="stats_bg" XPos="453" YPos="11" Width="309" Height="584"/>
+    <Image Name="vehicle_model_background" XPos="11" YPos="11" Width="420" Height="585"/>
+    <Image Name="vehicle_names_hl" XPos="11" YPos="857" Width="392" Height="117"/>
+    <Image Name="vehicle_stats_box" XPos="407" YPos="618" Width="395" Height="190"/>
+</Imageset>

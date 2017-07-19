@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2a21d7ac72dd6f8bc0196f54fd39cf07:04d849461edca462292c48baff32d87e:df105762c35b2c9a45063aa3790d6688$ -->
+<Imageset Name="playerInventory" Imagefile="playerInventory.png" NativeHorzRes="1023" NativeVertRes="1227" AutoScaled="false">
+    <Image Name="all_slots_merged" XPos="534" YPos="11" Width="403" Height="403"/>
+    <Image Name="border_down" XPos="472" YPos="785" Width="443" Height="9"/>
+    <Image Name="bottom_border_box2" XPos="472" YPos="785" Width="443" Height="9"/>
+    <Image Name="bottom_box_merged_borders" XPos="534" YPos="436" Width="443" Height="69"/>
+    <Image Name="bottom_box_not_merged" XPos="534" YPos="527" Width="439" Height="63"/>
+    <Image Name="carving_inner" XPos="11" YPos="691" Width="439" Height="477"/>
+    <Image Name="categories_bg" XPos="534" YPos="612" Width="433" Height="63"/>
+    <Image Name="Category Icons/all_pass" XPos="11" YPos="1190" Width="30" Height="26"/>
+    <Image Name="Category Icons/all_select" XPos="525" YPos="1185" Width="34" Height="30"/>
+    <Image Name="Category Icons/amm_pass" XPos="63" YPos="1190" Width="23" Height="25"/>
+    <Image Name="Category Icons/ammo_select" XPos="632" YPos="1148" Width="26" Height="29"/>
+    <Image Name="Category Icons/armour_pass" XPos="680" YPos="1151" Width="24" Height="28"/>
+    <Image Name="Category Icons/armour_select" XPos="976" YPos="1075" Width="28" Height="32"/>
+    <Image Name="Category Icons/components_pass" XPos="555" YPos="1096" Width="30" Height="30"/>
+    <Image Name="Category Icons/components_select" XPos="959" YPos="373" Width="34" Height="34"/>
+    <Image Name="Category Icons/consumables_pass" XPos="918" YPos="1129" Width="27" Height="27"/>
+    <Image Name="Category Icons/consumables_select" XPos="472" YPos="1185" Width="31" Height="31"/>
+    <Image Name="Category Icons/junk_pass" XPos="607" YPos="1096" Width="30" Height="30"/>
+    <Image Name="Category Icons/junk_select" XPos="810" YPos="1073" Width="34" Height="34"/>
+    <Image Name="Category Icons/quest_items_pass" XPos="581" YPos="1148" Width="29" Height="29"/>
+    <Image Name="Category Icons/quest_items_select" XPos="866" YPos="1073" Width="33" Height="33"/>
+    <Image Name="Category Icons/weapons_pass" XPos="866" YPos="1128" Width="30" Height="27"/>
+    <Image Name="Category Icons/weapons_select" XPos="809" YPos="1129" Width="34" Height="29"/>
+    <Image Name="chaching" XPos="937" YPos="785" Width="30" Height="32"/>
+    <Image Name="Inventory Heading/close_a" XPos="967" YPos="1129" Width="27" Height="27"/>
+    <Image Name="Inventory Heading/close_h" XPos="865" YPos="1177" Width="27" Height="27"/>
+    <Image Name="Inventory Heading/close_n" XPos="914" YPos="1178" Width="27" Height="27"/>
+    <Image Name="Inventory Heading/heading_texture" XPos="472" YPos="697" Width="495" Height="66"/>
+    <Image Name="Inventory Heading/label_holder" XPos="472" YPos="847" Width="273" Height="67"/>
+    <Image Name="Inventory Heading/small_heading_left_side" XPos="472" YPos="936" Width="236" Height="66"/>
+    <Image Name="Inventory Heading/small_heading_repeat_this" XPos="472" YPos="1107" Width="59" Height="56"/>
+    <Image Name="Inventory Heading/small_heading_right_side" XPos="767" YPos="847" Width="200" Height="66"/>
+    <Image Name="Items and Quality/0_junk_quality" XPos="555" YPos="1024" Width="50" Height="50"/>
+    <Image Name="Items and Quality/1_common_quality" XPos="959" YPos="85" Width="50" Height="50"/>
+    <Image Name="Items and Quality/2_uncommon_quality" XPos="627" YPos="1024" Width="50" Height="50"/>
+    <Image Name="Items and Quality/3_rare_quality" XPos="959" YPos="157" Width="50" Height="50"/>
+    <Image Name="Items and Quality/4_epic_quality" XPos="959" YPos="229" Width="50" Height="50"/>
+    <Image Name="Items and Quality/5_legendary_quality" XPos="959" YPos="301" Width="50" Height="50"/>
+    <Image Name="Items and Quality/bg_bellow_item_icon_for_each" XPos="775" YPos="935" Width="48" Height="48"/>
+    <Image Name="Items and Quality/example1" XPos="845" YPos="935" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example2" XPos="913" YPos="935" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example3" XPos="742" YPos="1016" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example4" XPos="810" YPos="1005" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example5" XPos="742" YPos="1084" Width="45" Height="45"/>
+    <Image Name="Items and Quality/example6" XPos="878" YPos="1003" Width="46" Height="46"/>
+    <Image Name="Items and Quality/hovered_item_event" XPos="959" YPos="11" Width="52" Height="52"/>
+    <Image Name="Items and Quality/inner_shadow_for_each" XPos="946" YPos="1007" Width="46" Height="46"/>
+    <Image Name="Scroll/down_a" XPos="963" YPos="1178" Width="25" Height="27"/>
+    <Image Name="Scroll/down_h" XPos="726" YPos="1151" Width="25" Height="27"/>
+    <Image Name="Scroll/down_n" XPos="108" YPos="1190" Width="23" Height="25"/>
+    <Image Name="Scroll/inventory_rail" XPos="989" YPos="612" Width="23" Height="373"/>
+    <Image Name="Scroll/scroll_mp_a" XPos="730" YPos="936" Width="23" Height="58"/>
+    <Image Name="Scroll/scroll_mp_n" XPos="699" YPos="1024" Width="21" Height="56"/>
+    <Image Name="Scroll/up_a" XPos="680" YPos="1102" Width="25" Height="27"/>
+    <Image Name="Scroll/up_h" XPos="773" YPos="1180" Width="25" Height="27"/>
+    <Image Name="Scroll/up_n" XPos="153" YPos="1190" Width="23" Height="25"/>
+    <Image Name="single_slot" XPos="472" YPos="1024" Width="61" Height="61"/>
+    <Image Name="texture_block_bg" XPos="11" YPos="11" Width="501" Height="658"/>
+    <Image Name="top_border_box2" XPos="472" YPos="816" Width="443" Height="9"/>
+    <Image Name="weight" XPos="921" YPos="1075" Width="33" Height="32"/>
+</Imageset>

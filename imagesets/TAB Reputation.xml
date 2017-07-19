@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a3752343f75360d188471117f440c353:a4c5818ee4dc9130d7ba78ca5b1e2214:34d4f2cc6e6f6628111681ee805ae685$ -->
+<Imageset Name="TAB Reputation" Imagefile="TAB Reputation.png" NativeHorzRes="509" NativeVertRes="606" AutoScaled="false">
+    <Image Name="description_box_bot_part" XPos="11" YPos="122" Width="264" Height="17"/>
+    <Image Name="description_box_mid_part_repeat_vertically" XPos="11" YPos="11" Width="264" Height="45"/>
+    <Image Name="description_box_top_part" XPos="11" YPos="78" Width="264" Height="22"/>
+    <Image Name="max_a" XPos="11" YPos="161" Width="248" Height="28"/>
+    <Image Name="max_h" XPos="11" YPos="211" Width="248" Height="28"/>
+    <Image Name="max_n" XPos="11" YPos="261" Width="248" Height="28"/>
+    <Image Name="min_a" XPos="11" YPos="311" Width="248" Height="28"/>
+    <Image Name="min_h" XPos="11" YPos="361" Width="248" Height="28"/>
+    <Image Name="min_n" XPos="11" YPos="411" Width="248" Height="28"/>
+    <Image Name="rep_blue_fill" XPos="259" YPos="588" Width="225" Height="7"/>
+    <Image Name="rep_green_fill" XPos="11" YPos="529" Width="226" Height="7"/>
+    <Image Name="rep_red_fill" XPos="11" YPos="558" Width="226" Height="7"/>
+    <Image Name="rep_yellow_fill" XPos="11" YPos="587" Width="226" Height="7"/>
+    <Image Name="reputation_block" XPos="11" YPos="461" Width="241" Height="46"/>
+    <Image Name="Scroll/down_a" XPos="297" YPos="11" Width="25" Height="27"/>
+    <Image Name="Scroll/down_h" XPos="344" YPos="11" Width="25" Height="27"/>
+    <Image Name="Scroll/down_n" XPos="387" YPos="60" Width="23" Height="25"/>
+    <Image Name="Scroll/scroll_mp_a" XPos="342" YPos="60" Width="23" Height="58"/>
+    <Image Name="Scroll/scroll_mp_n" XPos="477" YPos="60" Width="21" Height="56"/>
+    <Image Name="Scroll/scroll_rail" XPos="297" YPos="60" Width="23" Height="506"/>
+    <Image Name="Scroll/up_a" XPos="391" YPos="11" Width="25" Height="27"/>
+    <Image Name="Scroll/up_h" XPos="438" YPos="11" Width="25" Height="27"/>
+    <Image Name="Scroll/up_n" XPos="432" YPos="60" Width="23" Height="25"/>
+</Imageset>

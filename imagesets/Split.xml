@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ead94c31067e80defafcf9bfc96fa172:e97a4671473af8a0a2539e8df38a9c07:b26e72fbee0bea8025f383e7fa32128f$ -->
+<Imageset Name="Split" Imagefile="Split.png" NativeHorzRes="479" NativeVertRes="231" AutoScaled="false">
+    <Image Name="button_a" XPos="247" YPos="74" Width="136" Height="34"/>
+    <Image Name="button_h" XPos="247" YPos="130" Width="136" Height="34"/>
+    <Image Name="button_n" XPos="11" YPos="181" Width="140" Height="38"/>
+    <Image Name="button_un" XPos="173" YPos="186" Width="136" Height="34"/>
+    <Image Name="left_a" XPos="435" YPos="11" Width="31" Height="31"/>
+    <Image Name="left_h" XPos="331" YPos="186" Width="31" Height="31"/>
+    <Image Name="left_n" XPos="405" YPos="74" Width="31" Height="31"/>
+    <Image Name="quantity_empty" XPos="247" YPos="11" Width="166" Height="41"/>
+    <Image Name="right_a" XPos="405" YPos="127" Width="31" Height="31"/>
+    <Image Name="right_h" XPos="384" YPos="186" Width="31" Height="31"/>
+    <Image Name="right_n" XPos="437" YPos="180" Width="31" Height="31"/>
+    <Image Name="ss_texture_bg" XPos="11" YPos="11" Width="214" Height="148"/>
+</Imageset>

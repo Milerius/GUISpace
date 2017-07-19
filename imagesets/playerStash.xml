@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:89541d45d47f4f5f6f17588166b7a722:a750031aa09873de40b15f0b95b25dfb:1eae30313a690f481462d9aa83953888$ -->
+<Imageset Name="playerStash" Imagefile="playerStash.png" NativeHorzRes="1587" NativeVertRes="943" AutoScaled="false">
+    <Image Name="button_a" XPos="729" YPos="693" Width="151" Height="38"/>
+    <Image Name="button_h" XPos="902" YPos="693" Width="151" Height="38"/>
+    <Image Name="button_n" XPos="552" YPos="693" Width="155" Height="42"/>
+    <Image Name="button_un" XPos="509" YPos="757" Width="151" Height="38"/>
+    <Image Name="Heading/heading_left_part" XPos="251" YPos="862" Width="197" Height="66"/>
+    <Image Name="Heading/heading_mid_repeat" XPos="910" YPos="836" Width="46" Height="56"/>
+    <Image Name="Heading/heading_right_part" XPos="11" YPos="862" Width="218" Height="66"/>
+    <Image Name="Heading/heading_texture_merge" XPos="11" YPos="653" Width="519" Height="66"/>
+    <Image Name="inner_carving" XPos="1105" YPos="11" Width="471" Height="417"/>
+    <Image Name="inner_slots_merge" XPos="1105" YPos="450" Width="460" Height="403"/>
+    <Image Name="Items and Quality/0_junk_quality" XPos="999" YPos="753" Width="50" Height="50"/>
+    <Image Name="Items and Quality/1_common_quality" XPos="694" YPos="815" Width="50" Height="50"/>
+    <Image Name="Items and Quality/2_uncommon_quality" XPos="766" YPos="815" Width="50" Height="50"/>
+    <Image Name="Items and Quality/3_rare_quality" XPos="838" YPos="836" Width="50" Height="50"/>
+    <Image Name="Items and Quality/4_epic_quality" XPos="978" YPos="827" Width="50" Height="50"/>
+    <Image Name="Items and Quality/5_legendary_quality" XPos="1050" YPos="875" Width="50" Height="50"/>
+    <Image Name="Items and Quality/bg_bellow_item_icon_for_each" XPos="470" YPos="884" Width="48" Height="48"/>
+    <Image Name="Items and Quality/example1" XPos="1122" YPos="875" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example2" XPos="1190" YPos="875" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example3" XPos="1258" YPos="875" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example4" XPos="1326" YPos="875" Width="46" Height="46"/>
+    <Image Name="Items and Quality/example5" XPos="627" YPos="817" Width="45" Height="45"/>
+    <Image Name="Items and Quality/example6" XPos="1394" YPos="875" Width="46" Height="46"/>
+    <Image Name="Items and Quality/hovered_item_event" XPos="925" YPos="753" Width="52" Height="52"/>
+    <Image Name="Items and Quality/inner_shadow_for_each" XPos="1462" YPos="875" Width="46" Height="46"/>
+    <Image Name="money_indicator" XPos="1050" YPos="825" Width="26" Height="28"/>
+    <Image Name="slot_single" XPos="842" YPos="753" Width="61" Height="61"/>
+    <Image Name="tab_border_bottom" XPos="552" YPos="653" Width="476" Height="18"/>
+    <Image Name="tab_border_top" XPos="11" YPos="822" Width="476" Height="18"/>
+    <Image Name="tab_hovered" XPos="509" YPos="817" Width="96" Height="45"/>
+    <Image Name="tab_passive" XPos="540" YPos="884" Width="96" Height="45"/>
+    <Image Name="tab_purchases_bg" XPos="11" YPos="741" Width="476" Height="59"/>
+    <Image Name="tab_selected" XPos="729" YPos="753" Width="91" Height="40"/>
+    <Image Name="texture_and_inner_merged" XPos="11" YPos="11" Width="525" Height="620"/>
+    <Image Name="texture_bg" XPos="558" YPos="11" Width="525" Height="620"/>
+</Imageset>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:15816a03aeeef0ecd1fdf357aff72e30:e46d202446aa37d185a3a43b199d93e8:972822e073f65435eef7b859748cd8be$ -->
+<Imageset Name="Marchand" Imagefile="Marchand.png" NativeHorzRes="2048" NativeVertRes="793" AutoScaled="false">
+    <Image Name="big_merge" XPos="11" YPos="11" Width="537" Height="683"/>
+    <Image Name="bottom_frame_texture" XPos="1129" YPos="564" Width="490" Height="90"/>
+    <Image Name="carving_special" XPos="1129" YPos="11" Width="492" Height="531"/>
+    <Image Name="cash" XPos="2005" YPos="683" Width="25" Height="27"/>
+    <Image Name="drop_down_a" XPos="1900" YPos="736" Width="30" Height="30"/>
+    <Image Name="drop_down_body" XPos="1643" YPos="188" Width="212" Height="41"/>
+    <Image Name="drop_down_h" XPos="1953" YPos="683" Width="30" Height="30"/>
+    <Image Name="drop_down_n" XPos="2006" YPos="630" Width="30" Height="30"/>
+    <Image Name="Heading/close_a" XPos="1877" YPos="240" Width="27" Height="27"/>
+    <Image Name="Heading/close_h" XPos="1952" YPos="736" Width="27" Height="27"/>
+    <Image Name="Heading/close_n" XPos="2001" YPos="735" Width="27" Height="27"/>
+    <Image Name="Heading/head_lef_side" XPos="563" YPos="716" Width="232" Height="66"/>
+    <Image Name="Heading/head_right_side" XPos="1643" YPos="100" Width="211" Height="66"/>
+    <Image Name="Heading/heading_whole_merge" XPos="11" YPos="716" Width="530" Height="66"/>
+    <Image Name="Heading/label_holder" XPos="1643" YPos="11" Width="273" Height="67"/>
+    <Image Name="Heading/repeat_mid" XPos="1876" YPos="100" Width="41" Height="56"/>
+    <Image Name="item_hovered_event" XPos="1983" YPos="509" Width="46" Height="46"/>
+    <Image Name="Items in Merchant Behaviour/ak_icon" XPos="1877" YPos="178" Width="40" Height="40"/>
+    <Image Name="Items in Merchant Behaviour/bg_empty" XPos="1847" YPos="564" Width="44" Height="44"/>
+    <Image Name="Items in Merchant Behaviour/common_carving" XPos="1643" YPos="251" Width="178" Height="68"/>
+    <Image Name="Items in Merchant Behaviour/common_grade" XPos="1044" YPos="716" Width="50" Height="50"/>
+    <Image Name="Items in Merchant Behaviour/epic_carving" XPos="1643" YPos="341" Width="178" Height="68"/>
+    <Image Name="Items in Merchant Behaviour/epic_grade" XPos="1843" YPos="420" Width="50" Height="50"/>
+    <Image Name="Items in Merchant Behaviour/item_description_in_last_sold_box" XPos="1843" YPos="294" Width="177" Height="49"/>
+    <Image Name="Items in Merchant Behaviour/item_frame" XPos="1915" YPos="509" Width="46" Height="46"/>
+    <Image Name="Items in Merchant Behaviour/junk_carving" XPos="1643" YPos="431" Width="178" Height="68"/>
+    <Image Name="Items in Merchant Behaviour/junk_grade" XPos="1843" YPos="492" Width="50" Height="50"/>
+    <Image Name="Items in Merchant Behaviour/legendary_carving" XPos="1643" YPos="521" Width="178" Height="68"/>
+    <Image Name="Items in Merchant Behaviour/legendary_grade" XPos="1949" YPos="365" Width="50" Height="50"/>
+    <Image Name="Items in Merchant Behaviour/price_symbol" XPos="2021" YPos="365" Width="16" Height="16"/>
+    <Image Name="Items in Merchant Behaviour/rare_carving" XPos="1647" YPos="611" Width="178" Height="68"/>
+    <Image Name="Items in Merchant Behaviour/rare_grade" XPos="1915" YPos="437" Width="50" Height="50"/>
+    <Image Name="Items in Merchant Behaviour/uncommon_carving" XPos="1647" YPos="701" Width="178" Height="68"/>
+    <Image Name="Items in Merchant Behaviour/uncommon_grade" XPos="1987" YPos="437" Width="50" Height="50"/>
+    <Image Name="lbut_a" XPos="1939" YPos="129" Width="84" Height="33"/>
+    <Image Name="lbut_h" XPos="1939" YPos="184" Width="84" Height="33"/>
+    <Image Name="lbut_n" XPos="1938" YPos="11" Width="88" Height="37"/>
+    <Image Name="left_a" XPos="1847" YPos="630" Width="31" Height="31"/>
+    <Image Name="left_h" XPos="1847" YPos="683" Width="31" Height="31"/>
+    <Image Name="left_n" XPos="1847" YPos="736" Width="31" Height="31"/>
+    <Image Name="left_un" XPos="1913" YPos="577" Width="31" Height="31"/>
+    <Image Name="merchant_texture_box" XPos="570" YPos="11" Width="537" Height="683"/>
+    <Image Name="rbut_a" XPos="1939" YPos="239" Width="84" Height="33"/>
+    <Image Name="rbut_h" XPos="1843" YPos="365" Width="84" Height="33"/>
+    <Image Name="rbut_n" XPos="1939" YPos="70" Width="88" Height="37"/>
+    <Image Name="right_a" XPos="1900" YPos="630" Width="31" Height="31"/>
+    <Image Name="right_h" XPos="1966" YPos="577" Width="31" Height="31"/>
+    <Image Name="right_n" XPos="1900" YPos="683" Width="31" Height="31"/>
+    <Image Name="right_un" XPos="1953" YPos="630" Width="31" Height="31"/>
+    <Image Name="top_background_texture" XPos="1129" YPos="676" Width="496" Height="75"/>
+    <Image Name="trade_frame" XPos="817" YPos="716" Width="205" Height="55"/>
+</Imageset>

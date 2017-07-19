@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e973630daa0dbefd263e268c8c9992ec:b1cb8a2e698302b12ec157e85eae5eae:46ab0ba2e69c9b89c027dc0994fdbb5d$ -->
+<Imageset Name="AddingBox" Imagefile="AddingBox.png" NativeHorzRes="390" NativeVertRes="260" AutoScaled="false">
+    <Image Name="ab_texture" XPos="1" YPos="77" Width="388" Height="182"/>
+    <Image Name="ad_form" XPos="1" YPos="37" Width="236" Height="35"/>
+    <Image Name="adbutton_a" XPos="1" YPos="1" Width="136" Height="34"/>
+    <Image Name="adbutton_h" XPos="139" YPos="1" Width="136" Height="34"/>
+    <Image Name="adbutton_n" XPos="239" YPos="37" Width="140" Height="38"/>
+</Imageset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4f89315be85fb29130c07694d41cf15d:9cc1b8e0228897b4df456faeb6b8fdc1:fbc713aaa0a0aec2b700670669c41f4e$ -->
+<Imageset Name="IconsClassFull" Imagefile="IconsClassFull.png" NativeHorzRes="1376" NativeVertRes="172" AutoScaled="false">
+    <Image Name="combat_engineer" XPos="11" YPos="11" Width="150" Height="150"/>
+    <Image Name="combat_medic" XPos="183" YPos="11" Width="150" Height="150"/>
+    <Image Name="machine-gunner" XPos="355" YPos="11" Width="150" Height="150"/>
+    <Image Name="marksman" XPos="527" YPos="11" Width="150" Height="150"/>
+    <Image Name="recon" XPos="699" YPos="11" Width="150" Height="150"/>
+    <Image Name="rifleman" XPos="871" YPos="11" Width="150" Height="150"/>
+    <Image Name="rocketeer" XPos="1043" YPos="11" Width="150" Height="150"/>
+    <Image Name="sniper" XPos="1215" YPos="11" Width="150" Height="150"/>
+</Imageset>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:805f2df70ddceec07f6cc0c54e4136eb:299a51437c1d4793c716e257bcbdcab4:7689226ad590b060de3a9aba0c513c65$ -->
+<Imageset Name="LoadingScreen" Imagefile="LoadingScreen.png" NativeHorzRes="1942" NativeVertRes="815" AutoScaled="false">
+    <Image Name="bottom_border_effect" XPos="11" YPos="109" Width="1920" Height="52"/>
+    <Image Name="check_checked" XPos="908" YPos="258" Width="23" Height="23"/>
+    <Image Name="check_hovered" XPos="1604" YPos="480" Width="23" Height="23"/>
+    <Image Name="check_pass" XPos="743" YPos="761" Width="23" Height="23"/>
+    <Image Name="darkening" XPos="477" YPos="258" Width="409" Height="406"/>
+    <Image Name="forms_holder" XPos="11" YPos="258" Width="444" Height="546"/>
+    <Image Name="loading_bar" XPos="977" YPos="183" Width="887" Height="28"/>
+    <Image Name="loading_bar_frame" XPos="11" YPos="183" Width="944" Height="53"/>
+    <Image Name="log_form" XPos="1295" YPos="407" Width="351" Height="51"/>
+    <Image Name="loginb_a" XPos="1326" YPos="672" Width="199" Height="36"/>
+    <Image Name="loginb_h" XPos="1326" YPos="730" Width="199" Height="36"/>
+    <Image Name="loginb_n" XPos="1326" YPos="610" Width="203" Height="40"/>
+    <Image Name="loginb_un" XPos="1689" YPos="233" Width="199" Height="36"/>
+    <Image Name="logo" XPos="977" YPos="233" Width="690" Height="152"/>
+    <Image Name="news_bg" XPos="908" YPos="407" Width="365" Height="375"/>
+    <Image Name="news_rail" XPos="1295" YPos="480" Width="9" Height="303"/>
+    <Image Name="news_scroll" XPos="865" YPos="686" Width="10" Height="23"/>
+    <Image Name="news_tittle" XPos="477" YPos="686" Width="366" Height="53"/>
+    <Image Name="time_elemnt" XPos="1689" YPos="291" Width="200" Height="26"/>
+    <Image Name="top_border_effect" XPos="11" YPos="11" Width="1920" Height="76"/>
+    <Image Name="wide_button_a" XPos="477" YPos="761" Width="244" Height="37"/>
+    <Image Name="wide_button_h" XPos="1326" YPos="551" Width="244" Height="37"/>
+    <Image Name="wide_button_n" XPos="1326" YPos="480" Width="256" Height="49"/>
+</Imageset>

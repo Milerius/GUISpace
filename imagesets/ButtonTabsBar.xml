@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:19b040cc41a31bd5b620d7546f4d5d26:38784a9a2716c82c61a640def2efb030:04f821a843629e53f46177a9f8b57a4e$ -->
+<Imageset Name="ButtonTabsBar" Imagefile="ButtonTabsBar.png" NativeHorzRes="1012" NativeVertRes="204" AutoScaled="false">
+    <Image Name="tab_a" XPos="783" YPos="11" Width="168" Height="46"/>
+    <Image Name="tab_bar" XPos="11" YPos="11" Width="750" Height="67"/>
+    <Image Name="tab_bar_no_segments" XPos="11" YPos="100" Width="750" Height="67"/>
+    <Image Name="tab_bar_segment" XPos="973" YPos="11" Width="28" Height="62"/>
+    <Image Name="tab_h" XPos="783" YPos="79" Width="168" Height="46"/>
+    <Image Name="tab_n" XPos="783" YPos="147" Width="168" Height="46"/>
+</Imageset>

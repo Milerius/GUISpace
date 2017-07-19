@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7d870454048d3debc8992f779dd59e96:70a7908a5cc6139ac71c0ded1747b129:be472d701c7b5519454b706a2e2d538a$ -->
+<Imageset Name="TaskMain" Imagefile="TaskMain.png" NativeHorzRes="2038" NativeVertRes="1282" AutoScaled="false">
+    <Image Name="button1_a" XPos="1883" YPos="353" Width="117" Height="32"/>
+    <Image Name="button1_h" XPos="1883" YPos="407" Width="117" Height="32"/>
+    <Image Name="button1_n" XPos="1765" YPos="1110" Width="117" Height="32"/>
+    <Image Name="Items SAME as in Merchant Behaviour/ak_icon" XPos="1977" YPos="974" Width="40" Height="40"/>
+    <Image Name="Items SAME as in Merchant Behaviour/bg_empty" XPos="1981" YPos="1221" Width="44" Height="44"/>
+    <Image Name="Items SAME as in Merchant Behaviour/common_carving" XPos="1840" YPos="461" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/common_grade" XPos="1889" YPos="1020" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/epic_carving" XPos="1828" YPos="551" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/epic_grade" XPos="1588" YPos="1024" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/item_description_in_last_sold_box" XPos="1557" YPos="1200" Width="177" Height="49"/>
+    <Image Name="Items SAME as in Merchant Behaviour/item_frame" XPos="1976" YPos="1085" Width="46" Height="46"/>
+    <Image Name="Items SAME as in Merchant Behaviour/junk_carving" XPos="1828" YPos="641" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/junk_grade" XPos="1904" YPos="1092" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/legendary_carving" XPos="1797" YPos="731" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/legendary_grade" XPos="1765" YPos="1164" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/price_symbol" XPos="1695" YPos="934" Width="16" Height="16"/>
+    <Image Name="Items SAME as in Merchant Behaviour/rare_carving" XPos="1689" YPos="1020" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/rare_grade" XPos="1837" YPos="1164" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/uncommon_carving" XPos="1565" YPos="1110" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/uncommon_grade" XPos="1909" YPos="1164" Width="50" Height="50"/>
+    <Image Name="Left Side Content/bullet" XPos="1797" YPos="658" Width="6" Height="6"/>
+    <Image Name="Left Side Content/entry_hl" XPos="1695" YPos="974" Width="260" Height="24"/>
+    <Image Name="Left Side Content/limit" XPos="1254" YPos="1024" Width="312" Height="37"/>
+    <Image Name="Left Side Content/ls_bg" XPos="486" YPos="762" Width="318" Height="458"/>
+    <Image Name="Left Side Content/max_a" XPos="1261" YPos="1165" Width="274" Height="29"/>
+    <Image Name="Left Side Content/max_h" XPos="915" YPos="1227" Width="274" Height="29"/>
+    <Image Name="Left Side Content/max_n" XPos="1261" YPos="1216" Width="274" Height="29"/>
+    <Image Name="Left Side Content/min_a" XPos="1740" YPos="821" Width="274" Height="29"/>
+    <Image Name="Left Side Content/min_h" XPos="1740" YPos="872" Width="274" Height="29"/>
+    <Image Name="Left Side Content/min_n" XPos="1740" YPos="923" Width="274" Height="29"/>
+    <Image Name="Left Side Content/scroll_2" XPos="1760" YPos="738" Width="13" Height="42"/>
+    <Image Name="Left Side Content/spec_scroll_rail" XPos="1840" YPos="11" Width="21" Height="403"/>
+    <Image Name="Right Side Content/bg_groundwork" XPos="11" YPos="762" Width="453" Height="500"/>
+    <Image Name="Right Side Content/cash_symbol" XPos="1211" YPos="1227" Width="27" Height="29"/>
+    <Image Name="Right Side Content/item_background" XPos="826" YPos="986" Width="406" Height="123"/>
+    <Image Name="Right Side Content/item_event" XPos="1981" YPos="1153" Width="46" Height="46"/>
+    <Image Name="Right Side Content/location_form" XPos="1261" YPos="878" Width="457" Height="34"/>
+    <Image Name="Right Side Content/lvl_task_name_form" XPos="1261" YPos="812" Width="457" Height="44"/>
+    <Image Name="Right Side Content/moeney_and_xp_bg" XPos="486" YPos="1242" Width="407" Height="29"/>
+    <Image Name="Right Side Content/scroll" XPos="1997" YPos="731" Width="13" Height="42"/>
+    <Image Name="Right Side Content/scroll_rail" XPos="1797" YPos="512" Width="9" Height="124"/>
+    <Image Name="Right Side Content/scroll_rail_special" XPos="1797" YPos="11" Width="21" Height="479"/>
+    <Image Name="Right Side Content/segment_divider" XPos="1805" YPos="1236" Width="22" Height="22"/>
+    <Image Name="Right Side Content/shorted_form" XPos="1261" YPos="934" Width="412" Height="34"/>
+    <Image Name="Right Side Content/small_scroll" XPos="1849" YPos="1236" Width="10" Height="23"/>
+    <Image Name="Right Side Content/text_area" XPos="826" YPos="812" Width="413" Height="152"/>
+    <Image Name="Right Side Content/text_area_bot" XPos="1254" YPos="990" Width="413" Height="12"/>
+    <Image Name="Right Side Content/text_area_repeat_verti" XPos="826" YPos="1131" Width="413" Height="39"/>
+    <Image Name="Right Side Content/text_area_top" XPos="826" YPos="1192" Width="413" Height="13"/>
+    <Image Name="tab_button2_a" XPos="1883" YPos="11" Width="129" Height="35"/>
+    <Image Name="tab_button2_h" XPos="1883" YPos="68" Width="129" Height="35"/>
+    <Image Name="tab_button2_n" XPos="1883" YPos="125" Width="129" Height="35"/>
+    <Image Name="tab_button3_a" XPos="1883" YPos="182" Width="129" Height="35"/>
+    <Image Name="tab_button3_h" XPos="1883" YPos="239" Width="129" Height="35"/>
+    <Image Name="tab_button3_n" XPos="1883" YPos="296" Width="129" Height="35"/>
+    <Image Name="task_device_bottom_frame" XPos="904" YPos="738" Width="834" Height="52"/>
+    <Image Name="task_device_split" XPos="904" YPos="11" Width="871" Height="705"/>
+    <Image Name="task_device_texture" XPos="11" YPos="11" Width="871" Height="729"/>
+    <Image Name="taskclose_a" XPos="826" YPos="762" Width="27" Height="27"/>
+    <Image Name="taskclose_h" XPos="1961" YPos="1036" Width="27" Height="27"/>
+    <Image Name="taskclose_n" XPos="1756" YPos="1236" Width="27" Height="27"/>
+    <Image Name="top_button_frame" XPos="1261" YPos="1083" Width="282" Height="60"/>
+</Imageset>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:99fd5760896667746431f3bed5511ec3:6585b8374b46124f49f3e0b82ce1a0e7:a7d4f0595e3ca551c80f6cd50c06d802$ -->
+<Imageset Name="Tab Stats" Imagefile="Tab Stats.png" NativeHorzRes="286" NativeVertRes="678" AutoScaled="false">
+    <Image Name="description_box_bot_part" XPos="11" YPos="650" Width="264" Height="17"/>
+    <Image Name="description_box_mid_part_repeat_vertically" XPos="11" YPos="539" Width="264" Height="45"/>
+    <Image Name="description_box_top_part" XPos="11" YPos="606" Width="264" Height="22"/>
+    <Image Name="Scroll/down_a" XPos="56" YPos="91" Width="25" Height="27"/>
+    <Image Name="Scroll/down_h" XPos="101" YPos="11" Width="25" Height="27"/>
+    <Image Name="Scroll/down_n" XPos="146" YPos="60" Width="23" Height="25"/>
+    <Image Name="Scroll/scroll_mp_a" XPos="56" YPos="11" Width="23" Height="58"/>
+    <Image Name="Scroll/scroll_mp_n" XPos="103" YPos="60" Width="21" Height="56"/>
+    <Image Name="Scroll/scroll_rail" XPos="11" YPos="11" Width="23" Height="506"/>
+    <Image Name="Scroll/up_a" XPos="103" YPos="138" Width="25" Height="27"/>
+    <Image Name="Scroll/up_h" XPos="148" YPos="11" Width="25" Height="27"/>
+    <Image Name="Scroll/up_n" XPos="56" YPos="140" Width="23" Height="25"/>
+</Imageset>

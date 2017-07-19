@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6c635eaa94826390bc6efaada998a4db:a95531c18c9384ec0f986770b4d7a3c0:010fa059f4563dc8e623e9811a16538f$ -->
+<Imageset Name="FullSizeCursor" Imagefile="FullSizeCursor.png" NativeHorzRes="1044" NativeVertRes="1566" AutoScaled="false">
+    <Image Name="box" XPos="11" YPos="11" Width="500" Height="500"/>
+    <Image Name="chat" XPos="11" YPos="533" Width="500" Height="500"/>
+    <Image Name="cog" XPos="11" YPos="1055" Width="500" Height="500"/>
+    <Image Name="main" XPos="533" YPos="11" Width="500" Height="500"/>
+    <Image Name="money" XPos="533" YPos="533" Width="500" Height="500"/>
+    <Image Name="sword" XPos="533" YPos="1055" Width="500" Height="500"/>
+</Imageset>

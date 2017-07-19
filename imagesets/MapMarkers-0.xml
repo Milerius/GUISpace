@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:fae7e0378fe05fbc70da728e735612f7:7853aaa451e515997f2a9fabf2b104e2:b07ec2a7099eae00342969301ebbbcce$ -->
+<Imageset Name="MapMarkers-0" Imagefile="MapMarkers-0.png" NativeHorzRes="1566" NativeVertRes="1566" AutoScaled="false">
+    <Image Name="auction" XPos="11" YPos="11" Width="500" Height="500"/>
+    <Image Name="base_marker" XPos="11" YPos="533" Width="500" Height="500"/>
+    <Image Name="class_trainer" XPos="11" YPos="1055" Width="500" Height="500"/>
+    <Image Name="enemy_npc" XPos="533" YPos="11" Width="500" Height="500"/>
+    <Image Name="enemy_player" XPos="1055" YPos="11" Width="500" Height="500"/>
+    <Image Name="entrance" XPos="533" YPos="533" Width="500" Height="500"/>
+    <Image Name="flight_path" XPos="533" YPos="1055" Width="500" Height="500"/>
+    <Image Name="friendly_npc" XPos="1055" YPos="533" Width="500" Height="500"/>
+    <Image Name="friendly_player" XPos="1055" YPos="1055" Width="500" Height="500"/>
+</Imageset>

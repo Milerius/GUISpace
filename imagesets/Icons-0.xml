@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f3c5dfa719a002a7cb0f4f3e3446d243:91f07622796f5498e6f9db915c55923b:a1695f8b095d92132f361f6d6924194e$ -->
+<Imageset Name="Icons-0" Imagefile="Icons-0.png" NativeHorzRes="1846" NativeVertRes="1942" AutoScaled="false">
+    <Image Name="40_mike_mike" XPos="545" YPos="1057" Width="500" Height="500"/>
+    <Image Name="armour_manufacture" XPos="1057" YPos="11" Width="500" Height="500"/>
+    <Image Name="armour_upgrade" XPos="1057" YPos="533" Width="500" Height="500"/>
+    <Image Name="artilery_call" XPos="1067" YPos="1055" Width="500" Height="500"/>
+    <Image Name="crafting_blue" XPos="11" YPos="1591" Width="256" Height="256"/>
+    <Image Name="crafting_green" XPos="1579" YPos="11" Width="256" Height="256"/>
+    <Image Name="crafting_icon" XPos="1579" YPos="289" Width="256" Height="256"/>
+    <Image Name="crafting_icon_transparent_bar" XPos="1579" YPos="567" Width="256" Height="256"/>
+    <Image Name="future_ak" XPos="11" YPos="11" Width="1024" Height="1024"/>
+    <Image Name="future_ak_crafted" XPos="11" YPos="1057" Width="512" Height="512"/>
+    <Image Name="pet_aggressive" XPos="1067" YPos="1577" Width="352" Height="352"/>
+    <Image Name="pet_deffensive" XPos="1441" YPos="1577" Width="352" Height="352"/>
+    <Image Name="pet_passive" XPos="545" YPos="1579" Width="352" Height="352"/>
+</Imageset>

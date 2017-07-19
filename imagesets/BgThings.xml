@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:59fbbdf5855d7ca3ccb83bbf38d01c17:a51d0ce7e48092c5bdfec522acdb73ab:60290636481a133db2d127e207818ae0$ -->
+<Imageset Name="BgThings" Imagefile="BgThings.png" NativeHorzRes="998" NativeVertRes="1735" AutoScaled="false">
+    <Image Name="bot_left_slice" XPos="11" YPos="1631" Width="115" Height="93"/>
+    <Image Name="bot_right_slice" XPos="148" YPos="1631" Width="115" Height="93"/>
+    <Image Name="bottom_mid_repeat" XPos="642" YPos="1404" Width="51" Height="51"/>
+    <Image Name="carv_bl" XPos="642" YPos="1477" Width="51" Height="51"/>
+    <Image Name="carv_br" XPos="285" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carv_colour_repeat" XPos="358" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carv_left_repeat" XPos="431" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carv_right_repeat" XPos="504" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carv_tl" XPos="577" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carv_top_mid_repeat" XPos="650" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carv_tr" XPos="723" YPos="1631" Width="51" Height="51"/>
+    <Image Name="carving" XPos="11" YPos="789" Width="737" Height="593"/>
+    <Image Name="character_big_box_texture" XPos="11" YPos="11" Width="785" Height="756"/>
+    <Image Name="mid_slice" XPos="258" YPos="1404" Width="225" Height="93"/>
+    <Image Name="slice1" XPos="11" YPos="1567" Width="785" Height="42"/>
+    <Image Name="slice2" XPos="907" YPos="789" Width="80" Height="756"/>
+    <Image Name="slice3" XPos="770" YPos="789" Width="115" Height="756"/>
+    <Image Name="slice4" XPos="818" YPos="11" Width="115" Height="756"/>
+    <Image Name="top_left_slice" XPos="818" YPos="1567" Width="115" Height="111"/>
+    <Image Name="top_mid_slice" XPos="11" YPos="1404" Width="225" Height="111"/>
+    <Image Name="top_right_slice" XPos="505" YPos="1404" Width="115" Height="111"/>
+</Imageset>

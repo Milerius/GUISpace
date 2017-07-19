@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:79d20f84b502f88ce7d1ebece0f43a47:c69440e1e1925114831432cb7fbba868:82b7cf9bb8fa06ec45f6de64d45c7324$ -->
+<Imageset Name="world" Imagefile="world.png" NativeHorzRes="1611" NativeVertRes="1670" AutoScaled="false">
+    <Image Name="auction" XPos="1580" YPos="143" Width="19" Height="16"/>
+    <Image Name="base" XPos="1534" YPos="1461" Width="19" Height="21"/>
+    <Image Name="bottom_border_texture" XPos="11" YPos="1565" Width="932" Height="4"/>
+    <Image Name="bottom_holder" XPos="1354" YPos="1024" Width="246" Height="137"/>
+    <Image Name="check_checked" XPos="1373" YPos="569" Width="20" Height="20"/>
+    <Image Name="check_h" XPos="1373" YPos="611" Width="20" Height="20"/>
+    <Image Name="check_n" XPos="1373" YPos="653" Width="20" Height="20"/>
+    <Image Name="class_trainer" XPos="1542" YPos="142" Width="16" Height="19"/>
+    <Image Name="close_active" XPos="1311" YPos="1139" Width="21" Height="21"/>
+    <Image Name="close_gizmo" XPos="1311" YPos="1511" Width="46" Height="44"/>
+    <Image Name="close_hover" XPos="1373" YPos="440" Width="21" Height="21"/>
+    <Image Name="close_normal" XPos="1373" YPos="483" Width="21" Height="21"/>
+    <Image Name="column_1" XPos="1311" YPos="812" Width="21" Height="305"/>
+    <Image Name="column_2" XPos="1373" YPos="11" Width="21" Height="303"/>
+    <Image Name="drop_down_a" XPos="1552" YPos="11" Width="30" Height="30"/>
+    <Image Name="drop_down_bar" XPos="695" YPos="1617" Width="242" Height="41"/>
+    <Image Name="drop_down_h" XPos="1373" YPos="336" Width="30" Height="30"/>
+    <Image Name="drop_down_n" XPos="1373" YPos="388" Width="30" Height="30"/>
+    <Image Name="drop_hl" XPos="1311" YPos="1461" Width="201" Height="28"/>
+    <Image Name="drop_texture" XPos="1311" YPos="1183" Width="242" Height="193"/>
+    <Image Name="heading_element_label" XPos="11" YPos="1617" Width="662" Height="42"/>
+    <Image Name="holographic_overlay" XPos="11" YPos="11" Width="935" Height="755"/>
+    <Image Name="instance" XPos="1575" YPos="1464" Width="17" Height="20"/>
+    <Image Name="left_side_texture" XPos="1311" YPos="11" Width="40" Height="779"/>
+    <Image Name="legend_entry_border" XPos="1416" YPos="11" Width="114" Height="22"/>
+    <Image Name="map_example" XPos="11" YPos="788" Width="935" Height="755"/>
+    <Image Name="mapzin_a" XPos="1379" YPos="1511" Width="40" Height="40"/>
+    <Image Name="mapzin_h" XPos="1480" YPos="55" Width="40" Height="40"/>
+    <Image Name="mapzin_n" XPos="1416" YPos="193" Width="40" Height="40"/>
+    <Image Name="mapzout_a" XPos="1441" YPos="1511" Width="40" Height="40"/>
+    <Image Name="mapzout_h" XPos="1480" YPos="117" Width="40" Height="40"/>
+    <Image Name="mapzout_n" XPos="1416" YPos="255" Width="40" Height="40"/>
+    <Image Name="npc_enemy" XPos="1373" YPos="778" Width="11" Height="11"/>
+    <Image Name="npc_friend" XPos="1346" YPos="1646" Width="11" Height="11"/>
+    <Image Name="npc_neutral" XPos="1572" YPos="1547" Width="11" Height="11"/>
+    <Image Name="party_member" XPos="1311" YPos="1646" Width="13" Height="13"/>
+    <Image Name="path" XPos="1582" YPos="105" Width="18" Height="16"/>
+    <Image Name="player" XPos="1584" YPos="63" Width="16" Height="20"/>
+    <Image Name="player_enemy" XPos="1425" YPos="353" Width="16" Height="16"/>
+    <Image Name="player_friend" XPos="1425" YPos="391" Width="16" Height="16"/>
+    <Image Name="player_neutral" XPos="1534" YPos="1545" Width="16" Height="16"/>
+    <Image Name="professions" XPos="1373" YPos="695" Width="19" Height="20"/>
+    <Image Name="q_completed" XPos="1373" YPos="737" Width="19" Height="19"/>
+    <Image Name="q_pending" XPos="1534" YPos="1504" Width="19" Height="19"/>
+    <Image Name="quest_available" XPos="1575" YPos="1506" Width="19" Height="19"/>
+    <Image Name="quest_objective" XPos="1373" YPos="526" Width="20" Height="21"/>
+    <Image Name="resource" XPos="1425" YPos="317" Width="21" Height="14"/>
+    <Image Name="right_side_texture_merge" XPos="968" YPos="11" Width="321" Height="811"/>
+    <Image Name="right_side_texture_single" XPos="968" YPos="844" Width="321" Height="811"/>
+    <Image Name="seach_a" XPos="1416" YPos="55" Width="42" Height="47"/>
+    <Image Name="search_bar" XPos="1311" YPos="1398" Width="242" Height="41"/>
+    <Image Name="search_h" XPos="1311" YPos="1577" Width="42" Height="47"/>
+    <Image Name="search_n" XPos="1416" YPos="124" Width="42" Height="47"/>
+    <Image Name="slider_hovered" XPos="1575" YPos="1370" Width="9" Height="29"/>
+    <Image Name="slider_normal" XPos="1503" YPos="1511" Width="9" Height="29"/>
+    <Image Name="slider_rail" XPos="1575" YPos="1183" Width="11" Height="165"/>
+    <Image Name="top_border_texture" XPos="11" YPos="1591" Width="932" Height="4"/>
+    <Image Name="top_holder" XPos="1354" YPos="812" Width="246" Height="190"/>
+    <Image Name="vault" XPos="1542" YPos="63" Width="20" Height="17"/>
+    <Image Name="vendor" XPos="1542" YPos="102" Width="18" Height="18"/>
+    <Image Name="waypoint" XPos="1575" YPos="1421" Width="16" Height="21"/>
+</Imageset>

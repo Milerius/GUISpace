@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4f076c50bf2424d1c88ec9f307bf65b9:fd87284c2fd97aa17b7bd5c133d6c53c:c8060b8fdce7505f29dce86a7c94ebe0$ -->
+<Imageset Name="Heading" Imagefile="Heading.png" NativeHorzRes="1881" NativeVertRes="89" AutoScaled="false">
+    <Image Name="close_a" XPos="1804" YPos="11" Width="27" Height="27"/>
+    <Image Name="close_h" XPos="1804" YPos="50" Width="27" Height="27"/>
+    <Image Name="close_n" XPos="1843" YPos="11" Width="27" Height="27"/>
+    <Image Name="heading_texture" XPos="296" YPos="11" Width="780" Height="66"/>
+    <Image Name="label_holder" XPos="11" YPos="11" Width="273" Height="67"/>
+    <Image Name="left_side" XPos="1088" YPos="11" Width="360" Height="66"/>
+    <Image Name="middle_repeater" XPos="1741" YPos="11" Width="51" Height="56"/>
+    <Image Name="right_side" XPos="1460" YPos="11" Width="269" Height="66"/>
+</Imageset>

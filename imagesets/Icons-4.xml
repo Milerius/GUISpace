@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f3c5dfa719a002a7cb0f4f3e3446d243:91f07622796f5498e6f9db915c55923b:a1695f8b095d92132f361f6d6924194e$ -->
+<Imageset Name="Icons-4" Imagefile="Icons-4.png" NativeHorzRes="1566" NativeVertRes="1566" AutoScaled="false">
+    <Image Name="pet_stay" XPos="11" YPos="11" Width="500" Height="500"/>
+    <Image Name="pet_talents" XPos="11" YPos="533" Width="500" Height="500"/>
+    <Image Name="range_attack" XPos="11" YPos="1055" Width="500" Height="500"/>
+    <Image Name="rigor_training" XPos="533" YPos="11" Width="500" Height="500"/>
+    <Image Name="shield_generator" XPos="1055" YPos="11" Width="500" Height="500"/>
+    <Image Name="shield_overload" XPos="533" YPos="533" Width="500" Height="500"/>
+    <Image Name="smoke" XPos="533" YPos="1055" Width="500" Height="500"/>
+    <Image Name="special_ability_1" XPos="1055" YPos="533" Width="500" Height="500"/>
+    <Image Name="special_ability_2" XPos="1055" YPos="1055" Width="500" Height="500"/>
+</Imageset>

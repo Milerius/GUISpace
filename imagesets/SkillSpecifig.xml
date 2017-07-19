@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9bcb9651ec9c636fa8f3b1266787492c:8b173a728a92e495b7a10a0168a28b0a:e4c2cb688c5a82626b1fc3a44c598515$ -->
+<Imageset Name="SkillSpecifig" Imagefile="SkillSpecifig.png" NativeHorzRes="968" NativeVertRes="1666" AutoScaled="false">
+    <Image Name="backpack" XPos="11" YPos="11" Width="220" Height="220"/>
+    <Image Name="belt" XPos="11" YPos="253" Width="220" Height="220"/>
+    <Image Name="boots" XPos="253" YPos="11" Width="220" Height="220"/>
+    <Image Name="bracers" XPos="11" YPos="495" Width="220" Height="220"/>
+    <Image Name="chest" XPos="253" YPos="253" Width="220" Height="220"/>
+    <Image Name="cloack" XPos="495" YPos="11" Width="220" Height="220"/>
+    <Image Name="dogtags" XPos="737" YPos="11" Width="220" Height="220"/>
+    <Image Name="eyeware" XPos="11" YPos="737" Width="220" Height="220"/>
+    <Image Name="faceware" XPos="253" YPos="495" Width="220" Height="220"/>
+    <Image Name="gloves" XPos="495" YPos="253" Width="220" Height="220"/>
+    <Image Name="helmet" XPos="737" YPos="253" Width="220" Height="220"/>
+    <Image Name="internal_parts" XPos="11" YPos="979" Width="220" Height="220"/>
+    <Image Name="magazine" XPos="253" YPos="737" Width="220" Height="220"/>
+    <Image Name="muzzle" XPos="495" YPos="495" Width="220" Height="220"/>
+    <Image Name="pants" XPos="737" YPos="495" Width="220" Height="220"/>
+    <Image Name="pet_armour" XPos="11" YPos="1463" Width="194" Height="192"/>
+    <Image Name="pet_collar" XPos="227" YPos="1463" Width="194" Height="192"/>
+    <Image Name="protectors" XPos="11" YPos="1221" Width="220" Height="220"/>
+    <Image Name="scope" XPos="253" YPos="979" Width="220" Height="220"/>
+    <Image Name="shield" XPos="495" YPos="737" Width="220" Height="220"/>
+    <Image Name="sidearm" XPos="737" YPos="737" Width="220" Height="220"/>
+    <Image Name="silencer" XPos="253" YPos="1221" Width="220" Height="220"/>
+    <Image Name="special_items" XPos="495" YPos="979" Width="220" Height="220"/>
+    <Image Name="stock" XPos="737" YPos="979" Width="220" Height="220"/>
+    <Image Name="utility" XPos="495" YPos="1221" Width="220" Height="220"/>
+    <Image Name="weapon" XPos="737" YPos="1221" Width="220" Height="220"/>
+</Imageset>

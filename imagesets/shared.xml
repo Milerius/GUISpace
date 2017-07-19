@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b895e29b504f76c019c83163abb67f24:7ee23622dc5155a00ba7867de91eff65:8cf2f01fcc3ad2187b309923a569eaae$ -->
+<Imageset Name="shared" Imagefile="shared.png" NativeHorzRes="993" NativeVertRes="815" AutoScaled="false">
+    <Image Name="backpack" XPos="867" YPos="500" Width="51" Height="51"/>
+    <Image Name="belt" XPos="787" YPos="506" Width="51" Height="51"/>
+    <Image Name="bg_artwork" XPos="11" YPos="11" Width="423" Height="589"/>
+    <Image Name="big_event_hl" XPos="787" YPos="426" Width="58" Height="58"/>
+    <Image Name="boots" XPos="870" YPos="573" Width="51" Height="51"/>
+    <Image Name="bracers" XPos="943" YPos="552" Width="38" Height="38"/>
+    <Image Name="char_shadow" XPos="11" YPos="622" Width="309" Height="73"/>
+    <Image Name="character_entry" XPos="787" YPos="11" Width="195" Height="393"/>
+    <Image Name="chest" XPos="870" YPos="646" Width="51" Height="51"/>
+    <Image Name="cloack" XPos="943" YPos="612" Width="38" Height="38"/>
+    <Image Name="dogtags" XPos="943" YPos="672" Width="38" Height="38"/>
+    <Image Name="eyeware" XPos="943" YPos="732" Width="38" Height="38"/>
+    <Image Name="gloves" XPos="84" YPos="717" Width="38" Height="38"/>
+    <Image Name="helmet" XPos="870" YPos="719" Width="51" Height="51"/>
+    <Image Name="highlight" XPos="456" YPos="617" Width="392" Height="117"/>
+    <Image Name="internal_parts" XPos="144" YPos="717" Width="38" Height="38"/>
+    <Image Name="magazine" XPos="204" YPos="717" Width="38" Height="38"/>
+    <Image Name="major_item_frame" XPos="342" YPos="622" Width="74" Height="74"/>
+    <Image Name="mask" XPos="264" YPos="717" Width="38" Height="38"/>
+    <Image Name="minor_item_frame" XPos="940" YPos="426" Width="42" Height="42"/>
+    <Image Name="muzzle" XPos="324" YPos="718" Width="38" Height="38"/>
+    <Image Name="pants" XPos="11" YPos="717" Width="51" Height="51"/>
+    <Image Name="protectors" XPos="384" YPos="718" Width="38" Height="38"/>
+    <Image Name="rccw_a" XPos="84" YPos="777" Width="26" Height="26"/>
+    <Image Name="rccw_h" XPos="132" YPos="777" Width="26" Height="26"/>
+    <Image Name="rccw_n" XPos="180" YPos="777" Width="26" Height="26"/>
+    <Image Name="rcw_a" XPos="228" YPos="777" Width="26" Height="26"/>
+    <Image Name="rcw_h" XPos="276" YPos="777" Width="26" Height="26"/>
+    <Image Name="rcw_n" XPos="324" YPos="778" Width="26" Height="26"/>
+    <Image Name="rifle" XPos="867" YPos="426" Width="51" Height="52"/>
+    <Image Name="scope" XPos="444" YPos="756" Width="38" Height="38"/>
+    <Image Name="shield" XPos="504" YPos="756" Width="38" Height="38"/>
+    <Image Name="sidearm" XPos="564" YPos="756" Width="38" Height="38"/>
+    <Image Name="silencer" XPos="624" YPos="756" Width="38" Height="38"/>
+    <Image Name="small_event_hl" XPos="940" YPos="490" Width="40" Height="40"/>
+    <Image Name="special" XPos="684" YPos="756" Width="38" Height="38"/>
+    <Image Name="stats_bg" XPos="456" YPos="11" Width="309" Height="584"/>
+    <Image Name="stock" XPos="744" YPos="756" Width="38" Height="38"/>
+    <Image Name="utility" XPos="804" YPos="756" Width="38" Height="38"/>
+</Imageset>

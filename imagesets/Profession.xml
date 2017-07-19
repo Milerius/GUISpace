@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:72744b162a46a10448cd40268773fdf4:a39e92690b5a2c0e6daec08043212dda:0a81166a8840ed562885f1cbf4e2f22c$ -->
+<Imageset Name="Profession" Imagefile="Profession.png" NativeHorzRes="2026" NativeVertRes="985" AutoScaled="false">
+    <Image Name="button2_a" XPos="1833" YPos="628" Width="142" Height="34"/>
+    <Image Name="button2_h" XPos="1823" YPos="684" Width="142" Height="34"/>
+    <Image Name="button2_n" XPos="1834" YPos="502" Width="146" Height="38"/>
+    <Image Name="button2_un" XPos="1769" YPos="740" Width="142" Height="34"/>
+    <Image Name="button_a" XPos="1833" YPos="628" Width="142" Height="34"/>
+    <Image Name="button_h" XPos="1823" YPos="684" Width="142" Height="34"/>
+    <Image Name="button_n" XPos="1834" YPos="502" Width="146" Height="38"/>
+    <Image Name="button_un" XPos="1769" YPos="740" Width="142" Height="34"/>
+    <Image Name="carving_inner" XPos="573" YPos="11" Width="495" Height="519"/>
+    <Image Name="ci_common_plate" XPos="1548" YPos="827" Width="159" Height="47"/>
+    <Image Name="ci_epic_plate" XPos="1363" YPos="722" Width="163" Height="51"/>
+    <Image Name="ci_junk_plate" XPos="1524" YPos="896" Width="159" Height="47"/>
+    <Image Name="ci_legendary_plate" XPos="1363" YPos="795" Width="163" Height="51"/>
+    <Image Name="ci_rare_plate" XPos="306" YPos="902" Width="163" Height="51"/>
+    <Image Name="ci_uncommon_plate" XPos="1339" YPos="868" Width="163" Height="51"/>
+    <Image Name="component_bg" XPos="1933" YPos="740" Width="38" Height="38"/>
+    <Image Name="component_frame" XPos="1897" YPos="423" Width="48" Height="48"/>
+    <Image Name="component_info_bg" XPos="1833" YPos="562" Width="155" Height="44"/>
+    <Image Name="components_bg" XPos="1607" YPos="11" Width="214" Height="289"/>
+    <Image Name="content_plate" XPos="573" YPos="552" Width="490" Height="422"/>
+    <Image Name="crafted_item_back_empty" XPos="1917" YPos="800" Width="40" Height="41"/>
+    <Image Name="crafted_item_backpart" XPos="1927" YPos="11" Width="70" Height="59"/>
+    <Image Name="crafted_item_frame" XPos="1967" YPos="378" Width="48" Height="48"/>
+    <Image Name="crafting_plate" XPos="11" YPos="779" Width="491" Height="61"/>
+    <Image Name="crated_weapon_1" XPos="1815" YPos="860" Width="40" Height="41"/>
+    <Image Name="crating_component_1" XPos="1789" YPos="796" Width="42" Height="42"/>
+    <Image Name="crating_component_2" XPos="1853" YPos="796" Width="42" Height="42"/>
+    <Image Name="crating_component_3" XPos="1729" YPos="836" Width="38" Height="38"/>
+    <Image Name="example_icon" XPos="1815" YPos="923" Width="35" Height="35"/>
+    <Image Name="expanded_tab" XPos="1548" YPos="756" Width="163" Height="49"/>
+    <Image Name="frame_bellow_bg" XPos="1979" YPos="836" Width="36" Height="36"/>
+    <Image Name="frame_button_a" XPos="1927" YPos="168" Width="51" Height="52"/>
+    <Image Name="frame_button_h" XPos="1927" YPos="92" Width="53" Height="54"/>
+    <Image Name="frame_button_n" XPos="1927" YPos="242" Width="51" Height="52"/>
+    <Image Name="Heading/close_a" XPos="524" YPos="779" Width="27" Height="27"/>
+    <Image Name="Heading/close_h" XPos="524" YPos="828" Width="27" Height="27"/>
+    <Image Name="Heading/close_n" XPos="1309" YPos="947" Width="27" Height="27"/>
+    <Image Name="Heading/head_lef_side" XPos="1085" YPos="859" Width="232" Height="66"/>
+    <Image Name="Heading/head_right_side" XPos="1607" YPos="322" Width="211" Height="66"/>
+    <Image Name="Heading/heading_texture_merge" XPos="11" YPos="691" Width="533" Height="66"/>
+    <Image Name="Heading/label_holder" XPos="11" YPos="902" Width="273" Height="67"/>
+    <Image Name="Heading/repeat_mid" XPos="1834" YPos="424" Width="41" Height="56"/>
+    <Image Name="hovered_entry" XPos="1548" YPos="710" Width="199" Height="24"/>
+    <Image Name="inward_whole_merged" XPos="1090" YPos="11" Width="495" Height="519"/>
+    <Image Name="item_event_highlight" XPos="1747" YPos="896" Width="46" Height="46"/>
+    <Image Name="left_a" XPos="1358" YPos="941" Width="31" Height="31"/>
+    <Image Name="left_h" XPos="1411" YPos="941" Width="31" Height="31"/>
+    <Image Name="left_n" XPos="1464" YPos="941" Width="31" Height="31"/>
+    <Image Name="professions_pate_texture_bg" XPos="11" YPos="11" Width="540" Height="658"/>
+    <Image Name="right_a" XPos="1967" YPos="448" Width="31" Height="31"/>
+    <Image Name="right_h" XPos="1877" YPos="863" Width="31" Height="31"/>
+    <Image Name="right_n" XPos="1974" YPos="894" Width="31" Height="31"/>
+    <Image Name="short_max_a" XPos="1607" YPos="410" Width="205" Height="28"/>
+    <Image Name="short_max_h" XPos="1607" YPos="460" Width="205" Height="28"/>
+    <Image Name="short_max_n" XPos="1607" YPos="510" Width="205" Height="28"/>
+    <Image Name="short_min_a" XPos="1606" YPos="560" Width="205" Height="28"/>
+    <Image Name="short_min_h" XPos="1606" YPos="610" Width="205" Height="28"/>
+    <Image Name="short_min_n" XPos="1596" YPos="660" Width="205" Height="28"/>
+    <Image Name="short_selected_entry" XPos="1085" YPos="947" Width="202" Height="24"/>
+    <Image Name="skill_fill" XPos="1085" YPos="691" Width="429" Height="9"/>
+    <Image Name="skill_frame" XPos="11" YPos="862" Width="436" Height="18"/>
+    <Image Name="skill_holder" XPos="1885" YPos="378" Width="45" Height="23"/>
+    <Image Name="Small Scroll/down_active" XPos="1993" YPos="698" Width="22" Height="24"/>
+    <Image Name="Small Scroll/down_hovered" XPos="1993" YPos="744" Width="22" Height="24"/>
+    <Image Name="Small Scroll/down_normal" XPos="491" YPos="877" Width="20" Height="22"/>
+    <Image Name="Small Scroll/mp_hover_or_dragged" XPos="1705" YPos="896" Width="20" Height="50"/>
+    <Image Name="Small Scroll/mp_n" XPos="1997" YPos="628" Width="18" Height="48"/>
+    <Image Name="Small Scroll/professions_small_reail" XPos="1843" YPos="11" Width="20" Height="391"/>
+    <Image Name="Small Scroll/right_side_rail" XPos="1885" YPos="11" Width="20" Height="279"/>
+    <Image Name="Small Scroll/up_active" XPos="1993" YPos="790" Width="22" Height="24"/>
+    <Image Name="Small Scroll/up_hovered" XPos="1930" YPos="863" Width="22" Height="24"/>
+    <Image Name="Small Scroll/up_normal" XPos="491" YPos="921" Width="20" Height="22"/>
+    <Image Name="split_empty" XPos="1885" YPos="316" Width="122" Height="40"/>
+    <Image Name="tab_rail_texture" XPos="1085" YPos="552" Width="499" Height="66"/>
+    <Image Name="tab_remove_a" XPos="1877" YPos="916" Width="23" Height="23"/>
+    <Image Name="tab_remove_h" XPos="1922" YPos="916" Width="23" Height="23"/>
+    <Image Name="tab_remove_n" XPos="1967" YPos="947" Width="23" Height="23"/>
+    <Image Name="tech_plate" XPos="1085" YPos="722" Width="256" Height="115"/>
+    <Image Name="xp_bar_back" XPos="1085" YPos="640" Width="489" Height="29"/>
+</Imageset>

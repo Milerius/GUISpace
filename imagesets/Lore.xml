@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:fe259e787f2aac6311f626e42341924e:ec65d355ea9608c75bfeca611504dadb:1b12e4b72e052cef7f7f3cdffadfdcab$ -->
+<Imageset Name="Lore" Imagefile="Lore.png" NativeHorzRes="2036" NativeVertRes="1199" AutoScaled="false">
+    <Image Name="entry_hl" XPos="1699" YPos="869" Width="228" Height="24"/>
+    <Image Name="example_pic" XPos="1439" YPos="99" Width="333" Height="152"/>
+    <Image Name="Heading/close_a" XPos="1995" YPos="305" Width="27" Height="27"/>
+    <Image Name="Heading/close_h" XPos="1995" YPos="354" Width="27" Height="27"/>
+    <Image Name="Heading/close_n" XPos="1995" YPos="403" Width="27" Height="27"/>
+    <Image Name="Heading/head_lef_side" XPos="1699" YPos="11" Width="232" Height="66"/>
+    <Image Name="Heading/head_right_side" XPos="1439" YPos="544" Width="211" Height="66"/>
+    <Image Name="Heading/label_holder" XPos="1699" YPos="1065" Width="273" Height="67"/>
+    <Image Name="Heading/lore_heading_texture_merge" XPos="1339" YPos="977" Width="686" Height="66"/>
+    <Image Name="Heading/repeat_mid" XPos="1937" YPos="591" Width="41" Height="56"/>
+    <Image Name="inner_carving" XPos="11" YPos="656" Width="643" Height="532"/>
+    <Image Name="lore_texture_bg" XPos="11" YPos="11" Width="692" Height="623"/>
+    <Image Name="max_a" XPos="1699" YPos="1154" Width="243" Height="28"/>
+    <Image Name="max_h" XPos="1672" YPos="591" Width="243" Height="28"/>
+    <Image Name="max_n" XPos="1699" YPos="669" Width="243" Height="28"/>
+    <Image Name="min_a" XPos="1699" YPos="719" Width="243" Height="28"/>
+    <Image Name="min_h" XPos="1699" YPos="769" Width="243" Height="28"/>
+    <Image Name="min_n" XPos="1699" YPos="819" Width="243" Height="28"/>
+    <Image Name="picture_overlay" XPos="1439" YPos="273" Width="333" Height="152"/>
+    <Image Name="Scroll/down_a" XPos="1995" YPos="452" Width="22" Height="24"/>
+    <Image Name="Scroll/down_h" XPos="1995" YPos="498" Width="22" Height="24"/>
+    <Image Name="Scroll/down_n" XPos="1799" YPos="99" Width="20" Height="22"/>
+    <Image Name="Scroll/mid_rail" XPos="1953" YPos="11" Width="20" Height="469"/>
+    <Image Name="Scroll/moving_part_hd" XPos="1994" YPos="1065" Width="20" Height="50"/>
+    <Image Name="Scroll/moving_part_n" XPos="1994" YPos="1137" Width="18" Height="48"/>
+    <Image Name="Scroll/up_a" XPos="2000" YPos="591" Width="22" Height="24"/>
+    <Image Name="Scroll/up_h" XPos="2000" YPos="637" Width="22" Height="24"/>
+    <Image Name="Scroll/up_n" XPos="1841" YPos="99" Width="20" Height="22"/>
+    <Image Name="scroll_n" XPos="1883" YPos="99" Width="10" Height="23"/>
+    <Image Name="special_texture" XPos="676" YPos="656" Width="641" Height="530"/>
+    <Image Name="ta_bot" XPos="1339" YPos="1138" Width="338" Height="30"/>
+    <Image Name="ta_mid_rep" XPos="1439" YPos="502" Width="338" Height="11"/>
+    <Image Name="ta_scroll_rail" XPos="1995" YPos="11" Width="9" Height="272"/>
+    <Image Name="ta_top" XPos="1672" YPos="544" Width="338" Height="25"/>
+    <Image Name="text_area" XPos="1339" YPos="656" Width="338" Height="299"/>
+    <Image Name="tittle_form" XPos="1339" YPos="1065" Width="338" Height="51"/>
+    <Image Name="whole_merge" XPos="725" YPos="11" Width="692" Height="623"/>
+</Imageset>

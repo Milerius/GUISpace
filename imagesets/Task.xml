@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2a8c5fe3c17418dbb783fa7168a94de1:f20a32e95e88a2b22a52c99e0ccf6eff:18af3f38f3c2b0ec829adb902bff1d48$ -->
+<Imageset Name="Task" Imagefile="Task.png" NativeHorzRes="501" NativeVertRes="1250" AutoScaled="false">
+    <Image Name="big_button_a" XPos="11" YPos="1195" Width="177" Height="44"/>
+    <Image Name="big_button_h" XPos="210" YPos="1195" Width="177" Height="44"/>
+    <Image Name="big_button_n" XPos="309" YPos="836" Width="181" Height="48"/>
+    <Image Name="box_texture" XPos="11" YPos="11" Width="333" Height="642"/>
+    <Image Name="cash_symbol" XPos="432" YPos="357" Width="27" Height="29"/>
+    <Image Name="item_carving" XPos="11" YPos="944" Width="211" Height="49"/>
+    <Image Name="item_event" XPos="434" YPos="227" Width="46" Height="46"/>
+    <Image Name="Items SAME as in Merchant Behaviour/ak_icon" XPos="432" YPos="295" Width="40" Height="40"/>
+    <Image Name="Items SAME as in Merchant Behaviour/bg_empty" XPos="366" YPos="295" Width="44" Height="44"/>
+    <Image Name="Items SAME as in Merchant Behaviour/common_carving" XPos="311" YPos="746" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/common_grade" XPos="366" YPos="11" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/epic_carving" XPos="304" YPos="906" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/epic_grade" XPos="438" YPos="11" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/item_description_in_last_sold_box" XPos="313" YPos="675" Width="177" Height="49"/>
+    <Image Name="Items SAME as in Merchant Behaviour/item_frame" XPos="366" YPos="227" Width="46" Height="46"/>
+    <Image Name="Items SAME as in Merchant Behaviour/junk_carving" XPos="244" YPos="996" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/junk_grade" XPos="366" YPos="83" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/legendary_carving" XPos="11" YPos="1015" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/legendary_grade" XPos="438" YPos="83" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/price_symbol" XPos="366" YPos="405" Width="16" Height="16"/>
+    <Image Name="Items SAME as in Merchant Behaviour/rare_carving" XPos="11" YPos="1105" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/rare_grade" XPos="366" YPos="155" Width="50" Height="50"/>
+    <Image Name="Items SAME as in Merchant Behaviour/uncommon_carving" XPos="211" YPos="1086" Width="178" Height="68"/>
+    <Image Name="Items SAME as in Merchant Behaviour/uncommon_grade" XPos="438" YPos="155" Width="50" Height="50"/>
+    <Image Name="money_xp_bg" XPos="11" YPos="893" Width="271" Height="29"/>
+    <Image Name="quest_bg" XPos="11" YPos="813" Width="276" Height="58"/>
+    <Image Name="segment_divider" XPos="366" YPos="361" Width="22" Height="22"/>
+    <Image Name="segment_divider_2" XPos="11" YPos="675" Width="280" Height="31"/>
+    <Image Name="selected_item_hl" XPos="11" YPos="728" Width="278" Height="63"/>
+</Imageset>
