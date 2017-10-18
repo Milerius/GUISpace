@@ -31,13 +31,23 @@
                 <Item path="layouts/ASMainMenu.layout" type="file" />
             </Item>
             <Item name="layout" type="folder">
-                <Item path="layouts/ASQuitLogin.layout" type="file" />
-                <Item path="layouts/ASModeMenu.layout" type="file" />
-                <Item path="layouts/ASMainMenu.layout" type="file" />
-                <Item path="layouts/ASLoginMenu.layout" type="file" />
-                <Item path="layouts/ASLoadingMenu.layout" type="file" />
-                <Item path="layouts/ASHud.layout" type="file" />
                 <Item path="layouts/ASClassMenu.layout" type="file" />
+                <Item path="layouts/ASHud.layout" type="file" />
+                <Item path="layouts/ASLoadingMenu.layout" type="file" />
+                <Item path="layouts/ASLoginMenu.layout" type="file" />
+                <Item path="layouts/ASMainMenu.layout" type="file" />
+                <Item path="layouts/ASModeMenu.layout" type="file" />
+                <Item path="layouts/ASQuitLogin.layout" type="file" />
+            </Item>
+        </Item>
+        <Item name="RType" type="folder">
+            <Item name="imageset" type="folder">
+                <Item path="imagesets/RTBackground.imageset" type="file" />
+                <Item path="imagesets/background.png" type="file" />
+                <Item path="imagesets/RTLoadingScreen.imageset" type="file" />
+            </Item>
+            <Item name="layout" type="folder">
+                <Item path="layouts/RTLogin.layout" type="file" />
             </Item>
         </Item>
         <Item name="animations" type="folder">

@@ -1,0 +1,25 @@
+<Imageset autoScaled="true" imagefile="LoadingScreen.png" name="RTLoadingScreen" nativeHorzRes="1942" nativeVertRes="815" version="2">
+    <Image height="52" name="bottom_border_effect" width="1920" xPos="11" yPos="109" />
+    <Image height="23" name="check_checked" width="23" xPos="908" yPos="258" />
+    <Image height="23" name="check_hovered" width="23" xPos="1604" yPos="480" />
+    <Image height="23" name="check_pass" width="23" xPos="743" yPos="761" />
+    <Image height="406" name="darkening" width="409" xPos="477" yPos="258" />
+    <Image height="546" name="forms_holder" width="444" xPos="11" yPos="258" />
+    <Image height="28" name="loading_bar" width="887" xPos="977" yPos="183" />
+    <Image height="53" name="loading_bar_frame" width="944" xPos="11" yPos="183" />
+    <Image height="51" name="log_form" width="351" xPos="1295" yPos="407" />
+    <Image height="36" name="loginb_a" width="199" xPos="1326" yPos="672" />
+    <Image height="36" name="loginb_h" width="199" xPos="1326" yPos="730" />
+    <Image height="40" name="loginb_n" width="203" xPos="1326" yPos="610" />
+    <Image height="36" name="loginb_un" width="199" xPos="1689" yPos="233" />
+    <Image height="152" name="logo" width="690" xPos="977" yPos="233" />
+    <Image height="375" name="news_bg" width="365" xPos="908" yPos="407" />
+    <Image height="303" name="news_rail" width="9" xPos="1295" yPos="480" />
+    <Image height="23" name="news_scroll" width="10" xPos="865" yPos="686" />
+    <Image height="53" name="news_tittle" width="366" xPos="477" yPos="686" />
+    <Image height="26" name="time_elemnt" width="200" xPos="1689" yPos="291" />
+    <Image height="76" name="top_border_effect" width="1920" xPos="11" yPos="11" />
+    <Image height="37" name="wide_button_a" width="244" xPos="477" yPos="761" />
+    <Image height="37" name="wide_button_h" width="244" xPos="1326" yPos="551" />
+    <Image height="49" name="wide_button_n" width="256" xPos="1326" yPos="480" />
+</Imageset>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
-<!-- $TexturePacker:SmartUpdate:1b34545a3ea23bc83c5d7c8e6eca5018:979558b984e9246275153dda0376403d:3943f66d91ac87e9e93eb7bf35901e76$ -->
-<Imageset Name="background" Imagefile="background.png" NativeHorzRes="1922" NativeVertRes="1082" AutoScaled="false">
-    <Image Name="Blue-planet" XPos="1" YPos="1" Width="1920" Height="1080"/>
-</Imageset>

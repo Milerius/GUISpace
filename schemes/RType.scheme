@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GUIScheme name="RTSkin" version="5">
+	<Imageset filename="RTBackground.imageset" name="RTLogin" />
+	<Imageset filename="RTLoadingScreen.imageset" name="RTLogin" />
+</GUIScheme>
