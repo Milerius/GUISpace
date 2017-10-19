@@ -3,4 +3,5 @@
 <GUIScheme name="RTSkin" version="5">
 	<Imageset filename="RTBackground.imageset" name="RTLogin" />
 	<Imageset filename="RTLoadingScreen.imageset" name="RTLogin" />
+	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 </GUIScheme>

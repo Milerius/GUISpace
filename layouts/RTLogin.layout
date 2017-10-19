@@ -15,5 +15,23 @@
             <Property name="Image" value="RTLoadingScreen/bottom_border_effect" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
         </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,740},{0,311},{0,1184},{0,857}}" />
+            <Property name="Image" value="RTLoadingScreen/forms_holder" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="InvisibleButton" >
+            <Property name="Area" value="{{0,21},{0,890},{0,220},{0,926}}" />
+            <Property name="Font" value="LaconicRegular-15" />
+            <Property name="Text" value="EXIT" />
+            <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+            <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+            <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+            <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+            <Property name="HoverTextColour" value="FFc2f3ff" />
+            <Property name="NormalTextColour" value="FF92d3e3" />
+            <Property name="PushedTextColour" value="FFc2f3ff" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
     </Window>
 </GUILayout>
