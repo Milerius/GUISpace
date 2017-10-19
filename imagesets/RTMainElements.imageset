@@ -1,0 +1,306 @@
+<Imageset autoScaled="false" imagefile="MainElements.png" name="RTMainElements" nativeHorzRes="2044" nativeVertRes="1239" version="2">
+    <Image height="52" name="Action Bar Version One/a1_b" width="52" xPos="750" yPos="1040" />
+    <Image height="52" name="Action Bar Version One/a2_b" width="52" xPos="1658" yPos="743" />
+    <Image height="52" name="Action Bar Version One/a3_b" width="52" xPos="1732" yPos="746" />
+    <Image height="52" name="Action Bar Version One/a4_b" width="52" xPos="1806" yPos="746" />
+    <Image height="52" name="Action Bar Version One/a5_b" width="52" xPos="1880" yPos="749" />
+    <Image height="163" name="Action Bar Version One/ab_1_merged" width="983" xPos="11" yPos="11" />
+    <Image height="98" name="Action Bar Version One/ab_texture" width="710" xPos="11" yPos="287" />
+    <Image height="57" name="Action Bar Version One/ability_hover_effect" width="56" xPos="892" yPos="874" />
+    <Image height="54" name="Action Bar Version One/action_bar_ability_empty" width="52" xPos="1981" yPos="420" />
+    <Image height="62" name="Action Bar Version One/action_bar_frame" width="60" xPos="913" yPos="626" />
+    <Image height="52" name="Action Bar Version One/action_bar_inner_shadow" width="50" xPos="1073" yPos="916" />
+    <Image height="24" name="Action Bar Version One/bar_switcher_down_a" width="29" xPos="1409" yPos="1110" />
+    <Image height="24" name="Action Bar Version One/bar_switcher_down_h" width="29" xPos="1568" yPos="1087" />
+    <Image height="24" name="Action Bar Version One/bar_switcher_down_n" width="29" xPos="1517" yPos="1108" />
+    <Image height="26" name="Action Bar Version One/bar_switcher_indicator" width="29" xPos="1884" yPos="890" />
+    <Image height="24" name="Action Bar Version One/bar_switcher_up_a" width="29" xPos="1466" yPos="1109" />
+    <Image height="24" name="Action Bar Version One/bar_switcher_up_h" width="29" xPos="1568" yPos="1133" />
+    <Image height="24" name="Action Bar Version One/bar_switcher_up_n" width="29" xPos="1517" yPos="1154" />
+    <Image height="125" name="Action Bar Version One/blue_resource" width="127" xPos="1232" yPos="369" />
+    <Image height="125" name="Action Bar Version One/gray_resource" width="127" xPos="1381" yPos="369" />
+    <Image height="125" name="Action Bar Version One/green_resource" width="127" xPos="1530" yPos="340" />
+    <Image height="125" name="Action Bar Version One/hp_fill" width="127" xPos="1679" yPos="340" />
+    <Image height="116" name="Action Bar Version One/hp_overlay" width="119" xPos="1900" yPos="521" />
+    <Image height="163" name="Action Bar Version One/left_hp_bar_empty" width="284" xPos="315" yPos="580" />
+    <Image height="125" name="Action Bar Version One/orange_resource" width="127" xPos="1828" yPos="340" />
+    <Image height="125" name="Action Bar Version One/pink_resource" width="127" xPos="1453" yPos="518" />
+    <Image height="125" name="Action Bar Version One/purple_resource" width="127" xPos="1602" yPos="518" />
+    <Image height="116" name="Action Bar Version One/resource_bar_top_overlay" width="119" xPos="584" yPos="904" />
+    <Image height="163" name="Action Bar Version One/right_resource_bar_empty" width="284" xPos="11" yPos="1060" />
+    <Image height="125" name="Action Bar Version One/yellow_resource" width="127" xPos="1751" yPos="521" />
+    <Image height="52" name="Action Bar Version Two/a1_b" width="52" xPos="750" yPos="1040" />
+    <Image height="52" name="Action Bar Version Two/a2_b" width="52" xPos="1658" yPos="743" />
+    <Image height="52" name="Action Bar Version Two/a3_b" width="52" xPos="1732" yPos="746" />
+    <Image height="52" name="Action Bar Version Two/a4_b" width="52" xPos="1806" yPos="746" />
+    <Image height="52" name="Action Bar Version Two/a5_b" width="52" xPos="1880" yPos="749" />
+    <Image height="98" name="Action Bar Version Two/ab_2_core" width="710" xPos="11" yPos="287" />
+    <Image height="117" name="Action Bar Version Two/ab_2_left_part" width="286" xPos="315" yPos="765" />
+    <Image height="117" name="Action Bar Version Two/ab_2_right_part" width="286" xPos="276" yPos="904" />
+    <Image height="117" name="Action Bar Version Two/ab_2_texture_merged" width="984" xPos="1016" yPos="11" />
+    <Image height="57" name="Action Bar Version Two/ability_hover_effect" width="56" xPos="892" yPos="874" />
+    <Image height="54" name="Action Bar Version Two/action_bar_ability_empty" width="52" xPos="1981" yPos="420" />
+    <Image height="62" name="Action Bar Version Two/action_bar_frame" width="60" xPos="913" yPos="626" />
+    <Image height="52" name="Action Bar Version Two/action_bar_inner_shadow" width="50" xPos="1073" yPos="916" />
+    <Image height="24" name="Action Bar Version Two/bar_switcher_down_a" width="29" xPos="1409" yPos="1110" />
+    <Image height="24" name="Action Bar Version Two/bar_switcher_down_h" width="29" xPos="1568" yPos="1087" />
+    <Image height="24" name="Action Bar Version Two/bar_switcher_down_n" width="29" xPos="1517" yPos="1108" />
+    <Image height="26" name="Action Bar Version Two/bar_switcher_indicator" width="29" xPos="1884" yPos="890" />
+    <Image height="24" name="Action Bar Version Two/bar_switcher_up_a" width="29" xPos="1466" yPos="1109" />
+    <Image height="24" name="Action Bar Version Two/bar_switcher_up_h" width="29" xPos="1568" yPos="1133" />
+    <Image height="24" name="Action Bar Version Two/bar_switcher_up_n" width="29" xPos="1517" yPos="1154" />
+    <Image height="54" name="Action Bar Version Two/slot_empty" width="53" xPos="824" yPos="1039" />
+    <Image height="54" name="Action Bar Version Two/special_ability_hover" width="55" xPos="1049" yPos="840" />
+    <Image height="60" name="Action Bar Version Two/special_slot_frame" width="61" xPos="809" yPos="874" />
+    <Image height="52" name="Action Bar Version Two/special_slot_inner_shadow" width="51" xPos="1167" yPos="787" />
+    <Image height="42" name="Aditional Action Bar Slots/slot_frame_transparency" width="42" xPos="1732" yPos="820" />
+    <Image height="44" name="Aditional Action Bar Slots/slot_hover_or_pressed_highlight" width="44" xPos="1558" yPos="813" />
+    <Image height="38" name="Aditional Action Bar Slots/slot_transp_inner_shadow" width="38" xPos="877" yPos="1115" />
+    <Image height="38" name="Aditional Action Bar Slots/slot_transparent_bg" width="38" xPos="1289" yPos="872" />
+    <Image height="88" name="Aim Cursors/ac1" width="116" xPos="623" yPos="763" />
+    <Image height="61" name="Aim Cursors/ac2" width="60" xPos="809" yPos="956" />
+    <Image height="64" name="Aim Cursors/ac3" width="64" xPos="621" yPos="677" />
+    <Image height="85" name="Announce/announcement_texture" width="478" xPos="1024" yPos="150" />
+    <Image height="31" name="Bottom Border Texture and Buttons/abilities_talents_a" width="31" xPos="1731" yPos="884" />
+    <Image height="31" name="Bottom Border Texture and Buttons/abilities_talents_h" width="31" xPos="1784" yPos="884" />
+    <Image height="31" name="Bottom Border Texture and Buttons/abilities_talents_n" width="31" xPos="1694" yPos="940" />
+    <Image height="41" name="Bottom Border Texture and Buttons/border_left_merged" width="508" xPos="1524" yPos="150" />
+    <Image height="41" name="Bottom Border Texture and Buttons/border_right_merged" width="506" xPos="1524" yPos="213" />
+    <Image height="31" name="Bottom Border Texture and Buttons/character_a" width="31" xPos="1694" yPos="993" />
+    <Image height="31" name="Bottom Border Texture and Buttons/character_h" width="31" xPos="1747" yPos="937" />
+    <Image height="31" name="Bottom Border Texture and Buttons/character_n" width="31" xPos="1747" yPos="990" />
+    <Image height="31" name="Bottom Border Texture and Buttons/comms_a" width="31" xPos="1800" yPos="937" />
+    <Image height="31" name="Bottom Border Texture and Buttons/comms_h" width="31" xPos="1800" yPos="990" />
+    <Image height="31" name="Bottom Border Texture and Buttons/comms_n" width="31" xPos="1853" yPos="938" />
+    <Image height="31" name="Bottom Border Texture and Buttons/inventory_a" width="31" xPos="1853" yPos="991" />
+    <Image height="31" name="Bottom Border Texture and Buttons/inventory_h" width="31" xPos="1906" yPos="938" />
+    <Image height="31" name="Bottom Border Texture and Buttons/inventory_n" width="31" xPos="1906" yPos="991" />
+    <Image height="41" name="Bottom Border Texture and Buttons/left_corner" width="36" xPos="1362" yPos="728" />
+    <Image height="10" name="Bottom Border Texture and Buttons/left_corner_border" width="483" xPos="986" yPos="257" />
+    <Image height="15" name="Bottom Border Texture and Buttons/left_corner_border_covering" width="81" xPos="970" yPos="919" />
+    <Image height="36" name="Bottom Border Texture and Buttons/left_corner_button_slot" width="272" xPos="317" yPos="1043" />
+    <Image height="31" name="Bottom Border Texture and Buttons/lore_a" width="31" xPos="1959" yPos="937" />
+    <Image height="31" name="Bottom Border Texture and Buttons/lore_h" width="31" xPos="1959" yPos="990" />
+    <Image height="31" name="Bottom Border Texture and Buttons/lore_n" width="31" xPos="1959" yPos="1043" />
+    <Image height="31" name="Bottom Border Texture and Buttons/menu_a" width="31" xPos="1694" yPos="1046" />
+    <Image height="31" name="Bottom Border Texture and Buttons/menu_h" width="31" xPos="1747" yPos="1043" />
+    <Image height="31" name="Bottom Border Texture and Buttons/menu_n" width="31" xPos="1800" yPos="1043" />
+    <Image height="31" name="Bottom Border Texture and Buttons/professions_a" width="31" xPos="1853" yPos="1044" />
+    <Image height="31" name="Bottom Border Texture and Buttons/professions_h" width="31" xPos="1906" yPos="1044" />
+    <Image height="31" name="Bottom Border Texture and Buttons/professions_n" width="31" xPos="1693" yPos="1099" />
+    <Image height="41" name="Bottom Border Texture and Buttons/right_corner" width="36" xPos="1362" yPos="791" />
+    <Image height="10" name="Bottom Border Texture and Buttons/right_corner_border" width="483" xPos="1491" yPos="276" />
+    <Image height="15" name="Bottom Border Texture and Buttons/right_corner_border_covering" width="81" xPos="1240" yPos="798" />
+    <Image height="36" name="Bottom Border Texture and Buttons/right_corner_button_slot" width="58" xPos="670" yPos="1042" />
+    <Image height="31" name="Bottom Border Texture and Buttons/support_a" width="31" xPos="1217" yPos="1049" />
+    <Image height="31" name="Bottom Border Texture and Buttons/support_h" width="31" xPos="1146" yPos="1092" />
+    <Image height="31" name="Bottom Border Texture and Buttons/support_n" width="31" xPos="1199" yPos="1102" />
+    <Image height="31" name="Bottom Border Texture and Buttons/tasks_a" width="31" xPos="1252" yPos="1102" />
+    <Image height="31" name="Bottom Border Texture and Buttons/tasks_h" width="31" xPos="1270" yPos="1049" />
+    <Image height="31" name="Bottom Border Texture and Buttons/tasks_n" width="31" xPos="1305" yPos="1102" />
+    <Image height="19" name="Cast Bar/cb_fill" width="345" xPos="317" yPos="1101" />
+    <Image height="35" name="Cast Bar/cb_frame" width="374" xPos="973" yPos="289" />
+    <Image height="28" name="Chat System/add_a" width="29" xPos="1116" yPos="755" />
+    <Image height="28" name="Chat System/add_h" width="29" xPos="1680" yPos="890" />
+    <Image height="28" name="Chat System/add_n" width="29" xPos="1167" yPos="1200" />
+    <Image height="29" name="Chat System/channel_event_not_selected" width="104" xPos="578" yPos="1142" />
+    <Image height="28" name="Chat System/channel_passive_not_selected" width="102" xPos="992" yPos="755" />
+    <Image height="28" name="Chat System/channel_selected" width="102" xPos="822" yPos="824" />
+    <Image height="1" name="Chat System/chat_border" width="405" xPos="973" yPos="346" />
+    <Image height="151" name="Chat System/chat_box" width="416" xPos="315" yPos="407" />
+    <Image height="28" name="Chat System/ddown_a" width="27" xPos="2006" yPos="659" />
+    <Image height="28" name="Chat System/ddown_h" width="27" xPos="2006" yPos="709" />
+    <Image height="28" name="Chat System/ddown_n" width="27" xPos="2006" yPos="759" />
+    <Image height="28" name="Chat System/down_a" width="27" xPos="1469" yPos="1200" />
+    <Image height="28" name="Chat System/down_h" width="27" xPos="1518" yPos="1200" />
+    <Image height="28" name="Chat System/down_n" width="27" xPos="1567" yPos="1200" />
+    <Image height="27" name="Chat System/mail_notification" width="27" xPos="892" yPos="953" />
+    <Image height="28" name="Chat System/settings_a" width="27" xPos="1670" yPos="1152" />
+    <Image height="28" name="Chat System/settings_h" width="27" xPos="1719" yPos="1152" />
+    <Image height="28" name="Chat System/settings_n" width="27" xPos="941" yPos="956" />
+    <Image height="28" name="Chat System/up_a" width="27" xPos="933" yPos="1006" />
+    <Image height="28" name="Chat System/up_h" width="27" xPos="1747" yPos="1096" />
+    <Image height="28" name="Chat System/up_n" width="27" xPos="1796" yPos="1096" />
+    <Image height="39" name="Cursors/buy_sell_ev" width="39" xPos="755" yPos="1114" />
+    <Image height="36" name="Cursors/buy_sell_n" width="36" xPos="1217" yPos="933" />
+    <Image height="36" name="Cursors/buy_sell_un" width="36" xPos="1217" yPos="991" />
+    <Image height="38" name="Cursors/cursor_ev" width="39" xPos="816" yPos="1115" />
+    <Image height="35" name="Cursors/cursor_un" width="36" xPos="597" yPos="1193" />
+    <Image height="39" name="Cursors/enemy_ev" width="39" xPos="770" yPos="1175" />
+    <Image height="36" name="Cursors/enemy_n" width="36" xPos="1349" yPos="854" />
+    <Image height="36" name="Cursors/enemy_un" width="36" xPos="1349" yPos="912" />
+    <Image height="39" name="Cursors/interract_ev" width="39" xPos="831" yPos="1175" />
+    <Image height="36" name="Cursors/interract_n" width="36" xPos="1407" yPos="883" />
+    <Image height="36" name="Cursors/interract_un" width="36" xPos="1275" yPos="988" />
+    <Image height="39" name="Cursors/loot_ev" width="39" xPos="892" yPos="1175" />
+    <Image height="36" name="Cursors/loot_n" width="36" xPos="1407" yPos="941" />
+    <Image height="36" name="Cursors/loot_un" width="36" xPos="1349" yPos="970" />
+    <Image height="35" name="Cursors/mouse_n" width="36" xPos="655" yPos="1193" />
+    <Image height="39" name="Cursors/talk_ev" width="39" xPos="1228" yPos="872" />
+    <Image height="36" name="Cursors/talk_n" width="36" xPos="1407" yPos="999" />
+    <Image height="36" name="Cursors/talk_un" width="36" xPos="899" yPos="1057" />
+    <Image height="22" name="Mini Map Markers/autction" width="26" xPos="1392" yPos="1156" />
+    <Image height="38" name="Mini Map Markers/base_outpost" width="31" xPos="937" yPos="1115" />
+    <Image height="23" name="Mini Map Markers/class_trainer" width="19" xPos="1581" yPos="926" />
+    <Image height="11" name="Mini Map Markers/enemy_npc" width="11" xPos="2022" yPos="11" />
+    <Image height="16" name="Mini Map Markers/enemy_player" width="16" xPos="276" yPos="789" />
+    <Image height="25" name="Mini Map Markers/entrance_instance" width="21" xPos="1689" yPos="817" />
+    <Image height="18" name="Mini Map Markers/flight_path" width="20" xPos="2012" yPos="1012" />
+    <Image height="11" name="Mini Map Markers/friendly_npc" width="11" xPos="2022" yPos="44" />
+    <Image height="16" name="Mini Map Markers/friendly_player" width="16" xPos="276" yPos="827" />
+    <Image height="11" name="Mini Map Markers/neutral_npc" width="11" xPos="2022" yPos="77" />
+    <Image height="16" name="Mini Map Markers/neutral_player" width="16" xPos="276" yPos="865" />
+    <Image height="21" name="Mini Map Markers/objective" width="20" xPos="2012" yPos="927" />
+    <Image height="13" name="Mini Map Markers/party_member" width="13" xPos="1131" yPos="805" />
+    <Image height="23" name="Mini Map Markers/player" width="18" xPos="2015" yPos="276" />
+    <Image height="24" name="Mini Map Markers/professions_trainer" width="23" xPos="1913" yPos="1146" />
+    <Image height="20" name="Mini Map Markers/quest_available" width="20" xPos="2012" yPos="970" />
+    <Image height="20" name="Mini Map Markers/quest_taken_pending" width="20" xPos="2012" yPos="1052" />
+    <Image height="20" name="Mini Map Markers/quest_turn_in_complete" width="20" xPos="1804" yPos="1196" />
+    <Image height="16" name="Mini Map Markers/resource" width="26" xPos="1888" yPos="1193" />
+    <Image height="20" name="Mini Map Markers/vault" width="25" xPos="684" yPos="1100" />
+    <Image height="23" name="Mini Map Markers/vendor" width="23" xPos="1015" yPos="1070" />
+    <Image height="25" name="Mini Map Markers/waypoint" width="19" xPos="1581" yPos="879" />
+    <Image height="220" name="Mini Map/mm_example" width="220" xPos="753" yPos="384" />
+    <Image height="249" name="Mini Map/mm_frame" width="243" xPos="11" yPos="789" />
+    <Image height="216" name="Mini Map/mm_inner_highlight" width="215" xPos="995" yPos="369" />
+    <Image height="62" name="Mini Map/mm_locale_highlight" width="199" xPos="1232" yPos="516" />
+    <Image height="36" name="Mini Map/settings_a" width="36" xPos="953" yPos="1175" />
+    <Image height="36" name="Mini Map/settings_h" width="36" xPos="957" yPos="1057" />
+    <Image height="36" name="Mini Map/settings_n" width="36" xPos="1015" yPos="956" />
+    <Image height="36" name="Mini Map/world_map_a" width="36" xPos="1465" yPos="883" />
+    <Image height="36" name="Mini Map/world_map_h" width="36" xPos="1465" yPos="941" />
+    <Image height="36" name="Mini Map/world_map_n" width="36" xPos="1465" yPos="999" />
+    <Image height="36" name="Mini Map/zin_a" width="36" xPos="1523" yPos="881" />
+    <Image height="36" name="Mini Map/zin_h" width="36" xPos="1523" yPos="939" />
+    <Image height="36" name="Mini Map/zin_n" width="36" xPos="1523" yPos="997" />
+    <Image height="36" name="Mini Map/zout_a" width="36" xPos="1622" yPos="882" />
+    <Image height="36" name="Mini Map/zout_h" width="36" xPos="1581" yPos="971" />
+    <Image height="36" name="Mini Map/zout_n" width="36" xPos="1581" yPos="1029" />
+    <Image height="30" name="Party System/automatic_rifleman" width="28" xPos="1935" yPos="885" />
+    <Image height="27" name="Party System/combat_engineer" width="27" xPos="1845" yPos="1097" />
+    <Image height="28" name="Party System/combat_medic" width="29" xPos="1218" yPos="1200" />
+    <Image height="30" name="Party System/machine_gunner" width="29" xPos="1466" yPos="1057" />
+    <Image height="29" name="Party System/marksman" width="29" xPos="704" yPos="1142" />
+    <Image height="12" name="Party System/party_member_cast_bar_bg" width="202" xPos="1757" yPos="487" />
+    <Image height="10" name="Party System/party_member_cast_bar_filling" width="200" xPos="1793" yPos="308" />
+    <Image height="24" name="Party System/pm_empty_frame" width="169" xPos="722" yPos="626" />
+    <Image height="15" name="Party System/pm_hp_fill" width="80" xPos="1240" yPos="835" />
+    <Image height="15" name="Party System/pm_re_blue" width="80" xPos="1126" yPos="861" />
+    <Image height="37" name="Party System/pm_role_frame" width="37" xPos="611" yPos="1042" />
+    <Image height="31" name="Party System/rocketeer" width="29" xPos="1358" yPos="1102" />
+    <Image height="17" name="Party System/small_p_leader" width="20" xPos="1846" yPos="1195" />
+    <Image height="31" name="Party System/sniper" width="30" xPos="1954" yPos="749" />
+    <Image height="29" name="Pet Frame/ability_empty" width="29" xPos="1517" yPos="1057" />
+    <Image height="32" name="Pet Frame/ability_frame" width="32" xPos="1639" yPos="1050" />
+    <Image height="34" name="Pet Frame/ability_highlight_hover" width="34" xPos="990" yPos="1115" />
+    <Image height="39" name="Pet Frame/ability_holder" width="239" xPos="317" yPos="1142" />
+    <Image height="33" name="Pet Frame/agressive" width="33" xPos="1091" yPos="1115" />
+    <Image height="49" name="Pet Frame/back_part_texture" width="76" xPos="1158" yPos="642" />
+    <Image height="33" name="Pet Frame/beh_highlight" width="33" xPos="1112" yPos="1170" />
+    <Image height="31" name="Pet Frame/behaviour_bg" width="31" xPos="1413" yPos="1057" />
+    <Image height="45" name="Pet Frame/behaviour_frame" width="41" xPos="1860" yPos="823" />
+    <Image height="13" name="Pet Frame/dd_a" width="20" xPos="1089" yPos="805" />
+    <Image height="13" name="Pet Frame/dd_h" width="20" xPos="891" yPos="1002" />
+    <Image height="13" name="Pet Frame/dd_n" width="20" xPos="1976" yPos="1188" />
+    <Image height="33" name="Pet Frame/defensive" width="33" xPos="1639" yPos="940" />
+    <Image height="105" name="Pet Frame/drop_down_drop" width="39" xPos="761" yPos="738" />
+    <Image height="57" name="Pet Frame/k9_portrait" width="57" xPos="970" yPos="840" />
+    <Image height="33" name="Pet Frame/passive" width="33" xPos="1639" yPos="995" />
+    <Image height="28" name="Pet Frame/pet_a1" width="28" xPos="1167" yPos="1042" />
+    <Image height="28" name="Pet Frame/pet_a2" width="28" xPos="1269" yPos="1200" />
+    <Image height="28" name="Pet Frame/pet_a3" width="28" xPos="1319" yPos="1200" />
+    <Image height="28" name="Pet Frame/pet_a4" width="28" xPos="1369" yPos="1200" />
+    <Image height="28" name="Pet Frame/pet_a5" width="28" xPos="1419" yPos="1200" />
+    <Image height="68" name="Pet Frame/pet_portrait_frame" width="68" xPos="1916" yPos="659" />
+    <Image height="23" name="Pet Frame/pinventory_a" width="23" xPos="1060" yPos="1070" />
+    <Image height="27" name="Pet Frame/pinventory_h" width="27" xPos="1817" yPos="1146" />
+    <Image height="23" name="Pet Frame/pinventory_n" width="23" xPos="1323" yPos="1057" />
+    <Image height="58" name="Pet Frame/portrait_black_bg" width="56" xPos="1977" yPos="340" />
+    <Image height="34" name="Player Buff Debuff/a1" width="34" xPos="1011" yPos="1171" />
+    <Image height="34" name="Player Buff Debuff/a2" width="34" xPos="1073" yPos="990" />
+    <Image height="34" name="Player Buff Debuff/a3" width="34" xPos="1985" yPos="871" />
+    <Image height="34" name="Player Buff Debuff/a4" width="34" xPos="1015" yPos="1014" />
+    <Image height="40" name="Player Buff Debuff/buff_debuff_frame" width="40" xPos="1923" yPos="823" />
+    <Image height="35" name="Player Buff Debuff/buff_empty_bg" width="35" xPos="713" yPos="1193" />
+    <Image height="26" name="Player Frame/leader_icon" width="29" xPos="1619" yPos="1155" />
+    <Image height="17" name="Player Frame/pf_hp" width="143" xPos="1256" yPos="650" />
+    <Image height="17" name="Player Frame/pf_re_gray" width="143" xPos="1256" yPos="689" />
+    <Image height="17" name="Player Frame/pf_re_green" width="143" xPos="1421" yPos="665" />
+    <Image height="17" name="Player Frame/pf_re_orange" width="143" xPos="1586" yPos="665" />
+    <Image height="17" name="Player Frame/pf_re_yellow" width="143" xPos="1421" yPos="704" />
+    <Image height="75" name="Player Frame/player_frame_empty" width="208" xPos="743" yPos="287" />
+    <Image height="64" name="Player Frame/portrait_empty" width="62" xPos="822" yPos="738" />
+    <Image height="75" name="Player Frame/portrait_frame_2" width="79" xPos="621" yPos="580" />
+    <Image height="64" name="Player Frame/portrait_small" width="64" xPos="906" yPos="710" />
+    <Image height="17" name="Player Frame/pr_re_blue" width="143" xPos="1586" yPos="704" />
+    <Image height="17" name="Player Frame/pr_re_cyan" width="143" xPos="1751" yPos="668" />
+    <Image height="17" name="Player Frame/pr_re_purple" width="143" xPos="1751" yPos="707" />
+    <Image height="28" name="Player Frame/recon_class_icon" width="27" xPos="1768" yPos="1146" />
+    <Image height="23" name="Quest Tracker/check_box_crossed" width="23" xPos="1368" yPos="1057" />
+    <Image height="16" name="Quest Tracker/check_mark" width="18" xPos="1936" yPos="1192" />
+    <Image height="23" name="Quest Tracker/checked_box" width="23" xPos="1167" yPos="1155" />
+    <Image height="23" name="Quest Tracker/empty_check" width="23" xPos="1212" yPos="1155" />
+    <Image height="25" name="Quest Tracker/max_a" width="25" xPos="1837" yPos="890" />
+    <Image height="25" name="Quest Tracker/max_h" width="25" xPos="1616" yPos="1203" />
+    <Image height="25" name="Quest Tracker/max_n" width="25" xPos="1663" yPos="1203" />
+    <Image height="25" name="Quest Tracker/min_a" width="25" xPos="1710" yPos="1202" />
+    <Image height="25" name="Quest Tracker/min_h" width="25" xPos="1757" yPos="1202" />
+    <Image height="25" name="Quest Tracker/min_n" width="25" xPos="1866" yPos="1146" />
+    <Image height="9" name="Quest Tracker/qt_texute" width="205" xPos="1530" yPos="487" />
+    <Image height="15" name="Small NPC Frames/s1_frame_empty" width="169" xPos="722" yPos="672" />
+    <Image height="7" name="Small NPC Frames/s1_frame_fill" width="158" xPos="725" yPos="709" />
+    <Image height="16" name="Small NPC Frames/s2_fill" width="136" xPos="992" yPos="717" />
+    <Image height="28" name="Small NPC Frames/s2_frame_empty" width="170" xPos="1261" yPos="600" />
+    <Image height="23" name="Target Frame/blue_buff" width="23" xPos="1257" yPos="1155" />
+    <Image height="17" name="Target Frame/pf_hp" width="143" xPos="1256" yPos="650" />
+    <Image height="17" name="Target Frame/pf_re_gray" width="143" xPos="1256" yPos="689" />
+    <Image height="17" name="Target Frame/pf_re_green" width="143" xPos="1421" yPos="665" />
+    <Image height="17" name="Target Frame/pf_re_orange" width="143" xPos="1586" yPos="665" />
+    <Image height="17" name="Target Frame/pf_re_yellow" width="143" xPos="1421" yPos="704" />
+    <Image height="75" name="Target Frame/player_frame_empty" width="208" xPos="743" yPos="287" />
+    <Image height="64" name="Target Frame/portrait_empty" width="62" xPos="822" yPos="738" />
+    <Image height="75" name="Target Frame/portrait_frame_2" width="79" xPos="621" yPos="580" />
+    <Image height="17" name="Target Frame/pr_re_blue" width="143" xPos="1586" yPos="704" />
+    <Image height="17" name="Target Frame/pr_re_cyan" width="143" xPos="1751" yPos="668" />
+    <Image height="17" name="Target Frame/pr_re_purple" width="143" xPos="1751" yPos="707" />
+    <Image height="23" name="Target Frame/purple_buff" width="23" xPos="1302" yPos="1155" />
+    <Image height="23" name="Target Frame/red_buff" width="23" xPos="1347" yPos="1155" />
+    <Image height="27" name="Target Frame/rifleman_class" width="27" xPos="1894" yPos="1097" />
+    <Image height="62" name="Target Frame/small_portrait" width="62" xPos="725" yPos="873" />
+    <Image height="24" name="Target Frame/target_buff_debuff_empty" width="24" xPos="1943" yPos="1097" />
+    <Image height="29" name="Target Frame/target_buff_debuff_frame" width="29" xPos="1619" yPos="1104" />
+    <Image height="19" name="Target Frame/target_cast_bar" width="258" xPos="317" yPos="1203" />
+    <Image height="13" name="Target Frame/target_cb_black_bg" width="244" xPos="995" yPos="607" />
+    <Image height="10" name="Target Frame/target_cb_fill" width="241" xPos="1530" yPos="308" />
+    <Image height="52" name="Target of Target Frame/small_tot_frame" width="54" xPos="1167" yPos="713" />
+    <Image height="61" name="Target of Target Frame/targeted" width="62" xPos="725" yPos="957" />
+    <Image height="42" name="Target of Target Frame/tot_empty_bg_frame" width="42" xPos="1796" yPos="820" />
+    <Image height="53" name="Target of Target Frame/tot_empty_frame" width="141" xPos="995" yPos="642" />
+    <Image height="13" name="Target of Target Frame/tot_hp" width="97" xPos="1369" yPos="289" />
+    <Image height="43" name="Target of Target Frame/tot_portrait" width="43" xPos="1624" yPos="817" />
+    <Image height="13" name="Target of Target Frame/tot_re_blue" width="97" xPos="970" yPos="805" />
+    <Image height="13" name="Target of Target Frame/tot_re_cyan" width="97" xPos="1243" yPos="728" />
+    <Image height="13" name="Target of Target Frame/tot_re_gray" width="97" xPos="1243" yPos="763" />
+    <Image height="13" name="Target of Target Frame/tot_re_green" width="97" xPos="1420" yPos="743" />
+    <Image height="13" name="Target of Target Frame/tot_re_orange" width="97" xPos="1539" yPos="743" />
+    <Image height="13" name="Target of Target Frame/tot_re_purple" width="97" xPos="1420" yPos="778" />
+    <Image height="13" name="Target of Target Frame/tot_re_yellow" width="97" xPos="1539" yPos="778" />
+    <Image height="23" name="Tooltip/bottom_horizontal_repeat" width="38" xPos="1400" yPos="324" />
+    <Image height="23" name="Tooltip/bottom_left_corner" width="23" xPos="1460" yPos="1155" />
+    <Image height="23" name="Tooltip/bottom_right_corner" width="23" xPos="1958" yPos="1143" />
+    <Image height="48" name="Tooltip/item_black_bg" width="48" xPos="1420" yPos="813" />
+    <Image height="40" name="Tooltip/item_example" width="40" xPos="1985" yPos="809" />
+    <Image height="34" name="Tooltip/left_vertical_repeat" width="23" xPos="1046" yPos="1115" />
+    <Image height="34" name="Tooltip/middle_transparent_colour_repeat" width="38" xPos="1289" yPos="932" />
+    <Image height="50" name="Tooltip/rare_bg_indicator" width="50" xPos="1145" yPos="898" />
+    <Image height="50" name="Tooltip/rare_bgs_merged" width="50" xPos="1145" yPos="970" />
+    <Image height="34" name="Tooltip/right_vertical_repeat" width="23" xPos="1067" yPos="1171" />
+    <Image height="46" name="Tooltip/tooltip_only_item_frame" width="46" xPos="1490" yPos="813" />
+    <Image height="23" name="Tooltip/top_horizontal_repeat" width="38" xPos="1460" yPos="324" />
+    <Image height="23" name="Tooltip/tt_top_left_corner" width="23" xPos="1989" yPos="1096" />
+    <Image height="23" name="Tooltip/tt_top_right_corner" width="23" xPos="2003" yPos="1141" />
+    <Image height="360" name="Tooltip/tt_whole" width="282" xPos="11" yPos="407" />
+    <Image height="39" name="XP Bar/xp_bar_empty" width="991" xPos="11" yPos="196" />
+    <Image height="8" name="XP Bar/xp_fill" width="953" xPos="11" yPos="257" />
+</Imageset>

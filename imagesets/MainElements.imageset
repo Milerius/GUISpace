@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9550ddb8e645fc216b6e38085ef0eac3:bb8ae8a63a027c5ea92c98da8468b8dd:9147996a074af7ebafd7c1811a680b8b$ -->
+<Imageset Name="MainElements" Imagefile="MainElements.png" NativeHorzRes="2044" NativeVertRes="1239" AutoScaled="false">
+    <Image Name="Action Bar Version One/a1_b" XPos="750" YPos="1040" Width="52" Height="52"/>
+    <Image Name="Action Bar Version One/a2_b" XPos="1658" YPos="743" Width="52" Height="52"/>
+    <Image Name="Action Bar Version One/a3_b" XPos="1732" YPos="746" Width="52" Height="52"/>
+    <Image Name="Action Bar Version One/a4_b" XPos="1806" YPos="746" Width="52" Height="52"/>
+    <Image Name="Action Bar Version One/a5_b" XPos="1880" YPos="749" Width="52" Height="52"/>
+    <Image Name="Action Bar Version One/ab_1_merged" XPos="11" YPos="11" Width="983" Height="163"/>
+    <Image Name="Action Bar Version One/ab_texture" XPos="11" YPos="287" Width="710" Height="98"/>
+    <Image Name="Action Bar Version One/ability_hover_effect" XPos="892" YPos="874" Width="56" Height="57"/>
+    <Image Name="Action Bar Version One/action_bar_ability_empty" XPos="1981" YPos="420" Width="52" Height="54"/>
+    <Image Name="Action Bar Version One/action_bar_frame" XPos="913" YPos="626" Width="60" Height="62"/>
+    <Image Name="Action Bar Version One/action_bar_inner_shadow" XPos="1073" YPos="916" Width="50" Height="52"/>
+    <Image Name="Action Bar Version One/bar_switcher_down_a" XPos="1409" YPos="1110" Width="29" Height="24"/>
+    <Image Name="Action Bar Version One/bar_switcher_down_h" XPos="1568" YPos="1087" Width="29" Height="24"/>
+    <Image Name="Action Bar Version One/bar_switcher_down_n" XPos="1517" YPos="1108" Width="29" Height="24"/>
+    <Image Name="Action Bar Version One/bar_switcher_indicator" XPos="1884" YPos="890" Width="29" Height="26"/>
+    <Image Name="Action Bar Version One/bar_switcher_up_a" XPos="1466" YPos="1109" Width="29" Height="24"/>
+    <Image Name="Action Bar Version One/bar_switcher_up_h" XPos="1568" YPos="1133" Width="29" Height="24"/>
+    <Image Name="Action Bar Version One/bar_switcher_up_n" XPos="1517" YPos="1154" Width="29" Height="24"/>
+    <Image Name="Action Bar Version One/blue_resource" XPos="1232" YPos="369" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/gray_resource" XPos="1381" YPos="369" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/green_resource" XPos="1530" YPos="340" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/hp_fill" XPos="1679" YPos="340" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/hp_overlay" XPos="1900" YPos="521" Width="119" Height="116"/>
+    <Image Name="Action Bar Version One/left_hp_bar_empty" XPos="315" YPos="580" Width="284" Height="163"/>
+    <Image Name="Action Bar Version One/orange_resource" XPos="1828" YPos="340" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/pink_resource" XPos="1453" YPos="518" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/purple_resource" XPos="1602" YPos="518" Width="127" Height="125"/>
+    <Image Name="Action Bar Version One/resource_bar_top_overlay" XPos="584" YPos="904" Width="119" Height="116"/>
+    <Image Name="Action Bar Version One/right_resource_bar_empty" XPos="11" YPos="1060" Width="284" Height="163"/>
+    <Image Name="Action Bar Version One/yellow_resource" XPos="1751" YPos="521" Width="127" Height="125"/>
+    <Image Name="Action Bar Version Two/a1_b" XPos="750" YPos="1040" Width="52" Height="52"/>
+    <Image Name="Action Bar Version Two/a2_b" XPos="1658" YPos="743" Width="52" Height="52"/>
+    <Image Name="Action Bar Version Two/a3_b" XPos="1732" YPos="746" Width="52" Height="52"/>
+    <Image Name="Action Bar Version Two/a4_b" XPos="1806" YPos="746" Width="52" Height="52"/>
+    <Image Name="Action Bar Version Two/a5_b" XPos="1880" YPos="749" Width="52" Height="52"/>
+    <Image Name="Action Bar Version Two/ab_2_core" XPos="11" YPos="287" Width="710" Height="98"/>
+    <Image Name="Action Bar Version Two/ab_2_left_part" XPos="315" YPos="765" Width="286" Height="117"/>
+    <Image Name="Action Bar Version Two/ab_2_right_part" XPos="276" YPos="904" Width="286" Height="117"/>
+    <Image Name="Action Bar Version Two/ab_2_texture_merged" XPos="1016" YPos="11" Width="984" Height="117"/>
+    <Image Name="Action Bar Version Two/ability_hover_effect" XPos="892" YPos="874" Width="56" Height="57"/>
+    <Image Name="Action Bar Version Two/action_bar_ability_empty" XPos="1981" YPos="420" Width="52" Height="54"/>
+    <Image Name="Action Bar Version Two/action_bar_frame" XPos="913" YPos="626" Width="60" Height="62"/>
+    <Image Name="Action Bar Version Two/action_bar_inner_shadow" XPos="1073" YPos="916" Width="50" Height="52"/>
+    <Image Name="Action Bar Version Two/bar_switcher_down_a" XPos="1409" YPos="1110" Width="29" Height="24"/>
+    <Image Name="Action Bar Version Two/bar_switcher_down_h" XPos="1568" YPos="1087" Width="29" Height="24"/>
+    <Image Name="Action Bar Version Two/bar_switcher_down_n" XPos="1517" YPos="1108" Width="29" Height="24"/>
+    <Image Name="Action Bar Version Two/bar_switcher_indicator" XPos="1884" YPos="890" Width="29" Height="26"/>
+    <Image Name="Action Bar Version Two/bar_switcher_up_a" XPos="1466" YPos="1109" Width="29" Height="24"/>
+    <Image Name="Action Bar Version Two/bar_switcher_up_h" XPos="1568" YPos="1133" Width="29" Height="24"/>
+    <Image Name="Action Bar Version Two/bar_switcher_up_n" XPos="1517" YPos="1154" Width="29" Height="24"/>
+    <Image Name="Action Bar Version Two/slot_empty" XPos="824" YPos="1039" Width="53" Height="54"/>
+    <Image Name="Action Bar Version Two/special_ability_hover" XPos="1049" YPos="840" Width="55" Height="54"/>
+    <Image Name="Action Bar Version Two/special_slot_frame" XPos="809" YPos="874" Width="61" Height="60"/>
+    <Image Name="Action Bar Version Two/special_slot_inner_shadow" XPos="1167" YPos="787" Width="51" Height="52"/>
+    <Image Name="Aditional Action Bar Slots/slot_frame_transparency" XPos="1732" YPos="820" Width="42" Height="42"/>
+    <Image Name="Aditional Action Bar Slots/slot_hover_or_pressed_highlight" XPos="1558" YPos="813" Width="44" Height="44"/>
+    <Image Name="Aditional Action Bar Slots/slot_transp_inner_shadow" XPos="877" YPos="1115" Width="38" Height="38"/>
+    <Image Name="Aditional Action Bar Slots/slot_transparent_bg" XPos="1289" YPos="872" Width="38" Height="38"/>
+    <Image Name="Aim Cursors/ac1" XPos="623" YPos="763" Width="116" Height="88"/>
+    <Image Name="Aim Cursors/ac2" XPos="809" YPos="956" Width="60" Height="61"/>
+    <Image Name="Aim Cursors/ac3" XPos="621" YPos="677" Width="64" Height="64"/>
+    <Image Name="Announce/announcement_texture" XPos="1024" YPos="150" Width="478" Height="85"/>
+    <Image Name="Bottom Border Texture and Buttons/abilities_talents_a" XPos="1731" YPos="884" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/abilities_talents_h" XPos="1784" YPos="884" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/abilities_talents_n" XPos="1694" YPos="940" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/border_left_merged" XPos="1524" YPos="150" Width="508" Height="41"/>
+    <Image Name="Bottom Border Texture and Buttons/border_right_merged" XPos="1524" YPos="213" Width="506" Height="41"/>
+    <Image Name="Bottom Border Texture and Buttons/character_a" XPos="1694" YPos="993" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/character_h" XPos="1747" YPos="937" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/character_n" XPos="1747" YPos="990" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/comms_a" XPos="1800" YPos="937" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/comms_h" XPos="1800" YPos="990" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/comms_n" XPos="1853" YPos="938" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/inventory_a" XPos="1853" YPos="991" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/inventory_h" XPos="1906" YPos="938" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/inventory_n" XPos="1906" YPos="991" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/left_corner" XPos="1362" YPos="728" Width="36" Height="41"/>
+    <Image Name="Bottom Border Texture and Buttons/left_corner_border" XPos="986" YPos="257" Width="483" Height="10"/>
+    <Image Name="Bottom Border Texture and Buttons/left_corner_border_covering" XPos="970" YPos="919" Width="81" Height="15"/>
+    <Image Name="Bottom Border Texture and Buttons/left_corner_button_slot" XPos="317" YPos="1043" Width="272" Height="36"/>
+    <Image Name="Bottom Border Texture and Buttons/lore_a" XPos="1959" YPos="937" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/lore_h" XPos="1959" YPos="990" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/lore_n" XPos="1959" YPos="1043" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/menu_a" XPos="1694" YPos="1046" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/menu_h" XPos="1747" YPos="1043" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/menu_n" XPos="1800" YPos="1043" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/professions_a" XPos="1853" YPos="1044" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/professions_h" XPos="1906" YPos="1044" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/professions_n" XPos="1693" YPos="1099" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/right_corner" XPos="1362" YPos="791" Width="36" Height="41"/>
+    <Image Name="Bottom Border Texture and Buttons/right_corner_border" XPos="1491" YPos="276" Width="483" Height="10"/>
+    <Image Name="Bottom Border Texture and Buttons/right_corner_border_covering" XPos="1240" YPos="798" Width="81" Height="15"/>
+    <Image Name="Bottom Border Texture and Buttons/right_corner_button_slot" XPos="670" YPos="1042" Width="58" Height="36"/>
+    <Image Name="Bottom Border Texture and Buttons/support_a" XPos="1217" YPos="1049" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/support_h" XPos="1146" YPos="1092" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/support_n" XPos="1199" YPos="1102" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/tasks_a" XPos="1252" YPos="1102" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/tasks_h" XPos="1270" YPos="1049" Width="31" Height="31"/>
+    <Image Name="Bottom Border Texture and Buttons/tasks_n" XPos="1305" YPos="1102" Width="31" Height="31"/>
+    <Image Name="Cast Bar/cb_fill" XPos="317" YPos="1101" Width="345" Height="19"/>
+    <Image Name="Cast Bar/cb_frame" XPos="973" YPos="289" Width="374" Height="35"/>
+    <Image Name="Chat System/add_a" XPos="1116" YPos="755" Width="29" Height="28"/>
+    <Image Name="Chat System/add_h" XPos="1680" YPos="890" Width="29" Height="28"/>
+    <Image Name="Chat System/add_n" XPos="1167" YPos="1200" Width="29" Height="28"/>
+    <Image Name="Chat System/channel_event_not_selected" XPos="578" YPos="1142" Width="104" Height="29"/>
+    <Image Name="Chat System/channel_passive_not_selected" XPos="992" YPos="755" Width="102" Height="28"/>
+    <Image Name="Chat System/channel_selected" XPos="822" YPos="824" Width="102" Height="28"/>
+    <Image Name="Chat System/chat_border" XPos="973" YPos="346" Width="405" Height="1"/>
+    <Image Name="Chat System/chat_box" XPos="315" YPos="407" Width="416" Height="151"/>
+    <Image Name="Chat System/ddown_a" XPos="2006" YPos="659" Width="27" Height="28"/>
+    <Image Name="Chat System/ddown_h" XPos="2006" YPos="709" Width="27" Height="28"/>
+    <Image Name="Chat System/ddown_n" XPos="2006" YPos="759" Width="27" Height="28"/>
+    <Image Name="Chat System/down_a" XPos="1469" YPos="1200" Width="27" Height="28"/>
+    <Image Name="Chat System/down_h" XPos="1518" YPos="1200" Width="27" Height="28"/>
+    <Image Name="Chat System/down_n" XPos="1567" YPos="1200" Width="27" Height="28"/>
+    <Image Name="Chat System/mail_notification" XPos="892" YPos="953" Width="27" Height="27"/>
+    <Image Name="Chat System/settings_a" XPos="1670" YPos="1152" Width="27" Height="28"/>
+    <Image Name="Chat System/settings_h" XPos="1719" YPos="1152" Width="27" Height="28"/>
+    <Image Name="Chat System/settings_n" XPos="941" YPos="956" Width="27" Height="28"/>
+    <Image Name="Chat System/up_a" XPos="933" YPos="1006" Width="27" Height="28"/>
+    <Image Name="Chat System/up_h" XPos="1747" YPos="1096" Width="27" Height="28"/>
+    <Image Name="Chat System/up_n" XPos="1796" YPos="1096" Width="27" Height="28"/>
+    <Image Name="Cursors/buy_sell_ev" XPos="755" YPos="1114" Width="39" Height="39"/>
+    <Image Name="Cursors/buy_sell_n" XPos="1217" YPos="933" Width="36" Height="36"/>
+    <Image Name="Cursors/buy_sell_un" XPos="1217" YPos="991" Width="36" Height="36"/>
+    <Image Name="Cursors/cursor_ev" XPos="816" YPos="1115" Width="39" Height="38"/>
+    <Image Name="Cursors/cursor_un" XPos="597" YPos="1193" Width="36" Height="35"/>
+    <Image Name="Cursors/enemy_ev" XPos="770" YPos="1175" Width="39" Height="39"/>
+    <Image Name="Cursors/enemy_n" XPos="1349" YPos="854" Width="36" Height="36"/>
+    <Image Name="Cursors/enemy_un" XPos="1349" YPos="912" Width="36" Height="36"/>
+    <Image Name="Cursors/interract_ev" XPos="831" YPos="1175" Width="39" Height="39"/>
+    <Image Name="Cursors/interract_n" XPos="1407" YPos="883" Width="36" Height="36"/>
+    <Image Name="Cursors/interract_un" XPos="1275" YPos="988" Width="36" Height="36"/>
+    <Image Name="Cursors/loot_ev" XPos="892" YPos="1175" Width="39" Height="39"/>
+    <Image Name="Cursors/loot_n" XPos="1407" YPos="941" Width="36" Height="36"/>
+    <Image Name="Cursors/loot_un" XPos="1349" YPos="970" Width="36" Height="36"/>
+    <Image Name="Cursors/mouse_n" XPos="655" YPos="1193" Width="36" Height="35"/>
+    <Image Name="Cursors/talk_ev" XPos="1228" YPos="872" Width="39" Height="39"/>
+    <Image Name="Cursors/talk_n" XPos="1407" YPos="999" Width="36" Height="36"/>
+    <Image Name="Cursors/talk_un" XPos="899" YPos="1057" Width="36" Height="36"/>
+    <Image Name="Mini Map Markers/autction" XPos="1392" YPos="1156" Width="26" Height="22"/>
+    <Image Name="Mini Map Markers/base_outpost" XPos="937" YPos="1115" Width="31" Height="38"/>
+    <Image Name="Mini Map Markers/class_trainer" XPos="1581" YPos="926" Width="19" Height="23"/>
+    <Image Name="Mini Map Markers/enemy_npc" XPos="2022" YPos="11" Width="11" Height="11"/>
+    <Image Name="Mini Map Markers/enemy_player" XPos="276" YPos="789" Width="16" Height="16"/>
+    <Image Name="Mini Map Markers/entrance_instance" XPos="1689" YPos="817" Width="21" Height="25"/>
+    <Image Name="Mini Map Markers/flight_path" XPos="2012" YPos="1012" Width="20" Height="18"/>
+    <Image Name="Mini Map Markers/friendly_npc" XPos="2022" YPos="44" Width="11" Height="11"/>
+    <Image Name="Mini Map Markers/friendly_player" XPos="276" YPos="827" Width="16" Height="16"/>
+    <Image Name="Mini Map Markers/neutral_npc" XPos="2022" YPos="77" Width="11" Height="11"/>
+    <Image Name="Mini Map Markers/neutral_player" XPos="276" YPos="865" Width="16" Height="16"/>
+    <Image Name="Mini Map Markers/objective" XPos="2012" YPos="927" Width="20" Height="21"/>
+    <Image Name="Mini Map Markers/party_member" XPos="1131" YPos="805" Width="13" Height="13"/>
+    <Image Name="Mini Map Markers/player" XPos="2015" YPos="276" Width="18" Height="23"/>
+    <Image Name="Mini Map Markers/professions_trainer" XPos="1913" YPos="1146" Width="23" Height="24"/>
+    <Image Name="Mini Map Markers/quest_available" XPos="2012" YPos="970" Width="20" Height="20"/>
+    <Image Name="Mini Map Markers/quest_taken_pending" XPos="2012" YPos="1052" Width="20" Height="20"/>
+    <Image Name="Mini Map Markers/quest_turn_in_complete" XPos="1804" YPos="1196" Width="20" Height="20"/>
+    <Image Name="Mini Map Markers/resource" XPos="1888" YPos="1193" Width="26" Height="16"/>
+    <Image Name="Mini Map Markers/vault" XPos="684" YPos="1100" Width="25" Height="20"/>
+    <Image Name="Mini Map Markers/vendor" XPos="1015" YPos="1070" Width="23" Height="23"/>
+    <Image Name="Mini Map Markers/waypoint" XPos="1581" YPos="879" Width="19" Height="25"/>
+    <Image Name="Mini Map/mm_example" XPos="753" YPos="384" Width="220" Height="220"/>
+    <Image Name="Mini Map/mm_frame" XPos="11" YPos="789" Width="243" Height="249"/>
+    <Image Name="Mini Map/mm_inner_highlight" XPos="995" YPos="369" Width="215" Height="216"/>
+    <Image Name="Mini Map/mm_locale_highlight" XPos="1232" YPos="516" Width="199" Height="62"/>
+    <Image Name="Mini Map/settings_a" XPos="953" YPos="1175" Width="36" Height="36"/>
+    <Image Name="Mini Map/settings_h" XPos="957" YPos="1057" Width="36" Height="36"/>
+    <Image Name="Mini Map/settings_n" XPos="1015" YPos="956" Width="36" Height="36"/>
+    <Image Name="Mini Map/world_map_a" XPos="1465" YPos="883" Width="36" Height="36"/>
+    <Image Name="Mini Map/world_map_h" XPos="1465" YPos="941" Width="36" Height="36"/>
+    <Image Name="Mini Map/world_map_n" XPos="1465" YPos="999" Width="36" Height="36"/>
+    <Image Name="Mini Map/zin_a" XPos="1523" YPos="881" Width="36" Height="36"/>
+    <Image Name="Mini Map/zin_h" XPos="1523" YPos="939" Width="36" Height="36"/>
+    <Image Name="Mini Map/zin_n" XPos="1523" YPos="997" Width="36" Height="36"/>
+    <Image Name="Mini Map/zout_a" XPos="1622" YPos="882" Width="36" Height="36"/>
+    <Image Name="Mini Map/zout_h" XPos="1581" YPos="971" Width="36" Height="36"/>
+    <Image Name="Mini Map/zout_n" XPos="1581" YPos="1029" Width="36" Height="36"/>
+    <Image Name="Party System/automatic_rifleman" XPos="1935" YPos="885" Width="28" Height="30"/>
+    <Image Name="Party System/combat_engineer" XPos="1845" YPos="1097" Width="27" Height="27"/>
+    <Image Name="Party System/combat_medic" XPos="1218" YPos="1200" Width="29" Height="28"/>
+    <Image Name="Party System/machine_gunner" XPos="1466" YPos="1057" Width="29" Height="30"/>
+    <Image Name="Party System/marksman" XPos="704" YPos="1142" Width="29" Height="29"/>
+    <Image Name="Party System/party_member_cast_bar_bg" XPos="1757" YPos="487" Width="202" Height="12"/>
+    <Image Name="Party System/party_member_cast_bar_filling" XPos="1793" YPos="308" Width="200" Height="10"/>
+    <Image Name="Party System/pm_empty_frame" XPos="722" YPos="626" Width="169" Height="24"/>
+    <Image Name="Party System/pm_hp_fill" XPos="1240" YPos="835" Width="80" Height="15"/>
+    <Image Name="Party System/pm_re_blue" XPos="1126" YPos="861" Width="80" Height="15"/>
+    <Image Name="Party System/pm_role_frame" XPos="611" YPos="1042" Width="37" Height="37"/>
+    <Image Name="Party System/rocketeer" XPos="1358" YPos="1102" Width="29" Height="31"/>
+    <Image Name="Party System/small_p_leader" XPos="1846" YPos="1195" Width="20" Height="17"/>
+    <Image Name="Party System/sniper" XPos="1954" YPos="749" Width="30" Height="31"/>
+    <Image Name="Pet Frame/ability_empty" XPos="1517" YPos="1057" Width="29" Height="29"/>
+    <Image Name="Pet Frame/ability_frame" XPos="1639" YPos="1050" Width="32" Height="32"/>
+    <Image Name="Pet Frame/ability_highlight_hover" XPos="990" YPos="1115" Width="34" Height="34"/>
+    <Image Name="Pet Frame/ability_holder" XPos="317" YPos="1142" Width="239" Height="39"/>
+    <Image Name="Pet Frame/agressive" XPos="1091" YPos="1115" Width="33" Height="33"/>
+    <Image Name="Pet Frame/back_part_texture" XPos="1158" YPos="642" Width="76" Height="49"/>
+    <Image Name="Pet Frame/beh_highlight" XPos="1112" YPos="1170" Width="33" Height="33"/>
+    <Image Name="Pet Frame/behaviour_bg" XPos="1413" YPos="1057" Width="31" Height="31"/>
+    <Image Name="Pet Frame/behaviour_frame" XPos="1860" YPos="823" Width="41" Height="45"/>
+    <Image Name="Pet Frame/dd_a" XPos="1089" YPos="805" Width="20" Height="13"/>
+    <Image Name="Pet Frame/dd_h" XPos="891" YPos="1002" Width="20" Height="13"/>
+    <Image Name="Pet Frame/dd_n" XPos="1976" YPos="1188" Width="20" Height="13"/>
+    <Image Name="Pet Frame/defensive" XPos="1639" YPos="940" Width="33" Height="33"/>
+    <Image Name="Pet Frame/drop_down_drop" XPos="761" YPos="738" Width="39" Height="105"/>
+    <Image Name="Pet Frame/k9_portrait" XPos="970" YPos="840" Width="57" Height="57"/>
+    <Image Name="Pet Frame/passive" XPos="1639" YPos="995" Width="33" Height="33"/>
+    <Image Name="Pet Frame/pet_a1" XPos="1167" YPos="1042" Width="28" Height="28"/>
+    <Image Name="Pet Frame/pet_a2" XPos="1269" YPos="1200" Width="28" Height="28"/>
+    <Image Name="Pet Frame/pet_a3" XPos="1319" YPos="1200" Width="28" Height="28"/>
+    <Image Name="Pet Frame/pet_a4" XPos="1369" YPos="1200" Width="28" Height="28"/>
+    <Image Name="Pet Frame/pet_a5" XPos="1419" YPos="1200" Width="28" Height="28"/>
+    <Image Name="Pet Frame/pet_portrait_frame" XPos="1916" YPos="659" Width="68" Height="68"/>
+    <Image Name="Pet Frame/pinventory_a" XPos="1060" YPos="1070" Width="23" Height="23"/>
+    <Image Name="Pet Frame/pinventory_h" XPos="1817" YPos="1146" Width="27" Height="27"/>
+    <Image Name="Pet Frame/pinventory_n" XPos="1323" YPos="1057" Width="23" Height="23"/>
+    <Image Name="Pet Frame/portrait_black_bg" XPos="1977" YPos="340" Width="56" Height="58"/>
+    <Image Name="Player Buff Debuff/a1" XPos="1011" YPos="1171" Width="34" Height="34"/>
+    <Image Name="Player Buff Debuff/a2" XPos="1073" YPos="990" Width="34" Height="34"/>
+    <Image Name="Player Buff Debuff/a3" XPos="1985" YPos="871" Width="34" Height="34"/>
+    <Image Name="Player Buff Debuff/a4" XPos="1015" YPos="1014" Width="34" Height="34"/>
+    <Image Name="Player Buff Debuff/buff_debuff_frame" XPos="1923" YPos="823" Width="40" Height="40"/>
+    <Image Name="Player Buff Debuff/buff_empty_bg" XPos="713" YPos="1193" Width="35" Height="35"/>
+    <Image Name="Player Frame/leader_icon" XPos="1619" YPos="1155" Width="29" Height="26"/>
+    <Image Name="Player Frame/pf_hp" XPos="1256" YPos="650" Width="143" Height="17"/>
+    <Image Name="Player Frame/pf_re_gray" XPos="1256" YPos="689" Width="143" Height="17"/>
+    <Image Name="Player Frame/pf_re_green" XPos="1421" YPos="665" Width="143" Height="17"/>
+    <Image Name="Player Frame/pf_re_orange" XPos="1586" YPos="665" Width="143" Height="17"/>
+    <Image Name="Player Frame/pf_re_yellow" XPos="1421" YPos="704" Width="143" Height="17"/>
+    <Image Name="Player Frame/player_frame_empty" XPos="743" YPos="287" Width="208" Height="75"/>
+    <Image Name="Player Frame/portrait_empty" XPos="822" YPos="738" Width="62" Height="64"/>
+    <Image Name="Player Frame/portrait_frame_2" XPos="621" YPos="580" Width="79" Height="75"/>
+    <Image Name="Player Frame/portrait_small" XPos="906" YPos="710" Width="64" Height="64"/>
+    <Image Name="Player Frame/pr_re_blue" XPos="1586" YPos="704" Width="143" Height="17"/>
+    <Image Name="Player Frame/pr_re_cyan" XPos="1751" YPos="668" Width="143" Height="17"/>
+    <Image Name="Player Frame/pr_re_purple" XPos="1751" YPos="707" Width="143" Height="17"/>
+    <Image Name="Player Frame/recon_class_icon" XPos="1768" YPos="1146" Width="27" Height="28"/>
+    <Image Name="Quest Tracker/check_box_crossed" XPos="1368" YPos="1057" Width="23" Height="23"/>
+    <Image Name="Quest Tracker/check_mark" XPos="1936" YPos="1192" Width="18" Height="16"/>
+    <Image Name="Quest Tracker/checked_box" XPos="1167" YPos="1155" Width="23" Height="23"/>
+    <Image Name="Quest Tracker/empty_check" XPos="1212" YPos="1155" Width="23" Height="23"/>
+    <Image Name="Quest Tracker/max_a" XPos="1837" YPos="890" Width="25" Height="25"/>
+    <Image Name="Quest Tracker/max_h" XPos="1616" YPos="1203" Width="25" Height="25"/>
+    <Image Name="Quest Tracker/max_n" XPos="1663" YPos="1203" Width="25" Height="25"/>
+    <Image Name="Quest Tracker/min_a" XPos="1710" YPos="1202" Width="25" Height="25"/>
+    <Image Name="Quest Tracker/min_h" XPos="1757" YPos="1202" Width="25" Height="25"/>
+    <Image Name="Quest Tracker/min_n" XPos="1866" YPos="1146" Width="25" Height="25"/>
+    <Image Name="Quest Tracker/qt_texute" XPos="1530" YPos="487" Width="205" Height="9"/>
+    <Image Name="Small NPC Frames/s1_frame_empty" XPos="722" YPos="672" Width="169" Height="15"/>
+    <Image Name="Small NPC Frames/s1_frame_fill" XPos="725" YPos="709" Width="158" Height="7"/>
+    <Image Name="Small NPC Frames/s2_fill" XPos="992" YPos="717" Width="136" Height="16"/>
+    <Image Name="Small NPC Frames/s2_frame_empty" XPos="1261" YPos="600" Width="170" Height="28"/>
+    <Image Name="Target Frame/blue_buff" XPos="1257" YPos="1155" Width="23" Height="23"/>
+    <Image Name="Target Frame/pf_hp" XPos="1256" YPos="650" Width="143" Height="17"/>
+    <Image Name="Target Frame/pf_re_gray" XPos="1256" YPos="689" Width="143" Height="17"/>
+    <Image Name="Target Frame/pf_re_green" XPos="1421" YPos="665" Width="143" Height="17"/>
+    <Image Name="Target Frame/pf_re_orange" XPos="1586" YPos="665" Width="143" Height="17"/>
+    <Image Name="Target Frame/pf_re_yellow" XPos="1421" YPos="704" Width="143" Height="17"/>
+    <Image Name="Target Frame/player_frame_empty" XPos="743" YPos="287" Width="208" Height="75"/>
+    <Image Name="Target Frame/portrait_empty" XPos="822" YPos="738" Width="62" Height="64"/>
+    <Image Name="Target Frame/portrait_frame_2" XPos="621" YPos="580" Width="79" Height="75"/>
+    <Image Name="Target Frame/pr_re_blue" XPos="1586" YPos="704" Width="143" Height="17"/>
+    <Image Name="Target Frame/pr_re_cyan" XPos="1751" YPos="668" Width="143" Height="17"/>
+    <Image Name="Target Frame/pr_re_purple" XPos="1751" YPos="707" Width="143" Height="17"/>
+    <Image Name="Target Frame/purple_buff" XPos="1302" YPos="1155" Width="23" Height="23"/>
+    <Image Name="Target Frame/red_buff" XPos="1347" YPos="1155" Width="23" Height="23"/>
+    <Image Name="Target Frame/rifleman_class" XPos="1894" YPos="1097" Width="27" Height="27"/>
+    <Image Name="Target Frame/small_portrait" XPos="725" YPos="873" Width="62" Height="62"/>
+    <Image Name="Target Frame/target_buff_debuff_empty" XPos="1943" YPos="1097" Width="24" Height="24"/>
+    <Image Name="Target Frame/target_buff_debuff_frame" XPos="1619" YPos="1104" Width="29" Height="29"/>
+    <Image Name="Target Frame/target_cast_bar" XPos="317" YPos="1203" Width="258" Height="19"/>
+    <Image Name="Target Frame/target_cb_black_bg" XPos="995" YPos="607" Width="244" Height="13"/>
+    <Image Name="Target Frame/target_cb_fill" XPos="1530" YPos="308" Width="241" Height="10"/>
+    <Image Name="Target of Target Frame/small_tot_frame" XPos="1167" YPos="713" Width="54" Height="52"/>
+    <Image Name="Target of Target Frame/targeted" XPos="725" YPos="957" Width="62" Height="61"/>
+    <Image Name="Target of Target Frame/tot_empty_bg_frame" XPos="1796" YPos="820" Width="42" Height="42"/>
+    <Image Name="Target of Target Frame/tot_empty_frame" XPos="995" YPos="642" Width="141" Height="53"/>
+    <Image Name="Target of Target Frame/tot_hp" XPos="1369" YPos="289" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_portrait" XPos="1624" YPos="817" Width="43" Height="43"/>
+    <Image Name="Target of Target Frame/tot_re_blue" XPos="970" YPos="805" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_re_cyan" XPos="1243" YPos="728" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_re_gray" XPos="1243" YPos="763" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_re_green" XPos="1420" YPos="743" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_re_orange" XPos="1539" YPos="743" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_re_purple" XPos="1420" YPos="778" Width="97" Height="13"/>
+    <Image Name="Target of Target Frame/tot_re_yellow" XPos="1539" YPos="778" Width="97" Height="13"/>
+    <Image Name="Tooltip/bottom_horizontal_repeat" XPos="1400" YPos="324" Width="38" Height="23"/>
+    <Image Name="Tooltip/bottom_left_corner" XPos="1460" YPos="1155" Width="23" Height="23"/>
+    <Image Name="Tooltip/bottom_right_corner" XPos="1958" YPos="1143" Width="23" Height="23"/>
+    <Image Name="Tooltip/item_black_bg" XPos="1420" YPos="813" Width="48" Height="48"/>
+    <Image Name="Tooltip/item_example" XPos="1985" YPos="809" Width="40" Height="40"/>
+    <Image Name="Tooltip/left_vertical_repeat" XPos="1046" YPos="1115" Width="23" Height="34"/>
+    <Image Name="Tooltip/middle_transparent_colour_repeat" XPos="1289" YPos="932" Width="38" Height="34"/>
+    <Image Name="Tooltip/rare_bg_indicator" XPos="1145" YPos="898" Width="50" Height="50"/>
+    <Image Name="Tooltip/rare_bgs_merged" XPos="1145" YPos="970" Width="50" Height="50"/>
+    <Image Name="Tooltip/right_vertical_repeat" XPos="1067" YPos="1171" Width="23" Height="34"/>
+    <Image Name="Tooltip/tooltip_only_item_frame" XPos="1490" YPos="813" Width="46" Height="46"/>
+    <Image Name="Tooltip/top_horizontal_repeat" XPos="1460" YPos="324" Width="38" Height="23"/>
+    <Image Name="Tooltip/tt_top_left_corner" XPos="1989" YPos="1096" Width="23" Height="23"/>
+    <Image Name="Tooltip/tt_top_right_corner" XPos="2003" YPos="1141" Width="23" Height="23"/>
+    <Image Name="Tooltip/tt_whole" XPos="11" YPos="407" Width="282" Height="360"/>
+    <Image Name="XP Bar/xp_bar_empty" XPos="11" YPos="196" Width="991" Height="39"/>
+    <Image Name="XP Bar/xp_fill" XPos="11" YPos="257" Width="953" Height="8"/>
+</Imageset>
