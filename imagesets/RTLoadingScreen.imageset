@@ -22,4 +22,13 @@
     <Image height="37" name="wide_button_a" width="244" xPos="477" yPos="761" />
     <Image height="37" name="wide_button_h" width="244" xPos="1326" yPos="551" />
     <Image height="49" name="wide_button_n" width="256" xPos="1326" yPos="480" />
+    <Image height="8" name="EditBoxTopLeft" width="8" xPos="1298" yPos="410" />
+    <Image height="8" name="EditBoxBottomLeft" width="8" xPos="1298" yPos="448" />
+    <Image height="8" name="EditBoxTopRight" width="8" xPos="1636" yPos="410" />
+    <Image height="8" name="EditBoxBottomRight" width="8" xPos="1636" yPos="448" />
+    <Image height="30" name="EditBoxRightEdge" width="8" xPos="1636" yPos="418" />
+    <Image height="30" name="EditBoxLeftEdge" width="8" xPos="1298" yPos="418" />
+    <Image height="8" name="EditBoxTopEdge" width="330" xPos="1306" yPos="410" />
+    <Image height="8" name="EditBoxBottomEdge" width="330" xPos="1306" yPos="448" />
+    <Image height="30" name="EditBoxMiddle" width="330" xPos="1306" yPos="418" />
 </Imageset>

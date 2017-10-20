@@ -43,8 +43,10 @@
         <Item name="RType" type="folder">
             <Item name="imageset" type="folder">
                 <Item path="imagesets/RTBackground.imageset" type="file" />
-                <Item path="imagesets/background.png" type="file" />
                 <Item path="imagesets/RTLoadingScreen.imageset" type="file" />
+                <Item path="imagesets/RTMainElements.imageset" type="file" />
+                <Item path="imagesets/background.png" type="file" />
+                <Item path="imagesets/RTAccountInformation.imageset" type="file" />
             </Item>
             <Item name="layout" type="folder">
                 <Item path="layouts/RTLogin.layout" type="file" />

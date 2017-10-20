@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <GUIScheme name="RTSkin" version="5">
+	<LookNFeel filename="RType.looknfeel" />
+	<FalagardMapping lookNFeel="RType/Editbox" renderer="Core/Editbox" targetType="CEGUI/Editbox" windowType="RType/Editbox" />
 	<Imageset filename="RTBackground.imageset" name="RTLogin" />
 	<Imageset filename="RTLoadingScreen.imageset" name="RTLogin" />
 	<Imageset filename="RTMainElements.imageset" name="RTGlobal" />
+	<Imageset filename="RTAccountInformation.imageset" name="RTLogin" />
+	<Imageset filename="RTAccountName.imageset" name="RTLogin" />
+	<Imageset filename="RTPassword.imageset" name="RTLogin" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 </GUIScheme>

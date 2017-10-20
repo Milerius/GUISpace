@@ -15,12 +15,48 @@
             <Property name="Image" value="RTLoadingScreen/bottom_border_effect" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
         </Window>
-        <Window type="Generic/Image" name="Image" >
+        <Window type="Generic/Image" name="Form" >
             <Property name="Area" value="{{0,740},{0,311},{0,1184},{0,857}}" />
             <Property name="Image" value="RTLoadingScreen/forms_holder" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="RType/Editbox" name="AccountName" >
+                <Property name="Area" value="{{0,47},{0,179},{0,393},{0,225}}" />
+            </Window>
+            <Window type="Generic/Image" name="AccountInformation" >
+                <Property name="Area" value="{{0,120},{0,13},{0,327},{0,24}}" />
+                <Property name="Image" value="RTAccount/Information" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="AccountNameLabel" >
+                <Property name="Area" value="{{0,163},{0,157},{0,265},{0,167}}" />
+                <Property name="Image" value="RTAccountName/AccountName" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="RType/Editbox" name="AccountPassword" >
+                <Property name="Area" value="{{0,47},{0,270},{0,393},{0,316}}" />
+                <Property name="MaskText" value="true" />
+                <Property name="BlinkCaret" value="true" />
+            </Window>
+            <Window type="Generic/Image" name="AccountNameLabel2" >
+                <Property name="Area" value="{{0,163},{0,243},{0,280},{0,253}}" />
+                <Property name="Image" value="RTPassword/Password" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="AS/InvisibleButton" name="LogButton" >
+                <Property name="Area" value="{{0,120},{0,432},{0,319},{0,468}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Text" value="LOG IN" />
+                <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+                <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+                <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+                <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+                <Property name="HoverTextColour" value="FFc2f3ff" />
+                <Property name="NormalTextColour" value="FF92d3e3" />
+                <Property name="PushedTextColour" value="FFc2f3ff" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
         </Window>
-        <Window type="AS/InvisibleButton" name="InvisibleButton" >
+        <Window type="AS/InvisibleButton" name="ExitButton" >
             <Property name="Area" value="{{0,21},{0,890},{0,220},{0,926}}" />
             <Property name="Font" value="LaconicRegular-15" />
             <Property name="Text" value="EXIT" />
