@@ -54,7 +54,7 @@
                     <Dim type="Width"><ImageDim dimension="Width" name="OpenDungeonsSkin/EditBoxCaret" /></Dim>
                     <Dim type="BottomEdge"><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
                 </Area>
-                <Image name="OpenDungeonsSkin/EditBoxCaret" />
+                <Image name="AlfiskoSkin/MouseTextBar" />
                 <VertFormat type="Stretched" />
                 <HorzFormat type="Stretched" />
             </ImageryComponent>
