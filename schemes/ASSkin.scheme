@@ -24,7 +24,7 @@
 	<Imageset filename="ASSlot.imageset" name="ASHud" />
 	<Imageset filename="ASHud.imageset" name="ASHudFinal" />
 	<Imageset filename="ASHudButtons.imageset" name="ASHudButtons" />
-	<Imageset filename="ASUI.imageset" name="ASUI" />
+	<!-- <Imageset filename="ASUI.imageset" name="ASUI" /> -->
 	<Imageset filename="AlfiskoSkin.imageset" />
 	<Font filename="fonts/LiberationSans-10.font" name="LiberationSans-10" />
     <Font filename="fonts/MedievalSharp-10.font" name="MedievalSharp-10" />
