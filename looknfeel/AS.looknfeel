@@ -314,82 +314,82 @@
         </StateImagery>
     </WidgetLook>
 	
-	<WidgetLook name="AS/ManaBar">
-        <Property name="CurrentProgress" value=".01"/>
-        <Property name="Size" value="{{0, 256}, {0, 32}}" />
-        <NamedArea name="ProgressArea"/>
-        <ImagerySection name="progress_empty">
-            <FrameComponent>
-                <Image component="TopLeftCorner" name="ASUI/ManaBarEmptyTL"/>
-                <Image component="TopRightCorner" name="ASUI/ManaBarEmptyTR"/>
-                <Image component="BottomLeftCorner" name="ASUI/ManaBarEmptyBL"/>
-                <Image component="BottomRightCorner" name="ASUI/ManaBarEmptyBR"/>
-                <Image component="LeftEdge" name="ASUI/ManaBarEmptyL"/>
-                <Image component="RightEdge" name="ASUI/ManaBarEmptyR"/>
-                <Image component="TopEdge" name="ASUI/ManaBarEmptyT"/>
-                <Image component="BottomEdge" name="ASUI/ManaBarEmptyB"/>
-                <Image component="Background" name="ASUI/ManaBarEmptyM"/>
-            </FrameComponent>
-        </ImagerySection>
-        <ImagerySection name="progress_full">
-            <FrameComponent>
-                <Image component="TopLeftCorner" name="ASUI/ManaBarFullTL"/>
-                <Image component="TopRightCorner" name="ASUI/ManaBarFullTR"/>
-                <Image component="BottomLeftCorner" name="ASUI/ManaBarFullBL"/>
-                <Image component="BottomRightCorner" name="ASUI/ManaBarFullBR"/>
-                <Image component="LeftEdge" name="ASUI/ManaBarFullL"/>
-                <Image component="RightEdge" name="ASUI/ManaBarFullR"/>
-                <Image component="TopEdge" name="ASUI/ManaBarFullT"/>
-                <Image component="BottomEdge" name="ASUI/ManaBarFullB"/>
-                <Image component="Background" name="ASUI/ManaBarFullM"/>
-            </FrameComponent>
-        </ImagerySection>
-        <ImagerySection name="progress_shadow">
-            <ImageryComponent>
-                <Area>
-                    <Dim type="LeftEdge">
-                        <OperatorDim op="Multiply">
-                            <UnifiedDim scale="1" type="Width"/>
-                            <PropertyDim name="CurrentProgress"/>
-                        </OperatorDim>
-                    </Dim>
-                    <Dim type="RightEdge">
-                        <OperatorDim op="Subtract">
-                            <UnifiedDim scale="1" type="Width"/>
-                            <AbsoluteDim value="5"/>
-                        </OperatorDim>
-                    </Dim>
-                </Area>
-                <Image name="AlfiskoSkin/ProgressShadow"/>
-                <VertFormat type="Stretched"/>
-            </ImageryComponent>
-        </ImagerySection>
-        <StateImagery name="Enabled">
-            <Layer>
-                <Section section="progress_empty"/>
-                <Section section="progress_shadow"/>
-            </Layer>
-        </StateImagery>
-        <StateImagery name="Disabled">
-            <Layer>
-                <Section section="progress_empty">
-                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
-                </Section>
-            </Layer>
-        </StateImagery>
-        <StateImagery name="EnabledProgress">
-            <Layer>
-                <Section section="progress_full"/>
-            </Layer>
-        </StateImagery>
-        <StateImagery name="DisabledProgress">
-            <Layer>
-                <Section section="progress_full">
-                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
-                </Section>
-            </Layer>
-        </StateImagery>
-    </WidgetLook>
+	<!-- <WidgetLook name="AS/ManaBar"> -->
+        <!-- <Property name="CurrentProgress" value=".01"/> -->
+        <!-- <Property name="Size" value="{{0, 256}, {0, 32}}" /> -->
+        <!-- <NamedArea name="ProgressArea"/> -->
+        <!-- <ImagerySection name="progress_empty"> -->
+            <!-- <FrameComponent> -->
+                <!-- <Image component="TopLeftCorner" name="ASUI/ManaBarEmptyTL"/> -->
+                <!-- <Image component="TopRightCorner" name="ASUI/ManaBarEmptyTR"/> -->
+                <!-- <Image component="BottomLeftCorner" name="ASUI/ManaBarEmptyBL"/> -->
+                <!-- <Image component="BottomRightCorner" name="ASUI/ManaBarEmptyBR"/> -->
+                <!-- <Image component="LeftEdge" name="ASUI/ManaBarEmptyL"/> -->
+                <!-- <Image component="RightEdge" name="ASUI/ManaBarEmptyR"/> -->
+                <!-- <Image component="TopEdge" name="ASUI/ManaBarEmptyT"/> -->
+                <!-- <Image component="BottomEdge" name="ASUI/ManaBarEmptyB"/> -->
+                <!-- <Image component="Background" name="ASUI/ManaBarEmptyM"/> -->
+            <!-- </FrameComponent> -->
+        <!-- </ImagerySection> -->
+        <!-- <ImagerySection name="progress_full"> -->
+            <!-- <FrameComponent> -->
+                <!-- <Image component="TopLeftCorner" name="ASUI/ManaBarFullTL"/> -->
+                <!-- <Image component="TopRightCorner" name="ASUI/ManaBarFullTR"/> -->
+                <!-- <Image component="BottomLeftCorner" name="ASUI/ManaBarFullBL"/> -->
+                <!-- <Image component="BottomRightCorner" name="ASUI/ManaBarFullBR"/> -->
+                <!-- <Image component="LeftEdge" name="ASUI/ManaBarFullL"/> -->
+                <!-- <Image component="RightEdge" name="ASUI/ManaBarFullR"/> -->
+                <!-- <Image component="TopEdge" name="ASUI/ManaBarFullT"/> -->
+                <!-- <Image component="BottomEdge" name="ASUI/ManaBarFullB"/> -->
+                <!-- <Image component="Background" name="ASUI/ManaBarFullM"/> -->
+            <!-- </FrameComponent> -->
+        <!-- </ImagerySection> -->
+        <!-- <ImagerySection name="progress_shadow"> -->
+            <!-- <ImageryComponent> -->
+                <!-- <Area> -->
+                    <!-- <Dim type="LeftEdge"> -->
+                        <!-- <OperatorDim op="Multiply"> -->
+                            <!-- <UnifiedDim scale="1" type="Width"/> -->
+                            <!-- <PropertyDim name="CurrentProgress"/> -->
+                        <!-- </OperatorDim> -->
+                    <!-- </Dim> -->
+                    <!-- <Dim type="RightEdge"> -->
+                        <!-- <OperatorDim op="Subtract"> -->
+                            <!-- <UnifiedDim scale="1" type="Width"/> -->
+                            <!-- <AbsoluteDim value="5"/> -->
+                        <!-- </OperatorDim> -->
+                    <!-- </Dim> -->
+                <!-- </Area> -->
+                <!-- <Image name="AlfiskoSkin/ProgressShadow"/> -->
+                <!-- <VertFormat type="Stretched"/> -->
+            <!-- </ImageryComponent> -->
+        <!-- </ImagerySection> -->
+        <!-- <StateImagery name="Enabled"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_empty"/> -->
+                <!-- <Section section="progress_shadow"/> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+        <!-- <StateImagery name="Disabled"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_empty"> -->
+                    <!-- <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/> -->
+                <!-- </Section> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+        <!-- <StateImagery name="EnabledProgress"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_full"/> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+        <!-- <StateImagery name="DisabledProgress"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_full"> -->
+                    <!-- <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/> -->
+                <!-- </Section> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+    <!-- </WidgetLook> -->
     
 	 <WidgetLook name="AS/OrangeButton">
 		<Property name="WantsMultiClickEvents" value="False" />
