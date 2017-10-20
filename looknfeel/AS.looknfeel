@@ -237,82 +237,82 @@
         </StateImagery>
     </WidgetLook>
 	
-	<WidgetLook name="AS/LifeBar">
-        <Property name="CurrentProgress" value=".01"/>
-        <Property name="Size" value="{{0, 256}, {0, 32}}" />
-        <NamedArea name="ProgressArea"/>
-        <ImagerySection name="progress_empty">
-            <FrameComponent>
-                <Image component="TopLeftCorner" name="ASUI/LifeBarEmptyTL"/>
-                <Image component="TopRightCorner" name="ASUI/LifeBarEmptyTR"/>
-                <Image component="BottomLeftCorner" name="ASUI/LifeBarEmptyBL"/>
-                <Image component="BottomRightCorner" name="ASUI/LifeBarEmptyBR"/>
-                <Image component="LeftEdge" name="ASUI/LifeBarEmptyL"/>
-                <Image component="RightEdge" name="ASUI/LifeBarEmptyR"/>
-                <Image component="TopEdge" name="ASUI/LifeBarEmptyT"/>
-                <Image component="BottomEdge" name="ASUI/LifeBarEmptyB"/>
-                <Image component="Background" name="ASUI/LifeBarEmptyM"/>
-            </FrameComponent>
-        </ImagerySection>
-        <ImagerySection name="progress_full">
-            <FrameComponent>
-                <Image component="TopLeftCorner" name="ASUI/LifeBarFullTL"/>
-                <Image component="TopRightCorner" name="ASUI/LifeBarFullTR"/>
-                <Image component="BottomLeftCorner" name="ASUI/LifeBarFullBL"/>
-                <Image component="BottomRightCorner" name="ASUI/LifeBarFullBR"/>
-                <Image component="LeftEdge" name="ASUI/LifeBarFullL"/>
-                <Image component="RightEdge" name="ASUI/LifeBarFullR"/>
-                <Image component="TopEdge" name="ASUI/LifeBarFullT"/>
-                <Image component="BottomEdge" name="ASUI/LifeBarFullB"/>
-                <Image component="Background" name="ASUI/LifeBarFullM"/>
-            </FrameComponent>
-        </ImagerySection>
-        <ImagerySection name="progress_shadow">
-            <ImageryComponent>
-                <Area>
-                    <Dim type="LeftEdge">
-                        <OperatorDim op="Multiply">
-                            <UnifiedDim scale="1" type="Width"/>
-                            <PropertyDim name="CurrentProgress"/>
-                        </OperatorDim>
-                    </Dim>
-                    <Dim type="RightEdge">
-                        <OperatorDim op="Subtract">
-                            <UnifiedDim scale="1" type="Width"/>
-                            <AbsoluteDim value="5"/>
-                        </OperatorDim>
-                    </Dim>
-                </Area>
-                <Image name="AlfiskoSkin/ProgressShadow"/>
-                <VertFormat type="Stretched"/>
-            </ImageryComponent>
-        </ImagerySection>
-        <StateImagery name="Enabled">
-            <Layer>
-                <Section section="progress_empty"/>
-                <Section section="progress_shadow"/>
-            </Layer>
-        </StateImagery>
-        <StateImagery name="Disabled">
-            <Layer>
-                <Section section="progress_empty">
-                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
-                </Section>
-            </Layer>
-        </StateImagery>
-        <StateImagery name="EnabledProgress">
-            <Layer>
-                <Section section="progress_full"/>
-            </Layer>
-        </StateImagery>
-        <StateImagery name="DisabledProgress">
-            <Layer>
-                <Section section="progress_full">
-                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
-                </Section>
-            </Layer>
-        </StateImagery>
-    </WidgetLook>
+	<!-- <WidgetLook name="AS/LifeBar"> -->
+        <!-- <Property name="CurrentProgress" value=".01"/> -->
+        <!-- <Property name="Size" value="{{0, 256}, {0, 32}}" /> -->
+        <!-- <NamedArea name="ProgressArea"/> -->
+        <!-- <ImagerySection name="progress_empty"> -->
+            <!-- <FrameComponent> -->
+                <!-- <Image component="TopLeftCorner" name="ASUI/LifeBarEmptyTL"/> -->
+                <!-- <Image component="TopRightCorner" name="ASUI/LifeBarEmptyTR"/> -->
+                <!-- <Image component="BottomLeftCorner" name="ASUI/LifeBarEmptyBL"/> -->
+                <!-- <Image component="BottomRightCorner" name="ASUI/LifeBarEmptyBR"/> -->
+                <!-- <Image component="LeftEdge" name="ASUI/LifeBarEmptyL"/> -->
+                <!-- <Image component="RightEdge" name="ASUI/LifeBarEmptyR"/> -->
+                <!-- <Image component="TopEdge" name="ASUI/LifeBarEmptyT"/> -->
+                <!-- <Image component="BottomEdge" name="ASUI/LifeBarEmptyB"/> -->
+                <!-- <Image component="Background" name="ASUI/LifeBarEmptyM"/> -->
+            <!-- </FrameComponent> -->
+        <!-- </ImagerySection> -->
+        <!-- <ImagerySection name="progress_full"> -->
+            <!-- <FrameComponent> -->
+                <!-- <Image component="TopLeftCorner" name="ASUI/LifeBarFullTL"/> -->
+                <!-- <Image component="TopRightCorner" name="ASUI/LifeBarFullTR"/> -->
+                <!-- <Image component="BottomLeftCorner" name="ASUI/LifeBarFullBL"/> -->
+                <!-- <Image component="BottomRightCorner" name="ASUI/LifeBarFullBR"/> -->
+                <!-- <Image component="LeftEdge" name="ASUI/LifeBarFullL"/> -->
+                <!-- <Image component="RightEdge" name="ASUI/LifeBarFullR"/> -->
+                <!-- <Image component="TopEdge" name="ASUI/LifeBarFullT"/> -->
+                <!-- <Image component="BottomEdge" name="ASUI/LifeBarFullB"/> -->
+                <!-- <Image component="Background" name="ASUI/LifeBarFullM"/> -->
+            <!-- </FrameComponent> -->
+        <!-- </ImagerySection> -->
+        <!-- <ImagerySection name="progress_shadow"> -->
+            <!-- <ImageryComponent> -->
+                <!-- <Area> -->
+                    <!-- <Dim type="LeftEdge"> -->
+                        <!-- <OperatorDim op="Multiply"> -->
+                            <!-- <UnifiedDim scale="1" type="Width"/> -->
+                            <!-- <PropertyDim name="CurrentProgress"/> -->
+                        <!-- </OperatorDim> -->
+                    <!-- </Dim> -->
+                    <!-- <Dim type="RightEdge"> -->
+                        <!-- <OperatorDim op="Subtract"> -->
+                            <!-- <UnifiedDim scale="1" type="Width"/> -->
+                            <!-- <AbsoluteDim value="5"/> -->
+                        <!-- </OperatorDim> -->
+                    <!-- </Dim> -->
+                <!-- </Area> -->
+                <!-- <Image name="AlfiskoSkin/ProgressShadow"/> -->
+                <!-- <VertFormat type="Stretched"/> -->
+            <!-- </ImageryComponent> -->
+        <!-- </ImagerySection> -->
+        <!-- <StateImagery name="Enabled"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_empty"/> -->
+                <!-- <Section section="progress_shadow"/> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+        <!-- <StateImagery name="Disabled"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_empty"> -->
+                    <!-- <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/> -->
+                <!-- </Section> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+        <!-- <StateImagery name="EnabledProgress"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_full"/> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+        <!-- <StateImagery name="DisabledProgress"> -->
+            <!-- <Layer> -->
+                <!-- <Section section="progress_full"> -->
+                    <!-- <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/> -->
+                <!-- </Section> -->
+            <!-- </Layer> -->
+        <!-- </StateImagery> -->
+    <!-- </WidgetLook> -->
 	
 	<!-- <WidgetLook name="AS/ManaBar"> -->
         <!-- <Property name="CurrentProgress" value=".01"/> -->
