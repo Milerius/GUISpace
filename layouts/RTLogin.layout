@@ -21,6 +21,7 @@
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Window type="RType/Editbox" name="AccountName" >
                 <Property name="Area" value="{{0,47},{0,179},{0,393},{0,225}}" />
+                <Property name="BlinkCaret" value="true" />
             </Window>
             <Window type="Generic/Image" name="AccountInformation" >
                 <Property name="Area" value="{{0,120},{0,13},{0,327},{0,24}}" />

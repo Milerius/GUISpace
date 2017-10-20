@@ -50,11 +50,11 @@
             <ImageryComponent>
                 <Area>
                     <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
-                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
-                    <Dim type="Width"><ImageDim dimension="Width" name="OpenDungeonsSkin/EditBoxCaret" /></Dim>
-                    <Dim type="BottomEdge"><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="Width"><AbsoluteDim value="2" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="0.95" type="BottomEdge" /></Dim>
                 </Area>
-                <Image name="OpenDungeonsSkin/EditBoxCaret" />
+                <Image name="GameMenuImages/GenericBrush" />
                 <VertFormat type="Stretched" />
                 <HorzFormat type="Stretched" />
             </ImageryComponent>
