@@ -58,21 +58,8 @@
                 <Property name="WantsMultiClickEvents" value="false" />
             </Window>
         </Window>
-        <Window type="AS/InvisibleButton" name="ExitButton" >
-            <Property name="Area" value="{{0,21},{0,890},{0,220},{0,926}}" />
-            <Property name="Font" value="LaconicRegular-15" />
-            <Property name="Text" value="EXIT" />
-            <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
-            <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
-            <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
-            <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
-            <Property name="HoverTextColour" value="FFc2f3ff" />
-            <Property name="NormalTextColour" value="FF92d3e3" />
-            <Property name="PushedTextColour" value="FFc2f3ff" />
-            <Property name="WantsMultiClickEvents" value="false" />
-        </Window>
-        <Window type="RType/FrameWindow" name="FrameWindow" >
-            <Property name="Area" value="{{0,623},{0,243},{0,1323},{0,887}}" />
+        <Window type="RType/FrameWindow" name="ExitWindow" >
+            <Property name="Area" value="{{0,599},{0,233},{0,1299},{0,877}}" />
             <Property name="Font" value="LaconicRegular-15" />
             <Property name="Visible" value="false" />
             <Property name="RollUpEnabled" value="false" />
@@ -81,20 +68,93 @@
             <AutoWindow namePath="__auto_titlebar__" >
                 <Property name="DraggingEnabled" value="false" />
             </AutoWindow>
-            <Window type="Generic/Image" name="Image" >
-                <Property name="Area" value="{{0,212},{0,37},{0,486},{0,104}}" />
+            <Window type="Generic/Image" name="Title" >
+                <Property name="Area" value="{{0,212},{0,27},{0,486},{0,94}}" />
                 <Property name="Font" value="LaconicRegular-15" />
                 <Property name="Image" value="RTHeader/label_holder" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="ClippedByParent" value="false" />
                 <Window type="Generic/Label" name="Label" >
-                    <Property name="Area" value="{{0,74},{0,19},{0,202},{0,51}}" />
-                    <Property name="Font" value="LaconicRegular-15" />
+                    <Property name="Area" value="{{0,73},{0,19},{0,201},{0,51}}" />
+                    <Property name="Font" value="LaconicRegular-18" />
                     <Property name="Text" value="EXIT" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
                     <Property name="NormalTextColour" value="FFE0B487" />
                 </Window>
             </Window>
+            <Window type="Generic/Image" name="BGWindow" >
+                <Property name="Area" value="{{0,13},{0,119},{0,690},{0,579}}" />
+                <Property name="Image" value="RTAlt/Lore/inner_carving" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ClippedByParent" value="false" />
+                <Window type="AS/InvisibleButton" name="YesQuit" >
+                    <Property name="Area" value="{{0,110},{0,373},{0,321},{0,426}}" />
+                    <Property name="Font" value="LaconicRegular-18" />
+                    <Property name="Text" value="YES" />
+                    <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+                    <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+                    <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+                    <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+                    <Property name="ClippedByParent" value="false" />
+                    <Property name="HoverTextColour" value="FFc2f3ff" />
+                    <Property name="NormalTextColour" value="FF92d3e3" />
+                    <Property name="PushedTextColour" value="FFc2f3ff" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+                <Window type="AS/InvisibleButton" name="NoQuit" >
+                    <Property name="Area" value="{{0,391},{0,371},{0,602},{0,424}}" />
+                    <Property name="Font" value="LaconicRegular-18" />
+                    <Property name="Text" value="NO" />
+                    <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+                    <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+                    <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+                    <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+                    <Property name="ClippedByParent" value="false" />
+                    <Property name="HoverTextColour" value="FFc2f3ff" />
+                    <Property name="NormalTextColour" value="FF92d3e3" />
+                    <Property name="PushedTextColour" value="FFc2f3ff" />
+                    <Property name="WantsMultiClickEvents" value="false" />
+                </Window>
+                <Window type="RType/MultiLineEditbox" name="MultiLineEditbox" >
+                    <Property name="Area" value="{{0,12},{0,16},{0,667},{0,349}}" />
+                    <Property name="Font" value="LaconicRegular-18" />
+                    <Property name="Text" >                                                                                                                                                                                                                         Do you want quit the game because you suck so much dick ?
+</Property>
+                    <Property name="ReadOnly" value="true" />
+                    <Property name="NormalTextColour" value="FF92d3e3" />
+                    <AutoWindow namePath="__auto_hscrollbar__" >
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_vscrollbar__" >
+                        <Property name="VerticalScrollbar" value="true" />
+                        <AutoWindow namePath="__auto_incbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                        <AutoWindow namePath="__auto_decbtn__" >
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </AutoWindow>
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+        <Window type="AS/InvisibleButton" name="ExitButton" >
+            <Property name="Area" value="{{0,24},{0,892},{0,235},{0,945}}" />
+            <Property name="Font" value="LaconicRegular-18" />
+            <Property name="Text" value="EXIT" />
+            <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+            <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+            <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+            <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="HoverTextColour" value="FFc2f3ff" />
+            <Property name="NormalTextColour" value="FF92d3e3" />
+            <Property name="PushedTextColour" value="FFc2f3ff" />
+            <Property name="WantsMultiClickEvents" value="false" />
         </Window>
     </Window>
 </GUILayout>

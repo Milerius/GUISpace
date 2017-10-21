@@ -22,6 +22,7 @@
                 <Item path="imagesets/ASBackGround/Login_Background.png" type="file" />
                 <Item path="imagesets/AS/MenuBackground1.png" type="file" />
                 <Item path="imagesets/AS/headerWindow.png" type="file" />
+                <Item path="imagesets/ASUI.imageset" type="file" />
             </Item>
             <Item name="LoginMenu" type="folder">
                 <Item path="layouts/ASLoginMenu.layout" type="file" />
@@ -44,6 +45,7 @@
             <Item name="imageset" type="folder">
                 <Item path="imagesets/RTAccountInformation.imageset" type="file" />
                 <Item path="imagesets/RTAccountName.imageset" type="file" />
+                <Item path="imagesets/RTAlternativeWindow.imageset" type="file" />
                 <Item path="imagesets/RTBackground.imageset" type="file" />
                 <Item path="imagesets/RTLoadingScreen.imageset" type="file" />
                 <Item path="imagesets/RTMainElements.imageset" type="file" />
@@ -51,7 +53,7 @@
                 <Item path="imagesets/RTWindow.imageset" type="file" />
                 <Item path="imagesets/RTWindowHeader.imageset" type="file" />
                 <Item path="imagesets/background.png" type="file" />
-                <Item path="imagesets/RTAlternativeWindow.imageset" type="file" />
+                <Item path="imagesets/RTOptions.imageset" type="file" />
             </Item>
             <Item name="layout" type="folder">
                 <Item path="layouts/RTLogin.layout" type="file" />
