@@ -5,6 +5,7 @@
         <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
         <Property name="Image" value="RTBackground/Background" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="WantsMultiClickEvents" value="false" />
         <Window type="Generic/Image" name="TopBorderEffect" >
             <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,76}}" />
             <Property name="Image" value="RTLoadingScreen/top_border_effect" />
@@ -69,6 +70,31 @@
             <Property name="NormalTextColour" value="FF92d3e3" />
             <Property name="PushedTextColour" value="FFc2f3ff" />
             <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="RType/FrameWindow" name="FrameWindow" >
+            <Property name="Area" value="{{0,623},{0,243},{0,1323},{0,887}}" />
+            <Property name="Font" value="LaconicRegular-15" />
+            <Property name="Visible" value="false" />
+            <Property name="RollUpEnabled" value="false" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <Window type="Generic/Image" name="Image" >
+                <Property name="Area" value="{{0,212},{0,37},{0,486},{0,104}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Image" value="RTHeader/label_holder" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ClippedByParent" value="false" />
+                <Window type="Generic/Label" name="Label" >
+                    <Property name="Area" value="{{0,74},{0,19},{0,202},{0,51}}" />
+                    <Property name="Font" value="LaconicRegular-15" />
+                    <Property name="Text" value="EXIT" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FFE0B487" />
+                </Window>
+            </Window>
         </Window>
     </Window>
 </GUILayout>

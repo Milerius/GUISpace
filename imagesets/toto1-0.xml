@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:d49ff0608dba71a49c13ff3310023fef:ec65d355ea9608c75bfeca611504dadb:f46da7414b87f926a0406d266ae4b948$ -->
+<Imageset Name="toto1-0" Imagefile="toto1-0.png" NativeHorzRes="2048" NativeVertRes="2048" AutoScaled="false">
+    <Image Name="Lore/Heading/lore_heading_texture_merge" XPos="1095" YPos="1667" Width="686" Height="66"/>
+    <Image Name="Lore/inner_carving" XPos="1095" YPos="201" Width="643" Height="532"/>
+    <Image Name="Lore/lore_texture_bg" XPos="201" YPos="201" Width="692" Height="623"/>
+    <Image Name="Lore/special_texture" XPos="1095" YPos="935" Width="641" Height="530"/>
+    <Image Name="Lore/whole_merge" XPos="201" YPos="1026" Width="692" Height="623"/>
+</Imageset>

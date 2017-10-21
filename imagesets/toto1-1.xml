@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:d49ff0608dba71a49c13ff3310023fef:ec65d355ea9608c75bfeca611504dadb:f46da7414b87f926a0406d266ae4b948$ -->
+<Imageset Name="toto1-1" Imagefile="toto1-1.png" NativeHorzRes="2048" NativeVertRes="2048" AutoScaled="false">
+    <Image Name="Lore/entry_hl" XPos="1101" YPos="1510" Width="228" Height="24"/>
+    <Image Name="Lore/example_pic" XPos="741" YPos="201" Width="333" Height="152"/>
+    <Image Name="Lore/Heading/close_a" XPos="201" YPos="1497" Width="27" Height="27"/>
+    <Image Name="Lore/Heading/close_h" XPos="201" YPos="1726" Width="27" Height="27"/>
+    <Image Name="Lore/Heading/close_n" XPos="1531" YPos="1576" Width="27" Height="27"/>
+    <Image Name="Lore/Heading/head_lef_side" XPos="1281" YPos="555" Width="232" Height="66"/>
+    <Image Name="Lore/Heading/head_right_side" XPos="201" YPos="971" Width="211" Height="66"/>
+    <Image Name="Lore/Heading/label_holder" XPos="201" YPos="702" Width="273" Height="67"/>
+    <Image Name="Lore/Heading/repeat_mid" XPos="201" YPos="1239" Width="41" Height="56"/>
+    <Image Name="Lore/max_a" XPos="1154" YPos="1050" Width="243" Height="28"/>
+    <Image Name="Lore/max_h" XPos="444" YPos="1253" Width="243" Height="28"/>
+    <Image Name="Lore/max_n" XPos="444" YPos="1483" Width="243" Height="28"/>
+    <Image Name="Lore/min_a" XPos="1111" YPos="1280" Width="243" Height="28"/>
+    <Image Name="Lore/min_h" XPos="430" YPos="1713" Width="243" Height="28"/>
+    <Image Name="Lore/min_n" XPos="1556" YPos="1346" Width="243" Height="28"/>
+    <Image Name="Lore/picture_overlay" XPos="1276" YPos="201" Width="333" Height="152"/>
+    <Image Name="Lore/Scroll/down_a" XPos="875" YPos="1730" Width="22" Height="24"/>
+    <Image Name="Lore/Scroll/down_h" XPos="1099" YPos="1736" Width="22" Height="24"/>
+    <Image Name="Lore/Scroll/mid_rail" XPos="1811" YPos="201" Width="20" Height="469"/>
+    <Image Name="Lore/Scroll/moving_part_hd" XPos="889" YPos="1253" Width="20" Height="50"/>
+    <Image Name="Lore/scroll_n" XPos="889" YPos="1505" Width="10" Height="23"/>
+    <Image Name="Lore/ta_bot" XPos="676" YPos="808" Width="338" Height="30"/>
+    <Image Name="Lore/ta_mid_rep" XPos="614" YPos="1040" Width="338" Height="11"/>
+    <Image Name="Lore/ta_scroll_rail" XPos="1756" YPos="872" Width="9" Height="272"/>
+    <Image Name="Lore/ta_top" XPos="1216" YPos="823" Width="338" Height="25"/>
+    <Image Name="Lore/text_area" XPos="201" YPos="201" Width="338" Height="299"/>
+    <Image Name="Lore/tittle_form" XPos="741" YPos="555" Width="338" Height="51"/>
+</Imageset>

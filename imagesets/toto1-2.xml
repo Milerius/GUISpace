@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:d49ff0608dba71a49c13ff3310023fef:ec65d355ea9608c75bfeca611504dadb:f46da7414b87f926a0406d266ae4b948$ -->
+<Imageset Name="toto1-2" Imagefile="toto1-2.png" NativeHorzRes="2048" NativeVertRes="2048" AutoScaled="false">
+    <Image Name="Lore/Scroll/down_n" XPos="201" YPos="201" Width="20" Height="22"/>
+    <Image Name="Lore/Scroll/moving_part_n" XPos="1093" YPos="201" Width="18" Height="48"/>
+    <Image Name="Lore/Scroll/up_a" XPos="645" YPos="201" Width="22" Height="24"/>
+    <Image Name="Lore/Scroll/up_h" XPos="869" YPos="201" Width="22" Height="24"/>
+    <Image Name="Lore/Scroll/up_n" XPos="423" YPos="201" Width="20" Height="22"/>
+</Imageset>

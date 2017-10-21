@@ -1,0 +1,16 @@
+<Imageset autoScaled="false" imagefile="toto1-0.png" name="RTAlt" nativeHorzRes="2048" nativeVertRes="2048" version="2">
+    <Image height="66" name="Lore/Heading/lore_heading_texture_merge" width="686" xPos="1095" yPos="1667" />
+    <Image height="532" name="Lore/inner_carving" width="643" xPos="1095" yPos="201" />
+    <Image height="623" name="Lore/lore_texture_bg" width="692" xPos="201" yPos="201" />
+    <Image height="530" name="Lore/special_texture" width="641" xPos="1095" yPos="935" />
+    <Image height="623" name="Lore/whole_merge" width="692" xPos="201" yPos="1026" />
+    <Image height="223" name="TrayTL" width="191" xPos="207" yPos="105" />
+    <Image height="223" name="TrayTR" width="190" xPos="696" yPos="105" />
+    <Image height="223" name="TrayT" width="298" xPos="398" yPos="105" />
+    <Image height="339" name="TrayL" width="190" xPos="207" yPos="329" />
+    <Image height="340" name="TrayR" width="190" xPos="696" yPos="328" />
+    <Image height="339" name="TrayM" width="299" xPos="397" yPos="328" />
+    <Image height="152" name="TrayBL" width="190" xPos="207" yPos="668" />
+    <Image height="152" name="TrayB" width="299" xPos="397" yPos="668" />
+    <Image height="152" name="TrayBR" width="190" xPos="696" yPos="668" />
+</Imageset>

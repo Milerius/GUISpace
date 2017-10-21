@@ -1,0 +1,10 @@
+<Imageset autoScaled="false" imagefile="Heading.png" name="RTHeader" nativeHorzRes="1881" nativeVertRes="89" version="2">
+    <Image height="27" name="close_a" width="27" xPos="1804" yPos="11" />
+    <Image height="27" name="close_h" width="27" xPos="1804" yPos="50" />
+    <Image height="27" name="close_n" width="27" xPos="1843" yPos="11" />
+    <Image height="66" name="heading_texture" width="780" xPos="296" yPos="11" />
+    <Image height="67" name="label_holder" width="273" xPos="11" yPos="11" />
+    <Image height="66" name="left_side" width="361" xPos="1088" yPos="11" />
+    <Image height="66" name="middle_repeater" width="53" xPos="1740" yPos="1" />
+    <Image height="66" name="right_side" width="270" xPos="1459" yPos="11" />
+</Imageset>
