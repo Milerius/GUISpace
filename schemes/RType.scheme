@@ -11,6 +11,7 @@
 	<Imageset filename="RTWindow.imageset" name="RTWindow" />
 	<Imageset filename="RTAlternativeWindow.imageset" name="RTWindow" />
 	<Imageset filename="RTOptions.imageset" name="RTOptions" />
+	<Imageset filename="RTCreateBackground.imageset" name="RTCreate" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicBold20.font" name="LaconicBold-20" />

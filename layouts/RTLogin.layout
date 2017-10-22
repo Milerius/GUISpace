@@ -161,7 +161,6 @@
         <Window type="RType/FrameWindow" name="ErrorWindow" >
             <Property name="Area" value="{{0,599},{0,233},{0,1299},{0,877}}" />
             <Property name="Font" value="LaconicRegular-15" />
-            <Property name="Visible" value="false" />
             <Property name="RollUpEnabled" value="false" />
             <Property name="SizingEnabled" value="false" />
             <Property name="ClippedByParent" value="false" />
@@ -206,7 +205,7 @@
                 <Window type="RType/MultiLineEditbox" name="ErrorMultiLineEditbox" >
                     <Property name="Area" value="{{0,12},{0,16},{0,667},{0,349}}" />
                     <Property name="Font" value="LaconicRegular-18" />
-                    <Property name="Text" >                                                                                                                                                                                                                                                                                                                                     Error 
+                    <Property name="Text" >                                                                                                                                                                                                                                                                                                          Error 
 </Property>
                     <Property name="ReadOnly" value="true" />
                     <Property name="NormalTextColour" value="FF92d3e3" />
