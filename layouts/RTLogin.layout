@@ -161,6 +161,7 @@
         <Window type="RType/FrameWindow" name="ErrorWindow" >
             <Property name="Area" value="{{0,599},{0,233},{0,1299},{0,877}}" />
             <Property name="Font" value="LaconicRegular-15" />
+            <Property name="Visible" value="false" />
             <Property name="RollUpEnabled" value="false" />
             <Property name="SizingEnabled" value="false" />
             <Property name="ClippedByParent" value="false" />
