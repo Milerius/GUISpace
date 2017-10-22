@@ -12,8 +12,11 @@
 	<Imageset filename="RTAlternativeWindow.imageset" name="RTWindow" />
 	<Imageset filename="RTOptions.imageset" name="RTOptions" />
 	<Imageset filename="RTCreateBackground.imageset" name="RTCreate" />
+	<Imageset filename="RTCreate.imageset" name="RTCreate" />
+	<Imageset filename="RTCharName.imageset" name="RTCreate" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
+	<Font filename="LaconicLight18.font" name="LaconicLight-18" />
 	<Font filename="LaconicBold20.font" name="LaconicBold-20" />
 	<LookNFeel filename="RType.looknfeel" />
 	<FalagardMapping lookNFeel="RType/Editbox" renderer="Core/Editbox" targetType="CEGUI/Editbox" windowType="RType/Editbox" />

@@ -7,13 +7,57 @@
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="Generic/Image" name="TopBorderEffect" >
             <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,76}}" />
-            <Property name="Image" value="RTLoadingScreen/top_border_effect" />
+            <Property name="Image" value="RTCreate/top_border_effect" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
         </Window>
         <Window type="Generic/Image" name="BottomBorderEffect" >
             <Property name="Area" value="{{0,0},{0,1028},{0,1920},{0,1080}}" />
-            <Property name="Image" value="RTLoadingScreen/bottom_border_effect" />
+            <Property name="Image" value="RTCreate/bottom_border_effect" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="RType/Editbox" name="Editbox" >
+            <Property name="Area" value="{{0,826},{0,973},{0,1102},{0,1019}}" />
+            <Property name="Font" value="LaconicLight-18" />
+            <Property name="NormalTextColour" value="FF88deff" />
+        </Window>
+        <Window type="Generic/Image" name="CharName" >
+            <Property name="Area" value="{{0,906},{0,947},{0,1022},{0,962}}" />
+            <Property name="Image" value="RTChar/CharName" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="CheckIcon" >
+            <Property name="Area" value="{{0,1118},{0,985},{0,1144},{0,1007}}" />
+            <Property name="Image" value="RTCreate/denied" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="BackButton" >
+            <Property name="Area" value="{{0,30},{0,967},{0,255},{0,1020}}" />
+            <Property name="Font" value="LaconicRegular-18" />
+            <Property name="Text" value="BACK" />
+            <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+            <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+            <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+            <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="HoverTextColour" value="FFc2f3ff" />
+            <Property name="NormalTextColour" value="FF92d3e3" />
+            <Property name="PushedTextColour" value="FFc2f3ff" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="AS/InvisibleButton" name="CreateButton" >
+            <Property name="Area" value="{{0,1676},{0,967},{0,1901},{0,1020}}" />
+            <Property name="Font" value="LaconicRegular-18" />
+            <Property name="Text" value="CREATE" />
+            <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
+            <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
+            <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
+            <Property name="DisabledImage" value="RTLoadingScreen/loginb_un" />
+            <Property name="ClippedByParent" value="false" />
+            <Property name="HoverTextColour" value="FFc2f3ff" />
+            <Property name="NormalTextColour" value="FF92d3e3" />
+            <Property name="PushedTextColour" value="FFc2f3ff" />
+            <Property name="WantsMultiClickEvents" value="false" />
         </Window>
     </Window>
 </GUILayout>
