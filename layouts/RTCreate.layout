@@ -59,11 +59,40 @@
             <Property name="PushedTextColour" value="FFc2f3ff" />
             <Property name="WantsMultiClickEvents" value="false" />
         </Window>
-        <Window type="RType/ToggleButton" name="FactionTest" >
-            <Property name="Area" value="{{0,381},{0,509},{0,461},{0,581}}" />
-            <Property name="HoverImage" value="RTCreate/logo2_h" />
-            <Property name="NormalImage" value="RTCreate/logo2_n" />
-            <Property name="PushedImage" value="RTCreate/logo2_a" />
+        <Window type="Generic/Image" name="FactionBG" >
+            <Property name="Area" value="{{0,168},{0,231},{0,507},{0,513}}" />
+            <Property name="Image" value="RTCreate/segment_bg" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="RType/ToggleButton" name="Molle" >
+                <Property name="Area" value="{{0,230},{0,10},{0,310},{0,82}}" />
+                <Property name="HoverImage" value="RTCreate/logo2_h" />
+                <Property name="NormalImage" value="RTCreate/logo2_n" />
+                <Property name="PushedImage" value="RTCreate/logo2_a" />
+            </Window>
+            <Window type="RType/ToggleButton" name="Couilles" >
+                <Property name="Area" value="{{0,130},{0,14},{0,210},{0,82}}" />
+                <Property name="HoverImage" value="RTCreate/logo3_h" />
+                <Property name="NormalImage" value="RTCreate/logo3_n" />
+                <Property name="PushedImage" value="RTCreate/logo3_a" />
+            </Window>
+            <Window type="RType/ToggleButton" name="Bite" >
+                <Property name="Area" value="{{0,30},{0,14},{0,105},{0,82}}" />
+                <Property name="HoverImage" value="RTCreate/logo1_h" />
+                <Property name="NormalImage" value="RTCreate/logo1_n" />
+                <Property name="PushedImage" value="RTCreate/logo1_a" />
+            </Window>
+            <Window type="Generic/Label" name="FactionName" >
+                <Property name="Area" value="{{0,106},{0,100},{0,234},{0,132}}" />
+                <Property name="Font" value="LaconicLight-18" />
+                <Property name="Text" value="Bite" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF98E2FF" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="ChooseFaction" >
+            <Property name="Area" value="{{0,242},{0,193},{0,434},{0,221}}" />
+            <Property name="Image" value="RTFaction/TextCreate" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
         </Window>
     </Window>
 </GUILayout>

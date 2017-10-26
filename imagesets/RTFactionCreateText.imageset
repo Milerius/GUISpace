@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="choosefaction.png" name="RTFaction" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="28" name="TextCreate" width="192" xPos="6" yPos="3" />
+</Imageset>
