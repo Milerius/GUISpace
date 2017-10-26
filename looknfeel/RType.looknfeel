@@ -595,6 +595,227 @@
             </Layer>
         </StateImagery>
     </WidgetLook>
+	
+	 <!--
+    ***************************************************
+        MySpecialWidgets/ToggleButton
+    ***************************************************
+    -->
+  <WidgetLook name="RType/ToggleButton">
+    <!-- Layers of image and text 'available' for this widget -->
+    <PropertyDefinition name="NormalTextColour" initialValue="FFB4B9BB" redrawOnWrite="true" />
+    <PropertyDefinition name="SelectedTextColour" initialValue="FFF9A01B" redrawOnWrite="true" />
+    <PropertyDefinition name="NormalBgColour" initialValue="FFB4B9BB" redrawOnWrite="true" />
+    <PropertyDefinition name="HoverBgColour" initialValue="FFFF9090" redrawOnWrite="true" />
+    <PropertyDefinition name="SelectedBgColour" initialValue="FFF9A01B" redrawOnWrite="true" />
+    <PropertyDefinition name="SelectedHoverBgColour" initialValue="FFFF9090" redrawOnWrite="true" />
+    <PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+    <PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+    <PropertyDefinition name="PushedImage" initialValue="" redrawOnWrite="true" />
+    <PropertyDefinition name="DisabledImage" initialValue="" redrawOnWrite="true" />
+    
+    <ImagerySection name="label">
+      <TextComponent>
+        <Area>
+          <Dim type="LeftEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge" >
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="RightEdge" >
+            <UnifiedDim scale="1" type="Width" />
+          </Dim>
+          <Dim type="Height" >
+            <UnifiedDim scale="1" type="Height" />
+          </Dim>
+        </Area>
+        <VertFormat type="CentreAligned" />
+        <HorzFormat type="WordWrapCentred" /> 
+      </TextComponent>
+    </ImagerySection>
+
+    <ImagerySection name="background_imagery">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width">
+            <UnifiedDim scale="1.0" type="Width" />
+          </Dim>
+          <Dim type="Height">
+            <UnifiedDim scale="1.0" type="Height" />
+          </Dim>
+        </Area>
+        <Image imageset="MySpecialWidgets" image="WhiteBg" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+    
+    
+    <ImagerySection name="normal_imagery">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width">
+            <UnifiedDim scale="1.0" type="Width" />
+          </Dim>
+          <Dim type="Height">
+            <UnifiedDim scale="1.0" type="Height" />
+          </Dim>
+        </Area>
+        <ImageProperty name="NormalImage" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+    <ImagerySection name="hover_imagery">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width">
+            <UnifiedDim scale="1.0" type="Width" />
+          </Dim>
+          <Dim type="Height">
+            <UnifiedDim scale="1.0" type="Height" />
+          </Dim>
+        </Area>
+        <ImageProperty name="HoverImage" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+    <ImagerySection name="pushed_imagery">
+      <ImageryComponent>
+        <Area>
+          <Dim type="LeftEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="TopEdge">
+            <AbsoluteDim value="0" />
+          </Dim>
+          <Dim type="Width">
+            <UnifiedDim scale="1.0" type="Width" />
+          </Dim>
+          <Dim type="Height">
+            <UnifiedDim scale="1.0" type="Height" />
+          </Dim>
+        </Area>
+        <ImageProperty name="PushedImage" />
+        <VertFormat type="Stretched" />
+        <HorzFormat type="Stretched" />
+      </ImageryComponent>
+    </ImagerySection>
+	
+    <!-- States of the Toggle Button-->
+    <StateImagery name="Normal">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="NormalBgColour" />
+        </Section>
+        <Section section="normal_imagery" />
+        <Section section="label">
+          <ColourProperty name="NormalTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="Hover">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="HoverBgColour" />
+        </Section>
+        <Section section="hover_imagery" />
+        <Section section="label">
+          <ColourProperty name="NormalTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="Pushed">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="NormalBgColour" />
+        </Section>
+        <Section section="pushed_imagery" />
+        <Section section="label">
+          <ColourProperty name="NormalTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="Disabled">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="NormalBgColour" />
+        </Section>
+        <Section section="normal_imagery" >
+          <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+        </Section>
+        <Section section="label">
+          <ColourProperty name="NormalTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="SelectedNormal">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="SelectedBgColour" />
+        </Section>
+        <Section section="normal_imagery" />
+        <Section section="label">
+          <ColourProperty name="SelectedTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="SelectedHover">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="SelectedHoverBgColour" />
+        </Section>
+        <Section section="hover_imagery" />
+        <Section section="label">
+          <ColourProperty name="SelectedTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="SelectedPushed">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="SelectedBgColour" />
+        </Section>
+        <Section section="pushed_imagery" />
+        <Section section="label">
+          <ColourProperty name="SelectedTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+    <StateImagery name="SelectedDisabled">
+      <Layer>
+        <Section section="background_imagery" >
+          <ColourProperty name="SelectedBgColour" />
+        </Section>
+        <Section section="normal_imagery" >
+          <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+        </Section>
+        <Section section="label">
+          <ColourProperty name="SelectedTextColour" />
+        </Section>
+      </Layer>
+    </StateImagery>
+  </WidgetLook>
 	 
  </Falagard>
  

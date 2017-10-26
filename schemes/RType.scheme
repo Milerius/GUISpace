@@ -23,4 +23,5 @@
 	<FalagardMapping lookNFeel="RType/Titlebar" renderer="Core/Titlebar" targetType="CEGUI/Titlebar" windowType="RType/Titlebar" />
 	<FalagardMapping lookNFeel="RType/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" windowType="RType/FrameWindow" />
 	<FalagardMapping lookNFeel="RType/MultiLineEditbox" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="RType/MultiLineEditbox" />
+	 <FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
 </GUIScheme>

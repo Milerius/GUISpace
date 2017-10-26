@@ -59,5 +59,11 @@
             <Property name="PushedTextColour" value="FFc2f3ff" />
             <Property name="WantsMultiClickEvents" value="false" />
         </Window>
+        <Window type="RType/ToggleButton" name="FactionTest" >
+            <Property name="Area" value="{{0,381},{0,509},{0,461},{0,581}}" />
+            <Property name="HoverImage" value="RTCreate/logo2_h" />
+            <Property name="NormalImage" value="RTCreate/logo2_n" />
+            <Property name="PushedImage" value="RTCreate/logo2_a" />
+        </Window>
     </Window>
 </GUILayout>
