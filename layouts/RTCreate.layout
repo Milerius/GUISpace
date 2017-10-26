@@ -65,21 +65,21 @@
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Window type="RType/ToggleButton" name="Molle" >
                 <Property name="Area" value="{{0,230},{0,10},{0,310},{0,82}}" />
-                <Property name="HoverImage" value="RTCreate/logo2_h" />
-                <Property name="NormalImage" value="RTCreate/logo2_n" />
-                <Property name="PushedImage" value="RTCreate/logo2_a" />
+                <Property name="HoverImage" value="RTCreate/Molle_h" />
+                <Property name="NormalImage" value="RTCreate/Molle_n" />
+                <Property name="PushedImage" value="RTCreate/Molle_a" />
             </Window>
             <Window type="RType/ToggleButton" name="Couilles" >
                 <Property name="Area" value="{{0,130},{0,14},{0,210},{0,82}}" />
-                <Property name="HoverImage" value="RTCreate/logo3_h" />
-                <Property name="NormalImage" value="RTCreate/logo3_n" />
-                <Property name="PushedImage" value="RTCreate/logo3_a" />
+                <Property name="HoverImage" value="RTCreate/Couilles_h" />
+                <Property name="NormalImage" value="RTCreate/Couilles_n" />
+                <Property name="PushedImage" value="RTCreate/Couilles_a" />
             </Window>
             <Window type="RType/ToggleButton" name="Bite" >
                 <Property name="Area" value="{{0,30},{0,14},{0,105},{0,82}}" />
-                <Property name="HoverImage" value="RTCreate/logo1_h" />
-                <Property name="NormalImage" value="RTCreate/logo1_n" />
-                <Property name="PushedImage" value="RTCreate/logo1_a" />
+                <Property name="HoverImage" value="RTCreate/Bite_h" />
+                <Property name="NormalImage" value="RTCreate/Bite_n" />
+                <Property name="PushedImage" value="RTCreate/Bite_a" />
             </Window>
             <Window type="Generic/Label" name="FactionName" >
                 <Property name="Area" value="{{0,106},{0,100},{0,234},{0,132}}" />

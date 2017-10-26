@@ -29,15 +29,15 @@
     <Image height="36" name="loginb_h" width="199" xPos="1720" yPos="171" />
     <Image height="40" name="loginb_n" width="203" xPos="1354" yPos="342" />
     <Image height="36" name="loginb_un" width="199" xPos="1720" yPos="209" />
-    <Image height="75" name="logo1_a" width="82" xPos="1215" yPos="133" />
-    <Image height="68" name="logo1_h" width="75" xPos="1277" yPos="344" />
-    <Image height="68" name="logo1_n" width="75" xPos="1277" yPos="414" />
-    <Image height="78" name="logo2_a" width="86" xPos="1195" yPos="264" />
-    <Image height="72" name="logo2_h" width="80" xPos="1299" yPos="133" />
-    <Image height="72" name="logo2_n" width="80" xPos="1195" yPos="344" />
-    <Image height="68" name="logo3_a" width="80" xPos="1195" yPos="418" />
-    <Image height="61" name="logo3_h" width="73" xPos="949" yPos="488" />
-    <Image height="61" name="logo3_n" width="73" xPos="1024" yPos="488" />
+    <Image height="75" name="Bite_a" width="82" xPos="1215" yPos="133" />
+    <Image height="68" name="Bite_h" width="75" xPos="1277" yPos="344" />
+    <Image height="68" name="Bite_n" width="75" xPos="1277" yPos="414" />
+    <Image height="78" name="Molle_a" width="86" xPos="1195" yPos="264" />
+    <Image height="72" name="Molle_h" width="80" xPos="1299" yPos="133" />
+    <Image height="72" name="Molle_n" width="80" xPos="1195" yPos="344" />
+    <Image height="68" name="Couilles_a" width="80" xPos="1195" yPos="418" />
+    <Image height="61" name="Couilles_h" width="73" xPos="949" yPos="488" />
+    <Image height="61" name="Couilles_n" width="73" xPos="1024" yPos="488" />
     <Image height="67" name="m_a" width="50" xPos="1337" yPos="263" />
     <Image height="59" name="m_h" width="42" xPos="1144" yPos="488" />
     <Image height="46" name="m_n" width="28" xPos="938" yPos="552" />
