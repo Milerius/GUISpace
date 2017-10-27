@@ -47,7 +47,7 @@
             <Window type="AS/InvisibleButton" name="LogButton" >
                 <Property name="Area" value="{{0,113},{0,412},{0,338},{0,465}}" />
                 <Property name="Font" value="LaconicRegular-18" />
-                <Property name="Text" value="LOG IN" />
+                <Property name="Text" value="LOGIN" />
                 <Property name="HoverImage" value="RTLoadingScreen/loginb_h" />
                 <Property name="NormalImage" value="RTLoadingScreen/loginb_n" />
                 <Property name="PushedImage" value="RTLoadingScreen/loginb_a" />
@@ -70,7 +70,7 @@
             <AutoWindow namePath="__auto_titlebar__" >
                 <Property name="DraggingEnabled" value="false" />
             </AutoWindow>
-            <Window type="Generic/Image" name="Title" >
+            <Window type="Generic/Image" name="ExitTitle" >
                 <Property name="Area" value="{{0,212},{0,27},{0,486},{0,94}}" />
                 <Property name="Font" value="LaconicRegular-15" />
                 <Property name="Image" value="RTHeader/label_holder" />
