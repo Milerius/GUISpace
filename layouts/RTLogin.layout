@@ -39,7 +39,7 @@
                 <Property name="MaskText" value="true" />
                 <Property name="BlinkCaret" value="true" />
             </Window>
-            <Window type="Generic/Image" name="AccountNameLabel2" >
+            <Window type="Generic/Image" name="AccountPasswordLabel" >
                 <Property name="Area" value="{{0,163},{0,243},{0,280},{0,253}}" />
                 <Property name="Image" value="RTPassword/Password" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
