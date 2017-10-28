@@ -1,1 +1,13 @@
-<Imageset autoScaled="" imagefile="" name="Unknown" nativeHorzRes="800" nativeVertRes="600" version="2" />
+<Imageset autoScaled="" imagefile="p.png" name="RTMainScene" nativeHorzRes="1920" nativeVertRes="1080" version="2">
+    <Image height="99" name="play_n" width="292" xPos="490" yPos="772" />
+    <Image height="99" name="play_a" width="292" xPos="814" yPos="772" />
+    <Image height="99" name="play_h" width="292" xPos="1159" yPos="772" />
+    <Image height="97" name="basic_button_n" width="382" xPos="95" yPos="943" />
+    <Image height="97" name="basic_button_a" width="382" xPos="548" yPos="954" />
+    <Image height="97" name="basic_button_h" width="382" xPos="959" yPos="943" />
+    <Image height="53" name="profil_icon" width="50" xPos="1061" yPos="123" />
+    <Image height="49" name="shop_icon" width="59" xPos="949" yPos="127" />
+    <Image height="42" name="bar" width="188" xPos="934" yPos="331" />
+    <Image height="21" name="gold_icon" width="19" xPos="670" yPos="79" />
+    <Image height="21" name="shop_gold_icon" width="19" xPos="670" yPos="46" />
+</Imageset>

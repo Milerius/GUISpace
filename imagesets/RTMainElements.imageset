@@ -302,5 +302,23 @@
     <Image height="23" name="Tooltip/tt_top_right_corner" width="23" xPos="2003" yPos="1141" />
     <Image height="360" name="Tooltip/tt_whole" width="282" xPos="11" yPos="407" />
     <Image height="39" name="XP Bar/xp_bar_empty" width="991" xPos="11" yPos="196" />
-    <Image height="8" name="XP Bar/xp_fill" width="953" xPos="11" yPos="257" />
+    <Image height="8" name="XP Bar/xp_fill" width="953" xPos="9" yPos="244" />
+    <Image height="3" name="ProgressFullTL" width="50" xPos="14" yPos="256" />
+    <Image height="3" name="ProgressFullL" width="50" xPos="14" yPos="259" />
+    <Image height="4" name="ProgressFullBL" width="50" xPos="14" yPos="262" />
+    <Image height="3" name="ProgressFullT" width="846" xPos="64" yPos="256" />
+    <Image height="3" name="ProgressFullTR" width="50" xPos="910" yPos="256" />
+    <Image height="3" name="ProgressFullFill" width="846" xPos="64" yPos="259" />
+    <Image height="3" name="ProgressFullR" width="51" xPos="910" yPos="259" />
+    <Image height="4" name="ProgressFullB" width="846" xPos="64" yPos="262" />
+    <Image height="4" name="ProgressFullBR" width="53" xPos="910" yPos="262" />
+    <Image height="4" name="ProgressEmptyBR" width="53" xPos="910" yPos="273" />
+    <Image height="3" name="ProgressEmptyL" width="50" xPos="14" yPos="270" />
+    <Image height="3" name="ProgressEmptyT" width="846" xPos="64" yPos="267" />
+    <Image height="3" name="ProgressEmptyR" width="51" xPos="910" yPos="270" />
+    <Image height="3" name="ProgressEmptyTL" width="50" xPos="14" yPos="267" />
+    <Image height="3" name="ProgressEmptyTR" width="50" xPos="910" yPos="267" />
+    <Image height="4" name="ProgressEmptyBL" width="50" xPos="14" yPos="273" />
+    <Image height="3" name="ProgressEmptyFill" width="846" xPos="64" yPos="270" />
+    <Image height="4" name="ProgressEmptyB" width="846" xPos="64" yPos="273" />
 </Imageset>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="BG" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="RTMainBG/BG" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="AS/InvisibleButton" name="PlayButton" >
+            <Property name="Area" value="{{0,1620},{0,8},{0,1912},{0,107}}" />
+            <Property name="Font" value="LaconicLight-20" />
+            <Property name="Text" value="PLAY" />
+            <Property name="HoverImage" value="RTMainScene/play_h" />
+            <Property name="NormalImage" value="RTMainScene/play_n" />
+            <Property name="PushedImage" value="RTMainScene/play_a" />
+            <Property name="WantsMultiClickEvents" value="false" />
+        </Window>
+        <Window type="RType/ToggleButton" name="ProfileButton" >
+            <Property name="Area" value="{{0,1231},{0,8},{0,1606},{0,108}}" />
+            <Property name="Font" value="LaconicLight-20" />
+            <Property name="Text" value="        PROFILE" />
+            <Property name="HoverImage" value="RTMainScene/basic_button_h" />
+            <Property name="NormalImage" value="RTMainScene/basic_button_n" />
+            <Property name="PushedImage" value="RTMainScene/basic_button_a" />
+            <Property name="NormalTextColour" value="FFF1D74A" />
+            <Property name="SelectedTextColour" value="FFF1D74A" />
+            <Window type="Generic/Image" name="ProfilIcon" >
+                <Property name="Area" value="{{0,305},{0,21},{0,355},{0,74}}" />
+                <Property name="Image" value="RTMainScene/profil_icon" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="RType/ToggleButton" name="ShopButton" >
+            <Property name="Area" value="{{0,842},{0,8},{0,1217},{0,112}}" />
+            <Property name="Font" value="LaconicLight-20" />
+            <Property name="Text" value="        SHOP" />
+            <Property name="HoverImage" value="RTMainScene/basic_button_h" />
+            <Property name="NormalImage" value="RTMainScene/basic_button_n" />
+            <Property name="PushedImage" value="RTMainScene/basic_button_a" />
+            <Property name="NormalTextColour" value="FFF1D74A" />
+            <Property name="SelectedTextColour" value="FFF1D74A" />
+            <Window type="Generic/Image" name="ShopIcon" >
+                <Property name="Area" value="{{0,299},{0,21},{0,358},{0,70}}" />
+                <Property name="Image" value="RTMainScene/shop_icon" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="Maul" >
+            <Property name="Area" value="{{0,22},{0,15},{0,108},{0,93}}" />
+            <Property name="Image" value="RTCreate/Molle_a" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
+        </Window>
+        <Window type="Generic/Image" name="Kooy" >
+            <Property name="Area" value="{{0,26},{0,22},{0,106},{0,90}}" />
+            <Property name="Image" value="RTCreate/Couilles_a" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
+        </Window>
+        <Window type="Generic/Image" name="Bheet" >
+            <Property name="Area" value="{{0,25},{0,17},{0,107},{0,92}}" />
+            <Property name="Image" value="RTCreate/Bite_a" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Pseudo" >
+            <Property name="Area" value="{{0,146},{0,21},{0,450},{0,93}}" />
+            <Property name="Font" value="LaconicLight-20" />
+            <Property name="Text" value="BITE FACIALE" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="NormalTextColour" value="FF40B9FF" />
+        </Window>
+        <Window type="Generic/Image" name="Gold" >
+            <Property name="Area" value="{{0,475},{0,14},{0,663},{0,56}}" />
+            <Property name="Image" value="RTMainScene/bar" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="GoldIcon" >
+                <Property name="Area" value="{{0,13},{0,14},{0,32},{0,35}}" />
+                <Property name="Image" value="RTMainScene/gold_icon" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Label" name="GoldMoney" >
+                <Property name="Area" value="{{0,29},{0,14},{0,157},{0,38}}" />
+                <Property name="Font" value="LaconicLight-18" />
+                <Property name="Text" value="1000" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFF9CD00" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="Gold2" >
+            <Property name="Area" value="{{0,475},{0,60},{0,663},{0,102}}" />
+            <Property name="Image" value="RTMainScene/bar" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="GoldIcon" >
+                <Property name="Area" value="{{0,13},{0,14},{0,32},{0,35}}" />
+                <Property name="Image" value="RTMainScene/shop_gold_icon" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Label" name="GoldMoney" >
+                <Property name="Area" value="{{0,29},{0,14},{0,157},{0,38}}" />
+                <Property name="Font" value="LaconicLight-18" />
+                <Property name="Text" value="1000" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FF87E4F5" />
+            </Window>
+        </Window>
+        <Window type="Generic/Label" name="LevelPre" >
+            <Property name="Area" value="{{0,681},{0,21},{0,809},{0,53}}" />
+            <Property name="Font" value="LaconicLight-18" />
+            <Property name="Text" value="LEVEL" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="NormalTextColour" value="FF40D9FF" />
+        </Window>
+        <Window type="Generic/Label" name="Level" >
+            <Property name="Area" value="{{0,681},{0,63},{0,809},{0,95}}" />
+            <Property name="Font" value="LaconicLight-18" />
+            <Property name="Text" value="1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="NormalTextColour" value="FF40D9FF" />
+        </Window>
+        <Window type="RType/ProgressBar" name="xpBar" >
+            <Property name="Area" value="{{0,483},{0,127},{0,1432},{0,137}}" />
+            <Property name="StepSize" value="0.01" />
+            <Property name="CurrentProgress" value="1" />
+        </Window>
+    </Window>
+</GUILayout>
