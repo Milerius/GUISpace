@@ -10,4 +10,6 @@
     <Image height="42" name="bar" width="188" xPos="934" yPos="331" />
     <Image height="21" name="gold_icon" width="19" xPos="670" yPos="79" />
     <Image height="21" name="shop_gold_icon" width="19" xPos="670" yPos="46" />
+    <Image height="97" name="rtype_logo" width="434" xPos="1220" yPos="191" />
+    <Image height="17" name="InformationFR" width="205" xPos="543" yPos="686" />
 </Imageset>

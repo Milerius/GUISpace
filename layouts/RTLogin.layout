@@ -230,5 +230,9 @@
                 </Window>
             </Window>
         </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,742},{0,85},{0,1176},{0,182}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
     </Window>
 </GUILayout>
