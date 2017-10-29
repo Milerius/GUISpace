@@ -18,6 +18,7 @@
         <Window type="RType/Editbox" name="Editbox" >
             <Property name="Area" value="{{0,826},{0,973},{0,1102},{0,1019}}" />
             <Property name="Font" value="LaconicLight-18" />
+            <Property name="TextFormatting" value="CentreAligned" />
             <Property name="NormalTextColour" value="FF88deff" />
         </Window>
         <Window type="Generic/Image" name="CharName" >
@@ -63,28 +64,31 @@
             <Property name="Area" value="{{0,168},{0,231},{0,507},{0,513}}" />
             <Property name="Image" value="RTCreate/segment_bg" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
-            <Window type="RType/ToggleButton" name="Molle" >
+            <Window type="RType/ToggleButton" name="Maul" >
                 <Property name="Area" value="{{0,230},{0,10},{0,310},{0,82}}" />
-                <Property name="HoverImage" value="RTCreate/Molle_h" />
-                <Property name="NormalImage" value="RTCreate/Molle_n" />
-                <Property name="PushedImage" value="RTCreate/Molle_a" />
+                <Property name="HoverImage" value="RTCreate/Maul_h" />
+                <Property name="NormalImage" value="RTCreate/Maul_n" />
+                <Property name="PushedImage" value="RTCreate/Maul_a" />
+                <Property name="DisabledImage" value="RTCreate/Maul_a" />
             </Window>
-            <Window type="RType/ToggleButton" name="Couilles" >
+            <Window type="RType/ToggleButton" name="Kooy" >
                 <Property name="Area" value="{{0,130},{0,14},{0,210},{0,82}}" />
-                <Property name="HoverImage" value="RTCreate/Couilles_h" />
-                <Property name="NormalImage" value="RTCreate/Couilles_n" />
-                <Property name="PushedImage" value="RTCreate/Couilles_a" />
+                <Property name="HoverImage" value="RTCreate/Kooy_h" />
+                <Property name="NormalImage" value="RTCreate/Kooy_n" />
+                <Property name="PushedImage" value="RTCreate/Kooy_a" />
+                <Property name="DisabledImage" value="RTCreate/Kooy_a" />
             </Window>
-            <Window type="RType/ToggleButton" name="Bite" >
+            <Window type="RType/ToggleButton" name="Bheet" >
                 <Property name="Area" value="{{0,30},{0,14},{0,105},{0,82}}" />
-                <Property name="HoverImage" value="RTCreate/Bite_h" />
-                <Property name="NormalImage" value="RTCreate/Bite_n" />
-                <Property name="PushedImage" value="RTCreate/Bite_a" />
+                <Property name="HoverImage" value="RTCreate/Bheet_h" />
+                <Property name="NormalImage" value="RTCreate/Bheet_n" />
+                <Property name="PushedImage" value="RTCreate/Bheet_a" />
+                <Property name="DisabledImage" value="RTCreate/Bheet_a" />
             </Window>
             <Window type="Generic/Label" name="FactionName" >
                 <Property name="Area" value="{{0,106},{0,100},{0,234},{0,132}}" />
                 <Property name="Font" value="LaconicLight-18" />
-                <Property name="Text" value="Bite" />
+                <Property name="Text" value="Bheet" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="NormalTextColour" value="FF98E2FF" />
             </Window>

@@ -46,19 +46,19 @@
         </Window>
         <Window type="Generic/Image" name="Maul" >
             <Property name="Area" value="{{0,22},{0,15},{0,108},{0,93}}" />
-            <Property name="Image" value="RTCreate/Molle_a" />
+            <Property name="Image" value="RTCreate/Maul_a" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="Visible" value="false" />
         </Window>
         <Window type="Generic/Image" name="Kooy" >
             <Property name="Area" value="{{0,26},{0,22},{0,106},{0,90}}" />
-            <Property name="Image" value="RTCreate/Couilles_a" />
+            <Property name="Image" value="RTCreate/Kooy_a" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="Visible" value="false" />
         </Window>
         <Window type="Generic/Image" name="Bheet" >
             <Property name="Area" value="{{0,25},{0,17},{0,107},{0,92}}" />
-            <Property name="Image" value="RTCreate/Bite_a" />
+            <Property name="Image" value="RTCreate/Bheet_a" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
         </Window>
         <Window type="Generic/Label" name="Pseudo" >
