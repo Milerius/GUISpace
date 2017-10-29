@@ -14,4 +14,5 @@
     <Image height="17" name="InformationFR" width="207" xPos="543" yPos="686" />
     <Image height="10" name="AccountNameLabelFR" width="114" xPos="877" yPos="695" />
     <Image height="10" name="PasswordFR" width="98" xPos="1136" yPos="690" />
+    <Image height="28" name="TextCreateFR" width="248" xPos="1308" yPos="676" />
 </Imageset>
