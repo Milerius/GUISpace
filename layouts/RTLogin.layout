@@ -117,10 +117,10 @@
                     <Property name="PushedTextColour" value="FFc2f3ff" />
                     <Property name="WantsMultiClickEvents" value="false" />
                 </Window>
-                <Window type="RType/MultiLineEditbox" name="MultiLineEditbox" >
+                <Window type="RType/MultiLineEditbox" name="ExitText" >
                     <Property name="Area" value="{{0,12},{0,16},{0,667},{0,349}}" />
                     <Property name="Font" value="LaconicRegular-18" />
-                    <Property name="Text" >                                                                                                                                                                                                                                                                                                                   Do you want quit the game ?
+                    <Property name="Text" >Do you want quit the game ?
 </Property>
                     <Property name="ReadOnly" value="true" />
                     <Property name="NormalTextColour" value="FF92d3e3" />
