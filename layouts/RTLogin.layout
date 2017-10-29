@@ -22,7 +22,12 @@
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Window type="RType/Editbox" name="AccountName" >
                 <Property name="Area" value="{{0,47},{0,179},{0,393},{0,225}}" />
+                <Property name="Font" value="LaconicLight-18" />
                 <Property name="BlinkCaret" value="true" />
+                <Property name="TextFormatting" value="CentreAligned" />
+                <Property name="NormalTextColour" value="FF88deff" />
+                <Property name="SelectedTextColour" value="FF88deff" />
+                <Property name="ActiveSelectionColour" value="00FFFFFF" />
             </Window>
             <Window type="Generic/Image" name="AccountInformation" >
                 <Property name="Area" value="{{0,120},{0,13},{0,327},{0,24}}" />
@@ -36,8 +41,12 @@
             </Window>
             <Window type="RType/Editbox" name="AccountPassword" >
                 <Property name="Area" value="{{0,47},{0,270},{0,393},{0,316}}" />
+                <Property name="Font" value="LaconicLight-18" />
                 <Property name="MaskText" value="true" />
                 <Property name="BlinkCaret" value="true" />
+                <Property name="TextFormatting" value="CentreAligned" />
+                <Property name="NormalTextColour" value="FF88deff" />
+                <Property name="SelectedTextColour" value="FF88deff" />
             </Window>
             <Window type="Generic/Image" name="AccountPasswordLabel" >
                 <Property name="Area" value="{{0,163},{0,243},{0,280},{0,253}}" />
