@@ -4,7 +4,7 @@
     <Window type="Generic/Image" name="RTBG" >
         <Property name="Area" value="{{0,-2},{0,-3},{0,1918},{0,1077}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
-        <Window type="Generic/Image" name="TopBorderEffect" >
+        <Window type="Generic/Image" name="FactionHead" >
             <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,76}}" />
             <Property name="Image" value="RTCreate/top_border_effect" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
@@ -97,13 +97,26 @@
             <Property name="Image" value="RTFaction/TextCreate" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
         </Window>
-        <Window type="RType/MultiLineEditboxT" name="MultiLineEditboxT" >
+        <Window type="RType/MultiLineEditboxT" name="FactionStory" >
             <Property name="Area" value="{{0,1412},{0,282},{0,1750},{0,523}}" />
             <Property name="Font" value="LaconicLight-6" />
             <Property name="Text" >Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
 </Property>
             <Property name="ReadOnly" value="true" />
             <Property name="NormalTextColour" value="tl:FF92B4D9 tr:FF92B4D9 bl:FF92B4D9 br:FF92B4D9" />
+        </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,1412},{0,231},{0,1751},{0,279}}" />
+            <Property name="Image" value="RTCreate/mod_head" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,13},{0,9},{0,327},{0,41}}" />
+                <Property name="Font" value="LaconicLight-11" />
+                <Property name="Text" value="The &quot;Bheet&quot; Faction" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="HorzFormatting" value="LeftAligned" />
+                <Property name="NormalTextColour" value="FFC2F3FF" />
+            </Window>
         </Window>
     </Window>
 </GUILayout>

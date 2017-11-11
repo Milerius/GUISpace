@@ -20,6 +20,7 @@
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
+	<Font filename="LaconicLight11.font" name="LaconicLight-11" />
 	<Font filename="LaconicLight18.font" name="LaconicLight-18" />
 	<Font filename="LaconicLight20.font" name="LaconicLight-20" />
 	<Font filename="LaconicBold20.font" name="LaconicBold-20" />
