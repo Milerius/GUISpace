@@ -93,7 +93,7 @@
     <Image height="143" name="MultiLineEditBoxRight" width="20" xPos="1258" yPos="656" />
     <Image height="217" name="MultiLineEditBoxMiddle" width="306" xPos="952" yPos="618" />
     <Image height="15" name="MultiLineEditBoxBottom" width="306" xPos="952" yPos="835" />
-    <Image height="10" name="seg" width="4" xPos="940" yPos="135" />
+    <Image height="10" name="seg" width="9" xPos="938" yPos="135" />
     <Image height="6" name="TopScroll" width="8" xPos="1909" yPos="273" />
     <Image height="6" name="BotScroll" width="8" xPos="1909" yPos="288" />
     <Image height="9" name="MidScroll" width="8" xPos="1909" yPos="279" />
