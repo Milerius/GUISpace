@@ -1,7 +1,7 @@
 <Imageset autoScaled="false" imagefile="PersonnageCreate.png" name="RTCreate" nativeHorzRes="1922" nativeVertRes="889" version="2">
     <Image height="25" name="approved" width="27" xPos="1502" yPos="302" />
     <Image height="52" name="bottom_border_effect" width="1920" xPos="1" yPos="79" />
-    <Image height="755" name="character_example" width="589" xPos="1" yPos="133" />
+    <Image height="755" name="character_example" width="589" xPos="1" yPos="134" />
     <Image height="51" name="class_frame" width="51" xPos="1267" yPos="210" />
     <Image height="129" name="classes_a" width="264" xPos="949" yPos="133" />
     <Image height="110" name="classes_h" width="244" xPos="949" yPos="264" />
@@ -16,7 +16,7 @@
     <Image height="25" name="denied" width="25" xPos="1896" yPos="467" />
     <Image height="194" name="descr_rail" width="9" xPos="938" yPos="356" />
     <Image height="23" name="descr_scroll" width="10" xPos="1908" yPos="247" />
-    <Image height="247" name="description_body" width="344" xPos="933" yPos="604" />
+    <Image height="247" name="description_body" width="344" xPos="1286" yPos="606" />
     <Image height="53" name="description_head" width="344" xPos="1374" yPos="207" />
     <Image height="68" name="f_a" width="52" xPos="1283" yPos="263" />
     <Image height="59" name="f_h" width="43" xPos="1099" yPos="488" />
@@ -72,7 +72,7 @@
     <Image height="36" name="rocketeer_n" width="35" xPos="1813" yPos="410" />
     <Image height="23" name="scroll" width="10" xPos="1908" yPos="272" />
     <Image height="221" name="scroll_rail" width="9" xPos="938" yPos="133" />
-    <Image height="282" name="segment_bg" width="339" xPos="592" yPos="604" />
+    <Image height="282" name="segment_bg" width="339" xPos="592" yPos="607" />
     <Image height="41" name="selector_bg" width="287" xPos="1381" yPos="164" />
     <Image height="7" name="slider_fill" width="277" xPos="1283" yPos="333" />
     <Image height="17" name="slider_frame" width="286" xPos="1354" yPos="410" />
@@ -84,4 +84,17 @@
     <Image height="37" name="stage_completed" width="37" xPos="1874" yPos="395" />
     <Image height="1" name="stage_transsition_line" width="116" xPos="1147" yPos="886" />
     <Image height="76" name="top_border_effect" width="1920" xPos="1" yPos="1" />
+    <Image height="53" name="MultiLineEditBoxTopLeft" width="20" xPos="932" yPos="603" />
+    <Image height="51" name="MultiLineEditBoxBottomLeft" width="20" xPos="932" yPos="799" />
+    <Image height="143" name="MultiLineEditBoxLeft" width="20" xPos="932" yPos="656" />
+    <Image height="53" name="MultiLineEditBoxTopRight" width="20" xPos="1258" yPos="603" />
+    <Image height="15" name="MultiLineEditBoxTop" width="306" xPos="952" yPos="603" />
+    <Image height="51" name="MultiLineEditBoxBottomRight" width="20" xPos="1258" yPos="799" />
+    <Image height="143" name="MultiLineEditBoxRight" width="20" xPos="1258" yPos="656" />
+    <Image height="217" name="MultiLineEditBoxMiddle" width="306" xPos="952" yPos="618" />
+    <Image height="15" name="MultiLineEditBoxBottom" width="306" xPos="952" yPos="835" />
+    <Image height="10" name="seg" width="4" xPos="940" yPos="135" />
+    <Image height="6" name="TopScroll" width="8" xPos="1909" yPos="273" />
+    <Image height="6" name="BotScroll" width="8" xPos="1909" yPos="288" />
+    <Image height="9" name="MidScroll" width="8" xPos="1909" yPos="279" />
 </Imageset>

@@ -111,16 +111,16 @@
     <Image height="28" name="Chat System/ddown_a" width="27" xPos="2006" yPos="659" />
     <Image height="28" name="Chat System/ddown_h" width="27" xPos="2006" yPos="709" />
     <Image height="28" name="Chat System/ddown_n" width="27" xPos="2006" yPos="759" />
-    <Image height="28" name="Chat System/down_a" width="27" xPos="1469" yPos="1200" />
-    <Image height="28" name="Chat System/down_h" width="27" xPos="1518" yPos="1200" />
-    <Image height="28" name="Chat System/down_n" width="27" xPos="1567" yPos="1200" />
+    <Image height="28" name="ChatSystem/down_a" width="27" xPos="1469" yPos="1200" />
+    <Image height="28" name="ChatSystem/down_h" width="27" xPos="1518" yPos="1200" />
+    <Image height="28" name="ChatSystem/down_n" width="27" xPos="1567" yPos="1200" />
     <Image height="27" name="Chat System/mail_notification" width="27" xPos="892" yPos="953" />
     <Image height="28" name="Chat System/settings_a" width="27" xPos="1670" yPos="1152" />
     <Image height="28" name="Chat System/settings_h" width="27" xPos="1719" yPos="1152" />
     <Image height="28" name="Chat System/settings_n" width="27" xPos="941" yPos="956" />
-    <Image height="28" name="Chat System/up_a" width="27" xPos="933" yPos="1006" />
-    <Image height="28" name="Chat System/up_h" width="27" xPos="1747" yPos="1096" />
-    <Image height="28" name="Chat System/up_n" width="27" xPos="1796" yPos="1096" />
+    <Image height="28" name="ChatSystem/up_a" width="27" xPos="933" yPos="1006" />
+    <Image height="28" name="ChatSystem/up_h" width="27" xPos="1747" yPos="1096" />
+    <Image height="28" name="ChatSystem/up_n" width="27" xPos="1796" yPos="1096" />
     <Image height="39" name="Cursors/buy_sell_ev" width="39" xPos="755" yPos="1114" />
     <Image height="36" name="Cursors/buy_sell_n" width="36" xPos="1217" yPos="933" />
     <Image height="36" name="Cursors/buy_sell_un" width="36" xPos="1217" yPos="991" />

@@ -19,6 +19,7 @@
 	<Imageset filename="RTMainScene.imageset" name="RTMainScene" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
+	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
 	<Font filename="LaconicLight18.font" name="LaconicLight-18" />
 	<Font filename="LaconicLight20.font" name="LaconicLight-20" />
 	<Font filename="LaconicBold20.font" name="LaconicBold-20" />
@@ -27,6 +28,10 @@
 	<FalagardMapping lookNFeel="RType/Titlebar" renderer="Core/Titlebar" targetType="CEGUI/Titlebar" windowType="RType/Titlebar" />
 	<FalagardMapping lookNFeel="RType/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" windowType="RType/FrameWindow" />
 	<FalagardMapping lookNFeel="RType/MultiLineEditbox" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="RType/MultiLineEditbox" />
-	 <FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
-	 <FalagardMapping lookNFeel="RType/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBar" />
+	<FalagardMapping lookNFeel="RType/BlueMultiLineEditbox" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="RType/BlueMultiLineEditbox" />
+	<FalagardMapping lookNFeel="RType/MultiLineEditboxT" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="RType/MultiLineEditboxT" />
+	<FalagardMapping windowType="RType/VerticalScrollbar"   targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="RType/VerticalScrollbar" />
+	<FalagardMapping windowType="RType/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/VerticalScrollbarThumb" />
+	<FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
+	<FalagardMapping lookNFeel="RType/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBar" />
 </GUIScheme>
