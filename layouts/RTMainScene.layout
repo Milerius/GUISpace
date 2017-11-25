@@ -102,7 +102,7 @@
                 <Property name="NormalTextColour" value="FF87E4F5" />
             </Window>
         </Window>
-        <Window type="Generic/Label" name="LevelPre" >
+        <Window type="Generic/Label" name="LevelLabel" >
             <Property name="Area" value="{{0,681},{0,21},{0,809},{0,53}}" />
             <Property name="Font" value="LaconicLight-18" />
             <Property name="Text" value="LEVEL" />
