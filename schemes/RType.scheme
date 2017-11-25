@@ -35,4 +35,5 @@
 	<FalagardMapping windowType="RType/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/VerticalScrollbarThumb" />
 	<FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
 	<FalagardMapping lookNFeel="RType/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBar" />
+	<FalagardMapping lookNFeel="RType/BlueProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/BlueProgressBar" />
 </GUIScheme>

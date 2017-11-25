@@ -272,7 +272,7 @@
     <Image height="29" name="Target Frame/target_buff_debuff_frame" width="29" xPos="1619" yPos="1104" />
     <Image height="19" name="Target Frame/target_cast_bar" width="258" xPos="317" yPos="1203" />
     <Image height="13" name="Target Frame/target_cb_black_bg" width="244" xPos="995" yPos="607" />
-    <Image height="10" name="Target Frame/target_cb_fill" width="241" xPos="1530" yPos="308" />
+    <Image height="10" name="Target Frame/target_cb_fill" width="241" xPos="1531" yPos="293" />
     <Image height="52" name="Target of Target Frame/small_tot_frame" width="54" xPos="1167" yPos="713" />
     <Image height="61" name="Target of Target Frame/targeted" width="62" xPos="725" yPos="957" />
     <Image height="42" name="Target of Target Frame/tot_empty_bg_frame" width="42" xPos="1796" yPos="820" />
@@ -321,4 +321,22 @@
     <Image height="4" name="ProgressEmptyBL" width="50" xPos="14" yPos="273" />
     <Image height="3" name="ProgressEmptyFill" width="846" xPos="64" yPos="270" />
     <Image height="4" name="ProgressEmptyB" width="846" xPos="64" yPos="273" />
+    <Image height="4" name="BlueProgressBarFullTL" width="37" xPos="1529" yPos="307" />
+    <Image height="4" name="BlueProgressBarFullL" width="37" xPos="1529" yPos="311" />
+    <Image height="4" name="BlueProgressBarFullBL" width="37" xPos="1529" yPos="315" />
+    <Image height="4" name="BlueProgressBarFullTR" width="37" xPos="1735" yPos="307" />
+    <Image height="4" name="BlueProgressBarFullR" width="37" xPos="1735" yPos="311" />
+    <Image height="4" name="BlueProgressBarFullBR" width="37" xPos="1735" yPos="315" />
+    <Image height="4" name="BlueProgressBarFullT" width="169" xPos="1566" yPos="307" />
+    <Image height="4" name="BlueProgressBarFullFill" width="169" xPos="1566" yPos="311" />
+    <Image height="4" name="BlueProgressBarFullB" width="169" xPos="1566" yPos="315" />
+    <Image height="4" name="BlueProgressBarEmptyFill" width="169" xPos="1566" yPos="326" />
+    <Image height="4" name="BlueProgressBarEmptyBL" width="37" xPos="1529" yPos="330" />
+    <Image height="4" name="BlueProgressBarEmptyBR" width="37" xPos="1735" yPos="330" />
+    <Image height="4" name="BlueProgressBarEmptyR" width="37" xPos="1735" yPos="326" />
+    <Image height="4" name="BlueProgressBarEmptyT" width="169" xPos="1566" yPos="322" />
+    <Image height="4" name="BlueProgressBarEmptyL" width="37" xPos="1529" yPos="326" />
+    <Image height="4" name="BlueProgressBarEmptyTL" width="37" xPos="1529" yPos="322" />
+    <Image height="4" name="BlueProgressBarEmptyB" width="169" xPos="1566" yPos="330" />
+    <Image height="4" name="BlueProgressBarEmptyTR" width="37" xPos="1735" yPos="322" />
 </Imageset>

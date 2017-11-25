@@ -1074,6 +1074,84 @@
         </StateImagery>
     </WidgetLook>
 	
+	<WidgetLook name="RType/BlueProgressBar">
+        <Property name="CurrentProgress" value=".01"/>
+        <Property name="Size" value="{{0, 241}, {0, 10}}" />
+        <NamedArea name="ProgressArea"/>
+        <ImagerySection name="progress_empty">
+            <FrameComponent>
+                <Image component="TopLeftCorner" name="RTMainElements/BlueProgressBarEmptyTL"/>
+                <Image component="TopRightCorner" name="RTMainElements/BlueProgressBarEmptyTR"/>
+                <Image component="BottomLeftCorner" name="RTMainElements/BlueProgressBarEmptyBL"/>
+                <Image component="BottomRightCorner" name="RTMainElements/BlueProgressBarEmptyBR"/>
+                <Image component="LeftEdge" name="RTMainElements/BlueProgressBarEmptyL"/>
+                <Image component="RightEdge" name="RTMainElements/BlueProgressBarEmptyR"/>
+                <Image component="TopEdge" name="RTMainElements/BlueProgressBarEmptyT"/>
+                <Image component="BottomEdge" name="RTMainElements/BlueProgressBarEmptyB"/>
+                <Image component="Background" name="RTMainElements/BlueProgressBarEmptyFill"/>
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_full">
+            <FrameComponent>
+                <Image component="TopLeftCorner" name="RTMainElements/BlueProgressBarFullTL"/>
+                <Image component="TopRightCorner" name="RTMainElements/BlueProgressBarFullTR"/>
+                <Image component="BottomLeftCorner" name="RTMainElements/BlueProgressBarFullBL"/>
+                <Image component="BottomRightCorner" name="RTMainElements/BlueProgressBarFullBR"/>
+                <Image component="LeftEdge" name="RTMainElements/BlueProgressBarFullL"/>
+                <Image component="RightEdge" name="RTMainElements/BlueProgressBarFullR"/>
+                <Image component="TopEdge" name="RTMainElements/BlueProgressBarFullT"/>
+                <Image component="BottomEdge" name="RTMainElements/BlueProgressBarFullB"/>
+                <Image component="Background" name="RTMainElements/BlueProgressBarFullFill"/>
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_shadow">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <OperatorDim op="Multiply">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <PropertyDim name="CurrentProgress"/>
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <OperatorDim op="Subtract">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <AbsoluteDim value="5"/>
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="AlfiskoSkin/ProgressShadow"/>
+                <VertFormat type="Stretched"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="progress_empty"/>
+                <Section section="progress_shadow"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="progress_empty">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_full"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_full">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+	
 	 <!--
     ***************************************************
         MySpecialWidgets/ToggleButton
