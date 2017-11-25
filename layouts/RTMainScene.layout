@@ -77,7 +77,7 @@
                 <Property name="Image" value="RTMainScene/gold_icon" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
             </Window>
-            <Window type="Generic/Label" name="GoldMoney" >
+            <Window type="Generic/Label" name="GoldNormalMoney" >
                 <Property name="Area" value="{{0,29},{0,14},{0,157},{0,38}}" />
                 <Property name="Font" value="LaconicLight-18" />
                 <Property name="Text" value="1000" />
@@ -94,7 +94,7 @@
                 <Property name="Image" value="RTMainScene/shop_gold_icon" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
             </Window>
-            <Window type="Generic/Label" name="GoldMoney" >
+            <Window type="Generic/Label" name="GoldShopMoney" >
                 <Property name="Area" value="{{0,29},{0,14},{0,157},{0,38}}" />
                 <Property name="Font" value="LaconicLight-18" />
                 <Property name="Text" value="1000" />
