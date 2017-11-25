@@ -148,6 +148,7 @@
             <Property name="Area" value="{{0,169},{0,576},{0,507},{0,817}}" />
             <Property name="Text" >
 </Property>
+            <Property name="ReadOnly" value="true" />
             <Window type="RType/BlueProgressBar" name="PV" >
                 <Property name="Area" value="{{0,80},{0,29},{0,321},{0,39}}" />
                 <Property name="StepSize" value="0.01" />
