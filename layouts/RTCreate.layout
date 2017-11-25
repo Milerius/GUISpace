@@ -150,7 +150,7 @@
 </Property>
             <Property name="ReadOnly" value="true" />
             <Window type="RType/BlueProgressBar" name="PV" >
-                <Property name="Area" value="{{0,80},{0,29},{0,321},{0,39}}" />
+                <Property name="Area" value="{{0,80},{0,25},{0,321},{0,40}}" />
                 <Property name="StepSize" value="0.01" />
                 <Property name="CurrentProgress" value="1" />
             </Window>
@@ -169,7 +169,7 @@
                 <Property name="NormalTextColour" value="FF92B4D9" />
             </Window>
             <Window type="RType/BlueProgressBar" name="Attack" >
-                <Property name="Area" value="{{0,80},{0,79},{0,321},{0,89}}" />
+                <Property name="Area" value="{{0,80},{0,77},{0,321},{0,92}}" />
                 <Property name="StepSize" value="0.01" />
                 <Property name="CurrentProgress" value="1" />
             </Window>
@@ -181,7 +181,7 @@
                 <Property name="NormalTextColour" value="FF92B4D9" />
             </Window>
             <Window type="RType/BlueProgressBar" name="Defense" >
-                <Property name="Area" value="{{0,80},{0,129},{0,321},{0,139}}" />
+                <Property name="Area" value="{{0,80},{0,127},{0,321},{0,142}}" />
                 <Property name="StepSize" value="0.01" />
                 <Property name="CurrentProgress" value="1" />
             </Window>
@@ -193,7 +193,7 @@
                 <Property name="NormalTextColour" value="FF92B4D9" />
             </Window>
             <Window type="RType/BlueProgressBar" name="Support" >
-                <Property name="Area" value="{{0,80},{0,179},{0,321},{0,189}}" />
+                <Property name="Area" value="{{0,80},{0,178},{0,321},{0,193}}" />
                 <Property name="StepSize" value="0.01" />
                 <Property name="CurrentProgress" value="1" />
             </Window>
