@@ -17,6 +17,7 @@
 	<Imageset filename="RTCharName.imageset" name="RTCreate" />
 	<Imageset filename="RTMainSceneBG.imageset" name="RTMainScene" />
 	<Imageset filename="RTMainScene.imageset" name="RTMainScene" />
+	<Imageset filename="RTMainMenu.imageset" name="RTMainMenu" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
