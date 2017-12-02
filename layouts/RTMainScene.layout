@@ -122,5 +122,10 @@
             <Property name="StepSize" value="0.01" />
             <Property name="CurrentProgress" value="1" />
         </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,799},{0,310},{0,1171},{0,835}}" />
+            <Property name="Image" value="RTMainMenu/mm_texture" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
     </Window>
 </GUILayout>
