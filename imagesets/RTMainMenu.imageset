@@ -1,8 +1,8 @@
 <Imageset autoScaled="false" imagefile="mainmenu.png" name="RTMainMenu" nativeHorzRes="394" nativeVertRes="884" version="2">
     <Image height="67" name="mm_label" width="273" xPos="11" yPos="558" />
     <Image height="525" name="mm_texture" width="372" xPos="11" yPos="11" />
-    <Image height="37" name="wide_b_a" width="244" xPos="11" yPos="718" />
-    <Image height="37" name="wide_b_h" width="244" xPos="11" yPos="777" />
-    <Image height="49" name="wide_b_n" width="256" xPos="11" yPos="647" />
-    <Image height="37" name="wide_b_un" width="244" xPos="11" yPos="836" />
+    <Image height="40" name="wide_b_a" width="246" xPos="11" yPos="716" />
+    <Image height="40" name="wide_b_h" width="246" xPos="11" yPos="775" />
+    <Image height="40" name="wide_b_n" width="246" xPos="16" yPos="651" />
+    <Image height="40" name="wide_b_un" width="246" xPos="11" yPos="834" />
 </Imageset>

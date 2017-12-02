@@ -5,6 +5,7 @@
         <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
         <Property name="Image" value="RTMainBG/BG" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="ClippedByParent" value="false" />
         <Window type="AS/InvisibleButton" name="PlayButton" >
             <Property name="Area" value="{{0,1620},{0,8},{0,1912},{0,107}}" />
             <Property name="Font" value="LaconicLight-20" />
@@ -122,10 +123,68 @@
             <Property name="StepSize" value="0.01" />
             <Property name="CurrentProgress" value="1" />
         </Window>
-        <Window type="Generic/Image" name="Image" >
+        <Window type="Generic/Image" name="MainMenu" >
             <Property name="Area" value="{{0,799},{0,310},{0,1171},{0,835}}" />
             <Property name="Image" value="RTMainMenu/mm_texture" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="ClippedByParent" value="false" />
+            <Window type="Generic/Image" name="MainMenuHead" >
+                <Property name="Area" value="{{0,50},{0,-24},{0,323},{0,43}}" />
+                <Property name="Image" value="RTMainMenu/mm_label" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ClippedByParent" value="false" />
+                <Window type="Generic/Label" name="MainMenuLabel" >
+                    <Property name="Area" value="{{0,71},{0,17},{0,199},{0,49}}" />
+                    <Property name="Font" value="LaconicRegular-18" />
+                    <Property name="Text" value="Main Menu" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FFE0B487" />
+                </Window>
+            </Window>
+            <Window type="AS/InvisibleButton" name="OptionsButton" >
+                <Property name="Area" value="{{0,65},{0,130},{0,311},{0,170}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Text" value="OPTIONS" />
+                <Property name="HoverImage" value="RTMainMenu/wide_b_h" />
+                <Property name="NormalImage" value="RTMainMenu/wide_b_n" />
+                <Property name="PushedImage" value="RTMainMenu/wide_b_a" />
+                <Property name="DisabledImage" value="RTMainMenu/wide_b_un" />
+                <Property name="NormalTextColour" value="FFc2f3ff" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/InvisibleButton" name="ExitDesktopButton" >
+                <Property name="Area" value="{{0,65},{0,220},{0,311},{0,260}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Text" value="EXIT TO DESKTOP" />
+                <Property name="HoverImage" value="RTMainMenu/wide_b_h" />
+                <Property name="NormalImage" value="RTMainMenu/wide_b_n" />
+                <Property name="PushedImage" value="RTMainMenu/wide_b_a" />
+                <Property name="DisabledImage" value="RTMainMenu/wide_b_un" />
+                <Property name="NormalTextColour" value="FFc2f3ff" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/InvisibleButton" name="LogOutButton" >
+                <Property name="Area" value="{{0,65},{0,310},{0,311},{0,350}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Text" value="LOG OUT" />
+                <Property name="HoverImage" value="RTMainMenu/wide_b_h" />
+                <Property name="NormalImage" value="RTMainMenu/wide_b_n" />
+                <Property name="PushedImage" value="RTMainMenu/wide_b_a" />
+                <Property name="DisabledImage" value="RTMainMenu/wide_b_un" />
+                <Property name="NormalTextColour" value="FFc2f3ff" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
+            <Window type="AS/InvisibleButton" name="B2" >
+                <Property name="Area" value="{{0,65},{0,420},{0,311},{0,460}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Text" value="BACK" />
+                <Property name="HoverImage" value="RTMainMenu/wide_b_h" />
+                <Property name="NormalImage" value="RTMainMenu/wide_b_n" />
+                <Property name="PushedImage" value="RTMainMenu/wide_b_a" />
+                <Property name="DisabledImage" value="RTMainMenu/wide_b_un" />
+                <Property name="NormalTextColour" value="FFc2f3ff" />
+                <Property name="WantsMultiClickEvents" value="false" />
+            </Window>
         </Window>
     </Window>
 </GUILayout>
