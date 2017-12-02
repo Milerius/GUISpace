@@ -116,7 +116,7 @@
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="NormalTextColour" value="FF40D9FF" />
         </Window>
-        <Window type="RType/ProgressBar" name="xpBar" >
+        <Window type="RType/ProgressBar" name="XPBar" >
             <Property name="Area" value="{{0,483},{0,127},{0,1432},{0,137}}" />
             <Property name="StepSize" value="0.01" />
             <Property name="CurrentProgress" value="1" />
