@@ -60,6 +60,7 @@
             <Property name="Area" value="{{0,25},{0,17},{0,107},{0,92}}" />
             <Property name="Image" value="RTCreate/Bheet_a" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
         </Window>
         <Window type="Generic/Label" name="Pseudo" >
             <Property name="Area" value="{{0,146},{0,21},{0,450},{0,93}}" />
