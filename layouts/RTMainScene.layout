@@ -213,6 +213,7 @@
                         <Property name="Font" value="LaconicRegular-18" />
                         <Property name="Text" value="OPTIONS" />
                         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="ClippedByParent" value="false" />
                         <Property name="NormalTextColour" value="FFE0B487" />
                     </Window>
                 </Window>
