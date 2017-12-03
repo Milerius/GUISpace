@@ -187,5 +187,66 @@
                 <Property name="WantsMultiClickEvents" value="false" />
             </Window>
         </Window>
+        <Window type="Generic/Image" name="OptionsWindow" >
+            <Property name="Area" value="{{0,531},{0,266},{0,1446},{0,939}}" />
+            <Property name="Image" value="RTOptions/big_texture_bg" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
+            <Window type="Generic/Image" name="OptionsHead" >
+                <Property name="Area" value="{{0,4},{0,-57},{0,912},{0,9}}" />
+                <Property name="Image" value="RTOptions/Heading/head_texture_big" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ClippedByParent" value="false" />
+                <Window type="Generic/ImageButton" name="OptionsCloseButton" >
+                    <Property name="Area" value="{{0,862},{0,20},{0,889},{0,47}}" />
+                    <Property name="HoverImage" value="RTOptions/Heading/close_h" />
+                    <Property name="NormalImage" value="RTOptions/Heading/close_n" />
+                    <Property name="PushedImage" value="RTOptions/Heading/close_a" />
+                </Window>
+                <Window type="Generic/Image" name="OptionsRealHead" >
+                    <Property name="Area" value="{{0,309},{0,-15},{0,582},{0,52}}" />
+                    <Property name="Image" value="RTOptions/Heading/label_holder" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="ClippedByParent" value="false" />
+                    <Window type="Generic/Label" name="Label" >
+                        <Property name="Area" value="{{0,74},{0,18},{0,202},{0,50}}" />
+                        <Property name="Font" value="LaconicRegular-18" />
+                        <Property name="Text" value="OPTIONS" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="NormalTextColour" value="FFE0B487" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window type="Generic/Image" name="OptionsCarvin" >
+                <Property name="Area" value="{{0,19},{0,21},{0,895},{0,618}}" />
+                <Property name="Image" value="RTOptions/carving_bg" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="Generic/Image" name="OptionsLeftPlate" >
+                    <Property name="Area" value="{{0,4},{0,6},{0,258},{0,590}}" />
+                    <Property name="Image" value="RTOptions/left_plate" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Window type="RType/ToggleButton" name="ToggleButton" >
+                        <Property name="Area" value="{{0,0},{0,0},{0,255},{0,53}}" />
+                        <Property name="Font" value="LaconicRegular-15" />
+                        <Property name="Text" value="                       General Settings" />
+                        <Property name="HoverImage" value="RTOptions/options_tab_hovered" />
+                        <Property name="NormalImage" value="RTOptions/options_tab_normal" />
+                        <Property name="PushedImage" value="RTOptions/options_tab_active" />
+                        <Property name="NormalTextColour" value="FFa17731" />
+                        <Property name="SelectedTextColour" value="FFebb04a" />
+                        <Window type="Generic/Image" name="Image" >
+                            <Property name="Area" value="{{0,10},{0,11},{0,41},{0,38}}" />
+                            <Property name="Image" value="RTOptions/cog_symbol" />
+                            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window type="Generic/Image" name="OptionsRightPlate" >
+                    <Property name="Area" value="{{0,258},{0,6},{0,868},{0,590}}" />
+                    <Property name="Image" value="RTOptions/right_plate" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
     </Window>
 </GUILayout>
