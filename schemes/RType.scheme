@@ -18,6 +18,7 @@
 	<Imageset filename="RTMainSceneBG.imageset" name="RTMainScene" />
 	<Imageset filename="RTMainScene.imageset" name="RTMainScene" />
 	<Imageset filename="RTMainMenu.imageset" name="RTMainMenu" />
+	<Imageset filename="RTCountry.imageset" name="RTCountry" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
@@ -33,6 +34,7 @@
 	<FalagardMapping lookNFeel="RType/BlueMultiLineEditbox" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="RType/BlueMultiLineEditbox" />
 	<FalagardMapping lookNFeel="RType/MultiLineEditboxT" renderer="Core/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" windowType="RType/MultiLineEditboxT" />
 	<FalagardMapping windowType="RType/VerticalScrollbar"   targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="RType/VerticalScrollbar" />
+	<FalagardMapping lookNFeel="RType/Checkbox" renderer="Core/ToggleButton" targetType="CEGUI/ToggleButton" windowType="RType/Checkbox" />
 	<FalagardMapping windowType="RType/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/VerticalScrollbarThumb" />
 	<FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
 	<FalagardMapping lookNFeel="RType/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBar" />

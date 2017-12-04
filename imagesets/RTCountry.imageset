@@ -1,0 +1,4 @@
+<Imageset autoScaled="false" imagefile="RTCountry.png" name="RTCountry" nativeHorzRes="171" nativeVertRes="59" version="2">
+    <Image height="47" name="France" width="70" xPos="6" yPos="6" />
+    <Image height="47" name="US" width="70" xPos="95" yPos="6" />
+</Imageset>

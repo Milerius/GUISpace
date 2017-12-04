@@ -8,10 +8,10 @@
     <Image height="19" name="big_slider_not_segmented_frame" width="573" xPos="896" yPos="1469" />
     <Image height="11" name="big_slider_segment" width="6" xPos="1850" yPos="1186" />
     <Image height="673" name="big_texture_bg" width="915" xPos="11" yPos="11" />
-    <Image height="38" name="button_h" width="154" xPos="1482" yPos="1831" />
+    <Image height="42" name="button_h" width="158" xPos="1481" yPos="1829" />
     <Image height="42" name="button_n" width="158" xPos="1475" yPos="1767" />
-    <Image height="38" name="button_pressed" width="154" xPos="1482" yPos="1891" />
-    <Image height="38" name="button_un" width="154" xPos="1655" yPos="1767" />
+    <Image height="42" name="button_pressed" width="158" xPos="1481" yPos="1890" />
+    <Image height="42" name="button_un" width="158" xPos="1653" yPos="1766" />
     <Image height="597" name="carving_bg" width="876" xPos="11" yPos="706" />
     <Image height="23" name="check_checked" width="23" xPos="1795" yPos="1925" />
     <Image height="23" name="check_hovered" width="23" xPos="1830" yPos="1471" />

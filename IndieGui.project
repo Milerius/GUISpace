@@ -53,6 +53,7 @@
                 <Item path="imagesets/RTFactionCreateText.imageset" type="file" />
                 <Item path="imagesets/RTLoadingScreen.imageset" type="file" />
                 <Item path="imagesets/RTMainElements.imageset" type="file" />
+                <Item path="imagesets/RTMainMenu.imageset" type="file" />
                 <Item path="imagesets/RTMainScene.imageset" type="file" />
                 <Item path="imagesets/RTMainScene.imageset" type="file" />
                 <Item path="imagesets/RTMainSceneBG.imageset" type="file" />
@@ -61,7 +62,7 @@
                 <Item path="imagesets/RTWindow.imageset" type="file" />
                 <Item path="imagesets/RTWindowHeader.imageset" type="file" />
                 <Item path="imagesets/background.png" type="file" />
-                <Item path="imagesets/RTMainMenu.imageset" type="file" />
+                <Item path="imagesets/RTCountry.imageset" type="file" />
             </Item>
             <Item name="layout" type="folder">
                 <Item path="layouts/RTCreate.layout" type="file" />

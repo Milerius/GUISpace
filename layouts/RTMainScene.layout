@@ -191,7 +191,6 @@
             <Property name="Area" value="{{0,531},{0,266},{0,1446},{0,939}}" />
             <Property name="Image" value="RTOptions/big_texture_bg" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
-            <Property name="Visible" value="false" />
             <Window type="Generic/Image" name="OptionsHead" >
                 <Property name="Area" value="{{0,4},{0,-57},{0,912},{0,9}}" />
                 <Property name="Image" value="RTOptions/Heading/head_texture_big" />
@@ -226,10 +225,10 @@
                     <Property name="Area" value="{{0,4},{0,6},{0,258},{0,590}}" />
                     <Property name="Image" value="RTOptions/left_plate" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
-                    <Window type="RType/ToggleButton" name="ToggleButton" >
+                    <Window type="RType/ToggleButton" name="LangButton" >
                         <Property name="Area" value="{{0,0},{0,0},{0,255},{0,53}}" />
                         <Property name="Font" value="LaconicRegular-15" />
-                        <Property name="Text" value="                       General Settings" />
+                        <Property name="Text" value="                       Lang Settings" />
                         <Property name="HoverImage" value="RTOptions/options_tab_hovered" />
                         <Property name="NormalImage" value="RTOptions/options_tab_normal" />
                         <Property name="PushedImage" value="RTOptions/options_tab_active" />
@@ -242,10 +241,71 @@
                         </Window>
                     </Window>
                 </Window>
-                <Window type="Generic/Image" name="OptionsRightPlate" >
+                <Window type="Generic/Image" name="LangSettingsPanel" >
                     <Property name="Area" value="{{0,258},{0,6},{0,868},{0,590}}" />
                     <Property name="Image" value="RTOptions/right_plate" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Window type="AS/InvisibleButton" name="InvisibleButton" >
+                        <Property name="Area" value="{{0,412},{0,528},{0,570},{0,570}}" />
+                        <Property name="Font" value="LaconicRegular-15" />
+                        <Property name="Text" value="APPLY" />
+                        <Property name="HoverImage" value="RTOptions/button_h" />
+                        <Property name="NormalImage" value="RTOptions/button_n" />
+                        <Property name="PushedImage" value="RTOptions/button_pressed" />
+                        <Property name="DisabledImage" value="RTOptions/button_un" />
+                        <Property name="NormalTextColour" value="FFc2f3ff" />
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </Window>
+                    <Window type="AS/InvisibleButton" name="DiscardLangButton" >
+                        <Property name="Area" value="{{0,29},{0,528},{0,187},{0,570}}" />
+                        <Property name="Font" value="LaconicRegular-15" />
+                        <Property name="Text" value="DISCARD" />
+                        <Property name="HoverImage" value="RTOptions/button_h" />
+                        <Property name="NormalImage" value="RTOptions/button_n" />
+                        <Property name="PushedImage" value="RTOptions/button_pressed" />
+                        <Property name="DisabledImage" value="RTOptions/button_un" />
+                        <Property name="NormalTextColour" value="FFc2f3ff" />
+                        <Property name="WantsMultiClickEvents" value="false" />
+                    </Window>
+                    <Window type="Generic/Image" name="EnglishWindow" >
+                        <Property name="Area" value="{{0,15},{0,234},{0,293},{0,281}}" />
+                        <Property name="Image" value="RTOptions/element_holder" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Window type="RType/Checkbox" name="EnglishCheck" >
+                            <Property name="Area" value="{{0,12},{0,0},{0,260},{0,50}}" />
+                            <Property name="Font" value="LaconicLight-11" />
+                            <Property name="Text" value="            English" />
+                            <Property name="Selected" value="true" />
+                            <Property name="HoverTextColour" value="FF61daf0" />
+                            <Property name="NormalTextColour" value="FF718fa3" />
+                            <Property name="PushedTextColour" value="FF61daf0" />
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </Window>
+                    </Window>
+                    <Window type="Generic/Image" name="USFlag" >
+                        <Property name="Area" value="{{0,132},{0,172},{0,202},{0,219}}" />
+                        <Property name="Image" value="RTCountry/US" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    </Window>
+                    <Window type="Generic/Image" name="FrenchWindow" >
+                        <Property name="Area" value="{{0,320},{0,234},{0,598},{0,281}}" />
+                        <Property name="Image" value="RTOptions/element_holder" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Window type="RType/Checkbox" name="FrenchCheck" >
+                            <Property name="Area" value="{{0,12},{0,0},{0,260},{0,50}}" />
+                            <Property name="Font" value="LaconicLight-11" />
+                            <Property name="Text" value="            Français" />
+                            <Property name="HoverTextColour" value="FF61daf0" />
+                            <Property name="NormalTextColour" value="FF718fa3" />
+                            <Property name="PushedTextColour" value="FF61daf0" />
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </Window>
+                    </Window>
+                    <Window type="Generic/Image" name="FrenchFlag" >
+                        <Property name="Area" value="{{0,432},{0,172},{0,502},{0,219}}" />
+                        <Property name="Image" value="RTCountry/France" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    </Window>
                 </Window>
             </Window>
         </Window>
