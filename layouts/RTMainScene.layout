@@ -191,6 +191,7 @@
             <Property name="Area" value="{{0,531},{0,266},{0,1446},{0,939}}" />
             <Property name="Image" value="RTOptions/big_texture_bg" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
             <Window type="Generic/Image" name="OptionsHead" >
                 <Property name="Area" value="{{0,4},{0,-57},{0,912},{0,9}}" />
                 <Property name="Image" value="RTOptions/Heading/head_texture_big" />
