@@ -246,17 +246,6 @@
                     <Property name="Area" value="{{0,258},{0,6},{0,868},{0,590}}" />
                     <Property name="Image" value="RTOptions/right_plate" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
-                    <Window type="AS/InvisibleButton" name="InvisibleButton" >
-                        <Property name="Area" value="{{0,412},{0,528},{0,570},{0,570}}" />
-                        <Property name="Font" value="LaconicRegular-15" />
-                        <Property name="Text" value="APPLY" />
-                        <Property name="HoverImage" value="RTOptions/button_h" />
-                        <Property name="NormalImage" value="RTOptions/button_n" />
-                        <Property name="PushedImage" value="RTOptions/button_pressed" />
-                        <Property name="DisabledImage" value="RTOptions/button_un" />
-                        <Property name="NormalTextColour" value="FFc2f3ff" />
-                        <Property name="WantsMultiClickEvents" value="false" />
-                    </Window>
                     <Window type="AS/InvisibleButton" name="DiscardLangButton" >
                         <Property name="Area" value="{{0,29},{0,528},{0,187},{0,570}}" />
                         <Property name="Font" value="LaconicRegular-15" />
@@ -272,7 +261,7 @@
                         <Property name="Area" value="{{0,15},{0,234},{0,293},{0,281}}" />
                         <Property name="Image" value="RTOptions/element_holder" />
                         <Property name="MaxSize" value="{{1,0},{1,0}}" />
-                        <Window type="RType/Checkbox" name="EnglishCheck" >
+                        <Window type="RType/Checkbox" name="en" >
                             <Property name="Area" value="{{0,12},{0,0},{0,260},{0,50}}" />
                             <Property name="Font" value="LaconicLight-11" />
                             <Property name="Text" value="            English" />
@@ -292,7 +281,7 @@
                         <Property name="Area" value="{{0,320},{0,234},{0,598},{0,281}}" />
                         <Property name="Image" value="RTOptions/element_holder" />
                         <Property name="MaxSize" value="{{1,0},{1,0}}" />
-                        <Window type="RType/Checkbox" name="FrenchCheck" >
+                        <Window type="RType/Checkbox" name="fr" >
                             <Property name="Area" value="{{0,12},{0,0},{0,260},{0,50}}" />
                             <Property name="Font" value="LaconicLight-11" />
                             <Property name="Text" value="            Français" />
@@ -308,6 +297,19 @@
                         <Property name="MaxSize" value="{{1,0},{1,0}}" />
                     </Window>
                 </Window>
+            </Window>
+            <Window type="AS/InvisibleButton" name="ApplyButton" >
+                <Property name="Area" value="{{0,686},{0,554},{0,844},{0,596}}" />
+                <Property name="Font" value="LaconicRegular-15" />
+                <Property name="Text" value="APPLY" />
+                <Property name="HoverImage" value="RTOptions/button_h" />
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="NormalImage" value="RTOptions/button_n" />
+                <Property name="PushedImage" value="RTOptions/button_pressed" />
+                <Property name="DisabledImage" value="RTOptions/button_un" />
+                <Property name="ClippedByParent" value="false" />
+                <Property name="NormalTextColour" value="FFc2f3ff" />
+                <Property name="WantsMultiClickEvents" value="false" />
             </Window>
         </Window>
     </Window>
