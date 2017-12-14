@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GUILayout version="4" >
-    <Window type="Generic/Image" name="Image" >
+    <Window type="Generic/Image" name="Planet" >
         <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
+        <Property name="Image" value="RTLoadingImage/planet" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Image" name="BottomBorderEffect" >
+            <Property name="Area" value="{{0,0},{0,1028},{0,1920},{0,1080}}" />
+            <Property name="Image" value="RTLoadingScreen/bottom_border_effect" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="TopBorderEffect" >
+            <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,76}}" />
+            <Property name="Image" value="RTLoadingScreen/top_border_effect" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="Progress" >
+            <Property name="Area" value="{{0,493},{0,942},{0,1437},{0,1000}}" />
+            <Property name="Image" value="RTLoadingScreen/loading_bar_frame" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="RType/LoadingProgressBar" name="LoadingProgressBar" >
+                <Property name="Area" value="{{0,24},{0,13},{0,919},{0,46}}" />
+                <Property name="StepSize" value="0.01" />
+                <Property name="CurrentProgress" value="1" />
+                <Window type="Generic/Label" name="LoadingLabel" >
+                    <Property name="Area" value="{{0,0},{0,0},{0,128},{0,32}}" />
+                    <Property name="Font" value="LaconicLight-6" />
+                    <Property name="Text" value="Loading..." />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FFC3EDFF" />
+                </Window>
+                <Window type="Generic/Label" name="Percentage" >
+                    <Property name="Area" value="{{0,840},{0,2},{0,880},{0,34}}" />
+                    <Property name="Font" value="LaconicLight-6" />
+                    <Property name="Text" value="100%" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FFC3EDFF" />
+                </Window>
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="RType" >
+            <Property name="Area" value="{{0,742},{0,102},{0,1176},{0,199}}" />
+            <Property name="Image" value="RTMainScene/rtype_logo" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
     </Window>
 </GUILayout>

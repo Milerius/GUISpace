@@ -5,7 +5,6 @@
     <Image height="23" name="check_pass" width="23" xPos="743" yPos="761" />
     <Image height="406" name="darkening" width="409" xPos="477" yPos="258" />
     <Image height="546" name="forms_holder" width="444" xPos="11" yPos="258" />
-    <Image height="28" name="loading_bar" width="887" xPos="977" yPos="183" />
     <Image height="53" name="loading_bar_frame" width="944" xPos="11" yPos="183" />
     <Image height="51" name="log_form" width="351" xPos="1295" yPos="407" />
     <Image height="36" name="loginb_a" width="199" xPos="1326" yPos="672" />
@@ -31,4 +30,22 @@
     <Image height="8" name="EditBoxTopEdge" width="330" xPos="1306" yPos="410" />
     <Image height="8" name="EditBoxBottomEdge" width="330" xPos="1306" yPos="448" />
     <Image height="30" name="EditBoxMiddle" width="330" xPos="1306" yPos="418" />
+    <Image height="10" name="ProgressFullTL" width="77" xPos="976" yPos="182" />
+    <Image height="10" name="ProgressFullL" width="77" xPos="976" yPos="192" />
+    <Image height="10" name="ProgressFullBL" width="77" xPos="976" yPos="202" />
+    <Image height="10" name="ProgressFullTR" width="77" xPos="1788" yPos="182" />
+    <Image height="10" name="ProgressFullR" width="77" xPos="1788" yPos="192" />
+    <Image height="10" name="ProgressFullBR" width="77" xPos="1788" yPos="202" />
+    <Image height="10" name="ProgressFullT" width="735" xPos="1053" yPos="182" />
+    <Image height="10" name="ProgressFullFill" width="735" xPos="1053" yPos="192" />
+    <Image height="10" name="ProgressFullB" width="735" xPos="1053" yPos="202" />
+    <Image height="10" name="ProgressEmptyT" width="735" xPos="946" yPos="785" />
+    <Image height="10" name="ProgressEmptyTL" width="77" xPos="869" yPos="785" />
+    <Image height="10" name="ProgressEmptyBL" width="77" xPos="869" yPos="805" />
+    <Image height="10" name="ProgressEmptyL" width="77" xPos="869" yPos="795" />
+    <Image height="10" name="ProgressEmptyFill" width="735" xPos="946" yPos="795" />
+    <Image height="10" name="ProgressEmptyB" width="735" xPos="946" yPos="805" />
+    <Image height="10" name="ProgressEmptyTR" width="77" xPos="1681" yPos="785" />
+    <Image height="10" name="ProgressEmptyR" width="77" xPos="1681" yPos="795" />
+    <Image height="10" name="ProgressEmptyBR" width="77" xPos="1681" yPos="805" />
 </Imageset>

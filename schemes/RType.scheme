@@ -19,6 +19,7 @@
 	<Imageset filename="RTMainScene.imageset" name="RTMainScene" />
 	<Imageset filename="RTMainMenu.imageset" name="RTMainMenu" />
 	<Imageset filename="RTCountry.imageset" name="RTCountry" />
+	<Imageset filename="RTLoadingImage.imageset" name="RTLoadingImage" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
@@ -38,5 +39,6 @@
 	<FalagardMapping windowType="RType/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/VerticalScrollbarThumb" />
 	<FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
 	<FalagardMapping lookNFeel="RType/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBar" />
+	<FalagardMapping lookNFeel="RType/LoadingProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/LoadingProgressBar" />
 	<FalagardMapping lookNFeel="RType/BlueProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/BlueProgressBar" />
 </GUIScheme>
