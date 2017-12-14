@@ -24,10 +24,11 @@
                 <Property name="StepSize" value="0.01" />
                 <Property name="CurrentProgress" value="1" />
                 <Window type="Generic/Label" name="LoadingLabel" >
-                    <Property name="Area" value="{{0,0},{0,0},{0,128},{0,32}}" />
+                    <Property name="Area" value="{{0,0},{0,0},{0,514},{0,32}}" />
                     <Property name="Font" value="LaconicLight-6" />
-                    <Property name="Text" value="Loading..." />
+                    <Property name="Text" value="     Loading..." />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="HorzFormatting" value="LeftAligned" />
                     <Property name="NormalTextColour" value="FFC3EDFF" />
                 </Window>
                 <Window type="Generic/Label" name="Percentage" >
