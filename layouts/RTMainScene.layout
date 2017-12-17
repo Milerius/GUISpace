@@ -304,6 +304,62 @@
                         <Property name="MaxSize" value="{{1,0},{1,0}}" />
                     </Window>
                 </Window>
+                <Window type="Generic/Image" name="RightPanelSoundsSettings" >
+                    <Property name="Area" value="{{0,258},{0,6},{0,868},{0,590}}" />
+                    <Property name="Image" value="RTOptions/right_plate" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="Visible" value="false" />
+                    <Window type="RType/HorizontalSlider" name="MusicSlider" >
+                        <Property name="Area" value="{{0,15},{0,111},{0,271},{0,136}}" />
+                    </Window>
+                    <Window type="Generic/Image" name="MusicActive" >
+                        <Property name="Area" value="{{0,15},{0,234},{0,293},{0,281}}" />
+                        <Property name="Image" value="RTOptions/element_holder" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Window type="RType/Checkbox" name="MusicCheckBox" >
+                            <Property name="Area" value="{{0,12},{0,0},{0,260},{0,50}}" />
+                            <Property name="Font" value="LaconicLight-11" />
+                            <Property name="Text" value="       Turn off music" />
+                            <Property name="HoverTextColour" value="FF61daf0" />
+                            <Property name="NormalTextColour" value="FF718fa3" />
+                            <Property name="PushedTextColour" value="FF61daf0" />
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </Window>
+                    </Window>
+                    <Window type="Generic/Label" name="LabelMusic" >
+                        <Property name="Area" value="{{0,15},{0,67},{0,230},{0,99}}" />
+                        <Property name="Font" value="LaconicLight-11" />
+                        <Property name="Text" value="Music Volume : 0%" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="HorzFormatting" value="LeftAligned" />
+                        <Property name="NormalTextColour" value="FFA5D4F3" />
+                    </Window>
+                    <Window type="Generic/Image" name="SoundsEffectActive" >
+                        <Property name="Area" value="{{0,320},{0,234},{0,598},{0,281}}" />
+                        <Property name="Image" value="RTOptions/element_holder" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Window type="RType/Checkbox" name="SoundsEffectCheckBox" >
+                            <Property name="Area" value="{{0,12},{0,0},{0,268},{0,50}}" />
+                            <Property name="Font" value="LaconicLight-11" />
+                            <Property name="Text" value=" Turn off sound effects" />
+                            <Property name="HoverTextColour" value="FF61daf0" />
+                            <Property name="NormalTextColour" value="FF718fa3" />
+                            <Property name="PushedTextColour" value="FF61daf0" />
+                            <Property name="WantsMultiClickEvents" value="false" />
+                        </Window>
+                    </Window>
+                    <Window type="Generic/Label" name="LabelSoundsEffect" >
+                        <Property name="Area" value="{{0,311},{0,67},{0,587},{0,99}}" />
+                        <Property name="Font" value="LaconicLight-11" />
+                        <Property name="Text" value="Sounds Effect Volume : 0%" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Property name="HorzFormatting" value="LeftAligned" />
+                        <Property name="NormalTextColour" value="FFA5D4F3" />
+                    </Window>
+                    <Window type="RType/HorizontalSlider" name="SoundsEffectSlider" >
+                        <Property name="Area" value="{{0,310},{0,111},{0,566},{0,136}}" />
+                    </Window>
+                </Window>
             </Window>
             <Window type="AS/InvisibleButton" name="ApplyButton" >
                 <Property name="Area" value="{{0,686},{0,554},{0,844},{0,596}}" />

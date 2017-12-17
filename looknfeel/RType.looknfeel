@@ -1361,6 +1361,7 @@
     <PropertyDefinition name="SelectedTextColour" initialValue="FFF9A01B" redrawOnWrite="true" />
     <PropertyDefinition name="NormalBgColour" initialValue="FFB4B9BB" redrawOnWrite="true" />
     <PropertyDefinition name="HoverBgColour" initialValue="FFFF9090" redrawOnWrite="true" />
+	<PropertyDefinition name="DisabledTextColour" initialValue="FFFF9090" redrawOnWrite="true" />
     <PropertyDefinition name="SelectedBgColour" initialValue="FFF9A01B" redrawOnWrite="true" />
     <PropertyDefinition name="SelectedHoverBgColour" initialValue="FFFF9090" redrawOnWrite="true" />
     <PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
@@ -1513,13 +1514,11 @@
     <StateImagery name="Disabled">
       <Layer>
         <Section section="background_imagery" >
-          <ColourProperty name="NormalBgColour" />
+          <ColourProperty name="HoverBgColour" />
         </Section>
-        <Section section="normal_imagery" >
-          <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
-        </Section>
+        <Section section="hover_imagery" />
         <Section section="label">
-          <ColourProperty name="NormalTextColour" />
+          <ColourProperty name="HoverTextColour" />
         </Section>
       </Layer>
     </StateImagery>
@@ -1559,17 +1558,143 @@
     <StateImagery name="SelectedDisabled">
       <Layer>
         <Section section="background_imagery" >
-          <ColourProperty name="SelectedBgColour" />
+          <ColourProperty name="SelectedHoverBgColour" />
         </Section>
-        <Section section="normal_imagery" >
-          <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
-        </Section>
+        <Section section="hover_imagery" />
         <Section section="label">
           <ColourProperty name="SelectedTextColour" />
         </Section>
       </Layer>
     </StateImagery>
   </WidgetLook>
+  
+   <WidgetLook name="RType/HorizontalSliderThumb">
+        <Property name="HorzFree" value="true"/>
+        <Property name="MouseInputPropagationEnabled" value="true"/>
+        <Property name="Size" value="{{0, 16}, {0, 25}}" />
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Image name="RTOptions/slide_normal"/>
+                <VertFormat type="Stretched"/>
+                <HorzFormat type="Stretched"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <ImageryComponent>
+                <Image name="RTOptions/slide_hovered_dragged"/>
+                <VertFormat type="Stretched"/>
+                <HorzFormat type="Stretched"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <ImageryComponent>
+                <Image name="RTOptions/slide_hovered_dragged"/>
+                <VertFormat type="Stretched"/>
+                <HorzFormat type="Stretched"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    <WidgetLook name="RType/HorizontalSlider">
+        <Property name="MouseAutoRepeatEnabled" value="true"/>
+        <Property name="WantsMultiClickEvents" value="false"/>
+        <Property name="Size" value="{{0, 256}, {0, 25}}" />
+        <NamedArea name="ThumbTrackArea"/>
+        <Child nameSuffix="__auto_thumb__" type="RType/HorizontalSliderThumb">
+            <Area>
+                <Dim type="LeftEdge">
+                    <AbsoluteDim value="0"/>
+                </Dim>
+                <Dim type="TopEdge">
+                    <AbsoluteDim value="0"/>
+                </Dim>
+                <Dim type="Width">
+                    <ImageDim name="RTOptions/slide_normal" dimension="Width"/>
+                </Dim>
+                <Dim type="Height">
+                    <ImageDim name="RTOptions/slide_normal" dimension="Height"/>
+                </Dim>
+            </Area>
+            <VertAlignment type="CentreAligned"/>
+        </Child>
+        <ImagerySection name="track">
+            <ImageryComponent>
+                <Image name="RTOptions/HorzSliderTrackL"/>
+                <VertFormat type="CentreAligned"/>
+            </ImageryComponent>
+            <ImageryComponent>
+                <Image name="RTOptions/HorzSliderTrackR"/>
+                <VertFormat type="CentreAligned"/>
+                <HorzFormat type="RightAligned"/>
+            </ImageryComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim name="RTOptions/HorzSliderTrackL" dimension="Width"/>
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <OperatorDim op="Subtract">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <ImageDim name="RTOptions/HorzSliderTrackR" dimension="Width"/>
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="RTOptions/HorzSliderTrackFill"/>
+                <VertFormat type="CentreAligned"/>
+                <HorzFormat type="Stretched"/>
+            </ImageryComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="RightEdge">
+                        <WidgetDim widget="__auto_thumb__" dimension="LeftEdge"/>
+                    </Dim>
+                </Area>
+                <Image name="RTOptions/HorzSliderShadowL"/>
+                <VertFormat type="CentreAligned"/>
+                <HorzFormat type="RightAligned"/>
+            </ImageryComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <WidgetDim widget="__auto_thumb__" dimension="RightEdge"/>
+                    </Dim>
+                </Area>
+                <Image name="RTOptions/HorzSliderShadowR"/>
+                <VertFormat type="CentreAligned"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="track"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="track"/>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
 	 
  </Falagard>
  
