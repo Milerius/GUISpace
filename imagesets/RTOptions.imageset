@@ -61,7 +61,6 @@
     <Image height="27" name="shield_symbol" width="25" xPos="1831" yPos="1422" />
     <Image height="25" name="slide_hovered_dragged" width="16" xPos="1774" yPos="1603" />
     <Image height="25" name="slide_normal" width="16" xPos="1786" yPos="1650" />
-    <Image height="7" name="slider_fill_bar" width="277" xPos="1504" yPos="1324" />
     <Image height="13" name="text_area_bottom" width="566" xPos="896" yPos="1510" />
     <Image height="82" name="text_area_merged" width="566" xPos="896" yPos="1365" />
     <Image height="11" name="text_area_mid_vertical_repeat" width="566" xPos="896" yPos="1545" />
@@ -80,5 +79,23 @@
     <Image height="9" name="HorzSliderTrackFill" width="11" xPos="655" yPos="1935" />
     <Image height="9" name="HorzSliderShadowL" width="37" xPos="678" yPos="1935" />
     <Image height="9" name="HorzSliderShadowR" width="37" xPos="722" yPos="1935" />
-    <Image height="5" name="zaeez" width="39" xPos="1505" yPos="1325" />
+    <Image height="1" name="ProgressFullTL" width="50" xPos="1505" yPos="1325" />
+    <Image height="3" name="ProgressFullL" width="50" xPos="1505" yPos="1326" />
+    <Image height="1" name="ProgressFullBL" width="50" xPos="1505" yPos="1329" />
+    <Image height="1" name="ProgressFullBR" width="50" xPos="1729" yPos="1329" />
+    <Image height="1" name="ProgressFullTR" width="50" xPos="1729" yPos="1325" />
+    <Image height="3" name="ProgressFullR" width="50" xPos="1729" yPos="1326" />
+    <Image height="3" name="ProgressFullFill" width="174" xPos="1555" yPos="1326" />
+    <Image height="1" name="ProgressFullT" width="174" xPos="1555" yPos="1325" />
+    <Image height="1" name="ProgressFullB" width="174" xPos="1555" yPos="1329" />
+    <Image height="1" name="ProgressEmptyBL" width="50" xPos="1505" yPos="1340" />
+    <Image height="1" name="ProgressEmptyBR" width="50" xPos="1729" yPos="1340" />
+    <Image height="3" name="ProgressEmptyFill" width="174" xPos="1555" yPos="1337" />
+    <Image height="1" name="ProgressEmptyTL" width="50" xPos="1505" yPos="1336" />
+    <Image height="3" name="ProgressEmptyL" width="50" xPos="1505" yPos="1337" />
+    <Image height="1" name="ProgressEmptyTR" width="50" xPos="1729" yPos="1336" />
+    <Image height="1" name="ProgressEmptyB" width="174" xPos="1555" yPos="1340" />
+    <Image height="3" name="ProgressEmptyR" width="50" xPos="1729" yPos="1337" />
+    <Image height="1" name="ProgressEmptyT" width="174" xPos="1555" yPos="1336" />
+    <Image height="1" name="shadow" width="11" xPos="1722" yPos="1313" />
 </Imageset>

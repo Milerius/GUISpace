@@ -311,6 +311,14 @@
                     <Property name="Visible" value="false" />
                     <Window type="RType/HorizontalSlider" name="MusicSlider" >
                         <Property name="Area" value="{{0,15},{0,111},{0,271},{0,136}}" />
+                        <Property name="CurrentValue" value="30" />
+                        <Property name="MaximumValue" value="100" />
+                        <Property name="ClickStepSize" value="10" />
+                        <Window type="RType/ProgressBarOptions" name="MusicSliderProgress" >
+                            <Property name="Area" value="{{0,0},{0,10},{0,255},{0,15}}" />
+                            <Property name="StepSize" value="0.01" />
+                            <Property name="CurrentProgress" value="0" />
+                        </Window>
                     </Window>
                     <Window type="Generic/Image" name="MusicActive" >
                         <Property name="Area" value="{{0,15},{0,234},{0,293},{0,281}}" />
@@ -358,6 +366,13 @@
                     </Window>
                     <Window type="RType/HorizontalSlider" name="SoundsEffectSlider" >
                         <Property name="Area" value="{{0,310},{0,111},{0,566},{0,136}}" />
+                        <Property name="MaximumValue" value="100" />
+                        <Property name="ClickStepSize" value="10" />
+                        <Window type="RType/ProgressBarOptions" name="SoundsEffectSliderProgress" >
+                            <Property name="Area" value="{{0,0},{0,10},{0,255},{0,15}}" />
+                            <Property name="StepSize" value="0.01" />
+                            <Property name="CurrentProgress" value="0" />
+                        </Window>
                     </Window>
                 </Window>
             </Window>
