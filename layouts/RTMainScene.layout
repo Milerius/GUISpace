@@ -259,6 +259,21 @@
                             <Property name="MaxSize" value="{{1,0},{1,0}}" />
                         </Window>
                     </Window>
+                    <Window type="RType/ToggleButton" name="TabButtonScreen" >
+                        <Property name="Area" value="{{0,0},{0,106},{0,255},{0,159}}" />
+                        <Property name="Font" value="LaconicRegular-15" />
+                        <Property name="Text" value="                       Screen Settings" />
+                        <Property name="HoverImage" value="RTOptions/options_tab_hovered" />
+                        <Property name="NormalImage" value="RTOptions/options_tab_normal" />
+                        <Property name="PushedImage" value="RTOptions/options_tab_active" />
+                        <Property name="NormalTextColour" value="FFa17731" />
+                        <Property name="SelectedTextColour" value="FFebb04a" />
+                        <Window type="Generic/Image" name="Image" >
+                            <Property name="Area" value="{{0,10},{0,11},{0,37},{0,38}}" />
+                            <Property name="Image" value="RTOptions/atom_symbol" />
+                            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
                 </Window>
                 <Window type="Generic/Image" name="RightPanelLangSettings" >
                     <Property name="Area" value="{{0,258},{0,6},{0,868},{0,590}}" />
@@ -311,7 +326,7 @@
                     <Property name="Visible" value="false" />
                     <Window type="RType/HorizontalSlider" name="MusicSlider" >
                         <Property name="Area" value="{{0,15},{0,111},{0,271},{0,136}}" />
-                        <Property name="CurrentValue" value="30" />
+                        <Property name="CurrentValue" value="1" />
                         <Property name="MaximumValue" value="100" />
                         <Property name="ClickStepSize" value="10" />
                         <Window type="RType/ProgressBarOptions" name="MusicSliderProgress" >
