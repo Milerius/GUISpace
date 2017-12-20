@@ -20,6 +20,7 @@
 	<Imageset filename="RTMainMenu.imageset" name="RTMainMenu" />
 	<Imageset filename="RTCountry.imageset" name="RTCountry" />
 	<Imageset filename="RTLoadingImage.imageset" name="RTLoadingImage" />
+	<Imageset filename="RTButtonBar.imageset" name="RTButtonBar" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />

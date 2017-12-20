@@ -1,0 +1,8 @@
+<Imageset autoScaled="false" imagefile="ButtonTabsBar.png" name="RTButtonBar" nativeHorzRes="1012" nativeVertRes="204" version="2">
+    <Image height="46" name="tab_a" width="168" xPos="783" yPos="11" />
+    <Image height="67" name="tab_bar" width="750" xPos="11" yPos="11" />
+    <Image height="67" name="tab_bar_no_segments" width="750" xPos="11" yPos="100" />
+    <Image height="62" name="tab_bar_segment" width="28" xPos="973" yPos="11" />
+    <Image height="46" name="tab_h" width="168" xPos="783" yPos="79" />
+    <Image height="46" name="tab_n" width="168" xPos="783" yPos="147" />
+</Imageset>

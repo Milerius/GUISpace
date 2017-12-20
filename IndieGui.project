@@ -52,6 +52,7 @@
                 <Item path="imagesets/RTCountry.imageset" type="file" />
                 <Item path="imagesets/RTCreate.imageset" type="file" />
                 <Item path="imagesets/RTFactionCreateText.imageset" type="file" />
+                <Item path="imagesets/RTLoadingImage.imageset" type="file" />
                 <Item path="imagesets/RTLoadingScreen.imageset" type="file" />
                 <Item path="imagesets/RTMainElements.imageset" type="file" />
                 <Item path="imagesets/RTMainMenu.imageset" type="file" />
@@ -63,13 +64,14 @@
                 <Item path="imagesets/RTWindow.imageset" type="file" />
                 <Item path="imagesets/RTWindowHeader.imageset" type="file" />
                 <Item path="imagesets/background.png" type="file" />
-                <Item path="imagesets/RTLoadingImage.imageset" type="file" />
+                <Item path="imagesets/RTButtonBar.imageset" type="file" />
             </Item>
             <Item name="layout" type="folder">
                 <Item path="layouts/RTCreate.layout" type="file" />
+                <Item path="layouts/RTLoading.layout" type="file" />
                 <Item path="layouts/RTLogin.layout" type="file" />
                 <Item path="layouts/RTMainScene.layout" type="file" />
-                <Item path="layouts/RTLoading.layout" type="file" />
+                <Item path="layouts/RTQueue.layout" type="file" />
             </Item>
         </Item>
         <Item name="animations" type="folder">
