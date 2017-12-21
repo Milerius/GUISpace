@@ -23,6 +23,8 @@
 	<Imageset filename="RTButtonBar.imageset" name="RTButtonBar" />
     <Imageset filename="RTBorder.imageset" name="RTBorder" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
+    <Font filename="LaconicRegular10.font" name="LaconicRegular-10" />
+    <Font filename="LaconicRegular9.font" name="LaconicRegular-9" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
 	<Font filename="LaconicLight11.font" name="LaconicLight-11" />
