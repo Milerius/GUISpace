@@ -1,0 +1,4 @@
+<Imageset autoScaled="" imagefile="PlayerBorder.png" name="RTBorder" nativeHorzRes="1920" nativeVertRes="1080" version="2">
+    <Image height="604" name="Border" width="447" xPos="1252" yPos="225" />
+    <Image height="115" name="Shadow" width="330" xPos="798" yPos="201" />
+</Imageset>

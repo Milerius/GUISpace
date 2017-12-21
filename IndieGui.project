@@ -48,6 +48,7 @@
                 <Item path="imagesets/RTAccountName.imageset" type="file" />
                 <Item path="imagesets/RTAlternativeWindow.imageset" type="file" />
                 <Item path="imagesets/RTBackground.imageset" type="file" />
+                <Item path="imagesets/RTButtonBar.imageset" type="file" />
                 <Item path="imagesets/RTCharName.imageset" type="file" />
                 <Item path="imagesets/RTCountry.imageset" type="file" />
                 <Item path="imagesets/RTCreate.imageset" type="file" />
@@ -64,7 +65,7 @@
                 <Item path="imagesets/RTWindow.imageset" type="file" />
                 <Item path="imagesets/RTWindowHeader.imageset" type="file" />
                 <Item path="imagesets/background.png" type="file" />
-                <Item path="imagesets/RTButtonBar.imageset" type="file" />
+                <Item path="imagesets/RTBorder.imageset" type="file" />
             </Item>
             <Item name="layout" type="folder">
                 <Item path="layouts/RTCreate.layout" type="file" />

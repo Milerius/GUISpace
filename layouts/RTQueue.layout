@@ -62,5 +62,25 @@
             <Property name="PushedTextColour" value="FFc2f3ff" />
             <Property name="WantsMultiClickEvents" value="false" />
         </Window>
+        <Window type="Generic/Image" name="BorderFour" >
+            <Property name="Area" value="{{0,24},{0,233},{0,471},{0,837}}" />
+            <Property name="Image" value="RTBorder/Border" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="BorderOne" >
+            <Property name="Area" value="{{0,978},{0,233},{0,1425},{0,837}}" />
+            <Property name="Image" value="RTBorder/Border" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="BorderTwo" >
+            <Property name="Area" value="{{0,501},{0,233},{0,948},{0,837}}" />
+            <Property name="Image" value="RTBorder/Border" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="BorderThree" >
+            <Property name="Area" value="{{0,1455},{0,233},{0,1902},{0,837}}" />
+            <Property name="Image" value="RTBorder/Border" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
     </Window>
 </GUILayout>
