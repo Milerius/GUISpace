@@ -48,4 +48,5 @@
 	<FalagardMapping windowType="RType/HorizontalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/HorizontalSliderThumb" />
 	<FalagardMapping windowType="RType/HorizontalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="RType/HorizontalSlider" />
 	<FalagardMapping lookNFeel="RType/BlueProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/BlueProgressBar" />
-</GUIScheme>
+    <FalagardMapping lookNFeel="RType/VertProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/VertProgressBar" />
+    </GUIScheme>

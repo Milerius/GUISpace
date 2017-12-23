@@ -17,7 +17,6 @@
     <Image height="24" name="Action Bar Version One/bar_switcher_up_a" width="29" xPos="1466" yPos="1109" />
     <Image height="24" name="Action Bar Version One/bar_switcher_up_h" width="29" xPos="1568" yPos="1133" />
     <Image height="24" name="Action Bar Version One/bar_switcher_up_n" width="29" xPos="1517" yPos="1154" />
-    <Image height="125" name="Action Bar Version One/blue_resource" width="127" xPos="1232" yPos="369" />
     <Image height="125" name="Action Bar Version One/gray_resource" width="127" xPos="1381" yPos="369" />
     <Image height="125" name="Action Bar Version One/green_resource" width="127" xPos="1530" yPos="340" />
     <Image height="125" name="Action Bar Version One/hp_fill" width="127" xPos="1679" yPos="340" />
@@ -339,4 +338,13 @@
     <Image height="4" name="BlueProgressBarEmptyTL" width="37" xPos="1529" yPos="322" />
     <Image height="4" name="BlueProgressBarEmptyB" width="169" xPos="1566" yPos="330" />
     <Image height="4" name="BlueProgressBarEmptyTR" width="37" xPos="1735" yPos="322" />
+    <Image height="13" name="VertBlueBotLeft" width="20" xPos="1230" yPos="477" />
+    <Image height="13" name="VertBlueBotRight" width="20" xPos="1340" yPos="477" />
+    <Image height="13" name="VertBlueBot" width="90" xPos="1250" yPos="477" />
+    <Image height="13" name="VertBlueTopRight" width="20" xPos="1340" yPos="374" />
+    <Image height="13" name="VertBlueTop" width="90" xPos="1250" yPos="374" />
+    <Image height="13" name="VertBlueTopLeft" width="20" xPos="1230" yPos="374" />
+    <Image height="90" name="VertBlueLeft" width="20" xPos="1230" yPos="387" />
+    <Image height="90" name="VertBlueRight" width="20" xPos="1340" yPos="387" />
+    <Image height="90" name="VertBlueFill" width="90" xPos="1250" yPos="387" />
 </Imageset>
