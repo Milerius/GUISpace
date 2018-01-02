@@ -1,0 +1,34 @@
+<Imageset autoScaled="" imagefile="ui_ingame.png" name="RTUI" nativeHorzRes="1920" nativeVertRes="1080" version="2">
+    <Image height="107" name="OverlayCircle" width="109" xPos="1647" yPos="637" />
+    <Image height="36" name="LeftBar" width="445" xPos="0" yPos="1044" />
+    <Image height="143" name="SpellZone" width="447" xPos="1473" yPos="937" />
+    <Image height="60" name="BlackCircle" width="64" xPos="1673" yPos="826" />
+    <Image height="68" name="SpellOne" width="71" xPos="1149" yPos="822" />
+    <Image height="65" name="SpellContainer" width="132" xPos="953" yPos="973" />
+    <Image height="54" name="SpellTwo" width="54" xPos="1160" yPos="979" />
+    <Image height="56" name="SpellThree" width="55" xPos="1299" yPos="978" />
+    <Image height="78" name="TopBorder" width="1920" xPos="0" yPos="0" />
+    <Image height="18" name="SubBarContainer" width="158" xPos="93" yPos="185" />
+    <Image height="4" name="GreenProgressBarFullB" width="74" xPos="134" yPos="280" />
+    <Image height="4" name="GreenProgressBarFullBR" width="37" xPos="208" yPos="280" />
+    <Image height="6" name="GreenProgressBarFullR" width="37" xPos="208" yPos="274" />
+    <Image height="6" name="GreenProgressBarFullL" width="37" xPos="97" yPos="274" />
+    <Image height="4" name="GreenProgressBarFullTR" width="37" xPos="208" yPos="270" />
+    <Image height="4" name="GreenProgressBarFullT" width="74" xPos="134" yPos="270" />
+    <Image height="6" name="GreenProgressBarFullFill" width="74" xPos="134" yPos="274" />
+    <Image height="4" name="GreenProgressBarFullBL" width="37" xPos="97" yPos="280" />
+    <Image height="4" name="GreenProgressBarFullTL" width="37" xPos="97" yPos="270" />
+    <Image height="4" name="GreenProgressBarEmptyB" width="74" xPos="134" yPos="300" />
+    <Image height="4" name="GreenProgressBarEmptyT" width="74" xPos="134" yPos="290" />
+    <Image height="4" name="GreenProgressBarEmptyTL" width="37" xPos="97" yPos="290" />
+    <Image height="4" name="GreenProgressBarEmptyBR" width="37" xPos="208" yPos="300" />
+    <Image height="6" name="GreenProgressBarEmptyFill" width="74" xPos="134" yPos="294" />
+    <Image height="4" name="GreenProgressBarEmptyBL" width="37" xPos="97" yPos="300" />
+    <Image height="6" name="GreenProgressBarEmptyR" width="37" xPos="208" yPos="294" />
+    <Image height="6" name="GreenProgressBarEmptyL" width="37" xPos="97" yPos="294" />
+    <Image height="4" name="GreenProgressBarEmptyTR" width="37" xPos="208" yPos="290" />
+    <Image height="118" name="Score" width="290" xPos="455" yPos="502" />
+    <Image height="29" name="BigLife" width="594" xPos="374" yPos="180" />
+    <Image height="18" name="ShieldContainer" width="93" xPos="118" yPos="462" />
+    <Image height="29" name="BigLifeRed" width="594" xPos="1228" yPos="181" />
+</Imageset>

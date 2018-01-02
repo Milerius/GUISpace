@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="RType/VertProgressBar" name="VertProgressBar" >
+        <Property name="Area" value="{{0,797},{0,380},{0,927},{0,496}}" />
+        <Property name="StepSize" value="0.01" />
+        <Property name="CurrentProgress" value="1" />
+        <Property name="VerticalProgress" value="true" />
+    </Window>
+</GUILayout>

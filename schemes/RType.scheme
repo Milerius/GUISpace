@@ -22,10 +22,12 @@
 	<Imageset filename="RTLoadingImage.imageset" name="RTLoadingImage" />
 	<Imageset filename="RTButtonBar.imageset" name="RTButtonBar" />
     <Imageset filename="RTBorder.imageset" name="RTBorder" />
+	<Imageset filename="RTUI.imageset" name="RTUI" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
     <Font filename="LaconicRegular10.font" name="LaconicRegular-10" />
     <Font filename="LaconicRegular9.font" name="LaconicRegular-9" />
 	<Font filename="LaconicRegular18.font" name="LaconicRegular-18" />
+	<Font filename="LaconicRegular22.font" name="LaconicRegular-22" />
 	<Font filename="LaconicLight6.font" name="LaconicLight-6" />
 	<Font filename="LaconicLight11.font" name="LaconicLight-11" />
 	<Font filename="LaconicLight18.font" name="LaconicLight-18" />
@@ -49,4 +51,5 @@
 	<FalagardMapping windowType="RType/HorizontalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="RType/HorizontalSlider" />
 	<FalagardMapping lookNFeel="RType/BlueProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/BlueProgressBar" />
     <FalagardMapping lookNFeel="RType/VertProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/VertProgressBar" />
+	<FalagardMapping lookNFeel="RType/GreenProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/GreenProgressBar" />
     </GUIScheme>
