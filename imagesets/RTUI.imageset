@@ -31,4 +31,41 @@
     <Image height="29" name="BigLife" width="594" xPos="374" yPos="180" />
     <Image height="18" name="ShieldContainer" width="93" xPos="118" yPos="462" />
     <Image height="29" name="BigLifeRed" width="594" xPos="1228" yPos="181" />
+    <Image height="5" name="MiniBlueProgressBarFullTL" width="20" xPos="126" yPos="523" />
+    <Image height="5" name="MiniBlueProgressBarFullBL" width="20" xPos="126" yPos="533" />
+    <Image height="5" name="MiniBlueProgressBarFullL" width="20" xPos="126" yPos="528" />
+    <Image height="5" name="MiniBlueProgressBarFullTR" width="20" xPos="184" yPos="523" />
+    <Image height="5" name="MiniBlueProgressBarFullBR" width="20" xPos="184" yPos="533" />
+    <Image height="5" name="MiniBlueProgressBarFullR" width="20" xPos="184" yPos="528" />
+    <Image height="5" name="MiniBlueProgressBarFullFill" width="38" xPos="146" yPos="528" />
+    <Image height="5" name="MiniBlueProgressBarFullB" width="38" xPos="146" yPos="533" />
+    <Image height="5" name="MiniBlueProgressBarFullT" width="38" xPos="146" yPos="523" />
+    <Image height="5" name="MiniBlueProgressBarEmptyTL" width="20" xPos="126" yPos="544" />
+    <Image height="5" name="MiniBlueProgressBarEmptyB" width="38" xPos="146" yPos="554" />
+    <Image height="5" name="MiniBlueProgressBarEmptyR" width="20" xPos="184" yPos="549" />
+    <Image height="5" name="MiniBlueProgressBarEmptyTR" width="20" xPos="184" yPos="544" />
+    <Image height="5" name="MiniBlueProgressBarEmptyBR" width="20" xPos="184" yPos="554" />
+    <Image height="5" name="MiniBlueProgressBarEmptyL" width="20" xPos="126" yPos="549" />
+    <Image height="5" name="MiniBlueProgressBarEmptyT" width="38" xPos="146" yPos="544" />
+    <Image height="5" name="MiniBlueProgressBarEmptyBL" width="20" xPos="126" yPos="554" />
+    <Image height="5" name="MiniBlueProgressBarEmptyFill" width="38" xPos="146" yPos="549" />
+    <Image height="18" name="BlueShield" width="90" xPos="251" yPos="487" />
+    <Image height="6" name="RedProgressBarFullTL" width="50" xPos="1237" yPos="267" />
+    <Image height="6" name="RedProgressBarFullBL" width="50" xPos="1237" yPos="280" />
+    <Image height="7" name="RedProgressBarFullL" width="50" xPos="1237" yPos="273" />
+    <Image height="7" name="RedProgressBarFullR" width="50" xPos="1764" yPos="273" />
+    <Image height="6" name="RedProgressBarFullTR" width="50" xPos="1764" yPos="267" />
+    <Image height="6" name="RedProgressBarFullBR" width="50" xPos="1764" yPos="280" />
+    <Image height="6" name="RedProgressBarFullT" width="477" xPos="1287" yPos="267" />
+    <Image height="7" name="RedProgressBarFullFill" width="477" xPos="1287" yPos="273" />
+    <Image height="6" name="RedProgressBarFullB" width="477" xPos="1287" yPos="280" />
+    <Image height="7" name="RedProgressBarEmptyR" width="50" xPos="1764" yPos="303" />
+    <Image height="6" name="RedProgressBarEmptyTR" width="50" xPos="1764" yPos="297" />
+    <Image height="6" name="RedProgressBarEmptyBR" width="50" xPos="1764" yPos="310" />
+    <Image height="6" name="RedProgressBarEmptyB" width="477" xPos="1287" yPos="310" />
+    <Image height="6" name="RedProgressBarEmptyT" width="477" xPos="1287" yPos="297" />
+    <Image height="7" name="RedProgressBarEmptyL" width="50" xPos="1237" yPos="303" />
+    <Image height="6" name="RedProgressBarEmptyTL" width="50" xPos="1237" yPos="297" />
+    <Image height="6" name="RedProgressBarEmptyBL" width="50" xPos="1237" yPos="310" />
+    <Image height="7" name="RedProgressBarEmptyFill" width="477" xPos="1287" yPos="303" />
 </Imageset>

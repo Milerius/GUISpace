@@ -45,11 +45,13 @@
 	<FalagardMapping windowType="RType/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/VerticalScrollbarThumb" />
 	<FalagardMapping windowType="RType/ToggleButton"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RType/ToggleButton" />
 	<FalagardMapping lookNFeel="RType/ProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBar" />
-        <FalagardMapping lookNFeel="RType/ProgressBarOptions" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBarOptions" />
+    <FalagardMapping lookNFeel="RType/ProgressBarOptions" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/ProgressBarOptions" />
 	<FalagardMapping lookNFeel="RType/LoadingProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/LoadingProgressBar" />
 	<FalagardMapping windowType="RType/HorizontalSliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RType/HorizontalSliderThumb" />
 	<FalagardMapping windowType="RType/HorizontalSlider" targetType="CEGUI/Slider" renderer="Core/Slider" lookNFeel="RType/HorizontalSlider" />
 	<FalagardMapping lookNFeel="RType/BlueProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/BlueProgressBar" />
     <FalagardMapping lookNFeel="RType/VertProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/VertProgressBar" />
 	<FalagardMapping lookNFeel="RType/GreenProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/GreenProgressBar" />
+	<FalagardMapping lookNFeel="RType/RedProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/RedProgressBar" />
+	<FalagardMapping lookNFeel="RType/MiniBlueProgressBar" renderer="Core/ProgressBar" targetType="CEGUI/ProgressBar"   windowType="RType/MiniBlueProgressBar" />
     </GUIScheme>

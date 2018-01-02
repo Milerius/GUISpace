@@ -1927,5 +1927,159 @@
         </StateImagery>
     </WidgetLook>
 	
+	<WidgetLook name="RType/MiniBlueProgressBar">
+        <Property name="CurrentProgress" value=".01"/>
+        <Property name="Size" value="{{0, 78}, {0, 15}}" />
+        <NamedArea name="ProgressArea"/>
+        <ImagerySection name="progress_empty">
+            <FrameComponent>
+                <Image component="TopLeftCorner" name="RTUI/MiniBlueProgressBarEmptyTL"/>
+                <Image component="TopRightCorner" name="RTUI/MiniBlueProgressBarEmptyTR"/>
+                <Image component="BottomLeftCorner" name="RTUI/MiniBlueProgressBarEmptyBL"/>
+                <Image component="BottomRightCorner" name="RTUI/MiniBlueProgressBarEmptyBR"/>
+                <Image component="LeftEdge" name="RTUI/MiniBlueProgressBarEmptyL"/>
+                <Image component="RightEdge" name="RTUI/MiniBlueProgressBarEmptyR"/>
+                <Image component="TopEdge" name="RTUI/MiniBlueProgressBarEmptyT"/>
+                <Image component="BottomEdge" name="RTUI/MiniBlueProgressBarEmptyB"/>
+                <Image component="Background" name="RTUI/MiniBlueProgressBarEmptyFill"/>
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_full">
+            <FrameComponent>
+                <Image component="TopLeftCorner" name="RTUI/MiniBlueProgressBarFullTL"/>
+                <Image component="TopRightCorner" name="RTUI/MiniBlueProgressBarFullTR"/>
+                <Image component="BottomLeftCorner" name="RTUI/MiniBlueProgressBarFullBL"/>
+                <Image component="BottomRightCorner" name="RTUI/MiniBlueProgressBarFullBR"/>
+                <Image component="LeftEdge" name="RTUI/MiniBlueProgressBarFullL"/>
+                <Image component="RightEdge" name="RTUI/MiniBlueProgressBarFullR"/>
+                <Image component="TopEdge" name="RTUI/MiniBlueProgressBarFullT"/>
+                <Image component="BottomEdge" name="RTUI/MiniBlueProgressBarFullB"/>
+                <Image component="Background" name="RTUI/MiniBlueProgressBarFullFill"/>
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_shadow">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <OperatorDim op="Multiply">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <PropertyDim name="CurrentProgress"/>
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <OperatorDim op="Subtract">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <AbsoluteDim value="5"/>
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="RTOptions/shadow"/>
+                <VertFormat type="Stretched"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="progress_empty"/>
+                <Section section="progress_shadow"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="progress_empty">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_full"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_full">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+	
+	<WidgetLook name="RType/RedProgressBar">
+        <Property name="CurrentProgress" value=".01"/>
+        <Property name="Size" value="{{0, 577}, {0, 19}}" />
+        <NamedArea name="ProgressArea"/>
+        <ImagerySection name="progress_empty">
+            <FrameComponent>
+                <Image component="TopLeftCorner" name="RTUI/RedProgressBarEmptyTL"/>
+                <Image component="TopRightCorner" name="RTUI/RedProgressBarEmptyTR"/>
+                <Image component="BottomLeftCorner" name="RTUI/RedProgressBarEmptyBL"/>
+                <Image component="BottomRightCorner" name="RTUI/RedProgressBarEmptyBR"/>
+                <Image component="LeftEdge" name="RTUI/RedProgressBarEmptyL"/>
+                <Image component="RightEdge" name="RTUI/RedProgressBarEmptyR"/>
+                <Image component="TopEdge" name="RTUI/RedProgressBarEmptyT"/>
+                <Image component="BottomEdge" name="RTUI/RedProgressBarEmptyB"/>
+                <Image component="Background" name="RTUI/RedProgressBarEmptyFill"/>
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_full">
+            <FrameComponent>
+                <Image component="TopLeftCorner" name="RTUI/RedProgressBarFullTL"/>
+                <Image component="TopRightCorner" name="RTUI/RedProgressBarFullTR"/>
+                <Image component="BottomLeftCorner" name="RTUI/RedProgressBarFullBL"/>
+                <Image component="BottomRightCorner" name="RTUI/RedProgressBarFullBR"/>
+                <Image component="LeftEdge" name="RTUI/RedProgressBarFullL"/>
+                <Image component="RightEdge" name="RTUI/RedProgressBarFullR"/>
+                <Image component="TopEdge" name="RTUI/RedProgressBarFullT"/>
+                <Image component="BottomEdge" name="RTUI/RedProgressBarFullB"/>
+                <Image component="Background" name="RTUI/RedProgressBarFullFill"/>
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="progress_shadow">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <OperatorDim op="Multiply">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <PropertyDim name="CurrentProgress"/>
+                        </OperatorDim>
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <OperatorDim op="Subtract">
+                            <UnifiedDim scale="1" type="Width"/>
+                            <AbsoluteDim value="5"/>
+                        </OperatorDim>
+                    </Dim>
+                </Area>
+                <Image name="RTOptions/shadow"/>
+                <VertFormat type="Stretched"/>
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="progress_empty"/>
+                <Section section="progress_shadow"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="progress_empty">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="EnabledProgress">
+            <Layer>
+                <Section section="progress_full"/>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledProgress">
+            <Layer>
+                <Section section="progress_full">
+                    <Colours topLeft="FF7F7F7F" bottomLeft="FF7F7F7F" topRight="FF7F7F7F" bottomRight="FF7F7F7F"/>
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+	
  </Falagard>
  
