@@ -3,7 +3,6 @@
 <GUILayout version="4" >
     <Window type="Generic/Image" name="Root" >
         <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,1080}}" />
-        <Property name="Image" value="RTLoadingImage/planet" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="Generic/Image" name="LeftBar" >
             <Property name="Area" value="{{0,0},{0,1044},{0,445},{0,1080}}" />
