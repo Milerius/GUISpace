@@ -51,7 +51,7 @@
                 <Property name="Image" value="RTUI/SpellOne" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="AlwaysOnTop" value="true" />
-                <Window type="Generic/Image" name="Image" >
+                <Window type="Generic/Image" name="BheetPassive" >
                     <Property name="Area" value="{{0,8},{0,7},{0,60},{0,60}}" />
                     <Property name="Image" value="RTSpell/BheetPassive1" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
