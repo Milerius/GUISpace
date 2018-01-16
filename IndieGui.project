@@ -63,10 +63,11 @@
                 <Item path="imagesets/RTMainSceneBG.imageset" type="file" />
                 <Item path="imagesets/RTOptions.imageset" type="file" />
                 <Item path="imagesets/RTPassword.imageset" type="file" />
+                <Item path="imagesets/RTUI.imageset" type="file" />
                 <Item path="imagesets/RTWindow.imageset" type="file" />
                 <Item path="imagesets/RTWindowHeader.imageset" type="file" />
                 <Item path="imagesets/background.png" type="file" />
-                <Item path="imagesets/RTUI.imageset" type="file" />
+                <Item path="imagesets/RTSpell.imageset" type="file" />
             </Item>
             <Item name="layout" type="folder">
                 <Item path="layouts/RTCreate.layout" type="file" />

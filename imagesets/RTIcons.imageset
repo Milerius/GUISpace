@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="..\sprite\RTIcons.png" name="RTIcons" nativeHorzRes="800" nativeVertRes="800" version="2">
+    <Image height="112" name="Icon01" width="131" xPos="486" yPos="429" />
+</Imageset>

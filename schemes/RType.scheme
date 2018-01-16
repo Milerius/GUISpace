@@ -22,6 +22,7 @@
 	<Imageset filename="RTLoadingImage.imageset" name="RTLoadingImage" />
 	<Imageset filename="RTButtonBar.imageset" name="RTButtonBar" />
     <Imageset filename="RTBorder.imageset" name="RTBorder" />
+	<Imageset filename="RTSpell.imageset" name="RTSpell" />
 	<Imageset filename="RTUI.imageset" name="RTUI" />
 	<Font filename="LaconicRegular15.font" name="LaconicRegular-15" />
     <Font filename="LaconicRegular10.font" name="LaconicRegular-10" />

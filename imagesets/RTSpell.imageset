@@ -1,0 +1,33 @@
+<Imageset autoScaled="" imagefile="spell.png" name="RTSpell" nativeHorzRes="1920" nativeVertRes="1080" version="2">
+    <Image height="43" name="BheetSpell3" width="43" xPos="1007" yPos="148" />
+    <Image height="44" name="BheetSpell4" width="44" xPos="1126" yPos="150" />
+    <Image height="63" name="BheetUltimate1" width="63" xPos="1382" yPos="149" />
+    <Image height="63" name="BheetUltimate2" width="63" xPos="1518" yPos="149" />
+    <Image height="44" name="BheetShot" width="44" xPos="510" yPos="147" />
+    <Image height="44" name="KooyShot" width="44" xPos="511" yPos="269" />
+    <Image height="43" name="KooySpell3" width="43" xPos="1006" yPos="269" />
+    <Image height="45" name="KooySpell4" width="45" xPos="1125" yPos="270" />
+    <Image height="63" name="KooyUltimate1" width="63" xPos="1381" yPos="269" />
+    <Image height="63" name="KooyUltimate2" width="63" xPos="1518" yPos="269" />
+    <Image height="55" name="MaulPassive1" width="55" xPos="115" yPos="385" />
+    <Image height="43" name="MaulShot" width="43" xPos="511" yPos="391" />
+    <Image height="43" name="MaulSpell1" width="43" xPos="766" yPos="391" />
+    <Image height="43" name="MaulSpell3" width="43" xPos="1007" yPos="391" />
+    <Image height="44" name="MaulSpell4" width="44" xPos="1126" yPos="391" />
+    <Image height="63" name="MaulUltimate1" width="63" xPos="1382" yPos="390" />
+    <Image height="63" name="MaulUltimate2" width="63" xPos="1520" yPos="390" />
+    <Image height="55" name="Passive1" width="55" xPos="115" yPos="512" />
+    <Image height="54" name="Passive2" width="54" xPos="246" yPos="512" />
+    <Image height="54" name="Passive3" width="54" xPos="115" yPos="639" />
+    <Image height="54" name="Passive4" width="54" xPos="246" yPos="639" />
+    <Image height="44" name="BheetSpell1" width="44" xPos="767" yPos="147" />
+    <Image height="44" name="BheetSpell2" width="44" xPos="887" yPos="147" />
+    <Image height="44" name="KooySpell1" width="44" xPos="767" yPos="269" />
+    <Image height="43" name="KooySpell2" width="43" xPos="887" yPos="270" />
+    <Image height="55" name="KooyPassive1" width="55" xPos="115" yPos="258" />
+    <Image height="53" name="KooyPassive2" width="53" xPos="246" yPos="260" />
+    <Image height="53" name="MaulPassive2" width="53" xPos="246" yPos="386" />
+    <Image height="43" name="MaulSpell2" width="43" xPos="887" yPos="391" />
+    <Image height="53" name="BheetPassive2" width="53" xPos="246" yPos="134" />
+    <Image height="55" name="BheetPassive1" width="55" xPos="114" yPos="131" />
+</Imageset>

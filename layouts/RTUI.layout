@@ -35,9 +35,14 @@
                     <Property name="CurrentProgress" value="1" />
                     <Property name="VerticalProgress" value="true" />
                     <Window type="Generic/Image" name="BlackCircle" >
-                        <Property name="Area" value="{{0,29},{0,24},{0,93},{0,84}}" />
+                        <Property name="Area" value="{{0,29},{0,24},{0,93},{0,87}}" />
                         <Property name="Image" value="RTUI/BlackCircle" />
                         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        <Window type="Generic/Image" name="BheetUltimate" >
+                            <Property name="Area" value="{{0,3},{0,1},{0,61},{0,61}}" />
+                            <Property name="Image" value="RTSpell/BheetUltimate1" />
+                            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                        </Window>
                     </Window>
                 </Window>
             </Window>
@@ -46,6 +51,11 @@
                 <Property name="Image" value="RTUI/SpellOne" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="AlwaysOnTop" value="true" />
+                <Window type="Generic/Image" name="Image" >
+                    <Property name="Area" value="{{0,8},{0,7},{0,60},{0,60}}" />
+                    <Property name="Image" value="RTSpell/BheetPassive1" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                </Window>
             </Window>
             <Window type="Generic/Image" name="SpellContainer" >
                 <Property name="Area" value="{{0,122},{0,68},{0,254},{0,133}}" />
@@ -55,11 +65,21 @@
                     <Property name="Area" value="{{0,14},{0,6},{0,68},{0,60}}" />
                     <Property name="Image" value="RTUI/SpellTwo" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Window type="Generic/Image" name="BheetShot" >
+                        <Property name="Area" value="{{0,6},{0,6},{0,48},{0,47}}" />
+                        <Property name="Image" value="RTSpell/BheetShot" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    </Window>
                 </Window>
                 <Window type="Generic/Image" name="Image" >
                     <Property name="Area" value="{{0,67},{0,5},{0,123},{0,60}}" />
                     <Property name="Image" value="RTUI/SpellThree" />
                     <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Window type="Generic/Image" name="BheetSpellTwo" >
+                        <Property name="Area" value="{{0,9},{0,8},{0,49},{0,48}}" />
+                        <Property name="Image" value="RTSpell/BheetSpell2" />
+                        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    </Window>
                 </Window>
             </Window>
         </Window>
