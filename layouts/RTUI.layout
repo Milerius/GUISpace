@@ -85,6 +85,7 @@
         </Window>
         <Window type="Generic/Image" name="TopBorder" >
             <Property name="Area" value="{{0,0},{0,0},{0,1920},{0,78}}" />
+            <Property name="Text" value="10" />
             <Property name="Image" value="RTUI/TopBorder" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Window type="Generic/Image" name="BarPlayerTwo" >
@@ -138,20 +139,25 @@
                     <Property name="CurrentProgress" value="1" />
                 </Window>
             </Window>
-            <Window type="Generic/Image" name="Image" >
+            <Window type="Generic/Image" name="BossContainer" >
                 <Property name="Area" value="{{0,1311},{0,7},{0,1905},{0,36}}" />
                 <Property name="Image" value="RTUI/BigLifeRed" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="RType/RedProgressBar" name="PVBoss" >
+                    <Property name="Area" value="{{0,10},{0,6},{0,585},{0,23}}" />
+                    <Property name="StepSize" value="0.01" />
+                    <Property name="CurrentProgress" value="0" />
+                </Window>
             </Window>
         </Window>
         <Window type="Generic/Image" name="Score" >
             <Property name="Area" value="{{0,831},{0,23},{0,1121},{0,141}}" />
             <Property name="Image" value="RTUI/Score" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
-            <Window type="Generic/Label" name="Label" >
+            <Window type="Generic/Label" name="LabelScore" >
                 <Property name="Area" value="{{0,14},{0,22},{0,266},{0,79}}" />
                 <Property name="Font" value="LaconicRegular-22" />
-                <Property name="Text" value="500539" />
+                <Property name="Text" value="0" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="NormalTextColour" value="FFB8EBFE" />
             </Window>
